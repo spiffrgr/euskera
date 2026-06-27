@@ -1,0 +1,95 @@
+{
+  "id": "l03",
+  "title": "Nire senideen deskripzioa",
+  "grammar_note": {
+    "title": "Posesiboak + deskripzioa",
+    "body": "Combina posesivos con adjetivos y verbo UKAN (tener) para describir a tu familia: **Nire aita** gaztea da (Mi padre es joven). **Nire amak** ile iluna **du** (Mi madre tiene el pelo oscuro). Nota: amak = mi madre (en función de sujeto ergativo).",
+    "tip": "amak/aitak (con -k) actúa como sujeto activo; ama/aita (sin -k) es el tema del que se habla."
+  },
+  "slides": [
+    {
+      "eu": "Nire aita gaztea da.",
+      "es": "Mi padre es joven.",
+      "example_eu": "Nire aita gaztea eta alaia da.",
+      "example_es": "Mi padre es joven y alegre."
+    },
+    {
+      "eu": "Nire amak ile iluna du.",
+      "es": "Mi madre tiene el pelo oscuro.",
+      "example_eu": "Nire amak ile iluna eta begi berdeak ditu.",
+      "example_es": "Mi madre tiene el pelo oscuro y los ojos verdes."
+    },
+    {
+      "eu": "Nire anaia altua eta argala da.",
+      "es": "Mi hermano es alto y delgado.",
+      "example_eu": "Nire anaia altua da, eta futbola gustatzen zaio.",
+      "example_es": "Mi hermano es alto, y le gusta el fútbol."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'Mi padre es joven'?",
+      "options": ["Nire aita gaztea da.", "Nire aitaren gaztea da.", "Nire aita da gaztea.", "Gaztea nire aita da."],
+      "answer": "Nire aita gaztea da."
+    },
+    {
+      "id": "e02",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "ile iluna",
+      "es": "pelo oscuro",
+      "answer": true
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Nire anaia altua da.",
+      "answer": "Mi hermano es alto."
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Nire amak ile iluna ___.",
+      "translation": "Mi madre tiene el pelo oscuro.",
+      "hint": "verbo 'tener' 3ª persona",
+      "answer": "du"
+    },
+    {
+      "id": "e05",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Mi hermana es alegre.",
+      "answer": "Nire ahizpa alaia da."
+    },
+    {
+      "id": "e06",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["iluna", "du", "nire", "ile", "amak"],
+      "translation": "Mi madre tiene el pelo oscuro",
+      "answer": "nire amak ile iluna du"
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "instruction": "Une cada par",
+      "pairs": [
+        { "eu": "gaztea", "es": "joven" },
+        { "eu": "zaharra", "es": "mayor/viejo" },
+        { "eu": "altua", "es": "alto" },
+        { "eu": "argala", "es": "delgado" }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Nire ahizpa polita eta alaia da.",
+      "answer": "Mi hermana es bonita y alegre."
+    }
+  ]
+}

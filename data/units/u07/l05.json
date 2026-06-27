@@ -1,0 +1,96 @@
+{
+  "id": "l05",
+  "title": "Ez naiz... (negación con IZAN)",
+  "grammar_note": {
+    "title": "IZAN – ezezkoa (IZAN – negación)",
+    "body": "Para negar con IZAN, coloca **ez** antes del verbo: **Ez naiz** (no soy), **ez zara** (no eres), **ez da** (no es), **ez gara** (no somos), **ez dira** (no son). En pasado: **ez nintzen** (no era), **ez zen** (no era - él/ella).",
+    "tip": "Ez siempre va antes del verbo: Ez naiz medikua (No soy médico). Ez da Bilbokoa (No es de Bilbao)."
+  },
+  "slides": [
+    {
+      "eu": "Ez naiz / Ez zara / Ez da",
+      "es": "No soy / No eres / No es",
+      "example_eu": "Ez naiz medikua, irakaslea naiz.",
+      "example_es": "No soy médico, soy profesor/a."
+    },
+    {
+      "eu": "Ez gara / Ez dira",
+      "es": "No somos / No son",
+      "example_eu": "Ez gara Bilbotarrak, Donostiakoak gara.",
+      "example_es": "No somos bilbaínos, somos de San Sebastián."
+    },
+    {
+      "eu": "Ez nintzen / Ez zen",
+      "es": "No era (yo) / No era (él/ella)",
+      "example_eu": "Ez nintzen alaia, triste nintzen.",
+      "example_es": "No era alegre, era triste."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'no soy médico' en euskera?",
+      "options": ["Ez naiz medikua.", "Naiz ez medikua.", "Medikua ez naiz.", "Ez da medikua."],
+      "answer": "Ez naiz medikua."
+    },
+    {
+      "id": "e02",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "Ez da Bilbokoa.",
+      "es": "No es de Bilbao.",
+      "answer": true
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Ez gara ikasle.",
+      "answer": "No somos estudiantes."
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "___ naiz medikua, irakaslea naiz.",
+      "translation": "No soy médico, soy profesor/a.",
+      "hint": "partícula de negación",
+      "answer": "ez"
+    },
+    {
+      "id": "e05",
+      "type": "grammar_select",
+      "instruction": "Para decir 'no son estudiantes' usas:",
+      "sentence": "___ dira ikasle",
+      "translation": "No son estudiantes",
+      "options": ["Ez", "Bai", "Eta", "Ala"],
+      "answer": "Ez"
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "No somos bilbaínos.",
+      "answer": "Ez gara Bilbotarrak."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "instruction": "Une afirmativo con negativo",
+      "pairs": [
+        { "eu": "naiz → ez naiz", "es": "soy → no soy" },
+        { "eu": "da → ez da", "es": "es → no es" },
+        { "eu": "gara → ez gara", "es": "somos → no somos" },
+        { "eu": "dira → ez dira", "es": "son → no son" }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Ez nintzen alaia, triste nintzen.",
+      "answer": "No era alegre, era triste."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "l02",
+  "title": "GARA, ZARETE, DIRA (plural)",
+  "grammar_note": {
+    "title": "IZAN – plurala (IZAN – plural)",
+    "body": "Plural de IZAN: **gu gara** (nosotros somos), **zuek zarete** (vosotros sois), **haiek dira** (ellos/ellas son). Con grupo: **Bilbotarrak gara** (Somos bilbaínos). Para listas: **Mikel eta Ane lagunak dira** (Mikel y Ane son amigos).",
+    "tip": "gara / zarete / dira — el patrón cambia la terminación: na→ga, za→za(rete), da→di(ra)"
+  },
+  "slides": [
+    {
+      "eu": "gu gara / zuek zarete / haiek dira",
+      "es": "nosotros somos / vosotros sois / ellos son",
+      "example_eu": "Gu ikasle gara. Haiek irakasle dira.",
+      "example_es": "Nosotros somos estudiantes. Ellos son profesores."
+    },
+    {
+      "eu": "Bilbotarrak gara.",
+      "es": "Somos bilbaínos.",
+      "example_eu": "Gu Bilbotarrak gara, Bizkaiko hiria maitatzen dugu.",
+      "example_es": "Somos bilbaínos, amamos la ciudad de Bizkaia."
+    },
+    {
+      "eu": "Mikel eta Ane lagunak dira.",
+      "es": "Mikel y Ane son amigos.",
+      "example_eu": "Nire lagunak alai eta politak dira.",
+      "example_es": "Mis amigos son alegres y guapos."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál es la forma correcta de 'somos'?",
+      "options": ["gara", "zarete", "dira", "naiz"],
+      "answer": "gara"
+    },
+    {
+      "id": "e02",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "haiek dira",
+      "es": "ellos/ellas son",
+      "answer": true
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Gu ikasle gara.",
+      "answer": "Nosotros somos estudiantes."
+    },
+    {
+      "id": "e04",
+      "type": "grammar_select",
+      "instruction": "Para decir 'vosotros sois médicos' usas:",
+      "sentence": "Zuek mediku ___",
+      "translation": "Vosotros sois médicos",
+      "options": ["gara", "zarete", "dira", "da"],
+      "answer": "zarete"
+    },
+    {
+      "id": "e05",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Nire lagunak alai eta politak ___.",
+      "translation": "Mis amigos son alegres y guapos.",
+      "hint": "forma plural 3ª persona",
+      "answer": "dira"
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Somos bilbaínos.",
+      "answer": "Bilbotarrak gara."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "instruction": "Une cada par",
+      "pairs": [
+        { "eu": "gu gara", "es": "nosotros somos" },
+        { "eu": "zuek zarete", "es": "vosotros sois" },
+        { "eu": "haiek dira", "es": "ellos/ellas son" },
+        { "eu": "lagunak", "es": "amigos" }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["dira", "lagunak", "Mikel", "eta", "Ane"],
+      "translation": "Mikel y Ane son amigos",
+      "answer": "Mikel eta Ane lagunak dira"
+    }
+  ]
+}

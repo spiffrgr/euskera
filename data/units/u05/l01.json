@@ -1,0 +1,95 @@
+{
+  "id": "l01",
+  "title": "Familia hurbila (Familia directa)",
+  "grammar_note": {
+    "title": "Senide hitzak (Términos de parentesco)",
+    "body": "El euskera tiene términos de parentesco **según quién habla**: **ahizpa** = hermana (dicho por una mujer), **arreba** = hermana (dicho por un hombre). **anaia** = hermano (dicho por una mujer), **neba** = hermano (dicho por un hombre). En euskera batua moderno se usan **anaia/ahizpa** para todos.",
+    "tip": "Hoy usamos anaia y ahizpa para todos, pero escucharás arreba y neba en conversaciones tradicionales."
+  },
+  "slides": [
+    {
+      "eu": "aita / ama / gurasoek",
+      "es": "padre / madre / los padres",
+      "example_eu": "Nire aita eta ama Bilbon bizi dira.",
+      "example_es": "Mi padre y mi madre viven en Bilbao."
+    },
+    {
+      "eu": "anaia / ahizpa",
+      "es": "hermano / hermana",
+      "example_eu": "Bi anaia eta ahizpa bat ditut.",
+      "example_es": "Tengo dos hermanos y una hermana."
+    },
+    {
+      "eu": "seme / alaba / seme-alabak",
+      "es": "hijo / hija / hijos",
+      "example_eu": "Hiru seme-alaba dituzte.",
+      "example_es": "Tienen tres hijos."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'padres' (padre y madre) en euskera?",
+      "options": ["gurasoek", "senideak", "seme-alabak", "bikotekideak"],
+      "answer": "gurasoek"
+    },
+    {
+      "id": "e02",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "ahizpa",
+      "es": "hermana",
+      "answer": true
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "seme-alabak",
+      "answer": "hijos"
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Bi anaia eta ahizpa bat ___.",
+      "translation": "Tengo dos hermanos y una hermana.",
+      "hint": "verbo 'tener' 1ª persona plural",
+      "answer": "ditut"
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "instruction": "Une cada par",
+      "pairs": [
+        { "eu": "aita", "es": "padre" },
+        { "eu": "ama", "es": "madre" },
+        { "eu": "anaia", "es": "hermano" },
+        { "eu": "ahizpa", "es": "hermana" }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "hija",
+      "answer": "alaba"
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["Bilbon", "nire", "bizi", "dira", "gurasoak"],
+      "translation": "Mis padres viven en Bilbao",
+      "answer": "nire gurasoak Bilbon bizi dira"
+    },
+    {
+      "id": "e08",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "seme",
+      "answer": "hijo"
+    }
+  ]
+}

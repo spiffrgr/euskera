@@ -1,0 +1,89 @@
+{
+  "id": "l04",
+  "title": "Edariak (Bebidas)",
+  "slides": [
+    {
+      "eu": "ura / kafea / tea",
+      "es": "agua / café / té",
+      "example_eu": "Gosarian kafea eta ura edaten dut.",
+      "example_es": "En el desayuno bebo café y agua."
+    },
+    {
+      "eu": "ardoa / garagardoa",
+      "es": "vino / cerveza",
+      "example_eu": "Pintxoetan garagardoa edo ardoa hartzen dut.",
+      "example_es": "En los pintxos tomo cerveza o vino."
+    },
+    {
+      "eu": "zukua / freskagarria / esne-kafea",
+      "es": "zumo / refresco / café con leche",
+      "example_eu": "Laranja zukua nahi dut, mesedez.",
+      "example_es": "Quiero zumo de naranja, por favor."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'cerveza' en euskera?",
+      "options": ["garagardoa", "ardoa", "zukua", "freskagarria"],
+      "answer": "garagardoa"
+    },
+    {
+      "id": "e02",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "ura",
+      "es": "agua",
+      "answer": true
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "zukua",
+      "answer": "zumo"
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "instruction": "Une cada par",
+      "pairs": [
+        { "eu": "ura", "es": "agua" },
+        { "eu": "kafea", "es": "café" },
+        { "eu": "ardoa", "es": "vino" },
+        { "eu": "garagardoa", "es": "cerveza" }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Quiero zumo de naranja.",
+      "answer": "Laranja zukua nahi dut."
+    },
+    {
+      "id": "e06",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Kafea eta ura ___ dut.",
+      "translation": "Bebo café y agua.",
+      "hint": "verbo 'beber'",
+      "answer": "edaten"
+    },
+    {
+      "id": "e07",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "esne-kafea",
+      "answer": "café con leche"
+    },
+    {
+      "id": "e08",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "vino",
+      "answer": "ardoa"
+    }
+  ]
+}

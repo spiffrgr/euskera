@@ -1,0 +1,97 @@
+{
+  "id": "l03",
+  "title": "NINTZEN, ZINEN, ZEN (pasado)",
+  "grammar_note": {
+    "title": "IZAN – iragana (IZAN – pasado)",
+    "body": "Pasado de IZAN: **ni nintzen** (yo era/estaba), **zu zinen** (tú eras/estabas), **bera zen** (él/ella era/estaba), **gu ginen** (nosotros éramos), **haiek ziren** (ellos eran). Expresa estados pasados: **Gaztea nintzen** (Era joven).",
+    "tip": "zen / ziren son las formas más usadas: Bera medikua zen (Era médico). Gazteak ziren (Eran jóvenes)."
+  },
+  "slides": [
+    {
+      "eu": "ni nintzen / zu zinen / bera zen",
+      "es": "yo era/estaba / tú eras / él-ella era",
+      "example_eu": "Ni gaztea nintzen. Zu nolakoa zinen?",
+      "example_es": "Yo era joven. ¿Cómo eras tú?"
+    },
+    {
+      "eu": "gu ginen / haiek ziren",
+      "es": "nosotros éramos / ellos/ellas eran",
+      "example_eu": "Gu ikasle ginen eta haiek irakasle ziren.",
+      "example_es": "Nosotros éramos estudiantes y ellos eran profesores."
+    },
+    {
+      "eu": "Gaztea nintzen eta alaia.",
+      "es": "Era joven y alegre.",
+      "example_eu": "Hamar urte nituenean, alaia eta ausarta nintzen.",
+      "example_es": "Cuando tenía diez años, era alegre y valiente."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál es el pasado de 'da' (era/estaba - él)?",
+      "options": ["zen", "zinen", "nintzen", "ziren"],
+      "answer": "zen"
+    },
+    {
+      "id": "e02",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "ni nintzen",
+      "es": "yo era/estaba",
+      "answer": true
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Bera medikua zen.",
+      "answer": "Él/ella era médico/a."
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Ni gaztea ___.",
+      "translation": "Yo era joven.",
+      "hint": "pasado de NAIZ",
+      "answer": "nintzen"
+    },
+    {
+      "id": "e05",
+      "type": "grammar_select",
+      "instruction": "Para decir 'ellos eran estudiantes' usas:",
+      "sentence": "Haiek ikasle ___",
+      "translation": "Ellos eran estudiantes",
+      "options": ["ginen", "ziren", "zinen", "nintzen"],
+      "answer": "ziren"
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Éramos estudiantes.",
+      "answer": "Ikasle ginen."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "instruction": "Une presente con pasado",
+      "pairs": [
+        { "eu": "naiz → nintzen", "es": "soy → era" },
+        { "eu": "zara → zinen", "es": "eres → eras" },
+        { "eu": "da → zen", "es": "es → era" },
+        { "eu": "dira → ziren", "es": "son → eran" }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["alaia", "nintzen", "gaztea", "eta"],
+      "translation": "Era joven y alegre",
+      "answer": "gaztea eta alaia nintzen"
+    }
+  ]
+}

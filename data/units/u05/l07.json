@@ -1,0 +1,86 @@
+{
+  "id": "l07",
+  "title": "Familia-elkarrizketa (Diálogo)",
+  "slides": [
+    {
+      "eu": "Familia handia al duzu?",
+      "es": "¿Tienes una familia grande?",
+      "example_eu": "Familia handia al duzu? — Bai, sei senide gara.",
+      "example_es": "¿Tienes una familia grande? — Sí, somos seis familiares."
+    },
+    {
+      "eu": "Nire aita medikua da eta nire ama sukaldaria.",
+      "es": "Mi padre es médico y mi madre cocinera.",
+      "example_eu": "Nire aita medikua da, nire ama sukaldaria, eta nik irakasle naiz.",
+      "example_es": "Mi padre es médico, mi madre cocinera, y yo soy profesor/a."
+    },
+    {
+      "eu": "Zer egiten dute zure gurasoek?",
+      "es": "¿A qué se dedican tus padres?",
+      "example_eu": "Zer egiten dute? Nire aitak ospitalean lan egiten du.",
+      "example_es": "¿Qué hacen? Mi padre trabaja en el hospital."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice '¿Tienes familia grande?' en euskera?",
+      "options": ["Familia handia al duzu?", "Familia handia dituzu?", "Familia handia zara?", "Familia handia naiz?"],
+      "answer": "Familia handia al duzu?"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Sei senide gara.",
+      "answer": "Somos seis familiares."
+    },
+    {
+      "id": "e03",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["da", "nire", "medikua", "eta", "aita", "sukaldaria", "ama"],
+      "translation": "Mi padre es médico y mi madre cocinera",
+      "answer": "nire aita medikua da eta ama sukaldaria"
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Sei senide ___ .",
+      "translation": "Somos seis familiares.",
+      "hint": "ser/estar 1ª persona plural",
+      "answer": "gara"
+    },
+    {
+      "id": "e05",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "¿A qué se dedican tus padres?",
+      "answer": "Zer egiten dute zure gurasoek?"
+    },
+    {
+      "id": "e06",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "gara",
+      "es": "somos",
+      "answer": true
+    },
+    {
+      "id": "e07",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Nire aitak ospitalean lan egiten du.",
+      "answer": "Mi padre trabaja en el hospital."
+    },
+    {
+      "id": "e08",
+      "type": "multiple_choice",
+      "instruction": "Para decir 'Somos cuatro en la familia' usas:",
+      "options": ["Lau senide gara.", "Lau senide dira.", "Lau senide naiz.", "Lau senide zarete."],
+      "answer": "Lau senide gara."
+    }
+  ]
+}

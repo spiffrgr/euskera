@@ -1,0 +1,91 @@
+{
+  "id": "l07",
+  "title": "IZAN errepasaketa (repaso completo)",
+  "slides": [
+    {
+      "eu": "Orain: naiz / zara / da / gara / zarete / dira",
+      "es": "Presente: soy / eres / es / somos / sois / son",
+      "example_eu": "Ni Bilbokoa naiz. Gu euskaldunak gara.",
+      "example_es": "Soy de Bilbao. Somos vascos."
+    },
+    {
+      "eu": "Iragana: nintzen / zinen / zen / ginen / ziren",
+      "es": "Pasado: era / eras / era / éramos / eran",
+      "example_eu": "Gaztea nintzen eta alaia zen bizitza.",
+      "example_es": "Era joven y la vida era alegre."
+    },
+    {
+      "eu": "Etorkizuna: izango naiz / izango da / izango gara",
+      "es": "Futuro: seré / será / seremos",
+      "example_eu": "Zu nor izango zara etorkizunean?",
+      "example_es": "¿Quién serás tú en el futuro?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál es el presente de 'ser' para 'nosotros'?",
+      "options": ["gara", "dira", "zarete", "ginen"],
+      "answer": "gara"
+    },
+    {
+      "id": "e02",
+      "type": "grammar_select",
+      "instruction": "Completa en pasado: 'Él era profesor'",
+      "sentence": "Irakaslea ___ (él, pasado)",
+      "translation": "Él era profesor",
+      "options": ["da", "zen", "izango da", "naiz"],
+      "answer": "zen"
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Ikasle izango gara.",
+      "answer": "Seremos estudiantes."
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Ez ___ Bilbotarrak, Donostiakoak gara.",
+      "translation": "No somos bilbaínos, somos de San Sebastián.",
+      "hint": "no somos",
+      "answer": "gara"
+    },
+    {
+      "id": "e05",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["izango", "medikua", "naiz", "ni"],
+      "translation": "Yo seré médico/a",
+      "answer": "ni medikua izango naiz"
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Éramos amigos.",
+      "answer": "Lagunak ginen."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "instruction": "Une cada forma verbal con su tiempo",
+      "pairs": [
+        { "eu": "naiz", "es": "presente (yo)" },
+        { "eu": "nintzen", "es": "pasado (yo)" },
+        { "eu": "izango naiz", "es": "futuro (yo)" },
+        { "eu": "ez naiz", "es": "negación (yo)" }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Gu euskaldunak gara eta euskaraz hitz egiten dugu.",
+      "answer": "Somos vascos y hablamos en euskera."
+    }
+  ]
+}

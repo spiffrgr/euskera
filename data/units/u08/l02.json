@@ -1,0 +1,90 @@
+{
+  "id": "l02",
+  "title": "Non zaude? (EGON + non?)",
+  "slides": [
+    {
+      "eu": "Non zaude? / Non dago?",
+      "es": "¿Dónde estás? / ¿Dónde está?",
+      "example_eu": "Non zaude orain? — Eskolan nago.",
+      "example_es": "¿Dónde estás ahora? — Estoy en la escuela."
+    },
+    {
+      "eu": "Eskolan / Liburutegian / Ospitalean",
+      "es": "En la escuela / En la biblioteca / En el hospital",
+      "example_eu": "Nire ama ospitalean dago, medikua da.",
+      "example_es": "Mi madre está en el hospital, es médica."
+    },
+    {
+      "eu": "Etxetik gertu / Hortik urrun",
+      "es": "Cerca de casa / Lejos de allí",
+      "example_eu": "Parkea etxetik gertu dago.",
+      "example_es": "El parque está cerca de casa."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se pregunta '¿dónde estás?' en euskera?",
+      "options": ["Non zaude?", "Nor zaude?", "Nola zaude?", "Nora zoaz?"],
+      "answer": "Non zaude?"
+    },
+    {
+      "id": "e02",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "Eskolan nago.",
+      "es": "Estoy en la escuela.",
+      "answer": true
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Liburutegian dago.",
+      "answer": "Está en la biblioteca."
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Nire ama ___ dago.",
+      "translation": "Mi madre está en el hospital.",
+      "hint": "en el hospital",
+      "answer": "ospitalean"
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "instruction": "Une cada par",
+      "pairs": [
+        { "eu": "eskolan", "es": "en la escuela" },
+        { "eu": "liburutegian", "es": "en la biblioteca" },
+        { "eu": "ospitalean", "es": "en el hospital" },
+        { "eu": "parkean", "es": "en el parque" }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "¿Dónde está él/ella?",
+      "answer": "Non dago?"
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["etxetik", "dago", "parkea", "gertu"],
+      "translation": "El parque está cerca de casa",
+      "answer": "parkea etxetik gertu dago"
+    },
+    {
+      "id": "e08",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Non zaude orain?",
+      "answer": "¿Dónde estás ahora?"
+    }
+  ]
+}

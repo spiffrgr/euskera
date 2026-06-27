@@ -1,0 +1,90 @@
+{
+  "id": "l02",
+  "title": "Familia zabala (Familia extendida)",
+  "slides": [
+    {
+      "eu": "aitona / amona",
+      "es": "abuelo / abuela",
+      "example_eu": "Nire aitona eta amona baserritar zaharrak dira.",
+      "example_es": "Mis abuelos son aldeanos mayores."
+    },
+    {
+      "eu": "osaba / izeba",
+      "es": "tío / tía",
+      "example_eu": "Nire osabak Donostian bizi da.",
+      "example_es": "Mi tío vive en San Sebastián."
+    },
+    {
+      "eu": "lehengusu / lehengusina / iloba",
+      "es": "primo / prima / sobrino-a",
+      "example_eu": "Hiru lehengusu eta bi iloba ditut.",
+      "example_es": "Tengo tres primos y dos sobrinos."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'tío' (uncle) en euskera?",
+      "options": ["osaba", "izeba", "iloba", "lehengusu"],
+      "answer": "osaba"
+    },
+    {
+      "id": "e02",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "amona",
+      "es": "abuela",
+      "answer": true
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "iloba",
+      "answer": "sobrino"
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "instruction": "Une cada par",
+      "pairs": [
+        { "eu": "aitona", "es": "abuelo" },
+        { "eu": "amona", "es": "abuela" },
+        { "eu": "osaba", "es": "tío" },
+        { "eu": "izeba", "es": "tía" }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "primo",
+      "answer": "lehengusu"
+    },
+    {
+      "id": "e06",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Nire ___ Donostian bizi da.",
+      "translation": "Mi tío vive en San Sebastián.",
+      "hint": "tío en euskera",
+      "answer": "osaba"
+    },
+    {
+      "id": "e07",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "lehengusina",
+      "es": "prima",
+      "answer": true
+    },
+    {
+      "id": "e08",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Hiru lehengusu ditut.",
+      "answer": "Tengo tres primos."
+    }
+  ]
+}

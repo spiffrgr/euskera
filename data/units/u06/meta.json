@@ -1,1 +1,10 @@
-{ "id": "u06", "lessons": [] }
+{ "id": "u06", "title": "Janaria", "emoji": "🍎", "lessons": [
+  { "id": "l01", "title": "Frutak eta barazkiak (Frutas y verduras)", "type": "lesson" },
+  { "id": "l02", "title": "Ogi, esnekiak eta arraultza", "type": "lesson" },
+  { "id": "l03", "title": "Haragi eta arrain (Carne y pescado)", "type": "lesson" },
+  { "id": "l04", "title": "Edariak (Bebidas)", "type": "lesson" },
+  { "id": "l05", "title": "Otorduak (Las comidas del día)", "type": "lesson" },
+  { "id": "l06", "title": "Jan nahi dut! (NAHI DUT)", "type": "lesson" },
+  { "id": "l07", "title": "Jatetxean (En el restaurante)", "type": "lesson" },
+  { "id": "test", "title": "Test de la unidad", "type": "test" }
+]}

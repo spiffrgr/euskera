@@ -1,0 +1,96 @@
+{
+  "id": "l03",
+  "title": "Haragi eta arrain (Carne y pescado)",
+  "grammar_note": {
+    "title": "NAHI DUT - querer",
+    "body": "Para expresar deseo: **NAHI DUT** (quiero). Se usa con sustantivos o infinitivos: **Oiloa nahi dut** (Quiero pollo). **Jan nahi dut** (Quiero comer). Conjugación: **nahi dut** (yo quiero), **nahi duzu** (tú quieres), **nahi du** (él/ella quiere).",
+    "tip": "nahi dut = quiero. Coloca el objeto antes: Arrain nahi dut (Quiero pescado)."
+  },
+  "slides": [
+    {
+      "eu": "okela / haragi",
+      "es": "carne (en general)",
+      "example_eu": "Okela gorria jan nahi dut.",
+      "example_es": "Quiero comer carne roja."
+    },
+    {
+      "eu": "oiloa / txerrikia / arkumea",
+      "es": "pollo / cerdo / cordero",
+      "example_eu": "Oiloa gustatzen zait, txerrikia ez hainbeste.",
+      "example_es": "Me gusta el pollo, el cerdo no tanto."
+    },
+    {
+      "eu": "arrain / bakailao / izokina",
+      "es": "pescado / bacalao / salmón",
+      "example_eu": "Bakailao pil-pila jaten dut askotan.",
+      "example_es": "Como bacalao al pil-pil a menudo."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'pollo' en euskera?",
+      "options": ["oiloa", "arkumea", "txerrikia", "okela"],
+      "answer": "oiloa"
+    },
+    {
+      "id": "e02",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "bakailao",
+      "es": "bacalao",
+      "answer": true
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "izokina",
+      "answer": "salmón"
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Oiloa jan ___ dut.",
+      "translation": "Quiero comer pollo.",
+      "hint": "verbo 'querer'",
+      "answer": "nahi"
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "instruction": "Une cada par",
+      "pairs": [
+        { "eu": "okela", "es": "carne" },
+        { "eu": "oiloa", "es": "pollo" },
+        { "eu": "arrain", "es": "pescado" },
+        { "eu": "txerrikia", "es": "cerdo" }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Quiero pescado.",
+      "answer": "Arrain nahi dut."
+    },
+    {
+      "id": "e07",
+      "type": "grammar_select",
+      "instruction": "Para decir 'tú quieres pollo' usas:",
+      "sentence": "Oiloa nahi ___",
+      "translation": "Tú quieres pollo",
+      "options": ["dut", "duzu", "du", "dugu"],
+      "answer": "duzu"
+    },
+    {
+      "id": "e08",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Arrain nahi dut.",
+      "answer": "Quiero pescado."
+    }
+  ]
+}

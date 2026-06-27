@@ -1,0 +1,97 @@
+{
+  "id": "l01",
+  "title": "NAIZ, ZARA, DA (singular)",
+  "grammar_note": {
+    "title": "IZAN aditza – orainaldia (Verbo IZAN – presente)",
+    "body": "IZAN = ser/estar (identidad y cualidades). Singular: **ni naiz** (yo soy/estoy), **zu zara** (tú eres/estás), **bera/hura da** (él/ella es/está). El verbo va SIEMPRE al final de la frase: **Ni medikua naiz** (Yo soy médico).",
+    "tip": "naiz / zara / da — memoriza estas tres formas primero, son las más usadas."
+  },
+  "slides": [
+    {
+      "eu": "ni naiz / zu zara / bera da",
+      "es": "yo soy/estoy / tú eres/estás / él-ella es/está",
+      "example_eu": "Ni Mikel naiz. Zu nor zara?",
+      "example_es": "Yo soy Mikel. ¿Tú quién eres?"
+    },
+    {
+      "eu": "Ni irakaslea naiz.",
+      "es": "Yo soy profesor/a.",
+      "example_eu": "Ni irakaslea naiz eta zu ikaslea zara.",
+      "example_es": "Yo soy profesor/a y tú eres estudiante."
+    },
+    {
+      "eu": "Bera Bilbokoa da.",
+      "es": "Él/ella es de Bilbao.",
+      "example_eu": "Bera Bilbokoa da, ez Donostiakoa.",
+      "example_es": "Él/ella es de Bilbao, no de San Sebastián."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál es la forma correcta de 'soy' (yo) en euskera?",
+      "options": ["naiz", "zara", "da", "dira"],
+      "answer": "naiz"
+    },
+    {
+      "id": "e02",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "zu zara",
+      "es": "tú eres/estás",
+      "answer": true
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Bera medikua da.",
+      "answer": "Él/ella es médico/a."
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Ni irakaslea ___.",
+      "translation": "Yo soy profesor/a.",
+      "hint": "forma de IZAN para 'yo'",
+      "answer": "naiz"
+    },
+    {
+      "id": "e05",
+      "type": "grammar_select",
+      "instruction": "Para decir 'Tú eres médico' usas:",
+      "sentence": "Zu medikua ___",
+      "translation": "Tú eres médico",
+      "options": ["naiz", "zara", "da", "gara"],
+      "answer": "zara"
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Él es de Bilbao.",
+      "answer": "Bera Bilbokoa da."
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["naiz", "ni", "irakaslea"],
+      "translation": "Yo soy profesor/a",
+      "answer": "ni irakaslea naiz"
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "instruction": "Une cada par",
+      "pairs": [
+        { "eu": "ni naiz", "es": "yo soy" },
+        { "eu": "zu zara", "es": "tú eres" },
+        { "eu": "bera da", "es": "él/ella es" },
+        { "eu": "IZAN", "es": "ser/estar" }
+      ]
+    }
+  ]
+}

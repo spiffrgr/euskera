@@ -1,1 +1,10 @@
-{ "id": "u05", "lessons": [] }
+{ "id": "u05", "title": "Familia", "emoji": "👨‍👩‍👧‍👦", "lessons": [
+  { "id": "l01", "title": "Familia hurbila (Familia directa)", "type": "lesson" },
+  { "id": "l02", "title": "Familia zabala (Familia extendida)", "type": "lesson" },
+  { "id": "l03", "title": "Nire senideen deskripzioa", "type": "lesson" },
+  { "id": "l04", "title": "Zenbat senide dituzu?", "type": "lesson" },
+  { "id": "l05", "title": "Senideen lanbideak (Profesiones)", "type": "lesson" },
+  { "id": "l06", "title": "Nor da nor? (¿Quién es quién?)", "type": "lesson" },
+  { "id": "l07", "title": "Familia-elkarrizketa (Diálogo)", "type": "lesson" },
+  { "id": "test", "title": "Test de la unidad", "type": "test" }
+]}

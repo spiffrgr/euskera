@@ -1,0 +1,97 @@
+{
+  "id": "l06",
+  "title": "Nondik zatoz? (ETORRI + nondik?)",
+  "grammar_note": {
+    "title": "Jatorria: -tik/-etik atzizkia (El ablativo -tik)",
+    "body": "Para decir 'desde dónde' (de dónde), el euskera añade **-tik** (tras vocal) o **-etik** (tras consonante): **etxetik** = de casa, **Bilbotik** = de Bilbao, **eskolatik** = de la escuela. La pregunta es **nondik?** (¿de dónde?).",
+    "tip": "non? → -n/-an (en). nora? → -ra/-era (a). nondik? → -tik/-etik (de/desde)."
+  },
+  "slides": [
+    {
+      "eu": "Nondik zatoz?",
+      "es": "¿De dónde vienes?",
+      "example_eu": "Nondik zatoz orain? — Eskolatik nator.",
+      "example_es": "¿De dónde vienes ahora? — Vengo de la escuela."
+    },
+    {
+      "eu": "Bilbotik / eskolatik / etxetik",
+      "es": "de Bilbao / de la escuela / de casa",
+      "example_eu": "Laneko bileratik nator, nekatuta nago.",
+      "example_es": "Vengo de una reunión de trabajo, estoy cansado/a."
+    },
+    {
+      "eu": "Nondik zatoz jatorriz?",
+      "es": "¿De dónde eres originalmente?",
+      "example_eu": "Nondik zatoz? — Gasteizko nago, baina Bilbon bizi naiz.",
+      "example_es": "¿De dónde eres? — Soy de Vitoria, pero vivo en Bilbao."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'de casa' en euskera?",
+      "options": ["etxetik", "etxean", "etxera", "etxe"],
+      "answer": "etxetik"
+    },
+    {
+      "id": "e02",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "Nondik zatoz?",
+      "es": "¿De dónde vienes?",
+      "answer": true
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Eskolatik nator.",
+      "answer": "Vengo de la escuela."
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Nondik zatoz? — ___ nator.",
+      "translation": "¿De dónde vienes? — Vengo de Bilbao.",
+      "hint": "de Bilbao (Bilbo + -tik)",
+      "answer": "Bilbotik"
+    },
+    {
+      "id": "e05",
+      "type": "grammar_select",
+      "instruction": "Para decir 'de San Sebastián' usas:",
+      "sentence": "Donostia → de Donostia",
+      "translation": "Donostia acaba en vocal",
+      "options": ["Donostiatik", "Donostian", "Donostiara", "Donostia"],
+      "answer": "Donostiatik"
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "¿De dónde vienes?",
+      "answer": "Nondik zatoz?"
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "instruction": "Une el lugar con su forma ablativa",
+      "pairs": [
+        { "eu": "etxe → etxetik", "es": "casa → de casa" },
+        { "eu": "Bilbo → Bilbotik", "es": "Bilbao → de Bilbao" },
+        { "eu": "eskola → eskolatik", "es": "escuela → de la escuela" },
+        { "eu": "lan → lanetik", "es": "trabajo → del trabajo" }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["nator", "eskolatik", "orain"],
+      "translation": "Ahora vengo de la escuela",
+      "answer": "orain eskolatik nator"
+    }
+  ]
+}

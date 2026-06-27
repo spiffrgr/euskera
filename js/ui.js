@@ -205,6 +205,16 @@ const UI = (() => {
         schedFocus(answerArea);
         break;
 
+      case 'error_correction':
+        container.innerHTML = `
+          <div class="exercise-type-label">${escHtml(exercise.instruction || 'Corrige el error')}</div>
+          <div class="ec-wrong">${escHtml(exercise.wrong)}</div>
+          ${exercise.translation ? `<div class="exercise-context">${escHtml(exercise.translation)}</div>` : ''}
+        `;
+        answerArea.innerHTML = renderTextInput(exercise.hint || '');
+        schedFocus(answerArea);
+        break;
+
       case 'true_false':
         container.innerHTML = `
           <div class="exercise-type-label">${escHtml(exercise.instruction || '¿Verdadero o falso?')}</div>

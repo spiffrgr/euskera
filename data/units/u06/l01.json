@@ -24,6 +24,18 @@
       "es": "tomate / patata / lechuga / pimiento rojo",
       "example_eu": "Entsalada batean letxuga, tomatea eta piper gorria ditut.",
       "example_es": "En la ensalada tengo lechuga, tomate y pimiento rojo."
+    },
+    {
+      "eu": "azenarioa / kipula / berakatza",
+      "es": "zanahoria / cebolla / ajo",
+      "example_eu": "Zopa egiteko azenarioa eta kipula erabiltzen ditut.",
+      "example_es": "Para hacer sopa uso zanahoria y cebolla."
+    },
+    {
+      "eu": "meloia / udarea / gerezia",
+      "es": "melón / pera / cereza",
+      "example_eu": "Udan meloia eta gerezia gustatzen zaizkit.",
+      "example_es": "En verano me gustan el melón y la cereza."
     }
   ],
   "exercises": [

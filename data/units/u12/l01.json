@@ -10,7 +10,9 @@
     { "eu": "burua", "es": "la cabeza", "example_eu": "Burua min dut.", "example_es": "Me duele la cabeza." },
     { "eu": "begiak", "es": "los ojos", "example_eu": "Begi urdina dut.", "example_es": "Tengo los ojos azules." },
     { "eu": "sudurra", "es": "la nariz", "example_eu": "Sudurra gorria du.", "example_es": "Tiene la nariz roja." },
-    { "eu": "ahoa", "es": "la boca", "example_eu": "Ahoa ireki!", "example_es": "¡Abre la boca!" }
+    { "eu": "ahoa", "es": "la boca", "example_eu": "Ahoa ireki!", "example_es": "¡Abre la boca!" },
+    { "eu": "belarria", "es": "la oreja / el oído", "example_eu": "Belarria min dut, medikuarengana joan behar dut.", "example_es": "Me duele el oído, tengo que ir al médico." },
+    { "eu": "lepoa / aurpegia", "es": "el cuello / la cara", "example_eu": "Lepoa eta aurpegia garbitu ditut.", "example_es": "Me he lavado el cuello y la cara." }
   ],
   "exercises": [
     { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'la cabeza' en euskera?", "options": ["aurpegia", "burua", "begiak", "ilea"], "answer": "burua" },

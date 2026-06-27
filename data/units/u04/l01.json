@@ -10,7 +10,9 @@
   "slides": [
     { "eu": "Gorria / Urdina", "es": "Rojo / Azul", "example_eu": "Liburu gorria eta auto urdina ditut.", "example_es": "Tengo un libro rojo y un coche azul." },
     { "eu": "Berdea / Horia", "es": "Verde / Amarillo", "example_eu": "Belarra berdea da eta eguzkia horia da.", "example_es": "La hierba es verde y el sol es amarillo." },
-    { "eu": "Beltza / Zuria", "es": "Negro / Blanco", "example_eu": "Gau beltza eta elur zuria.", "example_es": "Noche negra y nieve blanca." }
+    { "eu": "Beltza / Zuria", "es": "Negro / Blanco", "example_eu": "Gau beltza eta elur zuria.", "example_es": "Noche negra y nieve blanca." },
+    { "eu": "Morea / Laranja", "es": "Morado / Naranja", "example_eu": "Gona morea eta kamiseta laranja ongi doaz.", "example_es": "La falda morada y la camiseta naranja combinan bien." },
+    { "eu": "Arrosa / Grisa", "es": "Rosa / Gris", "example_eu": "Eguraldia gris dago eta aterki arrosa daramat.", "example_es": "El tiempo está gris y llevo un paraguas rosa." }
   ],
   "exercises": [
     {

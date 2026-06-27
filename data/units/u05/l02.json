@@ -19,6 +19,18 @@
       "es": "primo / prima / sobrino-a",
       "example_eu": "Hiru lehengusu eta bi iloba ditut.",
       "example_es": "Tengo tres primos y dos sobrinos."
+    },
+    {
+      "eu": "koinatua / koinata",
+      "es": "cuñado / cuñada",
+      "example_eu": "Nire koinatua eta koinata oso atseginak dira.",
+      "example_es": "Mi cuñado y mi cuñada son muy simpáticos."
+    },
+    {
+      "eu": "birraitona / birramona",
+      "es": "bisabuelo / bisabuela",
+      "example_eu": "Nire birramonak laurogeita hamar urte ditu!",
+      "example_es": "¡Mi bisabuela tiene noventa años!"
     }
   ],
   "exercises": [

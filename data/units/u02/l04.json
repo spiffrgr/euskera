@@ -30,6 +30,18 @@
       "es": "80 — 90 — 100",
       "example_eu": "Ehun euro ditut poltsan.",
       "example_es": "Tengo cien euros en el bolso."
+    },
+    {
+      "eu": "hogeita hamar — hogeita hemeretzi",
+      "es": "30 — 39",
+      "example_eu": "Hogeita hamar urte ditut.",
+      "example_es": "Tengo treinta años."
+    },
+    {
+      "eu": "berrogeita hamar — berrogeita hemeretzi",
+      "es": "50 — 59",
+      "example_eu": "Nire aitak berrogeita hamabost urte ditu.",
+      "example_es": "Mi padre tiene cincuenta y cinco años."
     }
   ],
   "exercises": [

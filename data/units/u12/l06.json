@@ -9,8 +9,8 @@
   "slides": [
     { "eu": "Ondo jan behar duzu", "es": "Debes comer bien", "example_eu": "Ondo jan behar duzu, barazkiak eta fruta.", "example_es": "Debes comer bien, verduras y frutas." },
     { "eu": "Ur asko edan", "es": "Beber mucha agua", "example_eu": "Egunero ur asko edan behar duzu.", "example_es": "Debes beber mucha agua todos los días." },
-    { "eu": "Tabakoa ez erre", "es": "No fumar", "example_eu": "Tabakoa ez erre, osasunari txarra da.", "example_es": "No fumes, es malo para la salud." },
-    { "eu": "Lo egoki egin", "es": "Dormir bien", "example_eu": "Zortzi ordu lo egoki egitea komeni da.", "example_es": "Conviene dormir bien ocho horas." }
+    { "eu": "Tabakoa ez erre", "es": "No fumar", "example_eu": "Tabakoa ez erre, gaixotzeko arriskua handitzen duelako.", "example_es": "No fumes, porque aumenta el riesgo de enfermar." },
+    { "eu": "Lo egoki egin", "es": "Dormir bien", "example_eu": "Zortzi ordu lo egiten dudanean, biharamunean hobeto sentitzen naiz.", "example_es": "Cuando duermo ocho horas, al día siguiente me siento mejor." }
   ],
   "exercises": [
     { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'debes comer bien'?", "options": ["Ondo jan nahi duzu", "Ondo jan behar duzu", "Ondo jan dut", "Ondo jan naiz"], "answer": "Ondo jan behar duzu" },

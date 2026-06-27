@@ -9,7 +9,7 @@
   "slides": [
     { "eu": "astelehena", "es": "lunes", "example_eu": "Astelehena gogorra da.", "example_es": "El lunes es duro." },
     { "eu": "ostirala", "es": "viernes", "example_eu": "Ostiraletan lagun artean egoten naiz.", "example_es": "Los viernes estoy con amigos." },
-    { "eu": "asteburua", "es": "fin de semana", "example_eu": "Asteburuan mendira joaten naiz.", "example_es": "El fin de semana voy al monte." },
+    { "eu": "asteburua", "es": "fin de semana", "example_eu": "Asteburuan mendira joaten naiz, natura gustuko dudalako.", "example_es": "El fin de semana voy al monte porque me encanta la naturaleza." },
     { "eu": "astean behin", "es": "una vez a la semana", "example_eu": "Astean behin kirola egiten dut.", "example_es": "Hago deporte una vez a la semana." }
   ],
   "exercises": [

@@ -8,7 +8,7 @@
   },
   "slides": [
     { "eu": "gainean", "es": "encima de", "example_eu": "Liburua mahairen gainean dago.", "example_es": "El libro está encima de la mesa." },
-    { "eu": "azpian", "es": "debajo de", "example_eu": "Katua sofaren azpian dago.", "example_es": "El gato está debajo del sofá." },
+    { "eu": "azpian", "es": "debajo de", "example_eu": "Katua sofaren azpian ezkutatzen da, beldurtu delako.", "example_es": "El gato se esconde debajo del sofá porque se ha asustado." },
     { "eu": "ondoan", "es": "al lado de", "example_eu": "Eskola etxearen ondoan dago.", "example_es": "La escuela está al lado de la casa." },
     { "eu": "barruan", "es": "dentro de", "example_eu": "Arropa armairuaren barruan dago.", "example_es": "La ropa está dentro del armario." }
   ],

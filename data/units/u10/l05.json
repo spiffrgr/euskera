@@ -8,8 +8,8 @@
   },
   "slides": [
     { "eu": "garbitu", "es": "limpiar", "example_eu": "Komuna garbitzen dut.", "example_es": "Limpio el baño." },
-    { "eu": "sukaldatu", "es": "cocinar", "example_eu": "Gauean sukaldatzen dut.", "example_es": "Por la noche cocino." },
-    { "eu": "erosketak egin", "es": "hacer la compra", "example_eu": "Larunbatetan erosketak egiten ditut.", "example_es": "Los sábados hago la compra." },
+    { "eu": "sukaldatu", "es": "cocinar", "example_eu": "Gauean sukaldatzen dut, familiarekin batera jateko.", "example_es": "Por la noche cocino para comer juntos en familia." },
+    { "eu": "erosketak egin", "es": "hacer la compra", "example_eu": "Larunbatetan erosketak egiten ditut, astean zehar denbora ez dudalako.", "example_es": "Los sábados hago la compra porque durante la semana no tengo tiempo." },
     { "eu": "arropa garbitu", "es": "lavar la ropa", "example_eu": "Astean behin arropa garbitzen dut.", "example_es": "Lavo la ropa una vez a la semana." }
   ],
   "exercises": [

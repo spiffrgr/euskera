@@ -9,7 +9,7 @@
   "slides": [
     { "eu": "Zazpitan jaikitzen naiz", "es": "Me levanto a las siete", "example_eu": "Zazpitan jaikitzen naiz eta gosaltzen dut.", "example_es": "Me levanto a las siete y desayuno." },
     { "eu": "Egunero lanera joaten naiz", "es": "Todos los días voy al trabajo", "example_eu": "Egunero autobusez joaten naiz lanera.", "example_es": "Todos los días voy al trabajo en autobús." },
-    { "eu": "Arratsaldean etxera itzultzen naiz", "es": "Por la tarde vuelvo a casa", "example_eu": "Bostetan arratsaldean etxera itzultzen naiz.", "example_es": "A las cinco de la tarde vuelvo a casa." },
+    { "eu": "Arratsaldean etxera itzultzen naiz", "es": "Por la tarde vuelvo a casa", "example_eu": "Etxera itzultzen naizenean, afaria prestatzen dut.", "example_es": "Cuando llego a casa, preparo la cena." },
     { "eu": "Gauean lo egiten dut", "es": "Por la noche duermo", "example_eu": "Hamarretan gauean lo egiten dut.", "example_es": "A las diez de la noche duermo." }
   ],
   "exercises": [

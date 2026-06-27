@@ -10,7 +10,7 @@
     { "eu": "beti", "es": "siempre", "example_eu": "Beti goiz jaikitzen naiz.", "example_es": "Siempre me levanto temprano." },
     { "eu": "askotan", "es": "muchas veces / a menudo", "example_eu": "Askotan parkera joaten naiz.", "example_es": "A menudo voy al parque." },
     { "eu": "batzuetan", "es": "a veces", "example_eu": "Batzuetan txirrindaz joaten naiz lanera.", "example_es": "A veces voy al trabajo en bicicleta." },
-    { "eu": "inoiz ez", "es": "nunca", "example_eu": "Inoiz ez dut tabakoa erretzen.", "example_es": "Nunca fumo tabaco." }
+    { "eu": "inoiz ez", "es": "nunca", "example_eu": "Inoiz ez dut tabakoa erretzen, osasunari txarra delako.", "example_es": "Nunca fumo, porque es malo para la salud." }
   ],
   "exercises": [
     { "id": "e01", "type": "multiple_choice", "instruction": "¿Qué significa 'beti'?", "options": ["a veces", "nunca", "siempre", "a menudo"], "answer": "siempre" },

@@ -8,7 +8,7 @@
   },
   "slides": [
     { "eu": "Zein da zure izena?", "es": "¿Cuál es tu nombre?", "example_eu": "Zein da zure izena? —Nire izena Mikel da.", "example_es": "¿Cuál es tu nombre? —Mi nombre es Mikel." },
-    { "eu": "Zergatik ikasten duzu euskara?", "es": "¿Por qué aprendes euskera?", "example_eu": "Zergatik ikasten duzu euskara? —Ama delako.", "example_es": "¿Por qué aprendes euskera? —Porque es mi lengua materna." },
+    { "eu": "Zergatik ikasten duzu euskara?", "es": "¿Por qué aprendes euskera?", "example_eu": "Zergatik ikasten duzu euskara? —Bertako jendea ulertzeko, eta gustuko dudalako.", "example_es": "¿Por qué aprendes euskera? —Para entender a la gente de aquí, y porque me gusta." },
     { "eu": "Nola esaten da hori?", "es": "¿Cómo se dice eso?", "example_eu": "Nola esaten da 'gracias' euskaraz? —Eskerrik asko.", "example_es": "¿Cómo se dice 'gracias' en euskera? —Eskerrik asko." },
     { "eu": "Zenbat lagun dituzu?", "es": "¿Cuántos amigos tienes?", "example_eu": "Zenbat lagun dituzu? —Lagun asko ditut.", "example_es": "¿Cuántos amigos tienes? —Tengo muchos amigos." }
   ],

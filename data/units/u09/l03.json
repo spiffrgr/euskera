@@ -8,7 +8,7 @@
   },
   "slides": [
     { "eu": "goizean", "es": "por la mañana", "example_eu": "Goizean dutxatzen naiz.", "example_es": "Por la mañana me ducho." },
-    { "eu": "arratsaldean", "es": "por la tarde", "example_eu": "Arratsaldean liburuak irakurtzen ditut.", "example_es": "Por la tarde leo libros." },
+    { "eu": "arratsaldean", "es": "por la tarde", "example_eu": "Arratsaldean liburuak irakurtzen ditut, lasaitzeko.", "example_es": "Por la tarde leo libros para relajarme." },
     { "eu": "gauean", "es": "por la noche", "example_eu": "Gauean telebista ikusten dut.", "example_es": "Por la noche veo la televisión." },
     { "eu": "eguerdian", "es": "al mediodía", "example_eu": "Eguerdian bazkaldu egiten dut.", "example_es": "Al mediodía almuerzo." }
   ],

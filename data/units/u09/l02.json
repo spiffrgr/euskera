@@ -7,8 +7,8 @@
     "tip": "El sufijo **-tzen/-ten** en el verbo indica acción habitual o en progreso: jan → jaten, lan egin → lan egiten."
   },
   "slides": [
-    { "eu": "jaikitzen naiz", "es": "me levanto", "example_eu": "Zazpitan jaikitzen naiz.", "example_es": "Me levanto a las siete." },
-    { "eu": "gosaltzen dut", "es": "desayuno", "example_eu": "Etxean gosaltzen dut.", "example_es": "Desayuno en casa." },
+    { "eu": "jaikitzen naiz", "es": "me levanto", "example_eu": "Zazpitan jaikitzen naizenean, kafea prestatzen dut.", "example_es": "Cuando me levanto a las siete, preparo el café." },
+    { "eu": "gosaltzen dut", "es": "desayuno", "example_eu": "Azkar gosaltzen dut, lanerako berandu nabilelako.", "example_es": "Desayuno rápido porque llego tarde al trabajo." },
     { "eu": "lan egiten dut", "es": "trabajo", "example_eu": "Bulegoan lan egiten dut.", "example_es": "Trabajo en la oficina." },
     { "eu": "lo egiten dut", "es": "duermo", "example_eu": "Hamarretan lo egiten dut.", "example_es": "Duermo a las diez." }
   ],

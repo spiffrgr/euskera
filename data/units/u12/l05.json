@@ -7,7 +7,7 @@
     "tip": "Kirola egin = hacer deporte (genérico). Para un deporte específico: futbola jokatu (jugar al fútbol), igeri egin (nadar)."
   },
   "slides": [
-    { "eu": "kirola egin", "es": "hacer deporte", "example_eu": "Astean hiru aldiz kirola egiten dut.", "example_es": "Hago deporte tres veces a la semana." },
+    { "eu": "kirola egin", "es": "hacer deporte", "example_eu": "Astean hiru aldiz kirola egiten dut, osasuna zaintzeko.", "example_es": "Hago deporte tres veces a la semana para cuidar mi salud." },
     { "eu": "futbola jokatu", "es": "jugar al fútbol", "example_eu": "Larunbatetan futbola jokatzen dut.", "example_es": "Los sábados juego al fútbol." },
     { "eu": "igeri egin", "es": "nadar", "example_eu": "Igerian oso ona naiz.", "example_es": "Se me da muy bien nadar." },
     { "eu": "mendira joan", "es": "ir al monte", "example_eu": "Igandetan mendira joaten naiz.", "example_es": "Los domingos voy al monte." }

@@ -10,7 +10,7 @@
     { "eu": "Zer egiten duzu?", "es": "¿Qué haces? (profesión)", "example_eu": "Zer egiten duzu? —Medikua naiz.", "example_es": "¿Qué haces? —Soy médico/a." },
     { "eu": "Non bizi zara?", "es": "¿Dónde vives?", "example_eu": "Non bizi zara? —Gasteizen bizi naiz.", "example_es": "¿Dónde vives? —Vivo en Vitoria." },
     { "eu": "Zenbat urte dituzu?", "es": "¿Cuántos años tienes?", "example_eu": "Zenbat urte dituzu? —Hogeita hamar urte ditut.", "example_es": "¿Cuántos años tienes? —Tengo treinta años." },
-    { "eu": "Zergatik ikasi duzu euskara?", "es": "¿Por qué has aprendido euskera?", "example_eu": "Zergatik ikasi duzu euskara? —Gustuko dudalako.", "example_es": "¿Por qué has aprendido euskera? —Porque me gusta." }
+    { "eu": "Zergatik ikasi duzu euskara?", "es": "¿Por qué has aprendido euskera?", "example_eu": "Zergatik ikasi duzu euskara? —Lanerako behar dudalako eta kultura ezagutzeko.", "example_es": "¿Por qué has aprendido euskera? —Porque lo necesito para el trabajo y para conocer la cultura." }
   ],
   "exercises": [
     { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo preguntas la profesión de alguien?", "options": ["Non bizi zara?", "Zer egiten duzu?", "Nongoa zara?", "Zenbat urte dituzu?"], "answer": "Zer egiten duzu?" },

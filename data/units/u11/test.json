@@ -1,18 +1,20 @@
 {
   "id": "test",
-  "title": "Test de la unidad — Galderak",
+  "title": "Test de la Unidad 11: Galderak",
+  "objective": "Demostrar que dominas todas las palabras interrogativas del euskera",
+  "type": "test",
   "exercises": [
     { "id": "e01", "type": "multiple_choice", "instruction": "¿Qué interrogativa se usa para preguntar por personas?", "options": ["Zer?", "Non?", "Nor?", "Noiz?"], "answer": "Nor?" },
     { "id": "e02", "type": "translation_eu_es", "eu": "Nora zoaz?", "answer": "¿Adónde vas?" },
     { "id": "e03", "type": "translation_es_eu", "es": "¿Por qué?", "answer": "Zergatik?" },
-    { "id": "e04", "type": "true_false", "eu": "Nora? = ¿De dónde?", "es": "Nora? = ¿De dónde?", "answer": false, "explanation": "Nora? significa '¿Adónde?'. ¿De dónde? es 'Nondik?'." },
-    { "id": "e05", "type": "fill_blank", "sentence": "Ez nator, berandu ___ (porque es tarde)", "translation": "No vengo, porque es tarde", "hint": "sufijo causal de 'da'", "answer": "delako" },
+    { "id": "e04", "type": "true_false", "eu": "Nora? = ¿De dónde?", "es": "Nora? = ¿De dónde?", "answer": false, "explanation": "Nora? = ¿Adónde? (dirección hacia). ¿De dónde? es 'Nondik?' (origen). Recuerda: Nora/joan (ir) vs Nondik/etorri (venir)." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Ez nator, berandu ___ (porque es tarde)", "translation": "No vengo porque es tarde.", "hint": "sufijo causal de 'da' (-lako)", "answer": "delako" },
     { "id": "e06", "type": "multiple_choice", "instruction": "¿Cómo se forma una pregunta sí/no en euskera?", "options": ["Con 'zer'", "Con 'al'", "Con 'non'", "Con 'noiz'"], "answer": "Con 'al'" },
     { "id": "e07", "type": "translation_eu_es", "eu": "Zenbat urte dituzu?", "answer": "¿Cuántos años tienes?" },
     { "id": "e08", "type": "translation_es_eu", "es": "¿Cómo estás?", "answer": "Nola zaude?" },
-    { "id": "e09", "type": "order_words", "words": ["zergatik", "ikasten", "duzu", "euskara?"], "translation": "¿Por qué aprendes euskera?", "answer": "Zergatik ikasten duzu euskara?" },
+    { "id": "e09", "type": "order_words", "words": ["Zergatik", "ikasten", "duzu", "euskara?"], "translation": "¿Por qué aprendes euskera?", "answer": "Zergatik ikasten duzu euskara?" },
     { "id": "e10", "type": "match_pairs", "pairs": [{"eu": "Nor?", "es": "¿Quién?"}, {"eu": "Non?", "es": "¿Dónde?"}, {"eu": "Noiz?", "es": "¿Cuándo?"}, {"eu": "Nola?", "es": "¿Cómo?"}] },
     { "id": "e11", "type": "grammar_select", "sentence": "___ zaude? —Etxean nago.", "translation": "¿Dónde estás? —Estoy en casa.", "options": ["Non", "Nora", "Nondik", "Noiz"], "answer": "Non" },
-    { "id": "e12", "type": "true_false", "eu": "Zein? = ¿Cuál?", "es": "Zein? = ¿Cuál?", "answer": true, "explanation": "Correcto. Zein? pregunta por cuál de varias opciones." }
+    { "id": "e12", "type": "true_false", "eu": "'Zergatik etorri zara?' → respuesta: 'Gaixorik nagolako' (porque estoy enfermo/a)", "es": "La causa (ZERGATIK?) se responde con sufijo -LAKO en el verbo: nagolako = porque estoy", "answer": true, "explanation": "Correcto. ZERGATIK? pregunta la causa. -LAKO sufijo en el verbo la responde. Nago + lako = nagolako = porque estoy." }
   ]
 }

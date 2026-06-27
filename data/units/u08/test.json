@@ -1,105 +1,20 @@
 {
   "id": "test",
-  "title": "Test: Aditzak II (EGON, JOAN, ETORRI)",
-  "slides": [],
+  "title": "Test de la Unidad 8: Aditzak II (EGON, JOAN, ETORRI)",
+  "objective": "Demostrar que dominas EGON, JOAN y ETORRI con sus preguntas de lugar",
+  "type": "test",
   "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cuál es la forma de 'estoy' (EGON - yo)?",
-      "options": ["nago", "dago", "zaude", "daude"],
-      "answer": "nago"
-    },
-    {
-      "id": "e02",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Etxean nago.",
-      "answer": "Estoy en casa."
-    },
-    {
-      "id": "e03",
-      "type": "grammar_select",
-      "instruction": "Para decir 'ella va a la escuela' usas:",
-      "sentence": "Eskolara joaten ___",
-      "translation": "Ella va a la escuela",
-      "options": ["naiz", "zara", "da", "gara"],
-      "answer": "da"
-    },
-    {
-      "id": "e04",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Asteburuan Donostia___ joaten gara.",
-      "translation": "El fin de semana vamos a San Sebastián.",
-      "hint": "sufijo alativo para Donostia",
-      "answer": "ra"
-    },
-    {
-      "id": "e05",
-      "type": "match_pairs",
-      "instruction": "Une cada par",
-      "pairs": [
-        { "eu": "nago", "es": "estoy" },
-        { "eu": "joaten naiz", "es": "voy" },
-        { "eu": "etortzen naiz", "es": "vengo" },
-        { "eu": "daude", "es": "están" }
-      ]
-    },
-    {
-      "id": "e06",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "¿De dónde vienes?",
-      "answer": "Nondik zatoz?"
-    },
-    {
-      "id": "e07",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "etxetik = de casa",
-      "es": "de casa",
-      "answer": true
-    },
-    {
-      "id": "e08",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "words": ["joaten", "naiz", "egunero", "eskolara"],
-      "translation": "Todos los días voy a la escuela",
-      "answer": "egunero eskolara joaten naiz"
-    },
-    {
-      "id": "e09",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Eskolatik nator.",
-      "answer": "Vengo de la escuela."
-    },
-    {
-      "id": "e10",
-      "type": "grammar_select",
-      "instruction": "Para decir 'ellos están en el parque':",
-      "sentence": "Parkean ___",
-      "translation": "Ellos están en el parque",
-      "options": ["nago", "dago", "daude", "gaude"],
-      "answer": "daude"
-    },
-    {
-      "id": "e11",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Non ___? — Liburutegian nago.",
-      "translation": "¿Dónde estás? — Estoy en la biblioteca.",
-      "hint": "EGON 2ª persona singular",
-      "answer": "zaude"
-    },
-    {
-      "id": "e12",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Nora joaten zara asteburuan?",
-      "answer": "¿Adónde vas el fin de semana?"
-    }
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cuál es la forma de 'estoy' (EGON, yo)?", "options": ["nago", "dago", "zaude", "daude"], "answer": "nago" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Etxean nago.", "answer": "Estoy en casa." },
+    { "id": "e03", "type": "grammar_select", "sentence": "Eskolara joaten ___. (ella)", "translation": "Ella va a la escuela.", "options": ["naiz", "zara", "da", "gara"], "answer": "da" },
+    { "id": "e04", "type": "fill_blank", "sentence": "Asteburuan Donostia___ joaten gara.", "translation": "El fin de semana vamos a San Sebastián.", "hint": "sufijo alativo para Donostia", "answer": "ra" },
+    { "id": "e05", "type": "match_pairs", "pairs": [{"eu": "nago", "es": "estoy"}, {"eu": "joaten naiz", "es": "voy"}, {"eu": "etortzen naiz", "es": "vengo"}, {"eu": "daude", "es": "están"}] },
+    { "id": "e06", "type": "translation_es_eu", "es": "¿De dónde vienes?", "answer": "Nondik zatoz?" },
+    { "id": "e07", "type": "true_false", "eu": "NORA? (¿adónde?) va con JOAN, no con EGON", "es": "NORA? (¿adónde?) va con JOAN, no con EGON", "answer": true, "explanation": "Correcto. NON? → EGON (estar/ubicación). NORA? → JOAN (ir/dirección). NONDIK? → ETORRI (venir/origen). Cada verbo tiene su interrogativa." },
+    { "id": "e08", "type": "order_words", "words": ["Egunero", "eskolara", "joaten", "naiz."], "translation": "Todos los días voy a la escuela.", "answer": "Egunero eskolara joaten naiz." },
+    { "id": "e09", "type": "translation_eu_es", "eu": "Eskolatik nator.", "answer": "Vengo de la escuela." },
+    { "id": "e10", "type": "grammar_select", "sentence": "Parkean ___. (ellos)", "translation": "Ellos están en el parque.", "options": ["nago", "dago", "daude", "gaude"], "answer": "daude" },
+    { "id": "e11", "type": "fill_blank", "sentence": "Non ___? — Liburutegian nago.", "translation": "¿Dónde estás? — Estoy en la biblioteca.", "hint": "EGON 2ª persona singular", "answer": "zaude" },
+    { "id": "e12", "type": "translation_eu_es", "eu": "Nora joaten zara asteburuan?", "answer": "¿Adónde vas el fin de semana?" }
   ]
 }

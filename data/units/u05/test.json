@@ -1,104 +1,20 @@
 {
   "id": "test",
-  "title": "Test: Familia",
-  "slides": [],
+  "title": "Test de la Unidad 5: Familia",
+  "objective": "Demostrar que puedes presentar y describir a los miembros de tu familia",
+  "type": "test",
   "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se dice 'tía' (aunt) en euskera?",
-      "options": ["izeba", "osaba", "iloba", "amona"],
-      "answer": "izeba"
-    },
-    {
-      "id": "e02",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "lehengusu",
-      "answer": "primo"
-    },
-    {
-      "id": "e03",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "seme-alabak",
-      "es": "hijos",
-      "answer": true
-    },
-    {
-      "id": "e04",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Bi anaia eta ahizpa bat ___.",
-      "translation": "Tengo dos hermanos y una hermana.",
-      "hint": "verbo 'tener' 1ª persona plural",
-      "answer": "ditut"
-    },
-    {
-      "id": "e05",
-      "type": "match_pairs",
-      "instruction": "Une cada par",
-      "pairs": [
-        { "eu": "aitona", "es": "abuelo" },
-        { "eu": "amona", "es": "abuela" },
-        { "eu": "osaba", "es": "tío" },
-        { "eu": "izeba", "es": "tía" }
-      ]
-    },
-    {
-      "id": "e06",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "Mi madre es profesora.",
-      "answer": "Nire ama irakaslea da."
-    },
-    {
-      "id": "e07",
-      "type": "grammar_select",
-      "instruction": "Para decir 'ella tiene tres hijos' usas:",
-      "sentence": "Hiru seme-alaba ___ (ella)",
-      "translation": "Ella tiene tres hijos",
-      "options": ["ditut", "dituzu", "ditu", "ditugu"],
-      "answer": "ditu"
-    },
-    {
-      "id": "e08",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "words": ["da", "nire", "medikua", "aita"],
-      "translation": "Mi padre es médico",
-      "answer": "nire aita medikua da"
-    },
-    {
-      "id": "e09",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Nor da hau?",
-      "answer": "¿Quién es este/esta?"
-    },
-    {
-      "id": "e10",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "Hauek nire gurasoak dira.",
-      "es": "Estos son mis padres.",
-      "answer": true
-    },
-    {
-      "id": "e11",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Sei senide ___ .",
-      "translation": "Somos seis familiares.",
-      "hint": "1ª persona plural de IZAN",
-      "answer": "gara"
-    },
-    {
-      "id": "e12",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Nire anaia altua eta alaia da.",
-      "answer": "Mi hermano es alto y alegre."
-    }
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'tía' en euskera?", "options": ["izeba", "osaba", "iloba", "amona"], "answer": "izeba" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "lehengusu", "answer": "primo" },
+    { "id": "e03", "type": "true_false", "eu": "Para 'Tengo dos hermanos' usas: Bi anaia DITUT (no DUT)", "es": "Para 'Tengo dos hermanos' usas: Bi anaia DITUT (no DUT)", "answer": true, "explanation": "Correcto. Con objetos en plural se usa DITUT. DUT = tengo uno, DITUT = tengo varios." },
+    { "id": "e04", "type": "fill_blank", "sentence": "Bi anaia eta ahizpa bat ___.", "translation": "Tengo dos hermanos y una hermana.", "hint": "tener (1ª persona, objeto plural)", "answer": "ditut" },
+    { "id": "e05", "type": "match_pairs", "pairs": [{"eu": "aitona", "es": "abuelo"}, {"eu": "amona", "es": "abuela"}, {"eu": "osaba", "es": "tío"}, {"eu": "izeba", "es": "tía"}] },
+    { "id": "e06", "type": "translation_es_eu", "es": "Mi madre es profesora.", "answer": "Nire ama irakaslea da." },
+    { "id": "e07", "type": "grammar_select", "sentence": "Hiru seme-alaba ___ ditu. (ella)", "translation": "Ella tiene tres hijos.", "options": ["ditut", "dituzu", "ditu", "ditugu"], "answer": "ditu" },
+    { "id": "e08", "type": "order_words", "words": ["Bi", "anaia", "eta", "ahizpa", "bat", "ditut."], "translation": "Tengo dos hermanos y una hermana.", "answer": "Bi anaia eta ahizpa bat ditut." },
+    { "id": "e09", "type": "translation_eu_es", "eu": "Nor da hau?", "answer": "¿Quién es este/esta?" },
+    { "id": "e10", "type": "translation_eu_es", "eu": "Nire osabaren semea nire lehengusua da.", "answer": "El hijo de mi tío es mi primo." },
+    { "id": "e11", "type": "fill_blank", "sentence": "Sei senide ___.", "translation": "Somos seis en la familia.", "hint": "1ª persona plural de IZAN", "answer": "gara" },
+    { "id": "e12", "type": "translation_es_eu", "es": "Mi hermano es alto y tiene el pelo negro.", "answer": "Nire anaia altua da eta ilea beltza du." }
   ]
 }

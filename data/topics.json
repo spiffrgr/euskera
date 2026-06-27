@@ -1,0 +1,146 @@
+[
+  {
+    "id": "a1_saludos",
+    "title": "Saludos y presentaciones",
+    "emoji": "👋",
+    "level": "A1",
+    "order": 1,
+    "unlocked": true,
+    "description": "Kaixo, agur, nola zaude..."
+  },
+  {
+    "id": "a1_numeros",
+    "title": "Números",
+    "emoji": "🔢",
+    "level": "A1",
+    "order": 2,
+    "unlocked": false,
+    "description": "Bat, bi, hiru..."
+  },
+  {
+    "id": "a1_koloreak",
+    "title": "Colores",
+    "emoji": "🎨",
+    "level": "A1",
+    "order": 3,
+    "unlocked": false,
+    "description": "Gorria, urdina, berdea..."
+  },
+  {
+    "id": "a1_familia",
+    "title": "Familia",
+    "emoji": "👨‍👩‍👧‍👦",
+    "level": "A1",
+    "order": 4,
+    "unlocked": false,
+    "description": "Aita, ama, anaia..."
+  },
+  {
+    "id": "a1_janaria",
+    "title": "Comida básica",
+    "emoji": "🍎",
+    "level": "A1",
+    "order": 5,
+    "unlocked": false,
+    "description": "Ogia, ura, esnea..."
+  },
+  {
+    "id": "a1_aditzak",
+    "title": "Verbos básicos",
+    "emoji": "⚡",
+    "level": "A1",
+    "order": 6,
+    "unlocked": false,
+    "description": "Izan, egon, joan, etorri..."
+  },
+  {
+    "id": "a1_egunak",
+    "title": "Días y horas",
+    "emoji": "📅",
+    "level": "A1",
+    "order": 7,
+    "unlocked": false,
+    "description": "Astelehena, ordu bat..."
+  },
+  {
+    "id": "a1_galderak",
+    "title": "Preguntas básicas",
+    "emoji": "❓",
+    "level": "A1",
+    "order": 8,
+    "unlocked": false,
+    "description": "Zer, nor, non, noiz..."
+  },
+  {
+    "id": "a2_etxea",
+    "title": "En casa",
+    "emoji": "🏠",
+    "level": "A2",
+    "order": 9,
+    "unlocked": false,
+    "description": "Sukaldea, logela, atea..."
+  },
+  {
+    "id": "a2_eguraldia",
+    "title": "Tiempo y meses",
+    "emoji": "☀️",
+    "level": "A2",
+    "order": 10,
+    "unlocked": false,
+    "description": "Euria, elurra, eguzkia..."
+  },
+  {
+    "id": "a2_gorputza",
+    "title": "Cuerpo y salud",
+    "emoji": "🏥",
+    "level": "A2",
+    "order": 11,
+    "unlocked": false,
+    "description": "Burua, eskuak, min dut..."
+  },
+  {
+    "id": "a2_hiria",
+    "title": "Ciudad y transporte",
+    "emoji": "🚌",
+    "level": "A2",
+    "order": 12,
+    "unlocked": false,
+    "description": "Kalea, autobusa, geltokia..."
+  },
+  {
+    "id": "a2_erosketak",
+    "title": "De compras",
+    "emoji": "🛒",
+    "level": "A2",
+    "order": 13,
+    "unlocked": false,
+    "description": "Denda, prezio, ordaindu..."
+  },
+  {
+    "id": "a2_lana",
+    "title": "Trabajo y estudios",
+    "emoji": "💼",
+    "level": "A2",
+    "order": 14,
+    "unlocked": false,
+    "description": "Ikaslea, irakaslea, bulegoa..."
+  },
+  {
+    "id": "a2_pertsonak",
+    "title": "Describir personas",
+    "emoji": "👤",
+    "level": "A2",
+    "order": 15,
+    "unlocked": false,
+    "description": "Altua, gaztea, atsegina..."
+  },
+  {
+    "id": "a2_iragana",
+    "title": "Pasado y rutinas",
+    "emoji": "🕐",
+    "level": "A2",
+    "order": 16,
+    "unlocked": false,
+    "description": "Joan nintzen, egin nuen..."
+  }
+]

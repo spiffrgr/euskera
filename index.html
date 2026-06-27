@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#e63946">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Euskera">
+  <title>Euskera Ikasi</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+
+    <!-- SCREEN: loading -->
+    <div id="screen-loading" class="screen active">
+      <div class="loading-content">
+        <div class="app-logo">🏔️</div>
+        <h1>Euskera Ikasi</h1>
+        <div class="spinner"></div>
+      </div>
+    </div>
+
+    <!-- SCREEN: firebase-setup -->
+    <div id="screen-firebase-setup" class="screen">
+      <div class="setup-content">
+        <div class="setup-icon">⚙️</div>
+        <h2>Configuración inicial</h2>
+        <p>Para guardar tu progreso necesitas configurar Firebase. Solo tienes que hacerlo una vez.</p>
+        <div class="setup-steps">
+          <div class="step">
+            <span class="step-num">1</span>
+            <span>Ve a <strong>console.firebase.google.com</strong> y crea un proyecto gratuito</span>
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <span>En Configuración del proyecto → Tus apps → Web, copia la configuración</span>
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <span>Pega el objeto de configuración aquí abajo:</span>
+          </div>
+        </div>
+        <textarea id="firebase-config-input" placeholder='{
+  "apiKey": "...",
+  "authDomain": "...",
+  "projectId": "...",
+  "storageBucket": "...",
+  "messagingSenderId": "...",
+  "appId": "..."
+}'></textarea>
+        <button id="btn-save-firebase" class="btn btn-primary">Guardar y continuar</button>
+        <p class="setup-note">La configuración se guarda localmente en tu dispositivo.</p>
+      </div>
+    </div>
+
+    <!-- SCREEN: home -->
+    <div id="screen-home" class="screen">
+      <header class="app-header">
+        <h1 class="app-title">Euskera Ikasi</h1>
+        <div class="streak-badge" id="streak-display">
+          <span class="streak-icon">🔥</span>
+          <span class="streak-count" id="streak-count">0</span>
+        </div>
+      </header>
+
+      <div class="level-section">
+        <h2 class="level-title">
+          <span class="level-badge a1">A1</span>
+          Principiante
+        </h2>
+        <div id="topics-a1" class="topics-grid"></div>
+      </div>
+
+      <div class="level-section">
+        <h2 class="level-title">
+          <span class="level-badge a2">A2</span>
+          Elemental
+        </h2>
+        <div id="topics-a2" class="topics-grid"></div>
+      </div>
+    </div>
+
+    <!-- SCREEN: session -->
+    <div id="screen-session" class="screen">
+      <header class="session-header">
+        <button class="btn-back" id="btn-back">←</button>
+        <div class="session-info">
+          <span id="session-topic-title" class="session-title"></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" id="session-progress-bar"></div>
+          </div>
+        </div>
+        <span class="session-counter" id="session-counter">1/8</span>
+      </header>
+
+      <div class="exercise-container" id="exercise-container">
+        <!-- exercise injected here -->
+      </div>
+
+      <div class="answer-area" id="answer-area">
+        <!-- answer widgets injected here -->
+      </div>
+
+      <div class="feedback-area hidden" id="feedback-area">
+        <div class="feedback-content" id="feedback-content"></div>
+        <button class="btn btn-primary btn-next" id="btn-next">Siguiente →</button>
+      </div>
+    </div>
+
+    <!-- SCREEN: summary -->
+    <div id="screen-summary" class="screen">
+      <div class="summary-content">
+        <div class="summary-icon" id="summary-icon">🎉</div>
+        <h2 id="summary-title">¡Sesión completada!</h2>
+        <div class="summary-stats">
+          <div class="stat-card">
+            <span class="stat-value" id="stat-correct">0</span>
+            <span class="stat-label">Correctas</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-wrong">0</span>
+            <span class="stat-label">Errores</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-streak">0</span>
+            <span class="stat-label">Racha 🔥</span>
+          </div>
+        </div>
+        <button class="btn btn-primary" id="btn-home">Volver al inicio</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Firebase SDK (compat) -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+
+  <script src="js/firebase.js"></script>
+  <script src="js/srs.js"></script>
+  <script src="js/exercises.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</body>
+</html>

@@ -61,6 +61,7 @@ const UI = (() => {
 
     container.innerHTML = `
       <div class="exercise-type-label">${exercise.label}</div>
+      ${exercise.context ? `<div class="exercise-context">${escHtml(exercise.context)}</div>` : ''}
       <div class="exercise-question">${escHtml(exercise.question)}</div>
     `;
 

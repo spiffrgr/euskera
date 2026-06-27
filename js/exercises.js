@@ -78,9 +78,9 @@ const Exercises = (() => {
       }
 
       case 'fill_blank': {
-        const useEu = Math.random() > 0.5;
-        const sentence = useEu ? item.example_eu : item.example_es;
-        const target = useEu ? item.eu : item.es;
+        // Always blank the Basque word in the Basque example sentence
+        const sentence = item.example_eu;
+        const target = item.eu;
         const blanked = sentence.replace(
           new RegExp(target.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i'),
           '___'
@@ -90,11 +90,12 @@ const Exercises = (() => {
         }
         return {
           type,
-          label: 'Rellena el hueco',
+          label: 'Rellena el hueco en euskera',
+          context: item.example_es,
           question: blanked,
           answer: target,
           inputMode: 'text',
-          hint: useEu ? item.example_es : item.example_eu,
+          hint: null,
         };
       }
 
@@ -108,13 +109,32 @@ const Exercises = (() => {
       .toLowerCase()
       .normalize('NFD')
       .replace(/[̀-ͯ]/g, '')
+      .replace(/[.,!?¡¿;:'"]/g, '')
+      .replace(/\s+/g, ' ')
       .trim();
+  }
+
+  function levenshtein(a, b) {
+    const m = a.length, n = b.length;
+    const dp = Array.from({ length: m + 1 }, (_, i) => [i]);
+    for (let j = 0; j <= n; j++) dp[0][j] = j;
+    for (let i = 1; i <= m; i++) {
+      for (let j = 1; j <= n; j++) {
+        dp[i][j] = a[i-1] === b[j-1]
+          ? dp[i-1][j-1]
+          : 1 + Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]);
+      }
+    }
+    return dp[m][n];
   }
 
   function checkAnswer(exercise, userAnswer) {
     const correct = normalize(exercise.answer);
     const given = normalize(userAnswer);
-    return correct === given;
+    if (correct === given) return true;
+    // Allow 1 typo for answers of 5+ characters
+    if (correct.length >= 5 && levenshtein(correct, given) <= 1) return true;
+    return false;
   }
 
   async function buildSession(topicId, srsMap, sessionSize = 8) {

@@ -1,0 +1,22 @@
+{
+  "id": "repaso",
+  "title": "Repaso: Unidades 4-6",
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'azul' en euskera?", "options": ["gorria", "urdina", "berdea", "horia"], "answer": "urdina" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Nire ama irakaslea da.", "answer": "Mi madre es profesora." },
+    { "id": "e03", "type": "fill_blank", "sentence": "Sagarra jan ___ dut. (quiero)", "translation": "Quiero comer una manzana.", "hint": "deseo/quiero", "answer": "nahi" },
+    { "id": "e04", "type": "match_pairs", "pairs": [{"eu": "gorria", "es": "rojo"}, {"eu": "berdea", "es": "verde"}, {"eu": "horia", "es": "amarillo"}, {"eu": "zuria", "es": "blanco"}] },
+    { "id": "e05", "type": "true_false", "eu": "Ahizpa = hermano", "es": "Ahizpa = hermano", "answer": false, "explanation": "Ahizpa = hermana (mujer). Hermano es 'anaia'." },
+    { "id": "e06", "type": "translation_es_eu", "es": "Quiero agua", "answer": "Ura nahi dut" },
+    { "id": "e07", "type": "grammar_select", "sentence": "Zerua ___ da.", "translation": "El cielo es azul.", "options": ["urdina", "urdin", "urdinak", "urdinea"], "answer": "urdina" },
+    { "id": "e08", "type": "multiple_choice", "instruction": "¿Cómo se dice 'abuelo' en euskera?", "options": ["aita", "ama", "aitona", "semea"], "answer": "aitona" },
+    { "id": "e09", "type": "order_words", "words": ["nire", "aitak", "gazta", "eta", "ogia", "maite", "ditu"], "translation": "A mi padre le gustan el queso y el pan", "answer": "nire aitak gazta eta ogia maite ditu" },
+    { "id": "e10", "type": "translation_eu_es", "eu": "Gosaltzen dut.", "answer": "Desayuno." },
+    { "id": "e11", "type": "fill_blank", "sentence": "Zerua ___ da. (azul)", "translation": "El cielo es azul.", "hint": "color azul", "answer": "urdina" },
+    { "id": "e12", "type": "true_false", "eu": "NAHI DUT = quiero (deseo)", "es": "NAHI DUT = quiero (deseo)", "answer": true, "explanation": "Correcto. Nahi dut expresa deseo." },
+    { "id": "e13", "type": "multiple_choice", "instruction": "¿Qué significa 'semea'?", "options": ["la hija", "el hijo", "el padre", "la madre"], "answer": "el hijo" },
+    { "id": "e14", "type": "translation_es_eu", "es": "La manzana es roja.", "answer": "Sagarra gorria da." },
+    { "id": "e15", "type": "match_pairs", "pairs": [{"eu": "sagarra", "es": "manzana"}, {"eu": "laranja", "es": "naranja"}, {"eu": "banana", "es": "plátano"}, {"eu": "marrubi", "es": "fresa"}] },
+    { "id": "e16", "type": "order_words", "words": ["nire", "ahizpa", "oso", "polita", "eta", "altua", "da"], "translation": "Mi hermana es muy guapa y alta", "answer": "nire ahizpa oso polita eta altua da" }
+  ]
+}

@@ -6,5 +6,6 @@
   { "id": "l05", "title": "Kirol eta gorputza (Deporte)", "type": "lesson" },
   { "id": "l06", "title": "Osasun-ohiturak (Hábitos saludables)", "type": "lesson" },
   { "id": "l07", "title": "Osasun-elkarrizketa (Diálogo)", "type": "lesson" },
+  { "id": "repaso", "title": "Repaso: Unidades 10-12", "type": "review" },
   { "id": "test", "title": "Test de la unidad", "type": "test" }
 ]}

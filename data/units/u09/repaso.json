@@ -1,0 +1,22 @@
+{
+  "id": "repaso",
+  "title": "Repaso: Unidades 7-9",
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cuál es la forma correcta de 'soy' (yo, IZAN)?", "options": ["naiz", "nago", "noa", "nator"], "answer": "naiz" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Inoiz ez", "answer": "Nunca" },
+    { "id": "e03", "type": "fill_blank", "sentence": "Eskolara ___ naiz goizean. (voy habitualmente)", "translation": "Por la mañana voy a la escuela.", "hint": "JOAN habitual", "answer": "joaten" },
+    { "id": "e04", "type": "true_false", "eu": "Para 'yo trabajo' usas NIK lan egiten dut (NORK ergativo)", "es": "Para 'yo trabajo' usas NIK lan egiten dut (NORK ergativo)", "answer": true, "explanation": "Correcto. LAN EGIN es transitivo: el sujeto lleva -K → NIK." },
+    { "id": "e05", "type": "multiple_choice", "instruction": "¿Qué significa 'atzo'?", "options": ["hoy", "mañana", "ayer", "ahora"], "answer": "ayer" },
+    { "id": "e06", "type": "order_words", "words": ["ni", "goizean", "eskolara", "noa"], "translation": "Por la mañana yo voy a la escuela", "answer": "ni goizean eskolara noa" },
+    { "id": "e07", "type": "translation_es_eu", "es": "No soy médico/a.", "answer": "Medikua ez naiz." },
+    { "id": "e08", "type": "grammar_select", "sentence": "___ etxean nago.", "translation": "Hoy estoy en casa.", "options": ["Gaur", "Bihar", "Beti", "Lehen"], "answer": "Gaur" },
+    { "id": "e09", "type": "match_pairs", "pairs": [{"eu": "gaur", "es": "hoy"}, {"eu": "atzo", "es": "ayer"}, {"eu": "bihar", "es": "mañana"}, {"eu": "orain", "es": "ahora"}] },
+    { "id": "e10", "type": "translation_eu_es", "eu": "Nondik zatoz?", "answer": "¿De dónde vienes?" },
+    { "id": "e11", "type": "fill_blank", "sentence": "Bihar irakaslea ___ naiz. (seré)", "translation": "Mañana seré profesor/a.", "hint": "futuro de IZAN", "answer": "izango" },
+    { "id": "e12", "type": "multiple_choice", "instruction": "¿Cómo se dice 'por la mañana'?", "options": ["gauean", "arratsaldean", "goizean", "eguerdian"], "answer": "goizean" },
+    { "id": "e13", "type": "true_false", "eu": "NORA? se usa con el verbo EGON", "es": "NORA? se usa con el verbo EGON", "answer": false, "explanation": "NORA? (¿adónde?) va con JOAN. EGON responde a NON? (¿dónde?)." },
+    { "id": "e14", "type": "translation_es_eu", "es": "Siempre", "answer": "Beti" },
+    { "id": "e15", "type": "order_words", "words": ["gaur", "nekatuta", "nago"], "translation": "Hoy estoy cansado/a", "answer": "Gaur nekatuta nago" },
+    { "id": "e16", "type": "grammar_select", "sentence": "___ joaten naiz lanera.", "translation": "Todos los días voy al trabajo.", "options": ["Egunero", "Batzuetan", "Inoiz ez", "Lehen"], "answer": "Egunero" }
+  ]
+}

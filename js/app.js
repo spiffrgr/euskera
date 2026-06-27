@@ -115,7 +115,7 @@ const App = (() => {
     const data = await Course.loadLesson(currentUnit.id, lesson.id);
     currentLesson = data;
     const allExercises = data.exercises || [];
-    const cap = currentLessonId === 'test' ? allExercises.length : 8;
+    const cap = (currentLessonId === 'test' || currentLessonId === 'repaso') ? allExercises.length : 8;
     currentExercises = allExercises.slice(0, cap);
     exerciseIndex = 0;
     sessionStats = { correct: 0, wrong: 0 };

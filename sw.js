@@ -1,4 +1,4 @@
-const CACHE = 'euskera-v7';
+const CACHE = 'euskera-v8';
 const BASE = self.registration.scope;
 const STATIC = [
   '',
@@ -30,6 +30,7 @@ const STATIC = [
   'data/units/u02/l06.json',
   'data/units/u02/l07.json',
   'data/units/u02/test.json',
+  'data/units/u03/repaso.json',
   'data/units/u03/meta.json',
   'data/units/u03/l01.json',
   'data/units/u03/l02.json',
@@ -57,6 +58,7 @@ const STATIC = [
   'data/units/u05/l06.json',
   'data/units/u05/l07.json',
   'data/units/u05/test.json',
+  'data/units/u06/repaso.json',
   'data/units/u06/meta.json',
   'data/units/u06/l01.json',
   'data/units/u06/l02.json',
@@ -84,6 +86,7 @@ const STATIC = [
   'data/units/u08/l06.json',
   'data/units/u08/l07.json',
   'data/units/u08/test.json',
+  'data/units/u09/repaso.json',
   'data/units/u09/meta.json',
   'data/units/u09/l01.json',
   'data/units/u09/l02.json',
@@ -111,6 +114,7 @@ const STATIC = [
   'data/units/u11/l06.json',
   'data/units/u11/l07.json',
   'data/units/u11/test.json',
+  'data/units/u12/repaso.json',
   'data/units/u12/meta.json',
   'data/units/u12/l01.json',
   'data/units/u12/l02.json',

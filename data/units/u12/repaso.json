@@ -1,0 +1,22 @@
+{
+  "id": "repaso",
+  "title": "Repaso: Unidades 10-12",
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'dormitorio' en euskera?", "options": ["sukaldea", "egongela", "logela", "komuna"], "answer": "logela" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Zergatik ez zara etorri?", "answer": "¿Por qué no viniste?" },
+    { "id": "e03", "type": "fill_blank", "sentence": "Burua ___ dut. (me duele)", "translation": "Me duele la cabeza.", "hint": "dolor", "answer": "min" },
+    { "id": "e04", "type": "true_false", "eu": "Azpian = encima de", "es": "Azpian = encima de", "answer": false, "explanation": "Azpian = debajo de. Encima de es 'gainean'." },
+    { "id": "e05", "type": "grammar_select", "sentence": "Etxea ___ da?", "translation": "¿Cómo es la casa?", "options": ["nolakoa", "non", "noiz", "zenbat"], "answer": "nolakoa" },
+    { "id": "e06", "type": "translation_es_eu", "es": "Estoy enfermo/a.", "answer": "Gaixorik nago." },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "sukaldea", "es": "cocina"}, {"eu": "logela", "es": "dormitorio"}, {"eu": "egongela", "es": "salón"}, {"eu": "komuna", "es": "baño"}] },
+    { "id": "e08", "type": "order_words", "words": ["zergatik", "ikasten", "duzu", "euskara?"], "translation": "¿Por qué aprendes euskera?", "answer": "zergatik ikasten duzu euskara?" },
+    { "id": "e09", "type": "translation_eu_es", "eu": "Kirola egin", "answer": "Hacer deporte" },
+    { "id": "e10", "type": "grammar_select", "sentence": "Sofaa egongelan ___.", "translation": "El sofá está en el salón.", "options": ["dago", "da", "ditu", "naiz"], "answer": "dago" },
+    { "id": "e11", "type": "true_false", "eu": "'Al' galderak = preguntas sí/no en euskera", "es": "'Al' galderak = preguntas sí/no en euskera", "answer": true, "explanation": "Correcto. 'Al' es la partícula que forma preguntas de sí/no." },
+    { "id": "e12", "type": "fill_blank", "sentence": "Liburua mahairen ___ dago. (encima)", "translation": "El libro está encima de la mesa.", "hint": "encima de", "answer": "gainean" },
+    { "id": "e13", "type": "multiple_choice", "instruction": "¿Cómo se dice 'tengo fiebre'?", "options": ["Gaixorik nago", "Eztula dut", "Sukarra dut", "Mina dut"], "answer": "Sukarra dut" },
+    { "id": "e14", "type": "translation_es_eu", "es": "¿Adónde vas?", "answer": "Nora zoaz?" },
+    { "id": "e15", "type": "order_words", "words": ["atseden", "hartu", "behar", "dut"], "translation": "Tengo que descansar", "answer": "atseden hartu behar dut" },
+    { "id": "e16", "type": "match_pairs", "pairs": [{"eu": "Nor?", "es": "¿Quién?"}, {"eu": "Zer?", "es": "¿Qué?"}, {"eu": "Noiz?", "es": "¿Cuándo?"}, {"eu": "Nola?", "es": "¿Cómo?"}] }
+  ]
+}

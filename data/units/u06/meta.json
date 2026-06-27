@@ -6,5 +6,6 @@
   { "id": "l05", "title": "Otorduak (Las comidas del día)", "type": "lesson" },
   { "id": "l06", "title": "Jan nahi dut! (NAHI DUT)", "type": "lesson" },
   { "id": "l07", "title": "Jatetxean (En el restaurante)", "type": "lesson" },
+  { "id": "repaso", "title": "Repaso: Unidades 4-6", "type": "review" },
   { "id": "test", "title": "Test de la unidad", "type": "test" }
 ]}

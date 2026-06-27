@@ -6,5 +6,6 @@
   { "id": "l05", "title": "Asteko egunak eta jarduerak", "type": "lesson" },
   { "id": "l06", "title": "Lehen eta orain (Antes y ahora)", "type": "lesson" },
   { "id": "l07", "title": "Nire egunerokoa (Mi día a día)", "type": "lesson" },
+  { "id": "repaso", "title": "Repaso: Unidades 7-9", "type": "review" },
   { "id": "test", "title": "Test de la unidad", "type": "test" }
 ]}

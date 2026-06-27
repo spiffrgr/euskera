@@ -1,10 +1,10 @@
 {
   "id": "l02",
-  "title": "GARA, ZARETE, DIRA (plural)",
+  "title": "GARA, ZARETE, DIRA + tabla NOR/NORK",
   "grammar_note": {
-    "title": "IZAN – plurala (IZAN – plural)",
-    "body": "Plural de IZAN: **gu gara** (nosotros somos), **zuek zarete** (vosotros sois), **haiek dira** (ellos/ellas son). Con grupo: **Bilbotarrak gara** (Somos bilbaínos). Para listas: **Mikel eta Ane lagunak dira** (Mikel y Ane son amigos).",
-    "tip": "gara / zarete / dira — el patrón cambia la terminación: na→ga, za→za(rete), da→di(ra)"
+    "title": "IZAN plural + tabla completa NOR/NORK",
+    "body": "Plural de IZAN: **gu gara** (nosotros somos), **zuek zarete** (vosotros sois), **haiek dira** (ellos son).\n\n**Tabla completa NOR / NORK:**\n| NOR (absolutivo) | NORK (ergativo) |\n|------------------|-----------------|\n| ni → yo (intrans.) | nik → yo (trans.) |\n| zu → tú (intrans.) | zuk → tú (trans.) |\n| hura → él/ella | hark → él/ella (trans.) |\n| gu → nosotros | guk → nosotros (trans.) |\n| zuek → vosotros | zuek → vosotros (trans.) |\n| haiek → ellos | haiek → ellos (trans.) |\n\nNORK plural: **guk** egin dugu, **zuek** egin duzue, **haiek** egin dute.",
+    "tip": "NORK = NORK añade -K a NI→NIK, ZU→ZUK, GU→GUK, HURA→HARK. Zuek y Haiek no cambian (ya terminan en -k)."
   },
   "slides": [
     {
@@ -14,23 +14,23 @@
       "example_es": "Nosotros somos estudiantes. Ellos son profesores."
     },
     {
-      "eu": "Bilbotarrak gara.",
-      "es": "Somos bilbaínos.",
-      "example_eu": "Gu Bilbotarrak gara, Bizkaiko hiria maitatzen dugu.",
-      "example_es": "Somos bilbaínos, amamos la ciudad de Bizkaia."
+      "eu": "guk / zuek / haiek (NORK)",
+      "es": "nosotros/vosotros/ellos (ergativo)",
+      "example_eu": "Guk lan egiten dugu. Haiek lan egiten dute.",
+      "example_es": "Nosotros trabajamos. Ellos trabajan."
     },
     {
       "eu": "Mikel eta Ane lagunak dira.",
       "es": "Mikel y Ane son amigos.",
-      "example_eu": "Nire lagunak alai eta politak dira.",
-      "example_es": "Mis amigos son alegres y guapos."
+      "example_eu": "Haiek lagunak dira eta elkarrekin lan egiten dute.",
+      "example_es": "Son amigos y trabajan juntos."
     }
   ],
   "exercises": [
     {
       "id": "e01",
       "type": "multiple_choice",
-      "instruction": "¿Cuál es la forma correcta de 'somos'?",
+      "instruction": "¿Cuál es la forma correcta de 'somos' (IZAN)?",
       "options": ["gara", "zarete", "dira", "naiz"],
       "answer": "gara"
     },
@@ -38,9 +38,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "haiek dira",
-      "es": "ellos/ellas son",
-      "answer": true
+      "eu": "GUK lan egiten dugu = Nosotros trabajamos (ergativo correcto)",
+      "es": "GUK lan egiten dugu = Nosotros trabajamos (ergativo correcto)",
+      "answer": true,
+      "explanation": "Correcto. LAN EGIN es transitivo, así que el sujeto usa NORK: GU→GUK."
     },
     {
       "id": "e03",
@@ -52,11 +53,11 @@
     {
       "id": "e04",
       "type": "grammar_select",
-      "instruction": "Para decir 'vosotros sois médicos' usas:",
-      "sentence": "Zuek mediku ___",
-      "translation": "Vosotros sois médicos",
-      "options": ["gara", "zarete", "dira", "da"],
-      "answer": "zarete"
+      "instruction": "EGON es intransitivo. ¿Qué forma usa el sujeto?",
+      "sentence": "___ etxean gaude.",
+      "translation": "Nosotros estamos en casa.",
+      "options": ["Gu", "Guk", "Haiek", "Haik"],
+      "answer": "Gu"
     },
     {
       "id": "e05",
@@ -64,7 +65,7 @@
       "instruction": "Rellena el hueco",
       "sentence": "Nire lagunak alai eta politak ___.",
       "translation": "Mis amigos son alegres y guapos.",
-      "hint": "forma plural 3ª persona",
+      "hint": "forma plural 3ª persona de IZAN",
       "answer": "dira"
     },
     {
@@ -76,22 +77,23 @@
     },
     {
       "id": "e07",
-      "type": "match_pairs",
-      "instruction": "Une cada par",
-      "pairs": [
-        { "eu": "gu gara", "es": "nosotros somos" },
-        { "eu": "zuek zarete", "es": "vosotros sois" },
-        { "eu": "haiek dira", "es": "ellos/ellas son" },
-        { "eu": "lagunak", "es": "amigos" }
-      ]
+      "type": "grammar_select",
+      "instruction": "Elige el sujeto correcto para el verbo transitivo:",
+      "sentence": "___ ogia jan dute.",
+      "translation": "Ellos han comido el pan.",
+      "options": ["Haiek", "Haik", "Hark", "Haiek-ek"],
+      "answer": "Haiek"
     },
     {
       "id": "e08",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "words": ["dira", "lagunak", "Mikel", "eta", "Ane"],
-      "translation": "Mikel y Ane son amigos",
-      "answer": "Mikel eta Ane lagunak dira"
+      "type": "match_pairs",
+      "instruction": "NOR → NORK",
+      "pairs": [
+        { "eu": "ni (NOR)", "es": "nik (NORK)" },
+        { "eu": "zu (NOR)", "es": "zuk (NORK)" },
+        { "eu": "gu (NOR)", "es": "guk (NORK)" },
+        { "eu": "hura (NOR)", "es": "hark (NORK)" }
+      ]
     }
   ]
 }

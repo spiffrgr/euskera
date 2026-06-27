@@ -11,6 +11,7 @@ const App = (() => {
   let sessionStats = { correct: 0, wrong: 0 };
   let lessonProgressMap = {};
   let streakDays = 0;
+  let interactiveAbort = null;  // AbortController for interactive exercise listeners
 
   // ---- Boot ----
 
@@ -75,7 +76,9 @@ const App = (() => {
     currentLessonId = lesson.id;
     const data = await Course.loadLesson(currentUnit.id, lesson.id);
     currentLesson = data;
-    currentExercises = data.exercises || [];
+    const allExercises = data.exercises || [];
+    const cap = currentLessonId === 'test' ? allExercises.length : 8;
+    currentExercises = allExercises.slice(0, cap);
     exerciseIndex = 0;
     sessionStats = { correct: 0, wrong: 0 };
 
@@ -123,6 +126,9 @@ const App = (() => {
   }
 
   function bindAnswerEvents(exercise) {
+    // Abort any leftover interactive listeners from previous exercises
+    if (interactiveAbort) { interactiveAbort.abort(); interactiveAbort = null; }
+
     const answerArea = document.getElementById('answer-area');
 
     if (exercise.type === 'multiple_choice' || exercise.type === 'grammar_select') {
@@ -157,6 +163,9 @@ const App = (() => {
   }
 
   function setupOrderWords(exercise, answerArea) {
+    interactiveAbort = new AbortController();
+    const signal = interactiveAbort.signal;
+
     const bankEl = document.getElementById('order-bank');
     const answerEl = document.getElementById('order-answer');
     const submitBtn = answerArea.querySelector('.btn-submit');
@@ -182,7 +191,7 @@ const App = (() => {
       newTile.textContent = word;
       answerEl.appendChild(newTile);
       refreshSubmit();
-    });
+    }, { signal });
 
     answerEl.addEventListener('click', e => {
       const tile = e.target.closest('.word-tile');
@@ -195,15 +204,18 @@ const App = (() => {
       newTile.textContent = word;
       bankEl.appendChild(newTile);
       refreshSubmit();
-    });
+    }, { signal });
 
     submitBtn.addEventListener('click', () => {
       const assembled = [...answerEl.querySelectorAll('.word-tile')].map(t => t.dataset.word).join(' ');
       handleAnswer(exercise, assembled);
-    });
+    }, { signal });
   }
 
   function setupMatchPairs(exercise, answerArea) {
+    interactiveAbort = new AbortController();
+    const signal = interactiveAbort.signal;
+
     let selectedLeftBtn = null;
     let matchedPairs = [];
     const totalPairs = exercise.pairs.length;
@@ -233,7 +245,6 @@ const App = (() => {
         btn.disabled = true;
         matchedPairs.push({ eu: euVal, es: esVal });
         selectedLeftBtn = null;
-        // Auto-submit when all pairs matched correctly
         if (matchedPairs.length === totalPairs) {
           handleAnswer(exercise, matchedPairs);
         }
@@ -248,7 +259,7 @@ const App = (() => {
           btn.classList.remove('wrong-flash');
         }, 600);
       }
-    });
+    }, { signal });
   }
 
   function handleAnswer(exercise, userAnswer) {

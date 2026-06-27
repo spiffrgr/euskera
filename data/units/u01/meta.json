@@ -1,0 +1,6 @@
+{ "id": "u01", "title": "Kaixo!", "emoji": "👋", "lessons": [
+  { "id": "l01", "title": "Saludos básicos", "type": "lesson" },
+  { "id": "l02", "title": "Ni naiz... (Presentarse)", "type": "lesson" },
+  { "id": "l03", "title": "Nola zaude? (¿Cómo estás?)", "type": "lesson" },
+  { "id": "test", "title": "Test de la unidad", "type": "test" }
+]}

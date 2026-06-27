@@ -1,0 +1,6 @@
+{ "id": "u04", "title": "Koloreak", "emoji": "🎨", "lessons": [
+  { "id": "l01", "title": "Kolore nagusiak (Colores principales)", "type": "lesson" },
+  { "id": "l02", "title": "Gauzak deskribatu (Describir objetos)", "type": "lesson" },
+  { "id": "l03", "title": "Pertsonak deskribatu (Describir personas)", "type": "lesson" },
+  { "id": "test", "title": "Test de la unidad", "type": "test" }
+]}

@@ -1,0 +1,97 @@
+{
+  "id": "u01_l02",
+  "title": "Ni naiz... (Presentarse)",
+  "objective": "Presentarte y preguntar el nombre de alguien",
+  "grammar_note": {
+    "title": "El verbo IZAN (ser)",
+    "body": "En euskera el verbo va siempre al FINAL de la frase.\n\nNi Mikel **naiz** → Yo soy Mikel\nZu Ane **zara** → Tú eres Ane\nBera medikua **da** → Él/ella es médico",
+    "tip": "Fíjate: el sujeto (ni, zu, bera) puede omitirse porque el verbo ya lo indica."
+  },
+  "slides": [
+    { "eu": "Ni naiz", "es": "Yo soy", "example_eu": "Ni Mikel naiz.", "example_es": "Yo soy Mikel." },
+    { "eu": "Nola duzu izena?", "es": "¿Cómo te llamas?", "example_eu": "Nola duzu izena? Nire izena Ane da.", "example_es": "¿Cómo te llamas? Mi nombre es Ane." },
+    { "eu": "Pozten naiz", "es": "Encantado/a", "example_eu": "Pozten naiz zu ezagutzeaz!", "example_es": "¡Encantado de conocerte!" }
+  ],
+  "exercises": [
+    {
+      "id": "u01_l02_e01",
+      "type": "grammar_select",
+      "instruction": "Elige la forma correcta del verbo",
+      "sentence": "Ni Mikel ___.",
+      "translation": "Yo soy Mikel.",
+      "answer": "naiz",
+      "options": ["naiz", "zara", "da", "gara"]
+    },
+    {
+      "id": "u01_l02_e02",
+      "type": "grammar_select",
+      "instruction": "Elige la forma correcta del verbo",
+      "sentence": "Zu Ane ___.",
+      "translation": "Tú eres Ane.",
+      "answer": "zara",
+      "options": ["naiz", "zara", "da", "gara"]
+    },
+    {
+      "id": "u01_l02_e03",
+      "type": "order_words",
+      "instruction": "Ordena las palabras para formar la frase",
+      "translation": "Yo soy Mikel.",
+      "words": ["Mikel", "Ni", "naiz"],
+      "answer": "Ni Mikel naiz"
+    },
+    {
+      "id": "u01_l02_e04",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Nola duzu izena?",
+      "answer": "¿Cómo te llamas?"
+    },
+    {
+      "id": "u01_l02_e05",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Nire ___ Gorka da.",
+      "translation": "Mi nombre es Gorka.",
+      "answer": "izena",
+      "hint": "nombre"
+    },
+    {
+      "id": "u01_l02_e06",
+      "type": "true_false",
+      "instruction": "¿Es correcta esta frase?",
+      "eu": "Ni Ane zara.",
+      "es": "Yo soy Ane.",
+      "answer": false,
+      "explanation": "Incorrecto. Con 'ni' (yo) el verbo es 'naiz', no 'zara'. La frase correcta es 'Ni Ane naiz'."
+    },
+    {
+      "id": "u01_l02_e07",
+      "type": "multiple_choice",
+      "instruction": "¿Qué significa 'Bera medikua da'?",
+      "answer": "Él/ella es médico",
+      "options": ["Él/ella es médico", "Yo soy médico", "Tú eres médico", "Somos médicos"]
+    },
+    {
+      "id": "u01_l02_e08",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "¿Cómo te llamas?",
+      "answer": "Nola duzu izena?"
+    },
+    {
+      "id": "u01_l02_e09",
+      "type": "order_words",
+      "instruction": "Ordena las palabras para formar la frase",
+      "translation": "Mi nombre es Leire.",
+      "words": ["da", "Nire", "izena", "Leire"],
+      "answer": "Nire izena Leire da"
+    },
+    {
+      "id": "u01_l02_e10",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'Encantado de conocerte'?",
+      "answer": "Pozten naiz zu ezagutzeaz",
+      "options": ["Pozten naiz zu ezagutzeaz", "Nola duzu izena?", "Ni Mikel naiz", "Kaixo, zer moduz?"]
+    }
+  ]
+}

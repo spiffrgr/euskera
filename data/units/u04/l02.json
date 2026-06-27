@@ -1,0 +1,98 @@
+{
+  "id": "u04_l02",
+  "title": "Gauzak deskribatu (Describir objetos)",
+  "objective": "Describir objetos con colores y adjetivos básicos",
+  "grammar_note": {
+    "title": "¿De qué color es? — Zer koloretakoa da?",
+    "body": "Para preguntar el color de algo:\n\n**Zer koloretakoa da?** → ¿De qué color es?\n**Nolakoa da?** → ¿Cómo es? / ¿Qué aspecto tiene?\n\nRespuesta: **Gorria da** / **Txikia da** (es rojo / es pequeño)\n\nAdjetivos útiles: txikia (pequeño), handia (grande), zaharra (viejo), berria (nuevo)",
+    "tip": "'Nolakoa da?' es una pregunta muy útil para describir cualquier cosa."
+  },
+  "slides": [
+    { "eu": "Zer koloretakoa da?", "es": "¿De qué color es?", "example_eu": "Zer koloretakoa da zure autoa? Zuria da.", "example_es": "¿De qué color es tu coche? Es blanco." },
+    { "eu": "Txikia / Handia", "es": "Pequeño / Grande", "example_eu": "Etxe txikia eta auto handia dut.", "example_es": "Tengo una casa pequeña y un coche grande." },
+    { "eu": "Zaharra / Berria", "es": "Viejo / Nuevo", "example_eu": "Telefono berria erosi dut.", "example_es": "He comprado un teléfono nuevo." }
+  ],
+  "exercises": [
+    {
+      "id": "u04_l02_e01",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Zer koloretakoa da?",
+      "answer": "¿De qué color es?"
+    },
+    {
+      "id": "u04_l02_e02",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'grande' en euskera?",
+      "answer": "handia",
+      "options": ["handia", "txikia", "zaharra", "berria"]
+    },
+    {
+      "id": "u04_l02_e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Nire etxea ___ da.",
+      "translation": "Mi casa es pequeña.",
+      "answer": "txikia",
+      "hint": "pequeño/a"
+    },
+    {
+      "id": "u04_l02_e04",
+      "type": "true_false",
+      "instruction": "¿Es correcta esta frase?",
+      "eu": "Auto gorri txikia dut.",
+      "es": "Tengo un coche rojo pequeño.",
+      "answer": true,
+      "explanation": "Correcto. Los adjetivos van después del sustantivo y se acumulan: auto gorri txikia."
+    },
+    {
+      "id": "u04_l02_e05",
+      "type": "match_pairs",
+      "instruction": "Une cada adjetivo con su opuesto",
+      "pairs": [
+        { "eu": "txikia", "es": "handia" },
+        { "eu": "zaharra", "es": "berria" },
+        { "eu": "gorria", "es": "berdea" },
+        { "eu": "beltza", "es": "zuria" }
+      ]
+    },
+    {
+      "id": "u04_l02_e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "¿De qué color es tu mochila?",
+      "answer": "Zer koloretakoa da zure motxila?"
+    },
+    {
+      "id": "u04_l02_e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "translation": "Tengo un teléfono nuevo y negro.",
+      "words": ["berria", "dut.", "telefono", "Telefono", "eta", "beltza", "berri"],
+      "answer": "Telefono berri eta beltza dut."
+    },
+    {
+      "id": "u04_l02_e08",
+      "type": "multiple_choice",
+      "instruction": "¿Qué significa 'Nolakoa da?'",
+      "answer": "¿Cómo es?",
+      "options": ["¿Cómo es?", "¿De qué color es?", "¿Cómo estás?", "¿Qué es?"]
+    },
+    {
+      "id": "u04_l02_e09",
+      "type": "grammar_select",
+      "instruction": "¿Qué adjetivo es correcto para describir algo nuevo?",
+      "sentence": "Nire liburua ___ da.",
+      "translation": "Mi libro es nuevo.",
+      "answer": "berria",
+      "options": ["berria", "zaharra", "txikia", "handia"]
+    },
+    {
+      "id": "u04_l02_e10",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "La mesa es grande y marrón.",
+      "answer": "Mahaia handia eta marroia da."
+    }
+  ]
+}

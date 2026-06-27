@@ -1,0 +1,6 @@
+{ "id": "u03", "title": "Nor naiz ni?", "emoji": "🙋", "lessons": [
+  { "id": "l01", "title": "Izena eta jatorria (Nombre y origen)", "type": "lesson" },
+  { "id": "l02", "title": "Lanbidea eta adina (Profesión y edad)", "type": "lesson" },
+  { "id": "l03", "title": "Aurkezpen osoa (Presentación completa)", "type": "lesson" },
+  { "id": "test", "title": "Test de la unidad", "type": "test" }
+]}

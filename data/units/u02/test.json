@@ -1,0 +1,101 @@
+{
+  "id": "u02_test",
+  "title": "Test de la Unidad 2: Zenbakiak",
+  "objective": "Demostrar que dominas los números del 1 al 100 y las expresiones de cantidad",
+  "type": "test",
+  "exercises": [
+    {
+      "id": "u02_test_e01",
+      "type": "translation_es_eu",
+      "instruction": "Escribe en euskera",
+      "es": "ocho",
+      "answer": "zortzi"
+    },
+    {
+      "id": "u02_test_e02",
+      "type": "translation_es_eu",
+      "instruction": "Escribe en euskera",
+      "es": "trece",
+      "answer": "hamahiru"
+    },
+    {
+      "id": "u02_test_e03",
+      "type": "translation_eu_es",
+      "instruction": "¿Qué número es este?",
+      "eu": "bederatzi",
+      "answer": "nueve"
+    },
+    {
+      "id": "u02_test_e04",
+      "type": "translation_eu_es",
+      "instruction": "¿Qué número es este?",
+      "eu": "hemeretzi",
+      "answer": "diecinueve"
+    },
+    {
+      "id": "u02_test_e05",
+      "type": "multiple_choice",
+      "instruction": "¿Cuánto es 'hogeita bost'?",
+      "answer": "25",
+      "options": ["25", "20", "15", "30"]
+    },
+    {
+      "id": "u02_test_e06",
+      "type": "true_false",
+      "instruction": "¿Es correcta esta traducción?",
+      "eu": "berrogei",
+      "es": "cuarenta",
+      "answer": true,
+      "explanation": "Correcto. 'Berrogei' = 40 (literalmente 2×20 en sistema vigesimal)."
+    },
+    {
+      "id": "u02_test_e07",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Zazpi, ___, bederatzi.",
+      "translation": "Siete, ocho, nueve.",
+      "answer": "zortzi",
+      "hint": "ocho"
+    },
+    {
+      "id": "u02_test_e08",
+      "type": "match_pairs",
+      "instruction": "Une cada número con su valor",
+      "pairs": [
+        { "eu": "hamaika", "es": "11" },
+        { "eu": "hamabost", "es": "15" },
+        { "eu": "hogei", "es": "20" },
+        { "eu": "ehun", "es": "100" }
+      ]
+    },
+    {
+      "id": "u02_test_e09",
+      "type": "translation_es_eu",
+      "instruction": "¿Cómo se pregunta el precio?",
+      "es": "¿Cuánto es?",
+      "answer": "Zenbat da?"
+    },
+    {
+      "id": "u02_test_e10",
+      "type": "order_words",
+      "instruction": "Ordena los números de menor a mayor",
+      "translation": "cuatro, nueve, doce, veinte",
+      "words": ["hogei", "hamabi", "lau", "bederatzi"],
+      "answer": "lau bederatzi hamabi hogei"
+    },
+    {
+      "id": "u02_test_e11",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice '50' en euskera?",
+      "answer": "berrogeita hamar",
+      "options": ["berrogeita hamar", "bostogei", "hogeita hamar", "berrogei hamar"]
+    },
+    {
+      "id": "u02_test_e12",
+      "type": "translation_eu_es",
+      "instruction": "Traduce la frase completa",
+      "eu": "Hogeita bi euro da.",
+      "answer": "Son veintidós euros."
+    }
+  ]
+}

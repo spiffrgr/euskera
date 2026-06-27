@@ -1,0 +1,98 @@
+{
+  "id": "u03_l02",
+  "title": "Lanbidea eta adina (Profesión y edad)",
+  "objective": "Hablar de tu profesión y decir la edad",
+  "grammar_note": {
+    "title": "La edad en euskera: UKAN (tener)",
+    "body": "En euskera la edad se expresa con el verbo **UKAN** (tener):\n\n**Zenbat urte dituzu?** → ¿Cuántos años tienes?\n**Hogeita bost urte ditut** → Tengo 25 años\n\nPara la profesión: **Zer zara lanez?** → ¿A qué te dedicas?\n**Irakaslea naiz** → Soy profesora/profesor",
+    "tip": "Los nombres de profesión suelen tomar el artículo '-a': mediku**a**, irakasl**ea**."
+  },
+  "slides": [
+    { "eu": "Zenbat urte dituzu?", "es": "¿Cuántos años tienes?", "example_eu": "Zenbat urte dituzu? Hogeita hamar urte ditut.", "example_es": "¿Cuántos años tienes? Tengo treinta años." },
+    { "eu": "Irakaslea naiz", "es": "Soy profesor/a", "example_eu": "Irakaslea naiz, matematikakoa.", "example_es": "Soy profesora, de matemáticas." },
+    { "eu": "Medikua naiz", "es": "Soy médico/a", "example_eu": "Medikua naiz eta ospitalean lan egiten dut.", "example_es": "Soy médica y trabajo en el hospital." }
+  ],
+  "exercises": [
+    {
+      "id": "u03_l02_e01",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Zenbat urte dituzu?",
+      "answer": "¿Cuántos años tienes?"
+    },
+    {
+      "id": "u03_l02_e02",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'Tengo 20 años' en euskera?",
+      "answer": "Hogei urte ditut",
+      "options": ["Hogei urte ditut", "Hogei urte naiz", "Hogei urteko naiz", "Hogei urtea dut"]
+    },
+    {
+      "id": "u03_l02_e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Hamasei ___ ditut.",
+      "translation": "Tengo dieciséis años.",
+      "answer": "urte",
+      "hint": "años"
+    },
+    {
+      "id": "u03_l02_e04",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Soy médico/a",
+      "answer": "Medikua naiz"
+    },
+    {
+      "id": "u03_l02_e05",
+      "type": "match_pairs",
+      "instruction": "Une cada profesión con su traducción",
+      "pairs": [
+        { "eu": "Irakaslea", "es": "Profesor/a" },
+        { "eu": "Medikua", "es": "Médico/a" },
+        { "eu": "Erizaina", "es": "Enfermero/a" },
+        { "eu": "Ikaslea", "es": "Estudiante" }
+      ]
+    },
+    {
+      "id": "u03_l02_e06",
+      "type": "true_false",
+      "instruction": "¿Es correcta esta frase?",
+      "eu": "Bost urte ditut.",
+      "es": "Tengo cinco años.",
+      "answer": true,
+      "explanation": "Correcto. 'Bost urte ditut' = tengo cinco años (ditut = tengo, verbo UKAN)."
+    },
+    {
+      "id": "u03_l02_e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras para formar la frase",
+      "translation": "Soy estudiante y tengo 18 años.",
+      "words": ["Ikaslea", "hemezortzi", "ditut.", "naiz", "eta", "urte"],
+      "answer": "Ikaslea naiz eta hemezortzi urte ditut."
+    },
+    {
+      "id": "u03_l02_e08",
+      "type": "grammar_select",
+      "instruction": "¿Qué verbo se usa para la edad?",
+      "sentence": "___ urte ditut.",
+      "translation": "Tengo ___ años.",
+      "answer": "ditut",
+      "options": ["ditut", "naiz", "nago", "dut"]
+    },
+    {
+      "id": "u03_l02_e09",
+      "type": "multiple_choice",
+      "instruction": "¿Qué significa 'Zer zara lanez?'",
+      "answer": "¿A qué te dedicas?",
+      "options": ["¿A qué te dedicas?", "¿Dónde trabajas?", "¿Cómo te llamas?", "¿Cuántos años tienes?"]
+    },
+    {
+      "id": "u03_l02_e10",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Soy estudiante",
+      "answer": "Ikaslea naiz"
+    }
+  ]
+}

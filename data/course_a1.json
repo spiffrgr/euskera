@@ -1,0 +1,19 @@
+{
+  "id": "a1",
+  "title": "Euskera A1",
+  "description": "Nivel principiante — del cero a la comunicación básica",
+  "units": [
+    { "id": "u01", "title": "Kaixo!", "description": "Saludos y primeras palabras", "emoji": "👋", "available": true },
+    { "id": "u02", "title": "Zenbakiak", "description": "Números del 1 al 20", "emoji": "🔢", "available": true },
+    { "id": "u03", "title": "Nor naiz ni?", "description": "Presentarte y hablar de ti", "emoji": "🙋", "available": true },
+    { "id": "u04", "title": "Koloreak", "description": "Colores y descripciones básicas", "emoji": "🎨", "available": true },
+    { "id": "u05", "title": "Familia", "description": "La familia y las relaciones", "emoji": "👨‍👩‍👧‍👦", "available": false },
+    { "id": "u06", "title": "Janaria", "description": "Comida, bebida y sabores", "emoji": "🍎", "available": false },
+    { "id": "u07", "title": "Aditzak I", "description": "Verbo IZAN: ser y estar", "emoji": "⚡", "available": false },
+    { "id": "u08", "title": "Aditzak II", "description": "EGON, JOAN, ETORRI", "emoji": "🚶", "available": false },
+    { "id": "u09", "title": "Denbora", "description": "Días, horas y rutina diaria", "emoji": "📅", "available": false },
+    { "id": "u10", "title": "Etxea", "description": "La casa y los objetos", "emoji": "🏠", "available": false },
+    { "id": "u11", "title": "Galderak", "description": "Hacer preguntas en euskera", "emoji": "❓", "available": false },
+    { "id": "u12", "title": "Gorputza", "description": "El cuerpo y la salud", "emoji": "🏥", "available": false }
+  ]
+}

@@ -1,0 +1,6 @@
+{ "id": "u02", "title": "Zenbakiak", "emoji": "🔢", "lessons": [
+  { "id": "l01", "title": "Números 1–10", "type": "lesson" },
+  { "id": "l02", "title": "Números 11–20", "type": "lesson" },
+  { "id": "l03", "title": "Zenbat da? (¿Cuánto es?)", "type": "lesson" },
+  { "id": "test", "title": "Test de la unidad", "type": "test" }
+]}

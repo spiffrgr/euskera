@@ -1,0 +1,98 @@
+{
+  "id": "u01_l03",
+  "title": "Nola zaude? (¿Cómo estás?)",
+  "objective": "Preguntar y responder sobre el estado de ánimo",
+  "grammar_note": {
+    "title": "EGON vs IZAN",
+    "body": "En euskera hay dos verbos 'ser/estar':\n\n**IZAN** → identidad permanente: Ni Mikel naiz (Yo soy Mikel)\n**EGON** → estado temporal: Ondo nago (Estoy bien)\n\nPara el estado de ánimo usamos EGON:\nnago = estoy / zaude = estás / dago = está",
+    "tip": "El verbo siempre al final: Ondo **nago**, ez **nago** ondo."
+  },
+  "slides": [
+    { "eu": "Ondo nago", "es": "Estoy bien", "example_eu": "Kaixo! Ondo nago, eskerrik asko.", "example_es": "¡Hola! Estoy bien, gracias." },
+    { "eu": "Nola zaude?", "es": "¿Cómo estás?", "example_eu": "Nola zaude gaur?", "example_es": "¿Cómo estás hoy?" },
+    { "eu": "Eskerrik asko", "es": "Gracias", "example_eu": "Eskerrik asko, eta zu?", "example_es": "Gracias, ¿y tú?" }
+  ],
+  "exercises": [
+    {
+      "id": "u01_l03_e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice '¿Cómo estás?' en euskera?",
+      "answer": "Nola zaude?",
+      "options": ["Nola zaude?", "Nor zara?", "Non zaude?", "Nola duzu izena?"]
+    },
+    {
+      "id": "u01_l03_e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Ondo nago, eskerrik asko.",
+      "answer": "Estoy bien, gracias."
+    },
+    {
+      "id": "u01_l03_e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Nola ___?",
+      "translation": "¿Cómo estás?",
+      "answer": "zaude",
+      "hint": "verbo estar (2ª persona)"
+    },
+    {
+      "id": "u01_l03_e04",
+      "type": "true_false",
+      "instruction": "¿Es correcta esta frase?",
+      "eu": "Ondo naiz.",
+      "es": "Estoy bien.",
+      "answer": false,
+      "explanation": "Para estados temporales usamos EGON, no IZAN. La frase correcta es 'Ondo nago'."
+    },
+    {
+      "id": "u01_l03_e05",
+      "type": "order_words",
+      "instruction": "Ordena las palabras para formar la frase",
+      "translation": "Estoy muy bien.",
+      "words": ["oso", "nago", "Ondo"],
+      "answer": "Ondo oso nago"
+    },
+    {
+      "id": "u01_l03_e06",
+      "type": "match_pairs",
+      "instruction": "Une cada expresión con su traducción",
+      "pairs": [
+        { "eu": "Ondo nago", "es": "Estoy bien" },
+        { "eu": "Gaizki nago", "es": "Estoy mal" },
+        { "eu": "Nola zaude?", "es": "¿Cómo estás?" },
+        { "eu": "Eskerrik asko", "es": "Gracias" }
+      ]
+    },
+    {
+      "id": "u01_l03_e07",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Gracias, ¿y tú?",
+      "answer": "Eskerrik asko, eta zu?"
+    },
+    {
+      "id": "u01_l03_e08",
+      "type": "grammar_select",
+      "instruction": "Elige el verbo correcto para un estado temporal",
+      "sentence": "Nekatuta ___ gaur.",
+      "translation": "Estoy cansado/a hoy.",
+      "answer": "nago",
+      "options": ["nago", "naiz", "da", "zara"]
+    },
+    {
+      "id": "u01_l03_e09",
+      "type": "multiple_choice",
+      "instruction": "Alguien te dice 'Eskerrik asko'. ¿Qué respondes?",
+      "answer": "Ez horregatik",
+      "options": ["Ez horregatik", "Agur", "Ondo nago", "Gabon"]
+    },
+    {
+      "id": "u01_l03_e10",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Estoy bien, gracias.",
+      "answer": "Ondo nago, eskerrik asko."
+    }
+  ]
+}

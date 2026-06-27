@@ -1,0 +1,106 @@
+{
+  "id": "u01_test",
+  "title": "Test de la Unidad 1: Kaixo!",
+  "objective": "Demostrar que dominas los saludos, presentaciones y estados de ánimo básicos",
+  "type": "test",
+  "exercises": [
+    {
+      "id": "u01_test_e01",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Buenos días",
+      "answer": "Egun on"
+    },
+    {
+      "id": "u01_test_e02",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Buenas noches",
+      "answer": "Gabon"
+    },
+    {
+      "id": "u01_test_e03",
+      "type": "grammar_select",
+      "instruction": "Elige la forma correcta del verbo",
+      "sentence": "Ni Amaia ___.",
+      "translation": "Yo soy Amaia.",
+      "answer": "naiz",
+      "options": ["naiz", "zara", "da", "gara"]
+    },
+    {
+      "id": "u01_test_e04",
+      "type": "order_words",
+      "instruction": "Ordena las palabras para formar la frase",
+      "translation": "Mi nombre es Jon.",
+      "words": ["Jon", "Nire", "da", "izena"],
+      "answer": "Nire izena Jon da"
+    },
+    {
+      "id": "u01_test_e05",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Nola zaude?",
+      "answer": "¿Cómo estás?"
+    },
+    {
+      "id": "u01_test_e06",
+      "type": "multiple_choice",
+      "instruction": "¿Qué verbo usas para decir que ESTÁS bien (estado temporal)?",
+      "answer": "nago (EGON)",
+      "options": ["nago (EGON)", "naiz (IZAN)", "da (IZAN)", "dago (EGON)"]
+    },
+    {
+      "id": "u01_test_e07",
+      "type": "true_false",
+      "instruction": "¿Es correcta esta frase?",
+      "eu": "Ni Ane naiz. Pozten naiz.",
+      "es": "Yo soy Ane. Encantada.",
+      "answer": true,
+      "explanation": "Correcto. 'Ni Ane naiz' (yo soy Ane) + 'Pozten naiz' (encantada)."
+    },
+    {
+      "id": "u01_test_e08",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Ondo ___, eskerrik asko.",
+      "translation": "Estoy bien, gracias.",
+      "answer": "nago",
+      "hint": "verbo EGON, 1ª persona"
+    },
+    {
+      "id": "u01_test_e09",
+      "type": "match_pairs",
+      "instruction": "Une cada expresión con su traducción",
+      "pairs": [
+        { "eu": "Aupa", "es": "Hola (coloquial)" },
+        { "eu": "Arratsalde on", "es": "Buenas tardes" },
+        { "eu": "Agur", "es": "Adiós" },
+        { "eu": "Ez horregatik", "es": "De nada" }
+      ]
+    },
+    {
+      "id": "u01_test_e10",
+      "type": "translation_es_eu",
+      "instruction": "Traduce toda la frase al euskera",
+      "es": "Hola, soy Mikel. ¿Cómo estás?",
+      "answer": "Kaixo, ni Mikel naiz. Nola zaude?"
+    },
+    {
+      "id": "u01_test_e11",
+      "type": "grammar_select",
+      "instruction": "¿Cuál es correcto?",
+      "sentence": "___ nekatuta.",
+      "translation": "Estoy cansado/a.",
+      "answer": "Nago",
+      "options": ["Nago", "Naiz", "Zara", "Da"]
+    },
+    {
+      "id": "u01_test_e12",
+      "type": "order_words",
+      "instruction": "Ordena las palabras para formar la frase",
+      "translation": "¡Adiós, hasta mañana!",
+      "words": ["arte!", "Agur,", "bihar"],
+      "answer": "Agur, bihar arte!"
+    }
+  ]
+}

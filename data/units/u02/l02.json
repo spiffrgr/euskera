@@ -1,0 +1,98 @@
+{
+  "id": "u02_l02",
+  "title": "Números 11–20",
+  "objective": "Contar del 11 al 20 en euskera",
+  "grammar_note": {
+    "title": "Cómo se forman los números del 11 al 19",
+    "body": "Del 11 al 19 se forma con **hamaika...** o con **hamar + eta + número**:\n\n11=hamaika / 12=hamabi / 13=hamahiru / 14=hamalau\n15=hamabost / 16=hamasei / 17=hamazazpi / 18=hemezortzi\n19=hemeretzi / 20=hogei",
+    "tip": "Nota: '18' y '19' son irregulares: hemezortzi y hemeretzi (no 'hama-')."
+  },
+  "slides": [
+    { "eu": "Hamaika, hamabi, hamahiru", "es": "Once, doce, trece", "example_eu": "Hamabiko taldea dugu.", "example_es": "Tenemos un equipo de doce." },
+    { "eu": "Hamalau, hamabost, hamasei", "es": "Catorce, quince, dieciséis", "example_eu": "Hamabost urte ditut.", "example_es": "Tengo quince años." },
+    { "eu": "Hamazazpi, hemezortzi, hemeretzi, hogei", "es": "Diecisiete, dieciocho, diecinueve, veinte", "example_eu": "Hogei lagun etorri dira.", "example_es": "Han venido veinte personas." }
+  ],
+  "exercises": [
+    {
+      "id": "u02_l02_e01",
+      "type": "translation_eu_es",
+      "instruction": "¿Qué número es este?",
+      "eu": "hamabost",
+      "answer": "quince"
+    },
+    {
+      "id": "u02_l02_e02",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice '20' en euskera?",
+      "answer": "hogei",
+      "options": ["hogei", "hamar", "hamaika", "hemezortzi"]
+    },
+    {
+      "id": "u02_l02_e03",
+      "type": "true_false",
+      "instruction": "¿Es correcta esta traducción?",
+      "eu": "hamahiru",
+      "es": "trece",
+      "answer": true,
+      "explanation": "Correcto. 'Hamahiru' significa trece (10+3)."
+    },
+    {
+      "id": "u02_l02_e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Hamasei, ___, hemezortzi.",
+      "translation": "Dieciséis, diecisiete, dieciocho.",
+      "answer": "hamazazpi",
+      "hint": "diecisiete"
+    },
+    {
+      "id": "u02_l02_e05",
+      "type": "match_pairs",
+      "instruction": "Une cada número con su traducción",
+      "pairs": [
+        { "eu": "hamaika", "es": "once" },
+        { "eu": "hamalau", "es": "catorce" },
+        { "eu": "hemeretzi", "es": "diecinueve" },
+        { "eu": "hogei", "es": "veinte" }
+      ]
+    },
+    {
+      "id": "u02_l02_e06",
+      "type": "translation_es_eu",
+      "instruction": "Escribe en euskera",
+      "es": "dieciocho",
+      "answer": "hemezortzi"
+    },
+    {
+      "id": "u02_l02_e07",
+      "type": "multiple_choice",
+      "instruction": "¿Cuántos años tiene alguien que dice 'Hamabost urte ditut'?",
+      "answer": "15",
+      "options": ["15", "16", "14", "20"]
+    },
+    {
+      "id": "u02_l02_e08",
+      "type": "true_false",
+      "instruction": "¿Es correcta esta traducción?",
+      "eu": "hemezortzi",
+      "es": "dieciséis",
+      "answer": false,
+      "explanation": "'Hemezortzi' significa dieciocho (18). Dieciséis es 'hamasei'."
+    },
+    {
+      "id": "u02_l02_e09",
+      "type": "order_words",
+      "instruction": "Ordena los números del menor al mayor",
+      "translation": "once, trece, quince, veinte",
+      "words": ["hogei", "hamaika", "hamabost", "hamahiru"],
+      "answer": "hamaika hamahiru hamabost hogei"
+    },
+    {
+      "id": "u02_l02_e10",
+      "type": "translation_es_eu",
+      "instruction": "Escribe en euskera",
+      "es": "doce",
+      "answer": "hamabi"
+    }
+  ]
+}

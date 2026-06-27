@@ -1,0 +1,105 @@
+{
+  "id": "u03_test",
+  "title": "Test de la Unidad 3: Nor naiz ni?",
+  "objective": "Demostrar que puedes hacer una presentación completa en euskera",
+  "type": "test",
+  "exercises": [
+    {
+      "id": "u03_test_e01",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "¿De dónde eres?",
+      "answer": "Nongoa zara?"
+    },
+    {
+      "id": "u03_test_e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Zenbat urte dituzu?",
+      "answer": "¿Cuántos años tienes?"
+    },
+    {
+      "id": "u03_test_e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Ni Donostia___ naiz.",
+      "translation": "Soy de San Sebastián.",
+      "answer": "koa",
+      "hint": "sufijo de origen"
+    },
+    {
+      "id": "u03_test_e04",
+      "type": "grammar_select",
+      "instruction": "¿Qué verbo se usa para la edad?",
+      "sentence": "Hogei urte ___.",
+      "translation": "Tengo 20 años.",
+      "answer": "ditut",
+      "options": ["ditut", "naiz", "nago", "dut"]
+    },
+    {
+      "id": "u03_test_e05",
+      "type": "match_pairs",
+      "instruction": "Une cada profesión con su traducción",
+      "pairs": [
+        { "eu": "Irakaslea", "es": "Profesor/a" },
+        { "eu": "Medikua", "es": "Médico/a" },
+        { "eu": "Ikaslea", "es": "Estudiante" },
+        { "eu": "Erizaina", "es": "Enfermero/a" }
+      ]
+    },
+    {
+      "id": "u03_test_e06",
+      "type": "order_words",
+      "instruction": "Ordena la presentación",
+      "translation": "Hola, soy Mikel y tengo quince años.",
+      "words": ["urte", "eta", "Kaixo,", "ditut.", "ni", "Mikel", "hamabost", "naiz"],
+      "answer": "Kaixo, ni Mikel naiz eta hamabost urte ditut."
+    },
+    {
+      "id": "u03_test_e07",
+      "type": "true_false",
+      "instruction": "¿Es correcta esta frase?",
+      "eu": "Bilbon bizi naiz.",
+      "es": "Vivo en Bilbao.",
+      "answer": true,
+      "explanation": "Correcto. 'Bilbon' = en Bilbao (caso locativo), 'bizi naiz' = vivo."
+    },
+    {
+      "id": "u03_test_e08",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Soy estudiante",
+      "answer": "Ikaslea naiz"
+    },
+    {
+      "id": "u03_test_e09",
+      "type": "multiple_choice",
+      "instruction": "¿Qué significa 'Pozten naiz zu ezagutzeaz'?",
+      "answer": "Encantado/a de conocerte",
+      "options": ["Encantado/a de conocerte", "Estoy muy bien", "Soy de aquí", "Tengo veinte años"]
+    },
+    {
+      "id": "u03_test_e10",
+      "type": "translation_eu_es",
+      "instruction": "Traduce la presentación completa",
+      "eu": "Ni Ane naiz. Gasteizekoa naiz. Irakaslea naiz eta hogeita bi urte ditut.",
+      "answer": "Soy Ane. Soy de Vitoria. Soy profesora y tengo veintidós años."
+    },
+    {
+      "id": "u03_test_e11",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Non ___ zara?",
+      "translation": "¿Dónde vives?",
+      "answer": "bizi",
+      "hint": "vivir"
+    },
+    {
+      "id": "u03_test_e12",
+      "type": "translation_es_eu",
+      "instruction": "Escribe la presentación completa",
+      "es": "Hola, soy Jon. Soy de Bilbao. Soy médico y tengo treinta años.",
+      "answer": "Kaixo, ni Jon naiz. Bilbokoa naiz. Medikua naiz eta hogeita hamar urte ditut."
+    }
+  ]
+}

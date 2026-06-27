@@ -1,0 +1,105 @@
+{
+  "id": "u04_test",
+  "title": "Test de la Unidad 4: Koloreak",
+  "objective": "Demostrar que puedes describir objetos y personas usando colores y adjetivos",
+  "type": "test",
+  "exercises": [
+    {
+      "id": "u04_test_e01",
+      "type": "translation_es_eu",
+      "instruction": "Escribe en euskera",
+      "es": "rojo",
+      "answer": "gorria"
+    },
+    {
+      "id": "u04_test_e02",
+      "type": "translation_eu_es",
+      "instruction": "¿Qué color es este?",
+      "eu": "berdea",
+      "answer": "verde"
+    },
+    {
+      "id": "u04_test_e03",
+      "type": "grammar_select",
+      "instruction": "¿Dónde va el adjetivo?",
+      "sentence": "Liburua ___ da.",
+      "translation": "El libro es azul.",
+      "answer": "urdina",
+      "options": ["urdina liburu", "urdina", "urdin liburua", "liburua urdin"]
+    },
+    {
+      "id": "u04_test_e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Zer ___ da zure motxila?",
+      "translation": "¿De qué color es tu mochila?",
+      "answer": "koloretakoa",
+      "hint": "de qué color"
+    },
+    {
+      "id": "u04_test_e05",
+      "type": "true_false",
+      "instruction": "¿Es correcta esta frase?",
+      "eu": "Ilea luzea du.",
+      "es": "Tiene el pelo largo.",
+      "answer": true,
+      "explanation": "Correcto. Para tener algo (pelo largo) se usa 'du' (tiene)."
+    },
+    {
+      "id": "u04_test_e06",
+      "type": "match_pairs",
+      "instruction": "Une cada adjetivo con su traducción",
+      "pairs": [
+        { "eu": "handia", "es": "grande" },
+        { "eu": "berria", "es": "nuevo/a" },
+        { "eu": "gaztea", "es": "joven" },
+        { "eu": "zaharra", "es": "viejo/a" }
+      ]
+    },
+    {
+      "id": "u04_test_e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "translation": "Mi amiga es alta y tiene el pelo rubio.",
+      "words": ["du.", "eta", "da", "ilea", "altua", "horia", "Nire", "laguna"],
+      "answer": "Nire laguna altua da eta ilea horia du."
+    },
+    {
+      "id": "u04_test_e08",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "El cielo es azul y grande.",
+      "answer": "Zerua urdina eta handia da."
+    },
+    {
+      "id": "u04_test_e09",
+      "type": "multiple_choice",
+      "instruction": "¿Qué significa 'Nolakoa da'?",
+      "answer": "¿Cómo es?",
+      "options": ["¿Cómo es?", "¿De qué color es?", "¿Cómo estás?", "¿Dónde está?"]
+    },
+    {
+      "id": "u04_test_e10",
+      "type": "translation_eu_es",
+      "instruction": "Traduce la descripción",
+      "eu": "Auto gorri handia eta zaharra dut.",
+      "answer": "Tengo un coche rojo, grande y viejo."
+    },
+    {
+      "id": "u04_test_e11",
+      "type": "true_false",
+      "instruction": "¿Es correcta esta frase?",
+      "eu": "Nire laguna altua da eta ilea beltza da.",
+      "es": "Mi amigo/a es alto/a y tiene el pelo negro.",
+      "answer": false,
+      "explanation": "Para el pelo se usa 'du' (tiene), no 'da' (es). Correcto: '...ilea beltza du'."
+    },
+    {
+      "id": "u04_test_e12",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "La hierba es verde y el cielo es azul.",
+      "answer": "Belarra berdea da eta zerua urdina da."
+    }
+  ]
+}

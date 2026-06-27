@@ -1,207 +1,310 @@
 const App = (() => {
-  let topics = [];
-  let progressMap = {};
-  let currentSession = [];
-  let currentIndex = 0;
-  let sessionCorrect = 0;
-  let sessionWrong = 0;
-  let currentTopic = null;
-  let srsMap = {};
+  // ---- State ----
+  let course = null;
+  let currentUnit = null;       // full unit meta (with .lessons array)
+  let currentLessonId = null;   // lesson id from meta (e.g. 'l01', 'test')
+  let currentLesson = null;     // full lesson data (slides + exercises)
+  let allSlides = [];
+  let slideIndex = 0;
+  let currentExercises = [];
+  let exerciseIndex = 0;
+  let sessionStats = { correct: 0, wrong: 0 };
+  let lessonProgressMap = {};
+  let streakDays = 0;
+
+  // ---- Boot ----
 
   async function init() {
     UI.show('screen-loading');
 
-    const hasConfig = !!FB.getStoredConfig();
-    if (!hasConfig) {
-      setupFirebaseScreen();
-      return;
-    }
+    if (!FB.getStoredConfig()) { setupFirebase(); return; }
 
     const ok = await FB.init();
-    if (!ok) {
-      setupFirebaseScreen();
-      return;
-    }
+    if (!ok) { setupFirebase(); return; }
 
-    await loadHome();
+    await showHome();
   }
 
-  function setupFirebaseScreen() {
+  function setupFirebase() {
     UI.show('screen-firebase-setup');
-
     document.getElementById('btn-save-firebase').addEventListener('click', async () => {
       const raw = document.getElementById('firebase-config-input').value.trim();
       let cfg;
-      try {
-        cfg = JSON.parse(raw);
-      } catch {
-        alert('El JSON no es válido. Comprueba que has copiado la configuración completa.');
+      try { cfg = JSON.parse(raw); } catch {
+        alert('El JSON no es válido.');
         return;
       }
       FB.saveConfig(cfg);
       UI.show('screen-loading');
       const ok = await FB.init();
-      if (!ok) {
-        alert('No se pudo conectar a Firebase. Revisa la configuración.');
-        UI.show('screen-firebase-setup');
-        return;
-      }
-      await loadHome();
+      if (!ok) { alert('No se pudo conectar. Revisa la configuración.'); UI.show('screen-firebase-setup'); return; }
+      await showHome();
     });
   }
 
-  async function loadHome() {
-    topics = await Exercises.loadTopics();
+  // ---- Home (unit map) ----
 
-    const allProgress = await Promise.all(
-      topics.map(t => FB.getProgress(t.id).then(p => [t.id, p]))
-    );
-    progressMap = Object.fromEntries(allProgress);
-
-    applyUnlockLogic();
+  async function showHome() {
+    course = await Course.load();
 
     const streak = await FB.getStreak();
-    UI.setStreak(streak.days);
+    streakDays = streak.days;
+    UI.setStreak(streakDays);
 
-    UI.renderTopics(topics, progressMap, onTopicClick);
+    // Load progress for all known lessons
+    const keys = [];
+    course.units.forEach(u => {
+      ['l01','l02','l03','test'].forEach(lid => keys.push(`${u.id}_${lid}`));
+    });
+    const entries = await Promise.all(keys.map(k => FB.getProgress(k).then(p => [k, p])));
+    lessonProgressMap = Object.fromEntries(entries);
+
+    UI.renderUnitMap(course, lessonProgressMap, onUnitClick);
     UI.show('screen-home');
   }
 
-  function applyUnlockLogic() {
-    topics[0].unlocked = true;
-    for (let i = 1; i < topics.length; i++) {
-      const prev = topics[i - 1];
-      const prevProg = progressMap[prev.id] || { completed: 0, total: 31 };
-      const prevDone = prevProg.completed >= Math.min(8, prevProg.total || 8);
-      topics[i].unlocked = prevDone;
+  async function onUnitClick(unit) {
+    currentUnit = await Course.loadUnit(unit.id);
+    UI.renderLessonList(currentUnit, lessonProgressMap, onLessonClick);
+    UI.show('screen-unit');
+  }
+
+  // ---- Lesson list → Lesson slides ----
+
+  async function onLessonClick(lesson) {
+    currentLessonId = lesson.id;
+    const data = await Course.loadLesson(currentUnit.id, lesson.id);
+    currentLesson = data;
+    currentExercises = data.exercises || [];
+    exerciseIndex = 0;
+    sessionStats = { correct: 0, wrong: 0 };
+
+    // Build slide list: optional grammar note + vocab slides
+    allSlides = [];
+    if (data.grammar_note) {
+      allSlides.push({ type: 'grammar', ...data.grammar_note });
+    }
+    (data.slides || []).forEach(s => allSlides.push({ type: 'vocab', ...s }));
+
+    slideIndex = 0;
+    if (allSlides.length > 0) {
+      UI.renderLessonSlide(allSlides[0], 0, allSlides.length, data.title);
+      UI.show('screen-lesson');
+    } else {
+      startSession();
     }
   }
 
-  let lessonSlides = [];
-  let lessonIndex = 0;
-
-  async function onTopicClick(topic) {
-    if (!topic.unlocked) return;
-    currentTopic = topic;
-
-    srsMap = await FB.getAllSRSForTopic(topic.id);
-    currentSession = await Exercises.buildSession(topic.id, srsMap, 8);
-    currentIndex = 0;
-    sessionCorrect = 0;
-    sessionWrong = 0;
-
-    await startLesson();
+  function nextSlide() {
+    slideIndex++;
+    if (slideIndex >= allSlides.length) {
+      startSession();
+    } else {
+      UI.renderLessonSlide(allSlides[slideIndex], slideIndex, allSlides.length, currentLesson.title);
+    }
   }
 
-  async function startLesson() {
-    const allItems = await Exercises.loadTopic(currentTopic.id);
-    const sorted = SRS.sortByPriority(allItems, srsMap);
-    lessonSlides = sorted.slice(0, 3);
-    lessonIndex = 0;
+  // ---- Session ----
 
-    UI.renderLessonSlide(lessonSlides[0], 0, lessonSlides.length, currentTopic.title);
-    UI.show('screen-lesson');
+  function startSession() {
+    UI.setSessionTitle(currentLesson.title);
+    UI.show('screen-session');
+    renderCurrentExercise();
   }
 
   function renderCurrentExercise() {
-    if (currentIndex >= currentSession.length) {
+    if (exerciseIndex >= currentExercises.length) {
       endSession();
       return;
     }
-    const exercise = currentSession[currentIndex];
-    UI.renderExercise(exercise, currentIndex, currentSession.length);
+    const exercise = currentExercises[exerciseIndex];
+    UI.renderExercise(exercise, exerciseIndex, currentExercises.length);
     bindAnswerEvents(exercise);
   }
 
   function bindAnswerEvents(exercise) {
     const answerArea = document.getElementById('answer-area');
 
-    if (exercise.inputMode === 'choice') {
+    if (exercise.type === 'multiple_choice' || exercise.type === 'grammar_select') {
       answerArea.querySelectorAll('.choice-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-          handleAnswer(exercise, btn.dataset.value);
-        });
+        btn.addEventListener('click', () => handleAnswer(exercise, btn.dataset.value));
       });
+
+    } else if (exercise.type === 'true_false') {
+      answerArea.querySelectorAll('.tf-btn').forEach(btn => {
+        btn.addEventListener('click', () => handleAnswer(exercise, btn.dataset.value));
+      });
+
+    } else if (exercise.type === 'order_words') {
+      setupOrderWords(exercise, answerArea);
+
+    } else if (exercise.type === 'match_pairs') {
+      setupMatchPairs(exercise, answerArea);
+
     } else {
+      // text input: translation_*, fill_blank
       const submitBtn = answerArea.querySelector('.btn-submit');
       const input = answerArea.querySelector('.answer-input');
       if (submitBtn) {
-        submitBtn.addEventListener('click', () => {
-          const val = input ? input.value : '';
-          handleAnswer(exercise, val);
+        submitBtn.addEventListener('click', () => handleAnswer(exercise, input?.value || ''));
+      }
+      if (input) {
+        input.addEventListener('keydown', e => {
+          if (e.key === 'Enter') answerArea.querySelector('.btn-submit')?.click();
         });
       }
     }
   }
 
-  async function handleAnswer(exercise, userAnswer) {
+  function setupOrderWords(exercise, answerArea) {
+    const bankEl = document.getElementById('order-bank');
+    const answerEl = document.getElementById('order-answer');
+    const submitBtn = answerArea.querySelector('.btn-submit');
+    const totalWords = exercise.words.length;
+
+    function countAnswerWords() {
+      return answerEl.querySelectorAll('.word-tile').length;
+    }
+
+    function refreshSubmit() {
+      submitBtn.disabled = countAnswerWords() !== totalWords;
+      answerEl.classList.toggle('has-words', countAnswerWords() > 0);
+    }
+
+    bankEl.addEventListener('click', e => {
+      const tile = e.target.closest('.word-tile');
+      if (!tile) return;
+      const word = tile.dataset.word;
+      tile.remove();
+      const newTile = document.createElement('button');
+      newTile.className = 'word-tile';
+      newTile.dataset.word = word;
+      newTile.textContent = word;
+      answerEl.appendChild(newTile);
+      refreshSubmit();
+    });
+
+    answerEl.addEventListener('click', e => {
+      const tile = e.target.closest('.word-tile');
+      if (!tile) return;
+      const word = tile.dataset.word;
+      tile.remove();
+      const newTile = document.createElement('button');
+      newTile.className = 'word-tile';
+      newTile.dataset.word = word;
+      newTile.textContent = word;
+      bankEl.appendChild(newTile);
+      refreshSubmit();
+    });
+
+    submitBtn.addEventListener('click', () => {
+      const assembled = [...answerEl.querySelectorAll('.word-tile')].map(t => t.dataset.word).join(' ');
+      handleAnswer(exercise, assembled);
+    });
+  }
+
+  function setupMatchPairs(exercise, answerArea) {
+    let selectedLeftBtn = null;
+    let matchedPairs = [];
+    const totalPairs = exercise.pairs.length;
+
+    answerArea.addEventListener('click', e => {
+      const btn = e.target.closest('.match-btn');
+      if (!btn || btn.disabled) return;
+
+      if (btn.dataset.side === 'eu') {
+        if (selectedLeftBtn) selectedLeftBtn.classList.remove('selected');
+        selectedLeftBtn = (selectedLeftBtn === btn) ? null : btn;
+        if (selectedLeftBtn) selectedLeftBtn.classList.add('selected');
+        return;
+      }
+
+      if (!selectedLeftBtn) return;
+
+      const euVal = selectedLeftBtn.dataset.value;
+      const esVal = btn.dataset.value;
+      const isPair = exercise.pairs.some(p => p.eu === euVal && p.es === esVal);
+
+      if (isPair) {
+        selectedLeftBtn.classList.remove('selected');
+        selectedLeftBtn.classList.add('correct');
+        selectedLeftBtn.disabled = true;
+        btn.classList.add('correct');
+        btn.disabled = true;
+        matchedPairs.push({ eu: euVal, es: esVal });
+        selectedLeftBtn = null;
+        // Auto-submit when all pairs matched correctly
+        if (matchedPairs.length === totalPairs) {
+          handleAnswer(exercise, matchedPairs);
+        }
+      } else {
+        const leftRef = selectedLeftBtn;
+        leftRef.classList.remove('selected');
+        leftRef.classList.add('wrong-flash');
+        btn.classList.add('wrong-flash');
+        selectedLeftBtn = null;
+        setTimeout(() => {
+          leftRef.classList.remove('wrong-flash');
+          btn.classList.remove('wrong-flash');
+        }, 600);
+      }
+    });
+  }
+
+  function handleAnswer(exercise, userAnswer) {
     const isCorrect = Exercises.checkAnswer(exercise, userAnswer);
 
-    if (isCorrect) sessionCorrect++;
-    else sessionWrong++;
+    if (isCorrect) sessionStats.correct++;
+    else sessionStats.wrong++;
 
     UI.showFeedback(isCorrect, exercise);
-
-    const itemId = `${currentTopic.id}_${exercise.itemId}`;
-    const existing = srsMap[itemId] || SRS.defaultItem(currentTopic.id, exercise.itemId);
-    const updated = SRS.update(existing, isCorrect);
-    srsMap[itemId] = updated;
-    FB.setSRSItem(itemId, updated);
   }
 
   async function endSession() {
     const newStreak = await FB.updateStreak();
+    streakDays = newStreak;
 
-    const topicItems = await Exercises.loadTopic(currentTopic.id);
-    await FB.setProgress(currentTopic.id, {
-      completed: Math.min(topicItems.length, (progressMap[currentTopic.id]?.completed || 0) + sessionCorrect),
-      total: topicItems.length,
-    });
+    // Mark lesson as completed
+    const key = `${currentUnit.id}_${currentLessonId}`;
+    await FB.setProgress(key, { completed: true });
+    lessonProgressMap[key] = { completed: true };
 
-    UI.renderSummary(sessionCorrect, sessionWrong, newStreak);
+    UI.renderSummary(sessionStats.correct, sessionStats.wrong, newStreak);
     UI.show('screen-summary');
   }
 
-  function startSession() {
-    UI.setSessionTitle(currentTopic.title);
-    UI.show('screen-session');
-    renderCurrentExercise();
-  }
+  // ---- Global event bindings ----
 
   function bindGlobalEvents() {
-    // lesson navigation
-    document.getElementById('btn-lesson-next').addEventListener('click', () => {
-      lessonIndex++;
-      if (lessonIndex >= lessonSlides.length) {
-        startSession();
-      } else {
-        UI.renderLessonSlide(lessonSlides[lessonIndex], lessonIndex, lessonSlides.length, currentTopic.title);
-      }
-    });
-
-    document.getElementById('btn-lesson-skip').addEventListener('click', () => {
-      startSession();
-    });
-
+    // Lesson slides
+    document.getElementById('btn-lesson-next').addEventListener('click', nextSlide);
+    document.getElementById('btn-lesson-skip').addEventListener('click', startSession);
     document.getElementById('btn-lesson-back').addEventListener('click', () => {
-      loadHome();
+      UI.renderLessonList(currentUnit, lessonProgressMap, onLessonClick);
+      UI.show('screen-unit');
     });
 
-    // session navigation
+    // Session
     document.getElementById('btn-next').addEventListener('click', () => {
-      currentIndex++;
+      exerciseIndex++;
       renderCurrentExercise();
     });
-
     document.getElementById('btn-back').addEventListener('click', () => {
-      if (confirm('¿Salir de la sesión? Se perderá el progreso de esta sesión.')) {
-        UI.show('screen-home');
+      if (confirm('¿Salir de la sesión? Se perderá el progreso.')) {
+        UI.renderLessonList(currentUnit, lessonProgressMap, onLessonClick);
+        UI.show('screen-unit');
       }
     });
 
-    document.getElementById('btn-home').addEventListener('click', async () => {
-      await loadHome();
+    // Summary
+    document.getElementById('btn-continue-unit').addEventListener('click', () => {
+      UI.renderLessonList(currentUnit, lessonProgressMap, onLessonClick);
+      UI.show('screen-unit');
     });
+    document.getElementById('btn-home').addEventListener('click', showHome);
+
+    // Unit screen
+    document.getElementById('btn-unit-back').addEventListener('click', showHome);
   }
 
   return {

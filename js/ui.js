@@ -8,44 +8,126 @@ const UI = (() => {
     }
   }
 
-  function renderTopics(topics, progressMap, onClickFn) {
-    const a1Grid = document.getElementById('topics-a1');
-    const a2Grid = document.getElementById('topics-a2');
-    a1Grid.innerHTML = '';
-    a2Grid.innerHTML = '';
+  function setStreak(days) {
+    const el = document.getElementById('streak-count');
+    if (el) el.textContent = days;
+  }
 
-    topics.forEach(topic => {
-      const prog = progressMap[topic.id] || { completed: 0, total: 31 };
-      const pct = prog.total > 0 ? Math.round((prog.completed / prog.total) * 100) : 0;
-      const isLocked = !topic.unlocked;
+  // ---- Unit map (home) ----
+
+  function renderUnitMap(course, lessonProgressMap, onUnitClick) {
+    const container = document.getElementById('unit-map');
+    container.innerHTML = '';
+
+    course.units.forEach(unit => {
+      const lessonIds = ['l01', 'l02', 'l03', 'test'];
+      const total = lessonIds.length;
+      const completed = lessonIds.filter(lid => lessonProgressMap[`${unit.id}_${lid}`]?.completed).length;
+      const pct = Math.round((completed / total) * 100);
+      const isLocked = !unit.available;
+      const isDone = completed === total;
 
       const card = document.createElement('div');
-      card.className = 'topic-card' + (isLocked ? ' locked' : '');
+      card.className = 'topic-card' + (isLocked ? ' locked' : '') + (isDone ? ' done' : '');
       card.innerHTML = `
-        <span class="topic-emoji">${topic.emoji}</span>
+        <span class="topic-emoji">${unit.emoji}</span>
         <div class="topic-info">
-          <div class="topic-name">${topic.title}</div>
-          <div class="topic-desc">${topic.description || ''}</div>
+          <div class="topic-name">${escHtml(unit.title)}</div>
+          <div class="topic-desc">${completed}/${total} lecciones</div>
         </div>
         <div class="topic-progress">
-          <div class="topic-progress-pct">${pct}%</div>
+          <div class="topic-progress-pct">${isDone ? '✓' : pct + '%'}</div>
           <div class="topic-progress-bar"><div class="topic-progress-fill" style="width:${pct}%"></div></div>
         </div>
         ${isLocked ? '<span class="topic-lock">🔒</span>' : ''}
       `;
 
       if (!isLocked) {
-        card.addEventListener('click', () => onClickFn(topic));
+        card.addEventListener('click', () => onUnitClick(unit));
       }
-
-      const grid = topic.level === 'A1' ? a1Grid : a2Grid;
-      grid.appendChild(card);
+      container.appendChild(card);
     });
   }
 
-  function setStreak(days) {
-    const el = document.getElementById('streak-count');
-    if (el) el.textContent = days;
+  // ---- Lesson list (unit screen) ----
+
+  function renderLessonList(unit, lessonProgressMap, onLessonClick) {
+    document.getElementById('unit-screen-title').textContent = unit.title;
+    document.getElementById('unit-screen-emoji').textContent = unit.emoji;
+
+    const container = document.getElementById('lesson-list-container');
+    container.innerHTML = '';
+
+    unit.lessons.forEach((lesson, idx) => {
+      const key = `${unit.id}_${lesson.id}`;
+      const isDone = lessonProgressMap[key]?.completed === true;
+      const isTest = lesson.type === 'test';
+
+      const item = document.createElement('div');
+      item.className = 'lesson-item' + (isDone ? ' completed' : '') + (isTest ? ' test-item' : '');
+
+      const numContent = isTest ? '📝' : String(idx + 1);
+
+      item.innerHTML = `
+        <div class="lesson-num">${numContent}</div>
+        <div class="lesson-item-info">
+          <div class="lesson-item-title">${escHtml(lesson.title)}</div>
+          <div class="lesson-item-type">${isTest ? 'Test de la unidad' : 'Lección'}</div>
+        </div>
+        <div class="lesson-check">${isDone ? '✓' : ''}</div>
+      `;
+
+      item.addEventListener('click', () => onLessonClick(lesson));
+      container.appendChild(item);
+    });
+  }
+
+  // ---- Lesson slides ----
+
+  function renderLessonSlide(slide, index, total, lessonTitle) {
+    document.getElementById('lesson-topic-title').textContent = lessonTitle;
+    document.getElementById('lesson-counter').textContent = `${index + 1}/${total}`;
+
+    const dotsEl = document.getElementById('lesson-dots');
+    dotsEl.innerHTML = Array.from({ length: total }, (_, i) => {
+      const cls = i < index ? 'done' : i === index ? 'active' : '';
+      return `<span class="lesson-dot ${cls}"></span>`;
+    }).join('');
+
+    const wrap = document.getElementById('lesson-slide-wrap');
+
+    if (slide.type === 'grammar') {
+      wrap.innerHTML = `
+        <div class="lesson-slide grammar-slide">
+          <div class="grammar-badge">Nota gramatical</div>
+          <h3 class="grammar-title">${escHtml(slide.title)}</h3>
+          <div class="grammar-body">${renderBold(slide.body)}</div>
+          ${slide.tip ? `<div class="grammar-tip">💡 ${escHtml(slide.tip)}</div>` : ''}
+        </div>
+      `;
+    } else {
+      wrap.innerHTML = `
+        <div class="lesson-slide">
+          <div class="lesson-slide-num">Aprende · ${index + 1} de ${total}</div>
+          <div class="lesson-word-eu">${escHtml(slide.eu)}</div>
+          <div class="lesson-word-es">${escHtml(slide.es)}</div>
+          <div class="lesson-example">
+            <div class="lesson-example-eu">${escHtml(slide.example_eu)}</div>
+            <div class="lesson-example-es">${escHtml(slide.example_es)}</div>
+          </div>
+        </div>
+      `;
+    }
+
+    const btn = document.getElementById('btn-lesson-next');
+    btn.textContent = index === total - 1 ? '¡Empezar! →' : 'Siguiente →';
+  }
+
+  // ---- Exercise rendering ----
+
+  function setSessionTitle(title) {
+    const el = document.getElementById('session-topic-title');
+    if (el) el.textContent = title;
   }
 
   function renderExercise(exercise, index, total) {
@@ -59,79 +141,178 @@ const UI = (() => {
     counter.textContent = `${index + 1}/${total}`;
     progressBar.style.width = `${(index / total) * 100}%`;
 
-    container.innerHTML = `
-      <div class="exercise-type-label">${exercise.label}</div>
-      ${exercise.context ? `<div class="exercise-context">${escHtml(exercise.context)}</div>` : ''}
-      <div class="exercise-question">${escHtml(exercise.question)}</div>
-    `;
+    switch (exercise.type) {
 
-    if (exercise.inputMode === 'choice') {
-      answerArea.innerHTML = `
-        <div class="choices-grid">
-          ${exercise.options.map(opt => `
-            <button class="choice-btn" data-value="${escAttr(opt)}">${escHtml(opt)}</button>
-          `).join('')}
-        </div>
-      `;
-    } else {
-      answerArea.innerHTML = `
-        <div class="answer-input-wrap">
-          <input class="answer-input" type="text" placeholder="Escribe tu respuesta..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
-        </div>
-        <button class="btn btn-primary btn-submit">Comprobar</button>
-      `;
-      const input = answerArea.querySelector('.answer-input');
-      setTimeout(() => input.focus(), 100);
+      case 'multiple_choice':
+        container.innerHTML = `
+          <div class="exercise-type-label">${escHtml(exercise.instruction || 'Elige la respuesta correcta')}</div>
+        `;
+        answerArea.innerHTML = `
+          <div class="choices-grid">
+            ${exercise.options.map(opt => `
+              <button class="choice-btn" data-value="${escAttr(opt)}">${escHtml(opt)}</button>
+            `).join('')}
+          </div>
+        `;
+        break;
 
-      input.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') {
-          const btn = answerArea.querySelector('.btn-submit');
-          if (btn && !btn.disabled) btn.click();
-        }
-      });
+      case 'grammar_select':
+        container.innerHTML = `
+          <div class="exercise-type-label">${escHtml(exercise.instruction || 'Elige la forma correcta')}</div>
+          <div class="exercise-question">${escHtml(exercise.sentence)}</div>
+          ${exercise.translation ? `<div class="exercise-context">${escHtml(exercise.translation)}</div>` : ''}
+        `;
+        answerArea.innerHTML = `
+          <div class="choices-grid">
+            ${exercise.options.map(opt => `
+              <button class="choice-btn" data-value="${escAttr(opt)}">${escHtml(opt)}</button>
+            `).join('')}
+          </div>
+        `;
+        break;
+
+      case 'translation_eu_es':
+        container.innerHTML = `
+          <div class="exercise-type-label">${escHtml(exercise.instruction || 'Traduce al castellano')}</div>
+          <div class="exercise-question">${escHtml(exercise.eu)}</div>
+        `;
+        answerArea.innerHTML = renderTextInput();
+        schedFocus(answerArea);
+        break;
+
+      case 'translation_es_eu':
+        container.innerHTML = `
+          <div class="exercise-type-label">${escHtml(exercise.instruction || 'Traduce al euskera')}</div>
+          <div class="exercise-question">${escHtml(exercise.es)}</div>
+        `;
+        answerArea.innerHTML = renderTextInput();
+        schedFocus(answerArea);
+        break;
+
+      case 'fill_blank':
+        container.innerHTML = `
+          <div class="exercise-type-label">${escHtml(exercise.instruction || 'Rellena el hueco')}</div>
+          ${exercise.translation ? `<div class="exercise-context">${escHtml(exercise.translation)}</div>` : ''}
+          <div class="exercise-question">${escHtml(exercise.sentence)}</div>
+        `;
+        answerArea.innerHTML = renderTextInput(exercise.hint || '');
+        schedFocus(answerArea);
+        break;
+
+      case 'true_false':
+        container.innerHTML = `
+          <div class="exercise-type-label">${escHtml(exercise.instruction || '¿Verdadero o falso?')}</div>
+          <div class="tf-card">
+            <div class="tf-eu">${escHtml(exercise.eu)}</div>
+            <div class="tf-arrow">→</div>
+            <div class="tf-es">${escHtml(exercise.es)}</div>
+          </div>
+        `;
+        answerArea.innerHTML = `
+          <div class="tf-buttons">
+            <button class="btn tf-btn tf-false" data-value="false">✗ Falso</button>
+            <button class="btn tf-btn tf-true" data-value="true">✓ Verdadero</button>
+          </div>
+        `;
+        break;
+
+      case 'order_words': {
+        const shuffled = [...exercise.words].sort(() => Math.random() - 0.5);
+        container.innerHTML = `
+          <div class="exercise-type-label">${escHtml(exercise.instruction || 'Ordena las palabras')}</div>
+          ${exercise.translation ? `<div class="exercise-context">${escHtml(exercise.translation)}</div>` : ''}
+        `;
+        answerArea.innerHTML = `
+          <div class="order-answer" id="order-answer"></div>
+          <div class="order-bank" id="order-bank">
+            ${shuffled.map(w => `<button class="word-tile" data-word="${escAttr(w)}">${escHtml(w)}</button>`).join('')}
+          </div>
+          <button class="btn btn-primary btn-submit" disabled>Comprobar</button>
+        `;
+        break;
+      }
+
+      case 'match_pairs': {
+        const euWords = exercise.pairs.map(p => p.eu);
+        const esWords = [...exercise.pairs.map(p => p.es)].sort(() => Math.random() - 0.5);
+        container.innerHTML = `
+          <div class="exercise-type-label">${escHtml(exercise.instruction || 'Une cada par')}</div>
+        `;
+        answerArea.innerHTML = `
+          <div class="match-grid">
+            <div class="match-col" id="match-left">
+              ${euWords.map(w => `<button class="match-btn" data-side="eu" data-value="${escAttr(w)}">${escHtml(w)}</button>`).join('')}
+            </div>
+            <div class="match-col" id="match-right">
+              ${esWords.map(w => `<button class="match-btn" data-side="es" data-value="${escAttr(w)}">${escHtml(w)}</button>`).join('')}
+            </div>
+          </div>
+        `;
+        break;
+      }
     }
   }
 
   function showFeedback(isCorrect, exercise) {
     const feedbackArea = document.getElementById('feedback-area');
     const feedbackContent = document.getElementById('feedback-content');
+    const answerArea = document.getElementById('answer-area');
 
     feedbackArea.classList.remove('hidden');
 
     if (isCorrect) {
       feedbackContent.className = 'feedback-content correct-fb';
-      feedbackContent.innerHTML = `✓ ¡Correcto!`;
+      feedbackContent.innerHTML = '✓ ¡Correcto!';
     } else {
       feedbackContent.className = 'feedback-content wrong-fb';
+      const correctDisplay = formatCorrectAnswer(exercise);
+      const extra = exercise.explanation
+        ? `<div class="feedback-explanation">${escHtml(exercise.explanation)}</div>`
+        : exercise.hint
+          ? `<div class="feedback-explanation">${escHtml(exercise.hint)}</div>`
+          : '';
       feedbackContent.innerHTML = `
         ✗ Incorrecto
-        <div class="feedback-correct-answer">
-          Respuesta correcta: <strong>${escHtml(exercise.answer)}</strong>
-        </div>
-        ${exercise.hint ? `<div class="feedback-correct-answer" style="margin-top:0.3rem;color:var(--text2)">${escHtml(exercise.hint)}</div>` : ''}
+        <div class="feedback-correct-answer">Respuesta correcta: <strong>${correctDisplay}</strong></div>
+        ${extra}
       `;
     }
 
-    const answerArea = document.getElementById('answer-area');
+    // Disable interactive elements
+    answerArea.querySelectorAll('button').forEach(btn => { btn.disabled = true; });
     const input = answerArea.querySelector('.answer-input');
-    const submitBtn = answerArea.querySelector('.btn-submit');
-    const choiceBtns = answerArea.querySelectorAll('.choice-btn');
-
     if (input) {
-      input.classList.add(isCorrect ? 'correct' : 'wrong');
       input.disabled = true;
+      input.classList.add(isCorrect ? 'correct' : 'wrong');
     }
-    if (submitBtn) submitBtn.disabled = true;
-    choiceBtns.forEach(btn => {
-      btn.disabled = true;
-      if (btn.dataset.value === exercise.answer) btn.classList.add('correct');
-    });
+
+    // Highlight correct choice for multiple_choice / grammar_select
+    if (exercise.type === 'multiple_choice' || exercise.type === 'grammar_select') {
+      answerArea.querySelectorAll('.choice-btn').forEach(btn => {
+        if (btn.dataset.value === String(exercise.answer)) btn.classList.add('correct');
+      });
+    }
+
+    // Highlight correct true/false button
+    if (exercise.type === 'true_false') {
+      answerArea.querySelectorAll('.tf-btn').forEach(btn => {
+        if (btn.dataset.value === String(exercise.answer)) btn.classList.add('correct');
+      });
+    }
   }
 
-  function setSessionTitle(title) {
-    const el = document.getElementById('session-topic-title');
-    if (el) el.textContent = title;
+  function formatCorrectAnswer(exercise) {
+    switch (exercise.type) {
+      case 'true_false':
+        return exercise.answer ? 'Verdadero' : 'Falso';
+      case 'match_pairs':
+        return exercise.pairs.map(p => `${escHtml(p.eu)} → ${escHtml(p.es)}`).join(', ');
+      default:
+        return escHtml(String(exercise.answer));
+    }
   }
+
+  // ---- Summary ----
 
   function renderSummary(correct, wrong, streak) {
     document.getElementById('stat-correct').textContent = correct;
@@ -143,19 +324,32 @@ const UI = (() => {
     const icon = document.getElementById('summary-icon');
     const title = document.getElementById('summary-title');
 
-    if (ratio === 1) {
-      icon.textContent = '🏆';
-      title.textContent = '¡Perfecto!';
-    } else if (ratio >= 0.75) {
-      icon.textContent = '🎉';
-      title.textContent = '¡Muy bien!';
-    } else if (ratio >= 0.5) {
-      icon.textContent = '💪';
-      title.textContent = '¡Sigue practicando!';
-    } else {
-      icon.textContent = '📚';
-      title.textContent = 'Hay que repasar más';
-    }
+    if (ratio === 1) { icon.textContent = '🏆'; title.textContent = '¡Perfecto!'; }
+    else if (ratio >= 0.75) { icon.textContent = '🎉'; title.textContent = '¡Muy bien!'; }
+    else if (ratio >= 0.5) { icon.textContent = '💪'; title.textContent = '¡Sigue practicando!'; }
+    else { icon.textContent = '📚'; title.textContent = 'Hay que repasar más'; }
+  }
+
+  // ---- Private helpers ----
+
+  function renderTextInput(hint = '') {
+    return `
+      <div class="answer-input-wrap">
+        <input class="answer-input" type="text"
+          placeholder="${hint ? escAttr(hint) : 'Escribe tu respuesta...'}"
+          autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+      </div>
+      <button class="btn btn-primary btn-submit">Comprobar</button>
+    `;
+  }
+
+  function schedFocus(answerArea) {
+    const input = answerArea.querySelector('.answer-input');
+    if (input) setTimeout(() => input.focus(), 80);
+  }
+
+  function renderBold(text) {
+    return escHtml(String(text)).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   }
 
   function escHtml(str) {
@@ -170,44 +364,15 @@ const UI = (() => {
     return String(str).replace(/"/g, '&quot;');
   }
 
-  function renderLessonSlide(slide, index, total, topicTitle) {
-    document.getElementById('lesson-topic-title').textContent = topicTitle;
-    document.getElementById('lesson-counter').textContent = `${index + 1}/${total}`;
-
-    // dots
-    const dotsEl = document.getElementById('lesson-dots');
-    dotsEl.innerHTML = Array.from({ length: total }, (_, i) => {
-      const cls = i < index ? 'done' : i === index ? 'active' : '';
-      return `<span class="lesson-dot ${cls}"></span>`;
-    }).join('');
-
-    // slide content
-    const wrap = document.getElementById('lesson-slide-wrap');
-    wrap.innerHTML = `
-      <div class="lesson-slide">
-        <div class="lesson-slide-num">Aprende · ${index + 1} de ${total}</div>
-        <div class="lesson-word-eu">${escHtml(slide.eu)}</div>
-        <div class="lesson-word-es">${escHtml(slide.es)}</div>
-        <div class="lesson-example">
-          <div class="lesson-example-eu">${escHtml(slide.example_eu)}</div>
-          <div class="lesson-example-es">${escHtml(slide.example_es)}</div>
-        </div>
-      </div>
-    `;
-
-    // last slide → change button text
-    const btn = document.getElementById('btn-lesson-next');
-    btn.textContent = index === total - 1 ? '¡Empezar! →' : 'Siguiente →';
-  }
-
   return {
     show,
-    renderTopics,
     setStreak,
+    renderUnitMap,
+    renderLessonList,
     renderLessonSlide,
+    setSessionTitle,
     renderExercise,
     showFeedback,
-    setSessionTitle,
     renderSummary,
   };
 })();

@@ -602,3 +602,246 @@ html, body {
 
 /* ---- Utilities ---- */
 .hidden { display: none !important; }
+
+/* ---- Home content ---- */
+.home-content { padding-bottom: 2rem; }
+.course-section { padding: 1.25rem 1rem 0.25rem; }
+
+.topic-card.done { border-color: rgba(45,198,83,0.4); }
+.topic-card.done .topic-progress-fill { background: var(--green); }
+
+/* ---- Unit / Lesson list ---- */
+.lesson-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.lesson-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--card2);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.lesson-item:active { transform: scale(0.98); background: var(--card); }
+.lesson-item.completed { border-color: rgba(45,198,83,0.35); }
+.lesson-item.test-item { border-color: rgba(230,57,70,0.4); }
+
+.lesson-num {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--card);
+  border: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  color: var(--text2);
+}
+.lesson-item.completed .lesson-num {
+  background: rgba(45,198,83,0.12);
+  border-color: var(--green);
+  color: var(--green);
+}
+.lesson-item.test-item .lesson-num {
+  background: transparent;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.lesson-item-info { flex: 1; min-width: 0; }
+.lesson-item-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.lesson-item-type { font-size: 0.75rem; color: var(--text2); margin-top: 0.15rem; }
+.lesson-check { font-size: 1rem; color: var(--green); font-weight: 700; flex-shrink: 0; }
+
+/* ---- Grammar notes in slides ---- */
+.grammar-slide {
+  width: 100%;
+  max-width: 420px;
+  text-align: left;
+  animation: slideIn 0.25s ease;
+}
+.grammar-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.5rem;
+  background: rgba(230,57,70,0.15);
+  color: var(--accent);
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.grammar-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.85rem;
+  color: var(--text);
+}
+.grammar-body {
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.8;
+  white-space: pre-wrap;
+  margin-bottom: 1rem;
+  background: var(--card2);
+  padding: 1rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+.grammar-tip {
+  font-size: 0.85rem;
+  color: var(--text2);
+  background: rgba(76,201,240,0.08);
+  border-left: 3px solid var(--a1);
+  padding: 0.6rem 0.75rem;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  line-height: 1.5;
+}
+
+/* ---- True / False ---- */
+.tf-card {
+  background: var(--card2);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.tf-eu {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.4rem;
+}
+.tf-arrow { font-size: 1rem; color: var(--text2); margin-bottom: 0.4rem; }
+.tf-es { font-size: 1rem; color: var(--accent); font-weight: 600; }
+
+.tf-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+.tf-btn {
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: var(--radius);
+  border: 2px solid var(--border);
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.tf-btn:active:not(:disabled) { transform: scale(0.97); }
+.tf-false { background: rgba(230,57,70,0.08); color: var(--red); border-color: rgba(230,57,70,0.3); }
+.tf-true  { background: rgba(45,198,83,0.08); color: var(--green); border-color: rgba(45,198,83,0.3); }
+.tf-btn.correct { border-width: 3px; border-color: var(--green); background: rgba(45,198,83,0.18); color: var(--green); }
+.tf-btn.wrong   { border-width: 3px; border-color: var(--red);   background: rgba(230,57,70,0.18);  color: var(--red); }
+
+/* ---- Order words ---- */
+.order-answer {
+  min-height: 54px;
+  background: var(--card2);
+  border: 2px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 0.5rem 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  margin-bottom: 0.85rem;
+  transition: border-color 0.2s;
+}
+.order-answer.has-words { border-style: solid; border-color: var(--accent); }
+
+.order-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  min-height: 42px;
+}
+
+.word-tile {
+  background: var(--card);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-size: 0.95rem;
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+  transition: all 0.1s;
+  font-family: inherit;
+  font-weight: 500;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.word-tile:active:not(:disabled) { transform: scale(0.94); background: var(--card2); }
+.order-answer .word-tile { background: var(--card2); border-color: var(--accent); }
+
+/* ---- Match pairs ---- */
+.match-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.match-col { display: flex; flex-direction: column; gap: 0.4rem; }
+
+.match-btn {
+  background: var(--card2);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-size: 0.9rem;
+  padding: 0.7rem 0.5rem;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s;
+  font-family: inherit;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.match-btn:active:not(:disabled) { transform: scale(0.96); }
+.match-btn.selected { border-color: var(--accent); background: rgba(230,57,70,0.1); color: var(--accent); }
+.match-btn.correct  { border-color: var(--green);  background: rgba(45,198,83,0.12);  color: var(--green);  }
+.match-btn.wrong-flash {
+  border-color: var(--red);
+  background: rgba(230,57,70,0.15);
+  color: var(--red);
+  animation: flash 0.5s;
+}
+.match-btn:disabled { cursor: default; }
+
+@keyframes flash {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+
+/* ---- Feedback explanation ---- */
+.feedback-explanation {
+  color: var(--text2);
+  font-size: 0.85rem;
+  margin-top: 0.4rem;
+  line-height: 1.5;
+}

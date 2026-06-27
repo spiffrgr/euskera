@@ -1,0 +1,93 @@
+{
+  "id": "u01_l01",
+  "title": "Saludos básicos",
+  "objective": "Saludar y despedirse en diferentes momentos del día",
+  "grammar_note": null,
+  "slides": [
+    { "eu": "Kaixo", "es": "Hola", "example_eu": "Kaixo, zer moduz?", "example_es": "Hola, ¿qué tal?" },
+    { "eu": "Agur", "es": "Adiós", "example_eu": "Agur, bihar arte!", "example_es": "Adiós, ¡hasta mañana!" },
+    { "eu": "Egun on", "es": "Buenos días", "example_eu": "Egun on, zer berri?", "example_es": "Buenos días, ¿qué hay de nuevo?" }
+  ],
+  "exercises": [
+    {
+      "id": "u01_l01_e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'Hola' en euskera?",
+      "answer": "Kaixo",
+      "options": ["Kaixo", "Agur", "Gabon", "Egun on"]
+    },
+    {
+      "id": "u01_l01_e02",
+      "type": "true_false",
+      "instruction": "¿Es correcta esta traducción?",
+      "eu": "Agur",
+      "es": "Adiós",
+      "answer": true,
+      "explanation": "Correcto. 'Agur' significa 'Adiós'."
+    },
+    {
+      "id": "u01_l01_e03",
+      "type": "true_false",
+      "instruction": "¿Es correcta esta traducción?",
+      "eu": "Gabon",
+      "es": "Buenos días",
+      "answer": false,
+      "explanation": "'Gabon' significa 'Buenas noches'. 'Buenos días' es 'Egun on'."
+    },
+    {
+      "id": "u01_l01_e04",
+      "type": "multiple_choice",
+      "instruction": "Son las 8 de la mañana. ¿Qué dices?",
+      "answer": "Egun on",
+      "options": ["Egun on", "Gabon", "Arratsalde on", "Agur"]
+    },
+    {
+      "id": "u01_l01_e05",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Gabon",
+      "answer": "Buenas noches"
+    },
+    {
+      "id": "u01_l01_e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Buenas tardes",
+      "answer": "Arratsalde on"
+    },
+    {
+      "id": "u01_l01_e07",
+      "type": "match_pairs",
+      "instruction": "Une cada palabra con su traducción",
+      "pairs": [
+        { "eu": "Kaixo", "es": "Hola" },
+        { "eu": "Agur", "es": "Adiós" },
+        { "eu": "Gabon", "es": "Buenas noches" },
+        { "eu": "Egun on", "es": "Buenos días" }
+      ]
+    },
+    {
+      "id": "u01_l01_e08",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "___, ni Mikel naiz.",
+      "translation": "___, yo soy Mikel.",
+      "answer": "Kaixo",
+      "hint": "Saludo informal"
+    },
+    {
+      "id": "u01_l01_e09",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'Hola' de forma más informal y coloquial?",
+      "answer": "Aupa",
+      "options": ["Aupa", "Kaixo", "Egun on", "Agur"]
+    },
+    {
+      "id": "u01_l01_e10",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Hola",
+      "answer": "Kaixo"
+    }
+  ]
+}

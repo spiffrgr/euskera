@@ -57,7 +57,7 @@
       </div>
     </div>
 
-    <!-- SCREEN: home -->
+    <!-- SCREEN: home (unit map) -->
     <div id="screen-home" class="screen">
       <header class="app-header">
         <h1 class="app-title">Euskera Ikasi</h1>
@@ -66,25 +66,30 @@
           <span class="streak-count" id="streak-count">0</span>
         </div>
       </header>
-
-      <div class="level-section">
-        <h2 class="level-title">
-          <span class="level-badge a1">A1</span>
-          Principiante
-        </h2>
-        <div id="topics-a1" class="topics-grid"></div>
-      </div>
-
-      <div class="level-section">
-        <h2 class="level-title">
-          <span class="level-badge a2">A2</span>
-          Elemental
-        </h2>
-        <div id="topics-a2" class="topics-grid"></div>
+      <div class="home-content">
+        <div class="course-section">
+          <h2 class="level-title">
+            <span class="level-badge a1">A1</span>
+            Principiante
+          </h2>
+          <div id="unit-map" class="topics-grid"></div>
+        </div>
       </div>
     </div>
 
-    <!-- SCREEN: lesson (3 slides before exercises) -->
+    <!-- SCREEN: unit (lesson list) -->
+    <div id="screen-unit" class="screen">
+      <header class="session-header">
+        <button class="btn-back" id="btn-unit-back">←</button>
+        <div class="session-info">
+          <span id="unit-screen-title" class="session-title"></span>
+        </div>
+        <span id="unit-screen-emoji" style="font-size:1.5rem"></span>
+      </header>
+      <div id="lesson-list-container" class="lesson-list"></div>
+    </div>
+
+    <!-- SCREEN: lesson (slides) -->
     <div id="screen-lesson" class="screen">
       <header class="session-header">
         <button class="btn-back" id="btn-lesson-back">←</button>
@@ -94,16 +99,14 @@
         </div>
         <span class="session-counter" id="lesson-counter">1/3</span>
       </header>
-      <div class="lesson-slide-wrap" id="lesson-slide-wrap">
-        <!-- slide injected here -->
-      </div>
+      <div class="lesson-slide-wrap" id="lesson-slide-wrap"></div>
       <div class="lesson-nav">
-        <button class="btn btn-secondary lesson-skip" id="btn-lesson-skip">Saltar lección</button>
+        <button class="btn btn-secondary lesson-skip" id="btn-lesson-skip">Saltar →</button>
         <button class="btn btn-primary" id="btn-lesson-next">Siguiente →</button>
       </div>
     </div>
 
-    <!-- SCREEN: session -->
+    <!-- SCREEN: session (exercises) -->
     <div id="screen-session" class="screen">
       <header class="session-header">
         <button class="btn-back" id="btn-back">←</button>
@@ -113,16 +116,11 @@
             <div class="progress-bar" id="session-progress-bar"></div>
           </div>
         </div>
-        <span class="session-counter" id="session-counter">1/8</span>
+        <span class="session-counter" id="session-counter">1/10</span>
       </header>
 
-      <div class="exercise-container" id="exercise-container">
-        <!-- exercise injected here -->
-      </div>
-
-      <div class="answer-area" id="answer-area">
-        <!-- answer widgets injected here -->
-      </div>
+      <div class="exercise-container" id="exercise-container"></div>
+      <div class="answer-area" id="answer-area"></div>
 
       <div class="feedback-area hidden" id="feedback-area">
         <div class="feedback-content" id="feedback-content"></div>
@@ -134,7 +132,7 @@
     <div id="screen-summary" class="screen">
       <div class="summary-content">
         <div class="summary-icon" id="summary-icon">🎉</div>
-        <h2 id="summary-title">¡Sesión completada!</h2>
+        <h2 id="summary-title">¡Lección completada!</h2>
         <div class="summary-stats">
           <div class="stat-card">
             <span class="stat-value" id="stat-correct">0</span>
@@ -149,7 +147,8 @@
             <span class="stat-label">Racha 🔥</span>
           </div>
         </div>
-        <button class="btn btn-primary" id="btn-home">Volver al inicio</button>
+        <button class="btn btn-primary" id="btn-continue-unit" style="width:100%;margin-bottom:0.75rem">Siguiente lección →</button>
+        <button class="btn btn-secondary" id="btn-home" style="width:100%">Volver al inicio</button>
       </div>
     </div>
 
@@ -162,6 +161,7 @@
 
   <script src="js/firebase.js"></script>
   <script src="js/srs.js"></script>
+  <script src="js/course.js"></script>
   <script src="js/exercises.js"></script>
   <script src="js/ui.js"></script>
   <script src="js/app.js"></script>

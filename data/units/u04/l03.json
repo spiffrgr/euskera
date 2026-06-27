@@ -1,0 +1,98 @@
+{
+  "id": "u04_l03",
+  "title": "Pertsonak deskribatu (Describir personas)",
+  "objective": "Describir el aspecto físico de personas con adjetivos",
+  "grammar_note": {
+    "title": "Describir personas: IZAN vs EDUKI",
+    "body": "En euskera para describir el aspecto físico se usa **EDUKI** (tener) o **IZAN** (ser):\n\n**Ilea luzea du** → Tiene el pelo largo (tiene = du)\n**Altu-altua da** → Es muy alto (es = da)\n\nAdjetivos de personas:\naltua (alto) / txikia (bajo) / ilegorria (pelirrojo)\nilehoria (rubio) / ilebeltza (moreno) / gaztea (joven) / zaharra (mayor)",
+    "tip": "Para el cabello se usa EDUKI: ilea + adjetivo + du. Para la altura se usa IZAN: altua da."
+  },
+  "slides": [
+    { "eu": "Altua da / Txikia da", "es": "Es alto / Es bajo", "example_eu": "Nire laguna oso altua da.", "example_es": "Mi amigo/a es muy alto/a." },
+    { "eu": "Ilea luzea du", "es": "Tiene el pelo largo", "example_eu": "Ilea luzea eta horia du.", "example_es": "Tiene el pelo largo y rubio." },
+    { "eu": "Gaztea da", "es": "Es joven", "example_eu": "Oso gaztea da, hamabost urte bakarrik ditu.", "example_es": "Es muy joven, tiene solo quince años." }
+  ],
+  "exercises": [
+    {
+      "id": "u04_l03_e01",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Nire laguna altua da.",
+      "answer": "Mi amigo/a es alto/a."
+    },
+    {
+      "id": "u04_l03_e02",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'Tiene el pelo negro' en euskera?",
+      "answer": "Ilea beltza du.",
+      "options": ["Ilea beltza du.", "Ilea beltza da.", "Ilea beltza naiz.", "Ilea beltza dut."]
+    },
+    {
+      "id": "u04_l03_e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Oso ___ da, hogei urte bakarrik ditu.",
+      "translation": "Es muy joven, tiene solo veinte años.",
+      "answer": "gaztea",
+      "hint": "joven"
+    },
+    {
+      "id": "u04_l03_e04",
+      "type": "true_false",
+      "instruction": "¿Es correcta esta frase?",
+      "eu": "Ilea luzea da.",
+      "es": "Tiene el pelo largo.",
+      "answer": false,
+      "explanation": "Para 'tener' el pelo así, se usa 'du' (tiene), no 'da' (es). Correcto: 'Ilea luzea du'."
+    },
+    {
+      "id": "u04_l03_e05",
+      "type": "match_pairs",
+      "instruction": "Une cada descripción con su traducción",
+      "pairs": [
+        { "eu": "altua", "es": "alto/a" },
+        { "eu": "gaztea", "es": "joven" },
+        { "eu": "ilehoria", "es": "rubio/a" },
+        { "eu": "ilebeltza", "es": "moreno/a" }
+      ]
+    },
+    {
+      "id": "u04_l03_e06",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "translation": "Mi hermana es alta y tiene el pelo corto.",
+      "words": ["du.", "altua", "eta", "da", "Nire", "ahizpa", "ilea", "laburra"],
+      "answer": "Nire ahizpa altua da eta ilea laburra du."
+    },
+    {
+      "id": "u04_l03_e07",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Tiene el pelo rubio y corto.",
+      "answer": "Ilea horia eta laburra du."
+    },
+    {
+      "id": "u04_l03_e08",
+      "type": "grammar_select",
+      "instruction": "Para describir la altura se usa...",
+      "sentence": "Ni oso ___ naiz.",
+      "translation": "Yo soy muy alto/a.",
+      "answer": "altua",
+      "options": ["altua", "ilea luzea", "gaztea da", "ilegorria du"]
+    },
+    {
+      "id": "u04_l03_e09",
+      "type": "multiple_choice",
+      "instruction": "¿Qué significa 'Ilegorria da'?",
+      "answer": "Es pelirrojo/a",
+      "options": ["Es pelirrojo/a", "Es rubio/a", "Tiene el pelo largo", "Es moreno/a"]
+    },
+    {
+      "id": "u04_l03_e10",
+      "type": "translation_eu_es",
+      "instruction": "Traduce la descripción completa",
+      "eu": "Nire laguna altua da, ilea luzea eta beltza du, eta oso gaztea da.",
+      "answer": "Mi amigo/a es alto/a, tiene el pelo largo y negro, y es muy joven."
+    }
+  ]
+}

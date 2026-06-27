@@ -38,9 +38,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "bakailao",
-      "es": "bacalao",
-      "answer": true
+      "eu": "Para decir 'como pescado' habitualmente: 'Arraina jaten dut' (no 'arraina jan nahi dut') → true",
+      "es": "Habitual: arraina jaten dut ≠ deseo puntual: arraina jan nahi dut",
+      "answer": true,
+      "explanation": "Habitual: infinitivo + -tzen/-ten + DUT. 'Arraina jaten dut' = como pescado (hábito). 'Arraina jan nahi dut' = quiero comer pescado (deseo puntual). -TZEN ≠ NAHI."
     },
     {
       "id": "e03",

@@ -44,9 +44,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "berrogei",
-      "es": "40",
-      "answer": true
+      "eu": "En el sistema vigesimal: 'berrogeita hamar' = 50 porque berrogei(40) + ta + hamar(10) → true",
+      "es": "berrogeita hamar = 50 (40+10), sistema vigesimal",
+      "answer": true,
+      "explanation": "El sistema vigesimal une con -ta: hogeita hamar(30), berrogeita hamar(50), hirurogeita hamar(70), laurogeita hamar(90). La base siempre es múltiplo de 20."
     },
     {
       "id": "e03",

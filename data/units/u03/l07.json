@@ -38,9 +38,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "gustatzen zaizkit = me gustan (plural)",
-      "es": "Verdadero",
-      "answer": true
+      "eu": "'Gustatzen zaizkit' = me gustan (sujeto plural), pero 'gustatzen zait' = me gusta (sujeto singular) → true",
+      "es": "zaizkit = me gustan (pl.) vs zait = me gusta (sg.) — depende del sujeto",
+      "answer": true,
+      "explanation": "El verbo GUSTATU concuerda con el sujeto (lo que gusta): zait(una cosa), zaizkit(varias cosas). 'Musika gustatzen zait' / 'Filmak gustatzen zaizkit'."
     },
     {
       "id": "e03",

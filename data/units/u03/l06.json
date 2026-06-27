@@ -38,9 +38,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "ingelesez",
-      "es": "en inglés",
-      "answer": true
+      "eu": "El sufijo -Z indica el idioma/medio: euskaraz(en euskera), gaztelaniaz(en castellano), ingelesez(en inglés) → true",
+      "es": "sufijo instrumental -Z para idiomas: euskaraz, gaztelaniaz, ingelesez",
+      "answer": true,
+      "explanation": "Sufijo instrumental -Z para idiomas: euskara→euskaraz, gaztelania→gaztelaniaz, ingeles→ingelesez, frantsesa→frantsesez. 'Zein hizkuntzatan hitz egiten duzu?' = ¿En qué idioma hablas?"
     },
     {
       "id": "e03",

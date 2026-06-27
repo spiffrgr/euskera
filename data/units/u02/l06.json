@@ -47,9 +47,10 @@
       "id": "e03",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "zorionak",
-      "es": "felicidades",
-      "answer": true
+      "eu": "Para preguntar la edad se usa DITUZU (plural) porque los años son varios: 'Zenbat urte DITUZU?' → true",
+      "es": "La pregunta de la edad usa DITUZU (plural), no DUZU",
+      "answer": true,
+      "explanation": "Los años van en plural: Zenbat urte dituzu?(¿cuántos años tienes?). DITUZU = tú tienes (varios). La respuesta: Hogeita bat urte ditut(tengo 21 años)."
     },
     {
       "id": "e04",

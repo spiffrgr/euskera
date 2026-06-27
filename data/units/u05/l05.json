@@ -33,9 +33,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "irakaslea",
-      "es": "profesor/a",
-      "answer": true
+      "eu": "Las profesiones usan NAIZ/DA (IZAN), no NAGO: 'Irakaslea naiz' (no 'irakaslea nago') → true",
+      "es": "Profesión = NAIZ(IZAN, identidad), no NAGO(EGON, estado temporal)",
+      "answer": true,
+      "explanation": "NAIZ(IZAN) para identidad permanente: irakaslea naiz(soy profesor/a), medikua zara(eres médico/a). NAGO(EGON) para estados temporales: nekatuta nago(estoy cansado/a). Identidad ≠ estado."
     },
     {
       "id": "e03",

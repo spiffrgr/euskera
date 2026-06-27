@@ -38,9 +38,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "marrubi",
-      "es": "fresa",
-      "answer": true
+      "eu": "Para pedir fruta en el mercado: 'Marrubi bat nahi dut' → NAHI DUT expresa deseo puntual, no hábito → true",
+      "es": "nahi dut = quiero (deseo puntual), ≠ hábito (-tzen dut)",
+      "answer": true,
+      "explanation": "NAHI DUT = quiero (ahora/puntual). Habitual: 'Marrubiak jaten ditut'(como fresas habitualmente). NAHI ≠ hábito. Esta distinción es clave en la unidad 6."
     },
     {
       "id": "e03",

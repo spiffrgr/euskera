@@ -57,9 +57,10 @@
       "id": "u03_l01_e06",
       "type": "true_false",
       "instruction": "¿Es correcta esta frase?",
-      "eu": "Madrilkoa naiz.",
-      "es": "Soy de Madrid.",
+      "eu": "El sufijo -KOA indica origen: Bilbokoa = de Bilbao, Madrilkoa = de Madrid, Parisekoa = de París → true",
+      "es": "sufijo -koa indica procedencia de un lugar",
       "answer": true,
+      "explanation": "Correcto. Para origen se añade -koa al nombre de la ciudad: Bilbo→Bilbokoa, Madril→Madrilkoa, Donostia→Donostiakoa. Pregunta: Nongoa zara?(¿De dónde eres?)",
       "explanation": "Correcto. 'Madrilkoa naiz' = soy de Madrid (Madrid + sufijo -koa)."
     },
     {

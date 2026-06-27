@@ -44,9 +44,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "aitona",
-      "es": "abuelo",
-      "answer": true
+      "eu": "'Nire aitak bi anaia ditu' → 'aitak' lleva -K porque es sujeto de verbo transitivo (EDUKI/tener) → true",
+      "es": "aitak lleva -K = sujeto ergativo (NORK), verbo transitivo",
+      "answer": true,
+      "explanation": "Caso NORK (ergativo): el sujeto de un verbo transitivo lleva -K. aitak(el padre), amak(la madre), anaiak(el hermano) — todos sujetos de DITU(tiene)."
     },
     {
       "id": "e03",

@@ -31,9 +31,10 @@
       "id": "u02_l02_e03",
       "type": "true_false",
       "instruction": "¿Es correcta esta traducción?",
-      "eu": "hamahiru",
-      "es": "trece",
+      "eu": "'Hamabost' (15) sigue el patrón regular hamar+bost (10+5), pero 'hamaika' (11) es irregular (no 'hamabat')",
+      "es": "hamaika (11) es irregular; hamar+unidad es la regla general",
       "answer": true,
+      "explanation": "Correcto. Del 12-19 el patrón es hamar + número: hamabi(12), hamahiru(13), hamalau(14), hamabost(15), hamasei(16)... La excepción es hamaika(11): no se dice 'hamabat'.",
       "explanation": "Correcto. 'Hamahiru' significa trece (10+3)."
     },
     {
@@ -74,10 +75,10 @@
       "id": "u02_l02_e08",
       "type": "true_false",
       "instruction": "¿Es correcta esta traducción?",
-      "eu": "hemezortzi",
-      "es": "dieciséis",
-      "answer": false,
-      "explanation": "'Hemezortzi' significa dieciocho (18). Dieciséis es 'hamasei'."
+      "eu": "16 en euskera es 'hamasei' (hamar+sei), pero 18 y 19 son irregulares: 'hemezortzi' y 'hemeretzi'",
+      "es": "hamasei = 16 (regular); hemezortzi = 18 (irregular, no 'hamazortzi')",
+      "answer": true,
+      "explanation": "Del 12-19 casi todo sigue hamar+número. Las excepciones: 11=hamaika, 18=hemezortzi, 19=hemeretzi (no 'hamabederatzi'). Estos tres hay que memorizar."
     },
     {
       "id": "u02_l02_e09",

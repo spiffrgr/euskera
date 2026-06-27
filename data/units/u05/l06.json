@@ -40,9 +40,10 @@
       "id": "e03",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "Hau nire anaia da.",
-      "es": "Este es mi hermano.",
-      "answer": true
+      "eu": "'Hau nire anaia da' → HAU(este, cerca) y DA(IZAN, 3ª persona) son correctos para presentar a alguien → true",
+      "es": "HAU(este/cerca) + DA(IZAN) = correcto para presentaciones",
+      "answer": true,
+      "explanation": "Demostrativos de distancia: HAU(este, cerca), HORI(ese, media distancia), HURA(aquel, lejos). Para presentar: Hau nire anaia da, hori nire lagun ona da. DA = IZAN 3ª persona."
     },
     {
       "id": "e04",

@@ -38,10 +38,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "bazkaria",
-      "es": "cena",
+      "eu": "'Afaria' y 'bazkaria' significan lo mismo en euskera (ambas = cena/comida) → false",
+      "es": "afaria ≠ bazkaria (son comidas distintas del día)",
       "answer": false,
-      "explanation": "bazkaria = comida del mediodía. Cena = afaria."
+      "explanation": "Son comidas distintas: gosaria(desayuno)→gosaldu, bazkaria(comida del mediodía)→bazkaldu, afaria(cena)→afaldu. Cada una tiene su verbo propio. Afaria ≠ bazkaria."
     },
     {
       "id": "e03",

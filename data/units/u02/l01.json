@@ -56,9 +56,10 @@
       "id": "u02_l01_e06",
       "type": "true_false",
       "instruction": "¿Es correcta esta traducción?",
-      "eu": "lau",
-      "es": "cinco",
-      "answer": false,
+      "eu": "En euskera, 'hamaika' (11) es IRREGULAR: no sigue el patrón hamar+bat, sino una forma única",
+      "es": "hamaika (11) es irregular — no es 'hamabat'",
+      "answer": true,
+      "explanation": "11(hamaika) es la gran irregularidad. Del 12-19 sí es regular: hamabi(12), hamahiru(13), hamalau(14)... La regla es hamar + número, excepto hamaika.",
       "explanation": "'Lau' significa cuatro (4), no cinco. Cinco es 'bost'."
     },
     {

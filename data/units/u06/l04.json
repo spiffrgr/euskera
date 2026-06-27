@@ -33,9 +33,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "ura",
-      "es": "agua",
-      "answer": true
+      "eu": "Para pedir agua: 'Ura nahi dut' → DUT indica 1ª persona; para 'ella quiere agua' el verbo cambia a DU → true",
+      "es": "nahi dut(yo quiero) vs nahi du(él/ella quiere) — la terminación indica la persona",
+      "answer": true,
+      "explanation": "Conjugación de NAHI: nahi dut(yo quiero), nahi duzu(tú quieres), nahi du(él/ella quiere), nahi dugu(nosotros queremos). La terminación del auxiliar indica la persona."
     },
     {
       "id": "e03",

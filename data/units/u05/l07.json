@@ -64,9 +64,10 @@
       "id": "e06",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "gara",
-      "es": "somos",
-      "answer": true
+      "eu": "'Gu euskaldunak gara' → GU sin -K porque GARA(IZAN) es intransitivo; GUK solo con verbos transitivos → true",
+      "es": "GU(intransitivo, NOR) vs GUK(transitivo, NORK) — depende del verbo",
+      "answer": true,
+      "explanation": "NOR absolutivo: GU gara, gu etortzen gara. NORK ergativo: GUK egin dugu, guk jan dugu. La diferencia: ¿el verbo tiene objeto directo? Sí → -K. No → sin -K."
     },
     {
       "id": "e07",

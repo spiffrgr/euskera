@@ -39,9 +39,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "berria",
-      "es": "nuevo",
-      "answer": true
+      "eu": "En euskera los adjetivos NO cambian según el sexo: 'ile iluna' vale para hombre y para mujer → true",
+      "es": "Los adjetivos vascos no tienen género gramatical",
+      "answer": true,
+      "explanation": "A diferencia del español (rubio/rubia, alto/alta), los adjetivos vascos son invariables en género: ile iluna(pelo oscuro), gazte(joven), berria(nuevo/a) — igual para todos."
     },
     {
       "id": "e03",

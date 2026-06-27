@@ -39,9 +39,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "igandea",
-      "es": "domingo",
-      "answer": true
+      "eu": "En euskera, añadir '-etan/-tan' a un día indica habitualidad: 'astelehenetan' = los lunes → true",
+      "es": "astelehena(lunes) → astelehenetan(los lunes, habitual)",
+      "answer": true,
+      "explanation": "Sufijo habitual para días: astelehena→astelehenetan, ostirala→ostiraletan, igandea→igandetan. 'Igandetan lo egiten dut' = los domingos duermo."
     },
     {
       "id": "e03",

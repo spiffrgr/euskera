@@ -33,9 +33,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "amona",
-      "es": "abuela",
-      "answer": true
+      "eu": "'Aitona' = abuelo, 'amona' = abuela — forman pareja igual que 'aita/ama' (padre/madre) → true",
+      "es": "Pares familiares: aitona/amona, aita/ama, anaia/ahizpa",
+      "answer": true,
+      "explanation": "El euskera tiene pares para cada relación: aita/ama(padre/madre), aitona/amona(abuelo/abuela), anaia/ahizpa(hermano/hermana), osaba/izeba(tío/tía)."
     },
     {
       "id": "e03",
@@ -75,9 +76,10 @@
       "id": "e07",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "lehengusina",
-      "es": "prima",
-      "answer": true
+      "eu": "El euskera SÍ distingue género en la familia: 'lehengusu' = primo (masc.), 'lehengusina' = prima (fem.) → true",
+      "es": "lehengusu(primo) / lehengusina(prima) — género en familia, pero NO en adjetivos",
+      "answer": true,
+      "explanation": "Familia sí tiene género: anaia/ahizpa, lehengusu/lehengusina, osaba/izeba. Pero los adjetivos NO tienen género: gazte(joven), ederra(guapo/a), altu(alto/a) — igual para todos."
     },
     {
       "id": "e08",

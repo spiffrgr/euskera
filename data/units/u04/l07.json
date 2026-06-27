@@ -49,9 +49,10 @@
       "id": "e04",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "ilea",
-      "es": "pelo",
-      "answer": true
+      "eu": "'Ile luzea du' (tiene el pelo largo) → DU es correcto para características físicas (posesión) → true",
+      "es": "DU(tiene) para características físicas de otra persona",
+      "answer": true,
+      "explanation": "Para características físicas se usa DU(tiene): ile luzea du(tiene el pelo largo), begi urdinak ditu(tiene los ojos azules — DITU para plural). DA sería para calidad de estado: altua da(es alto)."
     },
     {
       "id": "e05",

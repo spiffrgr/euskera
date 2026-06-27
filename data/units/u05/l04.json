@@ -47,9 +47,10 @@
       "id": "e03",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "anaia bakarra dut",
-      "es": "tengo solo un hermano",
-      "answer": true
+      "eu": "'Anaia bat dut' (DUT, singular) pero 'Bi anaia ditut' (DITUT, plural) → la diferencia es el número del objeto → true",
+      "es": "DUT = tengo uno / DITUT = tengo varios (número del objeto directo)",
+      "answer": true,
+      "explanation": "Regla clave: DUT para objeto singular, DITUT para objeto plural. Anaia bat dut(tengo un hermano) vs bi anaia ditut(tengo dos hermanos). Igual para años: urte bat dut / hogeita bat urte ditut."
     },
     {
       "id": "e04",

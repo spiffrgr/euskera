@@ -38,9 +38,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "etxean",
-      "es": "en casa",
-      "answer": true
+      "eu": "'Etxean nago' = estoy en casa (-N locativo) pero 'etxera noa' = voy a casa (-RA alativo) → true",
+      "es": "etxean(-N) = en casa; etxera(-RA) = a casa — sufijos de caso distintos",
+      "answer": true,
+      "explanation": "Sufijo locativo -N/-AN: etxean(en casa), eskolan(en la escuela). Sufijo alativo -RA: etxera(a casa), eskolara(a la escuela). Con EGON→-N; con JOAN→-RA."
     },
     {
       "id": "e03",

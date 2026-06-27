@@ -40,9 +40,10 @@
       "id": "e03",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "txekea",
-      "es": "la cuenta",
-      "answer": true
+      "eu": "En un restaurante: 'nahi dut' para pedir, 'zenbat da?' para el precio, 'txekea mesedez' para la cuenta → true",
+      "es": "Vocabulario de restaurante: nahi dut / zenbat da? / txekea mesedez",
+      "answer": true,
+      "explanation": "Secuencia en restaurante: Karta, mesedez(la carta)→ Oiloa nahi dut(quiero pollo)→ Zenbat da?(¿cuánto es?)→ Txekea, mesedez(la cuenta). Txekea = la cuenta."
     },
     {
       "id": "e04",

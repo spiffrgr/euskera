@@ -39,10 +39,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "praka",
-      "es": "falda",
-      "answer": false,
-      "explanation": "praka = pantalón. Falda = gona."
+      "eu": "Para 'Llevo una camisa azul' el orden correcto es: alkandora urdina dut (sustantivo + adjetivo) → true",
+      "es": "alkandora urdina dut: adjetivo DESPUÉS del sustantivo (orden vasco)",
+      "answer": true,
+      "explanation": "En euskera el adjetivo va DESPUÉS del sustantivo: alkandora(camisa) + urdina(azul) + dut(llevo/tengo). Al revés que en español donde a veces va delante."
     },
     {
       "id": "e03",

@@ -38,9 +38,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "ahizpa",
-      "es": "hermana",
-      "answer": true
+      "eu": "'Nire ahizpak oso ondo hitz egiten du' → 'ahizpak' lleva -K porque es sujeto de verbo transitivo → true",
+      "es": "ahizpak lleva -K = sujeto ergativo (NORK), verbo transitivo",
+      "answer": true,
+      "explanation": "Caso NORK: el sujeto de un verbo transitivo lleva -K. ahizpak(la hermana) hitz egiten du → ahizpak es el agente. Sin -K: nire ahizpa gaztea da(mi hermana es joven, intransitivo)."
     },
     {
       "id": "e03",

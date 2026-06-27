@@ -58,9 +58,10 @@
       "id": "u03_l02_e06",
       "type": "true_false",
       "instruction": "¿Es correcta esta frase?",
-      "eu": "Bost urte ditut.",
-      "es": "Tengo cinco años.",
+      "eu": "Para la edad en euskera se usa DITUT (plural), nunca DUT: 'Hogeita bi urte DITUT' → true",
+      "es": "La edad usa DITUT (plural de objeto), no DUT",
       "answer": true,
+      "explanation": "Correcto. Los años son objeto plural → DITUT(yo), DITUZU(tú), DITU(él/ella). DUT sería para un objeto singular. 'Zenbat urte dituzu?' = ¿Cuántos años tienes?",
       "explanation": "Correcto. 'Bost urte ditut' = tengo cinco años (ditut = tengo, verbo UKAN)."
     },
     {

@@ -33,9 +33,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "arraultza",
-      "es": "huevo",
-      "answer": true
+      "eu": "'Bi arraultza nahi ditut' usa DITUT (no DUT) porque el objeto es plural → true",
+      "es": "Dos huevos = objeto plural → DITUT, no DUT",
+      "answer": true,
+      "explanation": "El número del objeto cambia el verbo: bat→nahi dut, bi/hiru/...→nahi ditut. Arraultza bat nahi dut vs bi arraultza nahi ditut. Mismo patrón que con los años de edad."
     },
     {
       "id": "e03",

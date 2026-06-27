@@ -38,9 +38,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "ile iluna",
-      "es": "pelo oscuro",
-      "answer": true
+      "eu": "En 'Nire amak ile iluna du', el verbo DU (EDUKI) es correcto para describir características físicas → true",
+      "es": "DU(tiene) para características físicas, DA para calidad o identidad",
+      "answer": true,
+      "explanation": "Características físicas: ile iluna du(tiene el pelo oscuro), begi urdinak ditu(tiene los ojos azules). Calidad/estado: gaztea da(es joven), altua da(es alto). DU ≠ DA."
     },
     {
       "id": "e03",

@@ -38,9 +38,10 @@
       "id": "e02",
       "type": "true_false",
       "instruction": "¿Verdadero o falso?",
-      "eu": "triste",
-      "es": "triste (la misma palabra)",
-      "answer": true
+      "eu": "Para 'estoy triste' usas EGON (no IZAN): 'Triste nago' → true (estado temporal, no identidad)",
+      "es": "Los estados de ánimo usan EGON: triste nago, pozik nago, haserre nago",
+      "answer": true,
+      "explanation": "Los estados temporales/de ánimo usan EGON: triste nago(estoy triste), pozik nago(estoy contento), nekatuta nago(estoy cansado). NAIZ(IZAN) es para identidad permanente."
     },
     {
       "id": "e03",

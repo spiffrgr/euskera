@@ -15,17 +15,18 @@ const UI = (() => {
 
   // ---- Unit map (home) ----
 
-  function renderUnitMap(course, lessonProgressMap, onUnitClick) {
+  function renderUnitMap(course, unitMetaMap, lessonProgressMap, onUnitClick) {
     const container = document.getElementById('unit-map');
     container.innerHTML = '';
 
     course.units.forEach(unit => {
-      const lessonIds = ['l01', 'l02', 'l03', 'test'];
-      const total = lessonIds.length;
-      const completed = lessonIds.filter(lid => lessonProgressMap[`${unit.id}_${lid}`]?.completed).length;
-      const pct = Math.round((completed / total) * 100);
+      const meta = unitMetaMap[unit.id];
+      const lessons = meta ? meta.lessons : [];
+      const total = lessons.length;
+      const completed = lessons.filter(l => lessonProgressMap[`${unit.id}_${l.id}`]?.completed).length;
+      const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
       const isLocked = !unit.available;
-      const isDone = completed === total;
+      const isDone = total > 0 && completed === total;
 
       const card = document.createElement('div');
       card.className = 'topic-card' + (isLocked ? ' locked' : '') + (isDone ? ' done' : '');
@@ -33,7 +34,7 @@ const UI = (() => {
         <span class="topic-emoji">${unit.emoji}</span>
         <div class="topic-info">
           <div class="topic-name">${escHtml(unit.title)}</div>
-          <div class="topic-desc">${completed}/${total} lecciones</div>
+          <div class="topic-desc">${isLocked ? 'Próximamente' : `${completed}/${total} lecciones`}</div>
         </div>
         <div class="topic-progress">
           <div class="topic-progress-pct">${isDone ? '✓' : pct + '%'}</div>

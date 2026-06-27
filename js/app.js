@@ -52,15 +52,18 @@ const App = (() => {
     streakDays = streak.days;
     UI.setStreak(streakDays);
 
-    // Load progress for all known lessons
+    // Load metas for available units to know their lesson IDs
+    const availableUnits = course.units.filter(u => u.available);
+    const metas = await Promise.all(availableUnits.map(u => Course.loadUnit(u.id)));
+    const unitMetaMap = Object.fromEntries(metas.map(m => [m.id, m]));
+
+    // Build progress keys from actual lesson data
     const keys = [];
-    course.units.forEach(u => {
-      ['l01','l02','l03','test'].forEach(lid => keys.push(`${u.id}_${lid}`));
-    });
+    metas.forEach(meta => meta.lessons.forEach(l => keys.push(`${meta.id}_${l.id}`)));
     const entries = await Promise.all(keys.map(k => FB.getProgress(k).then(p => [k, p])));
     lessonProgressMap = Object.fromEntries(entries);
 
-    UI.renderUnitMap(course, lessonProgressMap, onUnitClick);
+    UI.renderUnitMap(course, unitMetaMap, lessonProgressMap, onUnitClick);
     UI.show('screen-home');
   }
 

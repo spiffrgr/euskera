@@ -2,5 +2,9 @@
   { "id": "l01", "title": "Izena eta jatorria (Nombre y origen)", "type": "lesson" },
   { "id": "l02", "title": "Lanbidea eta adina (Profesión y edad)", "type": "lesson" },
   { "id": "l03", "title": "Aurkezpen osoa (Presentación completa)", "type": "lesson" },
+  { "id": "l04", "title": "Familia (La familia)", "type": "lesson" },
+  { "id": "l05", "title": "Non bizi zara? (¿Dónde vives?)", "type": "lesson" },
+  { "id": "l06", "title": "Hizkuntzak (Los idiomas)", "type": "lesson" },
+  { "id": "l07", "title": "Gustukoak (Lo que te gusta)", "type": "lesson" },
   { "id": "test", "title": "Test de la unidad", "type": "test" }
 ]}

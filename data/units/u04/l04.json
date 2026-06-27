@@ -1,0 +1,96 @@
+{
+  "id": "l04",
+  "title": "Kontrakotak (Contrarios)",
+  "slides": [
+    {
+      "eu": "handia ↔ txikia",
+      "es": "grande ↔ pequeño",
+      "example_eu": "Etxe hau handia da, baina nirea txikia da.",
+      "example_es": "Esta casa es grande, pero la mía es pequeña."
+    },
+    {
+      "eu": "berria ↔ zaharra",
+      "es": "nuevo ↔ viejo",
+      "example_eu": "Auto berri bat nahi dut; hau zaharra da.",
+      "example_es": "Quiero un coche nuevo; este es viejo."
+    },
+    {
+      "eu": "ona ↔ txarra",
+      "es": "bueno ↔ malo",
+      "example_eu": "Eguraldi ona dago gaur. Atzo txarra zen.",
+      "example_es": "Hoy hace buen tiempo. Ayer era malo."
+    },
+    {
+      "eu": "hotza ↔ beroa",
+      "es": "frío ↔ caliente",
+      "example_eu": "Ura hotza dago. Kafe beroa nahi dut.",
+      "example_es": "El agua está fría. Quiero un café caliente."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál es el contrario de 'handia' (grande)?",
+      "options": ["txikia", "berria", "ona", "beroa"],
+      "answer": "txikia"
+    },
+    {
+      "id": "e02",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "berria",
+      "es": "nuevo",
+      "answer": true
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "txarra",
+      "answer": "malo"
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "instruction": "Une cada contrario",
+      "pairs": [
+        { "eu": "handia", "es": "grande" },
+        { "eu": "txikia", "es": "pequeño" },
+        { "eu": "berria", "es": "nuevo" },
+        { "eu": "zaharra", "es": "viejo" }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Ura ___ dago.",
+      "translation": "El agua está fría.",
+      "hint": "contrario de caliente",
+      "answer": "hotza"
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "bueno",
+      "answer": "ona"
+    },
+    {
+      "id": "e07",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál es el opuesto de 'beroa' (caliente)?",
+      "options": ["hotza", "txarra", "zaharra", "txikia"],
+      "answer": "hotza"
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["handia", "da", "etxe", "hau"],
+      "translation": "Esta casa es grande",
+      "answer": "etxe hau handia da"
+    }
+  ]
+}

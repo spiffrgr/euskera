@@ -2,5 +2,9 @@
   { "id": "l01", "title": "Números 1–10", "type": "lesson" },
   { "id": "l02", "title": "Números 11–20", "type": "lesson" },
   { "id": "l03", "title": "Zenbat da? (¿Cuánto es?)", "type": "lesson" },
+  { "id": "l04", "title": "Números 21–100", "type": "lesson" },
+  { "id": "l05", "title": "Zer ordu da? (¿Qué hora es?)", "type": "lesson" },
+  { "id": "l06", "title": "Zenbat urte? (¿Cuántos años?)", "type": "lesson" },
+  { "id": "l07", "title": "Egunak eta hilabeteak (Días y meses)", "type": "lesson" },
   { "id": "test", "title": "Test de la unidad", "type": "test" }
 ]}

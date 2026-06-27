@@ -1,0 +1,96 @@
+{
+  "id": "l05",
+  "title": "Arropa eta koloreak (Ropa)",
+  "slides": [
+    {
+      "eu": "kamiseta / alkandora",
+      "es": "camiseta / camisa",
+      "example_eu": "Kamiseta gorri bat darama.",
+      "example_es": "Lleva una camiseta roja."
+    },
+    {
+      "eu": "praka / gona",
+      "es": "pantalón / falda",
+      "example_eu": "Praka urdinak darama.",
+      "example_es": "Lleva pantalones azules."
+    },
+    {
+      "eu": "jaka / zapata",
+      "es": "chaqueta / zapato",
+      "example_eu": "Jaka berde bat du eta zapata beltzak.",
+      "example_es": "Tiene una chaqueta verde y zapatos negros."
+    },
+    {
+      "eu": "txapela / arropa",
+      "es": "boina vasca / ropa",
+      "example_eu": "Aitonak txapela beltz bat darama beti.",
+      "example_es": "El abuelo siempre lleva una boina negra."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'camiseta' en euskera?",
+      "options": ["kamiseta", "alkandora", "gona", "jaka"],
+      "answer": "kamiseta"
+    },
+    {
+      "id": "e02",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "praka",
+      "es": "falda",
+      "answer": false,
+      "explanation": "praka = pantalón. Falda = gona."
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "jaka",
+      "answer": "chaqueta"
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Praka urdinak ___.",
+      "translation": "Lleva pantalones azules.",
+      "hint": "verbo 'llevar puesto' 3ª persona",
+      "answer": "darama"
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "instruction": "Une cada par",
+      "pairs": [
+        { "eu": "kamiseta", "es": "camiseta" },
+        { "eu": "praka", "es": "pantalón" },
+        { "eu": "gona", "es": "falda" },
+        { "eu": "zapata", "es": "zapato" }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "chaqueta",
+      "answer": "jaka"
+    },
+    {
+      "id": "e07",
+      "type": "multiple_choice",
+      "instruction": "La boina vasca tradicional se llama:",
+      "options": ["txapela", "jaka", "alkandora", "gona"],
+      "answer": "txapela"
+    },
+    {
+      "id": "e08",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Zer darama?",
+      "answer": "¿Qué lleva?"
+    }
+  ]
+}

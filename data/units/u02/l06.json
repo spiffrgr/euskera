@@ -1,0 +1,94 @@
+{
+  "id": "l06",
+  "title": "Zenbat urte? (¿Cuántos años?)",
+  "grammar_note": {
+    "title": "Adina - urteak (La edad)",
+    "body": "La edad usa el verbo **UKAN** (tener): **[número] urte ditut** (tengo [número] años). **ditut** = yo tengo (ellos), **dituzu** = tú tienes, **ditu** = él/ella tiene. Para preguntar: **Zenbat urte dituzu?**",
+    "tip": "ditut / dituzu / ditu — fíjate en la terminación para saber quién habla"
+  },
+  "slides": [
+    {
+      "eu": "Zenbat urte dituzu?",
+      "es": "¿Cuántos años tienes?",
+      "example_eu": "Zenbat urte dituzu, Mikel?",
+      "example_es": "¿Cuántos años tienes, Mikel?"
+    },
+    {
+      "eu": "Hogei urte ditut.",
+      "es": "Tengo veinte años.",
+      "example_eu": "Hogei urte ditut. Eta zuk?",
+      "example_es": "Tengo veinte años. ¿Y tú?"
+    },
+    {
+      "eu": "urtebetetzea / zorionak",
+      "es": "cumpleaños / felicidades",
+      "example_eu": "Zorionak zure urtebetetzean!",
+      "example_es": "¡Felicidades en tu cumpleaños!"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice '¿cuántos años tienes?' en euskera?",
+      "options": ["Zenbat urte dituzu?", "Zenbat da?", "Zer urte da?", "Zenbat dituzu?"],
+      "answer": "Zenbat urte dituzu?"
+    },
+    {
+      "id": "e02",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Hogei urte ___.",
+      "translation": "Tengo veinte años.",
+      "hint": "verbo 'tener' 1ª persona plural",
+      "answer": "ditut"
+    },
+    {
+      "id": "e03",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "zorionak",
+      "es": "felicidades",
+      "answer": true
+    },
+    {
+      "id": "e04",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Zenbat urte dituzu?",
+      "answer": "¿Cuántos años tienes?"
+    },
+    {
+      "id": "e05",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "felicidades",
+      "answer": "zorionak"
+    },
+    {
+      "id": "e06",
+      "type": "grammar_select",
+      "instruction": "Para decir 'ella tiene 30 años' usas:",
+      "sentence": "Hogeita hamar urte ___ (ella)",
+      "translation": "Ella tiene treinta años",
+      "options": ["ditut", "dituzu", "ditu", "ditugu"],
+      "answer": "ditu"
+    },
+    {
+      "id": "e07",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "___ urte ditut.",
+      "translation": "Tengo cuarenta años.",
+      "hint": "40 en euskera",
+      "answer": "berrogei"
+    },
+    {
+      "id": "e08",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "urtebetetzea",
+      "answer": "cumpleaños"
+    }
+  ]
+}

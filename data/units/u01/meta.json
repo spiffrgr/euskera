@@ -2,5 +2,9 @@
   { "id": "l01", "title": "Saludos básicos", "type": "lesson" },
   { "id": "l02", "title": "Ni naiz... (Presentarse)", "type": "lesson" },
   { "id": "l03", "title": "Nola zaude? (¿Cómo estás?)", "type": "lesson" },
+  { "id": "l04", "title": "Kortesia (Cortesía)", "type": "lesson" },
+  { "id": "l05", "title": "Bai eta Ez (Sí y No)", "type": "lesson" },
+  { "id": "l06", "title": "Klasean (En clase)", "type": "lesson" },
+  { "id": "l07", "title": "Elkarrizketa (Diálogo completo)", "type": "lesson" },
   { "id": "test", "title": "Test de la unidad", "type": "test" }
 ]}

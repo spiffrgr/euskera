@@ -1,0 +1,96 @@
+{
+  "id": "l07",
+  "title": "Gustukoak (Lo que me gusta)",
+  "grammar_note": {
+    "title": "Gustatzen zait / zaizkit",
+    "body": "'Me gusta' es **gustatzen zait** (para una cosa) y **gustatzen zaizkit** (para varias cosas). Lo que gusta funciona como sujeto: **Musika gustatzen zait** (La música me gusta). Para preguntar: **Zer gustatzen zaizu?** (¿Qué te gusta?)",
+    "tip": "zait = me (gusta una cosa) / zaizkit = me (gustan varias cosas)"
+  },
+  "slides": [
+    {
+      "eu": "Gustatzen zait (singular)",
+      "es": "Me gusta",
+      "example_eu": "Musika gustatzen zait.",
+      "example_es": "Me gusta la música."
+    },
+    {
+      "eu": "Gustatzen zaizkit (plural)",
+      "es": "Me gustan",
+      "example_eu": "Liburuak gustatzen zaizkit.",
+      "example_es": "Me gustan los libros."
+    },
+    {
+      "eu": "kirola / musika / janaria / irakurtzea",
+      "es": "deporte / música / comida / leer",
+      "example_eu": "Kirola eta irakurtzea gustatzen zaizkit.",
+      "example_es": "Me gustan el deporte y leer."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'me gusta' (singular) en euskera?",
+      "options": ["gustatzen zait", "gustatzen zaizkit", "gustatu dut", "gustatzen naiz"],
+      "answer": "gustatzen zait"
+    },
+    {
+      "id": "e02",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "gustatzen zaizkit = me gustan (plural)",
+      "es": "Verdadero",
+      "answer": true
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Musika gustatzen zait.",
+      "answer": "Me gusta la música."
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Kirola gustatzen ___.",
+      "translation": "Me gusta el deporte.",
+      "hint": "zait o zaizkit?",
+      "answer": "zait"
+    },
+    {
+      "id": "e05",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Me gusta la comida.",
+      "answer": "Janaria gustatzen zait."
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "instruction": "Une cada par",
+      "pairs": [
+        { "eu": "kirola", "es": "deporte" },
+        { "eu": "musika", "es": "música" },
+        { "eu": "janaria", "es": "comida" },
+        { "eu": "irakurtzea", "es": "leer" }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "grammar_select",
+      "instruction": "'Me gustan las películas' en euskera:",
+      "sentence": "Filmak gustatzen ___.",
+      "translation": "películas = plural",
+      "options": ["zait", "zaizkit", "dut", "naiz"],
+      "answer": "zaizkit"
+    },
+    {
+      "id": "e08",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Zer gustatzen zaizu?",
+      "answer": "¿Qué te gusta?"
+    }
+  ]
+}

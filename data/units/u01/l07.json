@@ -1,0 +1,88 @@
+{
+  "id": "l07",
+  "title": "Elkarrizketa (Diálogo completo)",
+  "slides": [
+    {
+      "eu": "Kaixo! Ni Mikel naiz. Eta zu?",
+      "es": "¡Hola! Soy Mikel. ¿Y tú?",
+      "example_eu": "Kaixo! Ni Amaia naiz. Zu nor zara?",
+      "example_es": "¡Hola! Soy Amaia. ¿Tú quién eres?"
+    },
+    {
+      "eu": "Ondo nago, eskerrik asko!",
+      "es": "Estoy bien, ¡gracias!",
+      "example_eu": "Nola zaude? Ondo nago, eskerrik asko, eta zu?",
+      "example_es": "¿Cómo estás? Estoy bien, gracias, ¿y tú?"
+    },
+    {
+      "eu": "Agur! Bihar arte!",
+      "es": "¡Adiós! ¡Hasta mañana!",
+      "example_eu": "Agur, Mikel! Bihar arte, eta ongi ibili!",
+      "example_es": "¡Adiós, Mikel! ¡Hasta mañana y que te vaya bien!"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo dices '¡Hola, soy Ana!' en euskera?",
+      "options": ["Kaixo, ni Ana naiz!", "Kaixo, Ana naiz ni!", "Ana naiz, kaixo!", "Ni Ana, kaixo!"],
+      "answer": "Kaixo, ni Ana naiz!"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Eskerrik asko!",
+      "answer": "¡Gracias!"
+    },
+    {
+      "id": "e03",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["Ni", "naiz", "Iker"],
+      "translation": "Soy Iker",
+      "answer": "Ni Iker naiz"
+    },
+    {
+      "id": "e04",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "eu": "Bihar arte",
+      "es": "Hasta pronto",
+      "answer": false,
+      "explanation": "Bihar arte = Hasta mañana (bihar = mañana)"
+    },
+    {
+      "id": "e05",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Kaixo! Ni Amaia ___.",
+      "translation": "¡Hola! Soy Amaia.",
+      "hint": "verbo ser (1ª persona)",
+      "answer": "naiz"
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "¿Cómo estás?",
+      "answer": "Nola zaude?"
+    },
+    {
+      "id": "e07",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál es el orden correcto en euskera para 'Soy Miren'?",
+      "options": ["Ni Miren naiz", "Ni naiz Miren", "Miren naiz ni", "Naiz ni Miren"],
+      "answer": "Ni Miren naiz"
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["ondo", "nago", "eskerrik", "asko"],
+      "translation": "Estoy bien, gracias",
+      "answer": "ondo nago eskerrik asko"
+    }
+  ]
+}

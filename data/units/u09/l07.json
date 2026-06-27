@@ -1,0 +1,25 @@
+{
+  "id": "l07",
+  "title": "Nire egunerokoa (Mi día a día)",
+  "grammar_note": {
+    "title": "Describir un día completo",
+    "body": "Combinamos todo lo aprendido para narrar una rutina completa:\n1. Hora + actividad: **Zazpitan jaikitzen naiz**\n2. Momento del día + actividad: **Goizean gosaltzen dut**\n3. Frecuencia: **Egunero lanera joaten naiz**\n4. Contraste: **Lehen autobusez joaten nintzen, orain oinez**",
+    "tip": "Practica encadenando frases con 'eta' (y) para crear un relato fluido de tu día."
+  },
+  "slides": [
+    { "eu": "Zazpitan jaikitzen naiz", "es": "Me levanto a las siete", "example_eu": "Zazpitan jaikitzen naiz eta gosaltzen dut.", "example_es": "Me levanto a las siete y desayuno." },
+    { "eu": "Egunero lanera joaten naiz", "es": "Todos los días voy al trabajo", "example_eu": "Egunero autobusez joaten naiz lanera.", "example_es": "Todos los días voy al trabajo en autobús." },
+    { "eu": "Arratsaldean etxera itzultzen naiz", "es": "Por la tarde vuelvo a casa", "example_eu": "Bostetan arratsaldean etxera itzultzen naiz.", "example_es": "A las cinco de la tarde vuelvo a casa." },
+    { "eu": "Gauean lo egiten dut", "es": "Por la noche duermo", "example_eu": "Hamarretan gauean lo egiten dut.", "example_es": "A las diez de la noche duermo." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Qué significa 'itzultzen naiz'?", "options": ["me levanto", "vuelvo", "trabajo", "duermo"], "answer": "vuelvo" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Egunero lanera joaten naiz", "answer": "Todos los días voy al trabajo" },
+    { "id": "e03", "type": "translation_es_eu", "es": "Por la tarde vuelvo a casa", "answer": "Arratsaldean etxera itzultzen naiz" },
+    { "id": "e04", "type": "true_false", "eu": "Goizean = por la tarde", "es": "Goizean = por la tarde", "answer": false, "explanation": "Goizean significa 'por la mañana'. Por la tarde es 'arratsaldean'." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Bostetan etxera ___ naiz (vuelvo)", "translation": "A las cinco vuelvo a casa", "hint": "vuelvo (habitualmente)", "answer": "itzultzen" },
+    { "id": "e06", "type": "order_words", "words": ["goizean", "gosaltzen", "dut", "eta", "lanera", "joaten", "naiz"], "translation": "Por la mañana desayuno y voy al trabajo", "answer": "Goizean gosaltzen dut eta lanera joaten naiz" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "jaikitzen naiz", "es": "me levanto"}, {"eu": "itzultzen naiz", "es": "vuelvo"}, {"eu": "lo egiten dut", "es": "duermo"}, {"eu": "lan egiten dut", "es": "trabajo"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "___ autobusez joaten naiz lanera.", "translation": "Todos los días voy al trabajo en autobús.", "options": ["Egunero", "Batzuetan", "Inoiz ez", "Bihar"], "answer": "Egunero" }
+  ]
+}

@@ -11,9 +11,9 @@
     { "id": "u06", "title": "Janaria", "description": "Comida, bebida y sabores", "emoji": "🍎", "available": true },
     { "id": "u07", "title": "Aditzak I", "description": "Verbo IZAN: ser y estar", "emoji": "⚡", "available": true },
     { "id": "u08", "title": "Aditzak II", "description": "EGON, JOAN, ETORRI", "emoji": "🚶", "available": true },
-    { "id": "u09", "title": "Denbora", "description": "Días, horas y rutina diaria", "emoji": "📅", "available": false },
-    { "id": "u10", "title": "Etxea", "description": "La casa y los objetos", "emoji": "🏠", "available": false },
-    { "id": "u11", "title": "Galderak", "description": "Hacer preguntas en euskera", "emoji": "❓", "available": false },
-    { "id": "u12", "title": "Gorputza", "description": "El cuerpo y la salud", "emoji": "🏥", "available": false }
+    { "id": "u09", "title": "Denbora", "description": "Días, horas y rutina diaria", "emoji": "📅", "available": true },
+    { "id": "u10", "title": "Etxea", "description": "La casa y los objetos", "emoji": "🏠", "available": true },
+    { "id": "u11", "title": "Galderak", "description": "Hacer preguntas en euskera", "emoji": "❓", "available": true },
+    { "id": "u12", "title": "Gorputza", "description": "El cuerpo y la salud", "emoji": "🏥", "available": true }
   ]
 }

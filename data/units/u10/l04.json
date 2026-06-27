@@ -1,0 +1,25 @@
+{
+  "id": "l04",
+  "title": "Nire etxea nolakoa da?",
+  "grammar_note": {
+    "title": "Describir la casa: adjetivos y tamaño",
+    "body": "Para describir características de la casa:\n**handia** → grande\n**txikia** → pequeño/a\n**berria** → nuevo/a\n**zaharra** → viejo/a / antiguo/a\n**garbia** → limpio/a\n**iluna** → oscuro/a\n**argia** → luminoso/a\n\nSe usa con IZAN: Nire etxea handia da = Mi casa es grande.",
+    "tip": "En euskera los adjetivos van DESPUÉS del sustantivo: etxe handia (casa grande), gela txikia (habitación pequeña)."
+  },
+  "slides": [
+    { "eu": "handia", "es": "grande", "example_eu": "Nire etxea oso handia da.", "example_es": "Mi casa es muy grande." },
+    { "eu": "txikia", "es": "pequeño/a", "example_eu": "Nire logela txikia da.", "example_es": "Mi dormitorio es pequeño." },
+    { "eu": "argia", "es": "luminoso/a", "example_eu": "Egongela oso argia da.", "example_es": "El salón es muy luminoso." },
+    { "eu": "berria", "es": "nuevo/a", "example_eu": "Sukaldea berria da.", "example_es": "La cocina es nueva." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'pequeño' en euskera?", "options": ["handia", "txikia", "berria", "zaharra"], "answer": "txikia" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Argia", "answer": "Luminoso/a" },
+    { "id": "e03", "type": "translation_es_eu", "es": "Grande", "answer": "Handia" },
+    { "id": "e04", "type": "true_false", "eu": "Zaharra = nuevo", "es": "Zaharra = nuevo", "answer": false, "explanation": "Zaharra significa 'viejo' o 'antiguo'. Nuevo es 'berria'." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Nire etxea oso ___ da (grande)", "translation": "Mi casa es muy grande", "hint": "grande", "answer": "handia" },
+    { "id": "e06", "type": "order_words", "words": ["egongela", "oso", "argia", "da"], "translation": "El salón es muy luminoso", "answer": "Egongela oso argia da" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "handia", "es": "grande"}, {"eu": "txikia", "es": "pequeño"}, {"eu": "berria", "es": "nuevo"}, {"eu": "zaharra", "es": "viejo"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "Nire logela ___ da.", "translation": "Mi dormitorio es pequeño.", "options": ["txikia", "handia", "argia", "berria"], "answer": "txikia" }
+  ]
+}

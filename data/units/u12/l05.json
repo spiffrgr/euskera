@@ -1,0 +1,25 @@
+{
+  "id": "l05",
+  "title": "Kirol eta gorputza (Deporte)",
+  "grammar_note": {
+    "title": "Deportes y actividad física",
+    "body": "Deportes comunes en euskera:\n**futbola** → el fútbol\n**saskibaloia** → el baloncesto\n**txirrindularitza** → el ciclismo\n**igeriketa** → la natación\n**mendizaletasuna** → el senderismo\n**gimnasia** → la gimnasia\n\nVerbo: **kirola egin** → hacer deporte\n**entrenatu** → entrenar",
+    "tip": "Kirola egin = hacer deporte (genérico). Para un deporte específico: futbola jokatu (jugar al fútbol), igeri egin (nadar)."
+  },
+  "slides": [
+    { "eu": "kirola egin", "es": "hacer deporte", "example_eu": "Astean hiru aldiz kirola egiten dut.", "example_es": "Hago deporte tres veces a la semana." },
+    { "eu": "futbola jokatu", "es": "jugar al fútbol", "example_eu": "Larunbatetan futbola jokatzen dut.", "example_es": "Los sábados juego al fútbol." },
+    { "eu": "igeri egin", "es": "nadar", "example_eu": "Igerian oso ona naiz.", "example_es": "Se me da muy bien nadar." },
+    { "eu": "mendira joan", "es": "ir al monte", "example_eu": "Igandetan mendira joaten naiz.", "example_es": "Los domingos voy al monte." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'hacer deporte' en euskera?", "options": ["kirola ikusi", "kirola egin", "kirola jan", "kirola entzun"], "answer": "kirola egin" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Futbola jokatu", "answer": "Jugar al fútbol" },
+    { "id": "e03", "type": "translation_es_eu", "es": "Nadar", "answer": "Igeri egin" },
+    { "id": "e04", "type": "true_false", "eu": "Txirrindularitza = natación", "es": "Txirrindularitza = natación", "answer": false, "explanation": "Txirrindularitza es el ciclismo. La natación es 'igeriketa'." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Astean hiru aldiz kirola ___ dut (hago)", "translation": "Hago deporte tres veces a la semana", "hint": "hago (egin, hab.)", "answer": "egiten" },
+    { "id": "e06", "type": "order_words", "words": ["igandetan", "mendira", "joaten", "naiz"], "translation": "Los domingos voy al monte", "answer": "Igandetan mendira joaten naiz" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "kirola egin", "es": "hacer deporte"}, {"eu": "futbola jokatu", "es": "jugar al fútbol"}, {"eu": "igeri egin", "es": "nadar"}, {"eu": "entrenatu", "es": "entrenar"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "Larunbatetan futbola ___ dut.", "translation": "Los sábados juego al fútbol.", "options": ["jokatzen", "joaten", "egiten", "etortzen"], "answer": "jokatzen" }
+  ]
+}

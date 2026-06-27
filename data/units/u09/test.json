@@ -1,0 +1,18 @@
+{
+  "id": "test",
+  "title": "Test de la unidad — Denbora",
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'ayer' en euskera?", "options": ["gaur", "atzo", "bihar", "gero"], "answer": "atzo" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Bihar", "answer": "Mañana" },
+    { "id": "e03", "type": "translation_es_eu", "es": "Siempre", "answer": "Beti" },
+    { "id": "e04", "type": "true_false", "eu": "Goizean = por la mañana", "es": "Goizean = por la mañana", "answer": true, "explanation": "Correcto. Goiz = mañana, goizean = por la mañana." },
+    { "id": "e05", "type": "fill_blank", "sentence": "___ jaikitzen naiz (me levanto a las siete)", "translation": "Me levanto a las siete", "hint": "hora: siete", "answer": "Zazpitan" },
+    { "id": "e06", "type": "multiple_choice", "instruction": "¿Qué significa 'askotan'?", "options": ["siempre", "nunca", "a menudo", "a veces"], "answer": "a menudo" },
+    { "id": "e07", "type": "translation_eu_es", "eu": "Asteburuan", "answer": "El fin de semana" },
+    { "id": "e08", "type": "translation_es_eu", "es": "Todos los días", "answer": "Egunero" },
+    { "id": "e09", "type": "order_words", "words": ["lehen", "Bilbon", "bizi", "nintzen"], "translation": "Antes vivía en Bilbao", "answer": "Lehen Bilbon bizi nintzen" },
+    { "id": "e10", "type": "match_pairs", "pairs": [{"eu": "gaur", "es": "hoy"}, {"eu": "atzo", "es": "ayer"}, {"eu": "bihar", "es": "mañana"}, {"eu": "orain", "es": "ahora"}] },
+    { "id": "e11", "type": "grammar_select", "sentence": "___ gauean telebista ikusten dut.", "translation": "Por la noche veo la televisión.", "options": ["Beti", "Inoiz ez", "Askotan", "Batzuetan"], "answer": "Batzuetan" },
+    { "id": "e12", "type": "true_false", "eu": "Ostiraletan = los viernes", "es": "Ostiraletan = los viernes", "answer": true, "explanation": "Correcto. Ostirala + -tan = los viernes (uso habitual)." }
+  ]
+}

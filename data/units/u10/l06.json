@@ -1,0 +1,25 @@
+{
+  "id": "l06",
+  "title": "Etxeko tresnak (Objetos y aparatos)",
+  "grammar_note": {
+    "title": "Electrodomésticos y objetos del hogar",
+    "body": "Objetos comunes en casa:\n**telebista** → el televisor\n**ordenagailua** → el ordenador\n**galdara** → el lavavajillas\n**labea** → el horno\n**hozkailua** → el frigorífico\n**garbigailua** → la lavadora\n**telefonoa** → el teléfono\n**liburua** → el libro",
+    "tip": "Fíjate en el sufijo -gailu que indica 'aparato/máquina': garbi-gailu (lavadora, de 'garbi' = limpio), hozkailu (frigorífico, de 'hotz' = frío)."
+  },
+  "slides": [
+    { "eu": "hozkailua", "es": "el frigorífico", "example_eu": "Janaria hozkailu barruan dago.", "example_es": "La comida está dentro del frigorífico." },
+    { "eu": "garbigailua", "es": "la lavadora", "example_eu": "Garbigailua komunean dago.", "example_es": "La lavadora está en el baño." },
+    { "eu": "ordenagailua", "es": "el ordenador", "example_eu": "Ordenagailua mahairen gainean dago.", "example_es": "El ordenador está encima de la mesa." },
+    { "eu": "labea", "es": "el horno", "example_eu": "Labea sukaldean dago.", "example_es": "El horno está en la cocina." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'frigorífico' en euskera?", "options": ["garbigailua", "hozkailua", "labea", "telebista"], "answer": "hozkailua" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Garbigailua", "answer": "La lavadora" },
+    { "id": "e03", "type": "translation_es_eu", "es": "El ordenador", "answer": "Ordenagailua" },
+    { "id": "e04", "type": "true_false", "eu": "Labea = el horno", "es": "Labea = el horno", "answer": true, "explanation": "Correcto. Labea es el horno." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Janaria ___ barruan dago (en el frigorífico)", "translation": "La comida está dentro del frigorífico", "hint": "del frigorífico (genitivo)", "answer": "hozkailu" },
+    { "id": "e06", "type": "order_words", "words": ["ordenagailua", "mahairen", "gainean", "dago"], "translation": "El ordenador está encima de la mesa", "answer": "Ordenagailua mahairen gainean dago" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "hozkailua", "es": "frigorífico"}, {"eu": "garbigailua", "es": "lavadora"}, {"eu": "ordenagailua", "es": "ordenador"}, {"eu": "labea", "es": "horno"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "___ sukaldean dago.", "translation": "El horno está en la cocina.", "options": ["Labea", "Hozkailua", "Garbigailua", "Ordenagailua"], "answer": "Labea" }
+  ]
+}

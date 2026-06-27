@@ -1,0 +1,25 @@
+{
+  "id": "l01",
+  "title": "Burua eta aurpegia (Cabeza y cara)",
+  "grammar_note": {
+    "title": "Partes de la cabeza",
+    "body": "Vocabulario de la cabeza y cara:\n**burua** → la cabeza\n**aurpegia** → la cara\n**begiak** → los ojos (begi = ojo, -ak = plural)\n**belarria** → la oreja\n**sudurra** → la nariz\n**ahoa** → la boca\n**hortzak** → los dientes\n**ilea** → el pelo",
+    "tip": "Nota: en euskera muchas partes del cuerpo usan el artículo -a: buru-a, aurpegi-a. El plural es -ak: begi-ak (los ojos)."
+  },
+  "slides": [
+    { "eu": "burua", "es": "la cabeza", "example_eu": "Burua min dut.", "example_es": "Me duele la cabeza." },
+    { "eu": "begiak", "es": "los ojos", "example_eu": "Begi urdina dut.", "example_es": "Tengo los ojos azules." },
+    { "eu": "sudurra", "es": "la nariz", "example_eu": "Sudurra gorria du.", "example_es": "Tiene la nariz roja." },
+    { "eu": "ahoa", "es": "la boca", "example_eu": "Ahoa ireki!", "example_es": "¡Abre la boca!" }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'la cabeza' en euskera?", "options": ["aurpegia", "burua", "begiak", "ilea"], "answer": "burua" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Begiak", "answer": "Los ojos" },
+    { "id": "e03", "type": "translation_es_eu", "es": "La nariz", "answer": "Sudurra" },
+    { "id": "e04", "type": "true_false", "eu": "Ahoa = la boca", "es": "Ahoa = la boca", "answer": true, "explanation": "Correcto. Ahoa es la boca." },
+    { "id": "e05", "type": "fill_blank", "sentence": "___ min dut (me duele la cabeza)", "translation": "Me duele la cabeza", "hint": "la cabeza", "answer": "Burua" },
+    { "id": "e06", "type": "order_words", "words": ["begi", "urdina", "dut"], "translation": "Tengo los ojos azules", "answer": "Begi urdina dut" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "burua", "es": "cabeza"}, {"eu": "aurpegia", "es": "cara"}, {"eu": "sudurra", "es": "nariz"}, {"eu": "ahoa", "es": "boca"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "___ min dut.", "translation": "Me duele la cabeza.", "options": ["Burua", "Ahoa", "Sudurra", "Ilea"], "answer": "Burua" }
+  ]
+}

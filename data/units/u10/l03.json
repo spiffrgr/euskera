@@ -1,0 +1,25 @@
+{
+  "id": "l03",
+  "title": "Non dago? (¿Dónde está?)",
+  "grammar_note": {
+    "title": "Postposiciones espaciales",
+    "body": "Para describir la ubicación de objetos:\n**gainean** → encima de / sobre\n**azpian** → debajo de\n**ondoan** → al lado de / junto a\n**barruan** → dentro de\n**kanpoan** → fuera de\n**aurrean** → delante de\n**atzean** → detrás de\n\nUso: objeto + **postposición**: Katua mahaiaren gainean dago = El gato está encima de la mesa.",
+    "tip": "Estas postposiciones funcionan como sufijos del sustantivo genitivo: mahaiaren gainean (encima de la mesa), atearen atzean (detrás de la puerta)."
+  },
+  "slides": [
+    { "eu": "gainean", "es": "encima de", "example_eu": "Liburua mahairen gainean dago.", "example_es": "El libro está encima de la mesa." },
+    { "eu": "azpian", "es": "debajo de", "example_eu": "Katua sofaren azpian dago.", "example_es": "El gato está debajo del sofá." },
+    { "eu": "ondoan", "es": "al lado de", "example_eu": "Eskola etxearen ondoan dago.", "example_es": "La escuela está al lado de la casa." },
+    { "eu": "barruan", "es": "dentro de", "example_eu": "Arropa armairuaren barruan dago.", "example_es": "La ropa está dentro del armario." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Qué significa 'azpian'?", "options": ["encima de", "al lado de", "debajo de", "dentro de"], "answer": "debajo de" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Gainean", "answer": "Encima de" },
+    { "id": "e03", "type": "translation_es_eu", "es": "Al lado de", "answer": "Ondoan" },
+    { "id": "e04", "type": "true_false", "eu": "Barruan = fuera de", "es": "Barruan = fuera de", "answer": false, "explanation": "Barruan significa 'dentro de'. Fuera de es 'kanpoan'." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Katua sofaren ___ dago (debajo)", "translation": "El gato está debajo del sofá", "hint": "debajo de", "answer": "azpian" },
+    { "id": "e06", "type": "order_words", "words": ["liburua", "mahairen", "gainean", "dago"], "translation": "El libro está encima de la mesa", "answer": "Liburua mahairen gainean dago" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "gainean", "es": "encima de"}, {"eu": "azpian", "es": "debajo de"}, {"eu": "ondoan", "es": "al lado de"}, {"eu": "barruan", "es": "dentro de"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "Arropa armairuaren ___ dago.", "translation": "La ropa está dentro del armario.", "options": ["barruan", "gainean", "azpian", "aurrean"], "answer": "barruan" }
+  ]
+}

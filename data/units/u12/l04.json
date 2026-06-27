@@ -1,0 +1,25 @@
+{
+  "id": "l04",
+  "title": "Medikuarengana (Al médico)",
+  "grammar_note": {
+    "title": "Vocabulario médico básico",
+    "body": "Expresiones útiles en el médico:\n**gaixorik nago** → estoy enfermo/a\n**sukarra dut** → tengo fiebre\n**eztula dut** → tengo tos\n**musu-bat hartu dut** → me he resfriado\n**medikuarengana joan** → ir al médico\n**sendagaia hartu** → tomar medicamento\n**atseden hartu** → descansar\n\nFrase clave: **Zer gertatzen zaizu?** → ¿Qué le pasa?",
+    "tip": "Mediku-aren-gana = hacia el médico. -arengana es el alativo (-ra) del genitivo, indica 'hacia la persona de'."
+  },
+  "slides": [
+    { "eu": "Gaixorik nago", "es": "Estoy enfermo/a", "example_eu": "Gaixorik nago eta lanera ezin naiz joan.", "example_es": "Estoy enfermo/a y no puedo ir al trabajo." },
+    { "eu": "Sukarra dut", "es": "Tengo fiebre", "example_eu": "Sukarra dut, hogeita zortzi eta erdikoa.", "example_es": "Tengo fiebre, de treinta y ocho y medio." },
+    { "eu": "Eztula dut", "es": "Tengo tos", "example_eu": "Eztula eta gripea dut.", "example_es": "Tengo tos y gripe." },
+    { "eu": "Medikuarengana joan behar dut", "es": "Tengo que ir al médico", "example_eu": "Gaur medikuarengana joan behar dut.", "example_es": "Hoy tengo que ir al médico." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'tengo fiebre'?", "options": ["Gaixorik nago", "Eztula dut", "Sukarra dut", "Mina dut"], "answer": "Sukarra dut" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Gaixorik nago", "answer": "Estoy enfermo/a" },
+    { "id": "e03", "type": "translation_es_eu", "es": "Tengo tos", "answer": "Eztula dut" },
+    { "id": "e04", "type": "true_false", "eu": "Sukarra = tos", "es": "Sukarra = tos", "answer": false, "explanation": "Sukarra significa 'fiebre'. Tos es 'eztula'." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Gaur medikuarengana joan ___ dut (tengo que ir)", "translation": "Hoy tengo que ir al médico", "hint": "necesidad/obligación", "answer": "behar" },
+    { "id": "e06", "type": "order_words", "words": ["gaixorik", "nago", "eta", "lanera", "ezin", "naiz", "joan"], "translation": "Estoy enfermo/a y no puedo ir al trabajo", "answer": "Gaixorik nago eta lanera ezin naiz joan" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "gaixorik nago", "es": "estoy enfermo/a"}, {"eu": "sukarra dut", "es": "tengo fiebre"}, {"eu": "eztula dut", "es": "tengo tos"}, {"eu": "atseden hartu", "es": "descansar"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "___ dut eta sendagaia hartu dut.", "translation": "Tengo fiebre y he tomado medicamento.", "options": ["Sukarra", "Eztula", "Mina", "Ilea"], "answer": "Sukarra" }
+  ]
+}

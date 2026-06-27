@@ -1,1 +1,10 @@
-{ "id": "u09", "lessons": [] }
+{ "id": "u09", "title": "Denbora", "emoji": "📅", "lessons": [
+  { "id": "l01", "title": "Noiz? (gaur, atzo, bihar...)", "type": "lesson" },
+  { "id": "l02", "title": "Eguneko jarduerak (Actividades diarias)", "type": "lesson" },
+  { "id": "l03", "title": "Egunerokoa (La rutina)", "type": "lesson" },
+  { "id": "l04", "title": "Maiztasuna (La frecuencia)", "type": "lesson" },
+  { "id": "l05", "title": "Asteko egunak eta jarduerak", "type": "lesson" },
+  { "id": "l06", "title": "Lehen eta orain (Antes y ahora)", "type": "lesson" },
+  { "id": "l07", "title": "Nire egunerokoa (Mi día a día)", "type": "lesson" },
+  { "id": "test", "title": "Test de la unidad", "type": "test" }
+]}

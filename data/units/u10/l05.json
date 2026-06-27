@@ -1,0 +1,25 @@
+{
+  "id": "l05",
+  "title": "Etxeko lanak (Tareas del hogar)",
+  "grammar_note": {
+    "title": "Verbos de tareas domésticas",
+    "body": "Las tareas del hogar con sus verbos:\n**garbitu** → limpiar\n**garbiketa egin** → hacer la limpieza\n**sukaldatu** → cocinar\n**garbitu arropa** → lavar la ropa\n**lisatu** → planchar\n**xafla/lurra garbitu** → fregar/barrer el suelo\n**erosketak egin** → hacer la compra",
+    "tip": "Muchas tareas se forman con EGIN (hacer): garbiketa egin, erosketak egin, lan egin. Aprende estas frases como bloques."
+  },
+  "slides": [
+    { "eu": "garbitu", "es": "limpiar", "example_eu": "Komuna garbitzen dut.", "example_es": "Limpio el baño." },
+    { "eu": "sukaldatu", "es": "cocinar", "example_eu": "Gauean sukaldatzen dut.", "example_es": "Por la noche cocino." },
+    { "eu": "erosketak egin", "es": "hacer la compra", "example_eu": "Larunbatetan erosketak egiten ditut.", "example_es": "Los sábados hago la compra." },
+    { "eu": "arropa garbitu", "es": "lavar la ropa", "example_eu": "Astean behin arropa garbitzen dut.", "example_es": "Lavo la ropa una vez a la semana." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Qué significa 'sukaldatu'?", "options": ["limpiar", "cocinar", "lavar", "planchar"], "answer": "cocinar" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Erosketak egin", "answer": "Hacer la compra" },
+    { "id": "e03", "type": "translation_es_eu", "es": "Limpiar", "answer": "Garbitu" },
+    { "id": "e04", "type": "true_false", "eu": "Arropa garbitu = lavar la ropa", "es": "Arropa garbitu = lavar la ropa", "answer": true, "explanation": "Correcto. Arropa = ropa, garbitu = limpiar/lavar." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Larunbatetan erosketak egiten ___ (hago, yo)", "translation": "Los sábados hago la compra", "hint": "verbo UKAN, 1ª pers.", "answer": "ditut" },
+    { "id": "e06", "type": "order_words", "words": ["gauean", "sukaldatzen", "dut"], "translation": "Por la noche cocino", "answer": "Gauean sukaldatzen dut" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "garbitu", "es": "limpiar"}, {"eu": "sukaldatu", "es": "cocinar"}, {"eu": "erosketak egin", "es": "hacer la compra"}, {"eu": "arropa garbitu", "es": "lavar la ropa"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "Astean behin arropa ___ dut.", "translation": "Lavo la ropa una vez a la semana.", "options": ["garbitzen", "sukaldatzen", "egiten", "joaten"], "answer": "garbitzen" }
+  ]
+}

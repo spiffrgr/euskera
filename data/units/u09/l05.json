@@ -1,0 +1,25 @@
+{
+  "id": "l05",
+  "title": "Asteko egunak eta jarduerak",
+  "grammar_note": {
+    "title": "Los días de la semana",
+    "body": "Los días de la semana en euskera:\n**astelehena** → lunes\n**asteartea** → martes\n**eguaztena** → miércoles\n**osteguna** → jueves\n**ostirala** → viernes\n**larunbata** → sábado\n**igandea** → domingo\n\nPara decir 'los lunes' se añade **-tan**: astehenetan → los lunes.",
+    "tip": "Aste = semana, asteburua = fin de semana (literalmente 'cabeza de semana')."
+  },
+  "slides": [
+    { "eu": "astelehena", "es": "lunes", "example_eu": "Astelehena gogorra da.", "example_es": "El lunes es duro." },
+    { "eu": "ostirala", "es": "viernes", "example_eu": "Ostiraletan lagun artean egoten naiz.", "example_es": "Los viernes estoy con amigos." },
+    { "eu": "asteburua", "es": "fin de semana", "example_eu": "Asteburuan mendira joaten naiz.", "example_es": "El fin de semana voy al monte." },
+    { "eu": "astean behin", "es": "una vez a la semana", "example_eu": "Astean behin kirola egiten dut.", "example_es": "Hago deporte una vez a la semana." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'viernes' en euskera?", "options": ["astelehena", "ostirala", "igandea", "larunbata"], "answer": "ostirala" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Asteburua", "answer": "Fin de semana" },
+    { "id": "e03", "type": "translation_es_eu", "es": "Lunes", "answer": "Astelehena" },
+    { "id": "e04", "type": "true_false", "eu": "Igandea = domingo", "es": "Igandea = domingo", "answer": true, "explanation": "Correcto. Igandea es domingo." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Asteburuan mendira ___ naiz (voy)", "translation": "El fin de semana voy al monte", "hint": "voy (habitualmente)", "answer": "joaten" },
+    { "id": "e06", "type": "order_words", "words": ["ostiraletan", "lagun", "artean", "egoten", "naiz"], "translation": "Los viernes estoy con amigos", "answer": "Ostiraletan lagun artean egoten naiz" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "astelehena", "es": "lunes"}, {"eu": "ostirala", "es": "viernes"}, {"eu": "larunbata", "es": "sábado"}, {"eu": "igandea", "es": "domingo"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "___ kirola egiten dut.", "translation": "Los lunes hago deporte.", "options": ["Astehenetan", "Ostirala", "Igandea", "Bihar"], "answer": "Astehenetan" }
+  ]
+}

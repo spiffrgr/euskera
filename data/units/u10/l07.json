@@ -1,0 +1,25 @@
+{
+  "id": "l07",
+  "title": "Etxeaz hitz egiten (Diálogo)",
+  "grammar_note": {
+    "title": "Hablar de tu casa completo",
+    "body": "Combinamos todo para describir la casa:\n1. **Tipo y tamaño**: Nire etxea pisua da / handia da\n2. **Gelak**: Hiru logela ditu / sukaldea eta egongela ditu\n3. **Ubicación de objetos**: Sofaa egongelan dago\n4. **Tareas**: Egunero etxea garbitzen dut\n\nPregunta útil: **Etxea nolakoa da?** = ¿Cómo es la casa?",
+    "tip": "Para decir cuántas habitaciones tiene: Nire etxeak bi logela ditu = Mi casa tiene dos dormitorios (-ak sujeto ergativo con verbo transitivo)."
+  },
+  "slides": [
+    { "eu": "Nire etxea pisua da", "es": "Mi casa es un piso", "example_eu": "Nire etxea bosgarren solairuan dagoen pisua da.", "example_es": "Mi casa es un piso en el quinto piso." },
+    { "eu": "Hiru logela ditu", "es": "Tiene tres dormitorios", "example_eu": "Nire etxeak hiru logela eta bi komun ditu.", "example_es": "Mi casa tiene tres dormitorios y dos baños." },
+    { "eu": "Oso garbia da", "es": "Está muy limpia", "example_eu": "Nire etxea oso garbia eta argia da.", "example_es": "Mi casa está muy limpia y es luminosa." },
+    { "eu": "Etxea nolakoa da?", "es": "¿Cómo es la casa?", "example_eu": "—Etxea nolakoa da? —Handia eta berria da.", "example_es": "—¿Cómo es la casa? —Es grande y nueva." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se pregunta '¿Cómo es la casa?'?", "options": ["Non dago etxea?", "Etxea nolakoa da?", "Zer da etxea?", "Zenbat logela ditu?"], "answer": "Etxea nolakoa da?" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Nire etxeak hiru logela ditu", "answer": "Mi casa tiene tres dormitorios" },
+    { "id": "e03", "type": "translation_es_eu", "es": "Es un piso grande", "answer": "Pisu handia da" },
+    { "id": "e04", "type": "true_false", "eu": "Nire etxea pisua da = mi casa es una habitación", "es": "Nire etxea pisua da = mi casa es una habitación", "answer": false, "explanation": "Pisua significa 'piso' (apartamento), no habitación. Habitación es 'gela'." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Nire etxeak bi logela eta komun ___ (tiene)", "translation": "Mi casa tiene dos dormitorios y un baño", "hint": "él/ella tiene (UKAN 3ª sg)", "answer": "ditu" },
+    { "id": "e06", "type": "order_words", "words": ["nire", "etxea", "oso", "handia", "eta", "argia", "da"], "translation": "Mi casa es muy grande y luminosa", "answer": "Nire etxea oso handia eta argia da" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "pisua", "es": "piso"}, {"eu": "logela", "es": "dormitorio"}, {"eu": "garbia", "es": "limpio/a"}, {"eu": "argia", "es": "luminoso/a"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "Nire etxeak hiru logela ___.", "translation": "Mi casa tiene tres dormitorios.", "options": ["ditu", "da", "dago", "naiz"], "answer": "ditu" }
+  ]
+}

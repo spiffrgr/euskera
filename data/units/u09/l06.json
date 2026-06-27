@@ -1,0 +1,25 @@
+{
+  "id": "l06",
+  "title": "Lehen eta orain (Antes y ahora)",
+  "grammar_note": {
+    "title": "Contrastar pasado y presente",
+    "body": "Para contrastar lo que hacíamos antes con lo que hacemos ahora:\n**lehen** → antes / antiguamente\n**orain** → ahora\n**orain dela** → hace (tiempo): orain dela urte bat = hace un año\n\nEjemplo de contraste:\n**Lehen kotxez joaten nintzen, orain oinez joaten naiz.**\n→ Antes iba en coche, ahora voy a pie.",
+    "tip": "Lehen + pasado (nintzen, zuen...) / Orain + presente (naiz, dut...)."
+  },
+  "slides": [
+    { "eu": "lehen", "es": "antes / antiguamente", "example_eu": "Lehen Bilbon bizi nintzen.", "example_es": "Antes vivía en Bilbao." },
+    { "eu": "orain", "es": "ahora", "example_eu": "Orain Donostian bizi naiz.", "example_es": "Ahora vivo en San Sebastián." },
+    { "eu": "aldatu da", "es": "ha cambiado", "example_eu": "Nire bizitza aldatu da.", "example_es": "Mi vida ha cambiado." },
+    { "eu": "orain dela urte bat", "es": "hace un año", "example_eu": "Orain dela urte bat lan hasi nuen.", "example_es": "Hace un año empecé a trabajar." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Qué significa 'lehen'?", "options": ["ahora", "después", "antes", "siempre"], "answer": "antes" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Orain dela urte bat", "answer": "Hace un año" },
+    { "id": "e03", "type": "translation_es_eu", "es": "Ahora", "answer": "Orain" },
+    { "id": "e04", "type": "true_false", "eu": "Lehen + verbo en pasado", "es": "Lehen se usa con verbos en pasado", "answer": true, "explanation": "Correcto. Lehen indica pasado y suele acompañar formas verbales pasadas." },
+    { "id": "e05", "type": "fill_blank", "sentence": "___ Bilbon bizi nintzen (antes)", "translation": "Antes vivía en Bilbao", "hint": "antes", "answer": "Lehen" },
+    { "id": "e06", "type": "order_words", "words": ["lehen", "kotxez", "joaten", "nintzen"], "translation": "Antes iba en coche", "answer": "Lehen kotxez joaten nintzen" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "lehen", "es": "antes"}, {"eu": "orain", "es": "ahora"}, {"eu": "aldatu da", "es": "ha cambiado"}, {"eu": "orain dela urte bat", "es": "hace un año"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "___ Donostian bizi naiz.", "translation": "Ahora vivo en San Sebastián.", "options": ["Orain", "Lehen", "Atzo", "Gero"], "answer": "Orain" }
+  ]
+}

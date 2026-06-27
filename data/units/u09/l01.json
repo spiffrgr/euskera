@@ -1,0 +1,25 @@
+{
+  "id": "l01",
+  "title": "Noiz? (gaur, atzo, bihar...)",
+  "grammar_note": {
+    "title": "Adverbios de tiempo en euskera",
+    "body": "Los adverbios temporales no cambian según el sujeto:\n**gaur** → hoy\n**atzo** → ayer\n**bihar** → mañana\n**herenegun** → anteayer\n**etzi** → pasado mañana\n**orain** → ahora\n**gero** → luego/después",
+    "tip": "Recuerda: gaur = hoy, bihar = mañana. Solo dos palabras para empezar el día en euskera."
+  },
+  "slides": [
+    { "eu": "gaur", "es": "hoy", "example_eu": "Gaur eguaztena da.", "example_es": "Hoy es miércoles." },
+    { "eu": "atzo", "es": "ayer", "example_eu": "Atzo etxean egon nintzen.", "example_es": "Ayer estuve en casa." },
+    { "eu": "bihar", "es": "mañana", "example_eu": "Bihar lanera joango naiz.", "example_es": "Mañana iré al trabajo." },
+    { "eu": "orain", "es": "ahora", "example_eu": "Orain jan nahi dut.", "example_es": "Ahora quiero comer." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'hoy' en euskera?", "options": ["gaur", "atzo", "bihar", "gero"], "answer": "gaur" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Bihar", "answer": "Mañana" },
+    { "id": "e03", "type": "translation_es_eu", "es": "Ayer", "answer": "Atzo" },
+    { "id": "e04", "type": "true_false", "eu": "Atzo = mañana", "es": "Atzo = mañana", "answer": false, "explanation": "Atzo significa 'ayer', no 'mañana'. Mañana es 'bihar'." },
+    { "id": "e05", "type": "fill_blank", "sentence": "___ lanera joaten naiz (hoy)", "translation": "Hoy voy al trabajo", "hint": "Hoy", "answer": "Gaur" },
+    { "id": "e06", "type": "order_words", "words": ["bihar", "etxean", "egongo", "naiz"], "translation": "Mañana estaré en casa", "answer": "Bihar etxean egongo naiz" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "gaur", "es": "hoy"}, {"eu": "atzo", "es": "ayer"}, {"eu": "bihar", "es": "mañana"}, {"eu": "orain", "es": "ahora"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "___ ikusi nuen Mikel.", "translation": "Ayer vi a Mikel.", "options": ["gaur", "atzo", "bihar", "gero"], "answer": "atzo" }
+  ]
+}

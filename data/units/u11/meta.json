@@ -1,1 +1,10 @@
-{ "id": "u11", "lessons": [] }
+{ "id": "u11", "title": "Galderak", "emoji": "❓", "lessons": [
+  { "id": "l01", "title": "NOR? eta ZER? (¿quién? y ¿qué?)", "type": "lesson" },
+  { "id": "l02", "title": "NON? NORA? NONDIK?", "type": "lesson" },
+  { "id": "l03", "title": "NOIZ? eta ZENBAT?", "type": "lesson" },
+  { "id": "l04", "title": "NOLA? eta ZERGATIK?", "type": "lesson" },
+  { "id": "l05", "title": "Al galderak (Preguntas sí/no)", "type": "lesson" },
+  { "id": "l06", "title": "Galdera-hitz guztiak (Repaso)", "type": "lesson" },
+  { "id": "l07", "title": "Galdera-elkarrizketa (Diálogo)", "type": "lesson" },
+  { "id": "test", "title": "Test de la unidad", "type": "test" }
+]}

@@ -1,0 +1,25 @@
+{
+  "id": "l06",
+  "title": "Osasun-ohiturak (Hábitos saludables)",
+  "grammar_note": {
+    "title": "Hábitos de vida saludable",
+    "body": "Expresar hábitos saludables:\n**ondo jan** → comer bien\n**lo egoki egin** → dormir bien (lit: hacer buen sueño)\n**ur asko edan** → beber mucha agua\n**tabakoa ez erre** → no fumar\n**estresa murriztu** → reducir el estrés\n**mediku-azterketa** → revisión médica\n\nVerbo BEHAR (necesitar/deber) para consejos:\n**Lo egoki egin behar duzu** → Debes dormir bien.",
+    "tip": "Behar + infinitivo expresa obligación suave: Lo egin behar duzu = Debes dormir / Tienes que dormir."
+  },
+  "slides": [
+    { "eu": "Ondo jan behar duzu", "es": "Debes comer bien", "example_eu": "Ondo jan behar duzu, barazkiak eta fruta.", "example_es": "Debes comer bien, verduras y frutas." },
+    { "eu": "Ur asko edan", "es": "Beber mucha agua", "example_eu": "Egunero ur asko edan behar duzu.", "example_es": "Debes beber mucha agua todos los días." },
+    { "eu": "Tabakoa ez erre", "es": "No fumar", "example_eu": "Tabakoa ez erre, osasunari txarra da.", "example_es": "No fumes, es malo para la salud." },
+    { "eu": "Lo egoki egin", "es": "Dormir bien", "example_eu": "Zortzi ordu lo egoki egitea komeni da.", "example_es": "Conviene dormir bien ocho horas." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'debes comer bien'?", "options": ["Ondo jan nahi duzu", "Ondo jan behar duzu", "Ondo jan dut", "Ondo jan naiz"], "answer": "Ondo jan behar duzu" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Ur asko edan", "answer": "Beber mucha agua" },
+    { "id": "e03", "type": "translation_es_eu", "es": "No fumar", "answer": "Tabakoa ez erre" },
+    { "id": "e04", "type": "true_false", "eu": "Behar + infinitivo = deber/tener que", "es": "Behar + infinitivo = deber/tener que", "answer": true, "explanation": "Correcto. Jan behar duzu = debes comer / tienes que comer." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Egunero ur asko edan ___ duzu (debes)", "translation": "Debes beber mucha agua todos los días", "hint": "necesitar/deber", "answer": "behar" },
+    { "id": "e06", "type": "order_words", "words": ["tabakoa", "ez", "erre,", "osasunari", "txarra", "da"], "translation": "No fumes, es malo para la salud", "answer": "Tabakoa ez erre, osasunari txarra da" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "ondo jan", "es": "comer bien"}, {"eu": "ur asko edan", "es": "beber mucha agua"}, {"eu": "tabakoa ez erre", "es": "no fumar"}, {"eu": "lo egoki egin", "es": "dormir bien"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "Zortzi ordu lo egin ___ duzu.", "translation": "Debes dormir ocho horas.", "options": ["behar", "nahi", "joan", "etorri"], "answer": "behar" }
+  ]
+}

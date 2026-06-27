@@ -1,0 +1,18 @@
+{
+  "id": "test",
+  "title": "Test de la unidad — Etxea",
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'dormitorio' en euskera?", "options": ["sukaldea", "egongela", "logela", "komuna"], "answer": "logela" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Sukaldea", "answer": "La cocina" },
+    { "id": "e03", "type": "translation_es_eu", "es": "La mesa", "answer": "Mahaia" },
+    { "id": "e04", "type": "true_false", "eu": "Azpian = encima de", "es": "Azpian = encima de", "answer": false, "explanation": "Azpian significa 'debajo de'. Encima de es 'gainean'." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Katua sofaren ___ dago (debajo)", "translation": "El gato está debajo del sofá", "hint": "debajo de", "answer": "azpian" },
+    { "id": "e06", "type": "multiple_choice", "instruction": "¿Qué significa 'hozkailua'?", "options": ["lavadora", "horno", "frigorífico", "ordenador"], "answer": "frigorífico" },
+    { "id": "e07", "type": "translation_eu_es", "eu": "Nire etxea handia da", "answer": "Mi casa es grande" },
+    { "id": "e08", "type": "translation_es_eu", "es": "Limpiar", "answer": "Garbitu" },
+    { "id": "e09", "type": "order_words", "words": ["liburua", "mahairen", "gainean", "dago"], "translation": "El libro está encima de la mesa", "answer": "Liburua mahairen gainean dago" },
+    { "id": "e10", "type": "match_pairs", "pairs": [{"eu": "egongela", "es": "salón"}, {"eu": "sukaldea", "es": "cocina"}, {"eu": "logela", "es": "dormitorio"}, {"eu": "komuna", "es": "baño"}] },
+    { "id": "e11", "type": "grammar_select", "sentence": "Nire etxeak bi logela ___.", "translation": "Mi casa tiene dos dormitorios.", "options": ["ditu", "da", "dago", "naiz"], "answer": "ditu" },
+    { "id": "e12", "type": "true_false", "eu": "Argia = luminoso/a", "es": "Argia = luminoso/a", "answer": true, "explanation": "Correcto. Argi = luz, argia = luminoso/a." }
+  ]
+}

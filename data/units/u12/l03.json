@@ -1,0 +1,25 @@
+{
+  "id": "l03",
+  "title": "Mina dut! (¡Me duele!)",
+  "grammar_note": {
+    "title": "Expresar dolor: [parte]-ko mina dut",
+    "body": "Para decir que algo duele en euskera:\n**[parte] min dut** → me duele [parte]\n**[parte]-ko mina dut** → tengo dolor de [parte]\n\nEjemplos:\n**Burua min dut** → Me duele la cabeza\n**Burukomin dut** → Tengo dolor de cabeza\n**Hortzetako mina dut** → Tengo dolor de muelas\n**Urdaila min dut** → Me duele el estómago",
+    "tip": "Las dos formas son equivalentes: 'burua min dut' y 'burukomin dut' significan lo mismo. La segunda es más nominal/formal."
+  },
+  "slides": [
+    { "eu": "Burua min dut", "es": "Me duele la cabeza", "example_eu": "Burua min dut eta lo egin nahi dut.", "example_es": "Me duele la cabeza y quiero dormir." },
+    { "eu": "Sabela min dut", "es": "Me duele el estómago", "example_eu": "Gauean sabela min nuen.", "example_es": "Por la noche me dolía el estómago." },
+    { "eu": "Hortzetako mina dut", "es": "Me duelen las muelas", "example_eu": "Hortzetako mina dut, medikuarengana joan behar dut.", "example_es": "Me duelen las muelas, tengo que ir al médico." },
+    { "eu": "Hankakomin dut", "es": "Me duele la pierna", "example_eu": "Futbola egin ondoren hankakomin dut.", "example_es": "Después de jugar al fútbol me duele la pierna." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'me duele la cabeza'?", "options": ["Burua ongi dago", "Burua min dut", "Burua dut", "Buruak min du"], "answer": "Burua min dut" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Sabela min dut", "answer": "Me duele el estómago" },
+    { "id": "e03", "type": "translation_es_eu", "es": "Me duelen las muelas", "answer": "Hortzetako mina dut" },
+    { "id": "e04", "type": "true_false", "eu": "Burukomin dut = me duele la cabeza", "es": "Burukomin dut = me duele la cabeza", "answer": true, "explanation": "Correcto. Burukomin dut y Burua min dut son equivalentes." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Sabela ___ dut (me duele el estómago)", "translation": "Me duele el estómago", "hint": "dolor (palabra clave)", "answer": "min" },
+    { "id": "e06", "type": "order_words", "words": ["burua", "min", "dut", "eta", "lo", "egin", "nahi", "dut"], "translation": "Me duele la cabeza y quiero dormir", "answer": "Burua min dut eta lo egin nahi dut" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "Burua min dut", "es": "me duele la cabeza"}, {"eu": "Sabela min dut", "es": "me duele el estómago"}, {"eu": "Hortzetako mina", "es": "dolor de muelas"}, {"eu": "Hankakomin dut", "es": "me duele la pierna"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "___ min dut ondoren kirola egin.", "translation": "Me duelen las piernas después de hacer deporte.", "options": ["Hankak", "Begiak", "Eskuak", "Lepoa"], "answer": "Hankak" }
+  ]
+}

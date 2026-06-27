@@ -1,0 +1,18 @@
+{
+  "id": "test",
+  "title": "Test de la unidad — Gorputza",
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'la cabeza' en euskera?", "options": ["aurpegia", "burua", "begiak", "ahoa"], "answer": "burua" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Eskua", "answer": "La mano" },
+    { "id": "e03", "type": "translation_es_eu", "es": "Me duele el estómago", "answer": "Sabela min dut" },
+    { "id": "e04", "type": "true_false", "eu": "Sukarra = tos", "es": "Sukarra = tos", "answer": false, "explanation": "Sukarra es fiebre. Tos es eztula." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Burua ___ dut (me duele)", "translation": "Me duele la cabeza", "hint": "dolor", "answer": "min" },
+    { "id": "e06", "type": "multiple_choice", "instruction": "¿Cómo se dice 'tengo que ir al médico'?", "options": ["Medikuarengana noa", "Medikuarengana joan behar dut", "Medikuarengana nahi dut", "Medikuarengana etortzen naiz"], "answer": "Medikuarengana joan behar dut" },
+    { "id": "e07", "type": "translation_eu_es", "eu": "Laster sendatu!", "answer": "¡Que se mejore pronto!" },
+    { "id": "e08", "type": "translation_es_eu", "es": "Hacer deporte", "answer": "Kirola egin" },
+    { "id": "e09", "type": "order_words", "words": ["gaixorik", "nago", "eta", "atseden", "hartu", "behar", "dut"], "translation": "Estoy enfermo/a y tengo que descansar", "answer": "Gaixorik nago eta atseden hartu behar dut" },
+    { "id": "e10", "type": "match_pairs", "pairs": [{"eu": "burua", "es": "cabeza"}, {"eu": "hanka", "es": "pierna"}, {"eu": "eskua", "es": "mano"}, {"eu": "bihotza", "es": "corazón"}] },
+    { "id": "e11", "type": "grammar_select", "sentence": "Egunean hiru aldiz sendagaiak hartu ___ dituzu.", "translation": "Debe tomar los medicamentos tres veces al día.", "options": ["behar", "nahi", "joan", "bizi"], "answer": "behar" },
+    { "id": "e12", "type": "true_false", "eu": "Kirola egin = hacer deporte", "es": "Kirola egin = hacer deporte", "answer": true, "explanation": "Correcto. Kirola egin significa hacer deporte." }
+  ]
+}

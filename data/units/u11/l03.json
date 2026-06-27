@@ -1,0 +1,25 @@
+{
+  "id": "l03",
+  "title": "NOIZ? eta ZENBAT?",
+  "grammar_note": {
+    "title": "Preguntar por tiempo y cantidad",
+    "body": "**NOIZ?** → ¿Cuándo?\n**ZENBAT?** → ¿Cuánto/a/os/as?\n**ZENBAT ORDU?** → ¿Qué hora es?\n**ZENBAT URTE DITUZU?** → ¿Cuántos años tienes?\n\nRespuestas típicas:\n**Noiz?** → Gaur / Bihar / Astelehenean / Ordu bietan\n**Zenbat?** → Bat / Bost / Hamar / Asko / Gutxi",
+    "tip": "Zenbat? puede ir solo o con un sustantivo: Zenbat lagun? = ¿Cuántos amigos? Zenbat euro? = ¿Cuántos euros?"
+  },
+  "slides": [
+    { "eu": "Noiz etorriko zara?", "es": "¿Cuándo vendrás?", "example_eu": "Noiz etorriko zara? —Bihar etorriko naiz.", "example_es": "¿Cuándo vendrás? —Vendré mañana." },
+    { "eu": "Zenbat da?", "es": "¿Cuánto es?", "example_eu": "Zenbat da guztira? —Hamar euro dira.", "example_es": "¿Cuánto es en total? —Son diez euros." },
+    { "eu": "Zenbat urte dituzu?", "es": "¿Cuántos años tienes?", "example_eu": "Zenbat urte dituzu? —Hogeita bost urte ditut.", "example_es": "¿Cuántos años tienes? —Tengo veinticinco años." },
+    { "eu": "Noiz jaio zinen?", "es": "¿Cuándo naciste?", "example_eu": "Noiz jaio zinen? —Mila bederatziehun eta laurogeita hamarrean.", "example_es": "¿Cuándo naciste? —En mil novecientos noventa." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se pregunta '¿Cuándo?'?", "options": ["Zer?", "Noiz?", "Zenbat?", "Non?"], "answer": "Noiz?" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Zenbat urte dituzu?", "answer": "¿Cuántos años tienes?" },
+    { "id": "e03", "type": "translation_es_eu", "es": "¿Cuánto es?", "answer": "Zenbat da?" },
+    { "id": "e04", "type": "true_false", "eu": "Noiz? = ¿Cuánto?", "es": "Noiz? = ¿Cuánto?", "answer": false, "explanation": "Noiz? significa '¿Cuándo?'. ¿Cuánto? es 'Zenbat?'." },
+    { "id": "e05", "type": "fill_blank", "sentence": "___ etorriko zara? —Bihar (¿cuándo vendrás?)", "translation": "¿Cuándo vendrás? —Mañana", "hint": "¿Cuándo?", "answer": "Noiz" },
+    { "id": "e06", "type": "order_words", "words": ["zenbat", "urte", "dituzu?"], "translation": "¿Cuántos años tienes?", "answer": "Zenbat urte dituzu?" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "Noiz?", "es": "¿Cuándo?"}, {"eu": "Zenbat?", "es": "¿Cuánto?"}, {"eu": "Zenbat urte?", "es": "¿Cuántos años?"}, {"eu": "Noiz etorriko zara?", "es": "¿Cuándo vendrás?"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "___ da guztira?", "translation": "¿Cuánto es en total?", "options": ["Zenbat", "Noiz", "Non", "Nola"], "answer": "Zenbat" }
+  ]
+}

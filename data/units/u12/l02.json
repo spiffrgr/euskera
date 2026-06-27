@@ -1,0 +1,25 @@
+{
+  "id": "l02",
+  "title": "Gorputzaren atalak (Partes del cuerpo)",
+  "grammar_note": {
+    "title": "El cuerpo completo",
+    "body": "Partes principales del cuerpo:\n**lepoa** → el cuello\n**sorbalda** → el hombro\n**besoa** → el brazo\n**eskua** → la mano\n**hanka** → la pierna\n**oina** → el pie\n**bihotza** → el corazón\n**sabela** → el vientre / barriga",
+    "tip": "Para decir 'mi mano', 'mi pierna' etc., se usa el genitivo: nire eskua (mi mano), zure hanka (tu pierna)."
+  },
+  "slides": [
+    { "eu": "besoa", "es": "el brazo", "example_eu": "Eskuineko besoa min dut.", "example_es": "Me duele el brazo derecho." },
+    { "eu": "eskua", "es": "la mano", "example_eu": "Bi esku ditut.", "example_es": "Tengo dos manos." },
+    { "eu": "hanka", "es": "la pierna", "example_eu": "Hanka apurtu dut.", "example_es": "Me he roto la pierna." },
+    { "eu": "oina", "es": "el pie", "example_eu": "Oinak mina egiten didate.", "example_es": "Me duelen los pies." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'la mano' en euskera?", "options": ["besoa", "hanka", "eskua", "oina"], "answer": "eskua" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Hanka", "answer": "La pierna" },
+    { "id": "e03", "type": "translation_es_eu", "es": "El brazo", "answer": "Besoa" },
+    { "id": "e04", "type": "true_false", "eu": "Oina = el pie", "es": "Oina = el pie", "answer": true, "explanation": "Correcto. Oina es el pie en euskera." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Bi ___ ditut (manos)", "translation": "Tengo dos manos", "hint": "mano/s", "answer": "esku" },
+    { "id": "e06", "type": "order_words", "words": ["hanka", "apurtu", "dut"], "translation": "Me he roto la pierna", "answer": "Hanka apurtu dut" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "lepoa", "es": "cuello"}, {"eu": "besoa", "es": "brazo"}, {"eu": "eskua", "es": "mano"}, {"eu": "hanka", "es": "pierna"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "___ min dut eskuinekoan.", "translation": "Me duele el brazo derecho.", "options": ["Besoa", "Hanka", "Oina", "Lepoa"], "answer": "Besoa" }
+  ]
+}

@@ -1,1 +1,10 @@
-{ "id": "u12", "lessons": [] }
+{ "id": "u12", "title": "Gorputza", "emoji": "🏥", "lessons": [
+  { "id": "l01", "title": "Burua eta aurpegia (Cabeza y cara)", "type": "lesson" },
+  { "id": "l02", "title": "Gorputzaren atalak (Partes del cuerpo)", "type": "lesson" },
+  { "id": "l03", "title": "Mina dut! (¡Me duele!)", "type": "lesson" },
+  { "id": "l04", "title": "Medikuarengana (Al médico)", "type": "lesson" },
+  { "id": "l05", "title": "Kirol eta gorputza (Deporte)", "type": "lesson" },
+  { "id": "l06", "title": "Osasun-ohiturak (Hábitos saludables)", "type": "lesson" },
+  { "id": "l07", "title": "Osasun-elkarrizketa (Diálogo)", "type": "lesson" },
+  { "id": "test", "title": "Test de la unidad", "type": "test" }
+]}

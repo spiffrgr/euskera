@@ -1,0 +1,25 @@
+{
+  "id": "l02",
+  "title": "Eguneko jarduerak (Actividades diarias)",
+  "grammar_note": {
+    "title": "Verbos de actividades cotidianas",
+    "body": "Las actividades diarias se expresan con el verbo en forma habitual:\n**jaikitzen naiz** → me levanto\n**gosaltzen dut** → desayuno\n**lan egiten dut** → trabajo\n**bazkaldu** → almorzar\n**afaldu** → cenar\n**lo egiten dut** → duermo",
+    "tip": "El sufijo **-tzen/-ten** en el verbo indica acción habitual o en progreso: jan → jaten, lan egin → lan egiten."
+  },
+  "slides": [
+    { "eu": "jaikitzen naiz", "es": "me levanto", "example_eu": "Zazpitan jaikitzen naiz.", "example_es": "Me levanto a las siete." },
+    { "eu": "gosaltzen dut", "es": "desayuno", "example_eu": "Etxean gosaltzen dut.", "example_es": "Desayuno en casa." },
+    { "eu": "lan egiten dut", "es": "trabajo", "example_eu": "Bulegoan lan egiten dut.", "example_es": "Trabajo en la oficina." },
+    { "eu": "lo egiten dut", "es": "duermo", "example_eu": "Hamarretan lo egiten dut.", "example_es": "Duermo a las diez." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Qué significa 'jaikitzen naiz'?", "options": ["me acuesto", "me levanto", "desayuno", "trabajo"], "answer": "me levanto" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Lo egiten dut", "answer": "Duermo" },
+    { "id": "e03", "type": "translation_es_eu", "es": "Desayuno", "answer": "Gosaltzen dut" },
+    { "id": "e04", "type": "true_false", "eu": "Lan egiten dut = trabajo", "es": "Lan egiten dut = trabajo", "answer": true, "explanation": "Correcto. 'Lan egin' significa 'trabajar'." },
+    { "id": "e05", "type": "fill_blank", "sentence": "Zazpitan ___ naiz (me levanto)", "translation": "Me levanto a las siete", "hint": "me levanto", "answer": "jaikitzen" },
+    { "id": "e06", "type": "order_words", "words": ["bulegoan", "lan", "egiten", "dut"], "translation": "Trabajo en la oficina", "answer": "Bulegoan lan egiten dut" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "jaikitzen naiz", "es": "me levanto"}, {"eu": "gosaltzen dut", "es": "desayuno"}, {"eu": "lan egiten dut", "es": "trabajo"}, {"eu": "lo egiten dut", "es": "duermo"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "Etxean ___ dut.", "translation": "Desayuno en casa.", "options": ["gosaltzen", "jaikitzen", "afaldu", "lo egiten"], "answer": "gosaltzen" }
+  ]
+}

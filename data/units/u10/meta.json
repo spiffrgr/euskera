@@ -1,1 +1,10 @@
-{ "id": "u10", "lessons": [] }
+{ "id": "u10", "title": "Etxea", "emoji": "🏠", "lessons": [
+  { "id": "l01", "title": "Gelak (Las habitaciones)", "type": "lesson" },
+  { "id": "l02", "title": "Altzariak (Los muebles)", "type": "lesson" },
+  { "id": "l03", "title": "Non dago? (¿Dónde está?)", "type": "lesson" },
+  { "id": "l04", "title": "Nire etxea nolakoa da?", "type": "lesson" },
+  { "id": "l05", "title": "Etxeko lanak (Tareas del hogar)", "type": "lesson" },
+  { "id": "l06", "title": "Etxeko tresnak (Objetos y aparatos)", "type": "lesson" },
+  { "id": "l07", "title": "Etxeaz hitz egiten (Diálogo)", "type": "lesson" },
+  { "id": "test", "title": "Test de la unidad", "type": "test" }
+]}

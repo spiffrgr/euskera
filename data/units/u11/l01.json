@@ -1,0 +1,25 @@
+{
+  "id": "l01",
+  "title": "NOR? eta ZER? (¿quién? y ¿qué?)",
+  "grammar_note": {
+    "title": "Preguntas sobre personas y cosas",
+    "body": "Las dos preguntas más básicas:\n**NOR?** → ¿Quién? (para personas)\n**ZER?** → ¿Qué? (para cosas o conceptos)\n\nEjemplos:\n**Nor da?** → ¿Quién es?\n**Zer da hau?** → ¿Qué es esto?\n**Nor zara zu?** → ¿Quién eres tú?\n**Zer nahi duzu?** → ¿Qué quieres?",
+    "tip": "NOR tiene declinación: NOR (sujeto), NORK (ergativo/agente): Nork egin du? = ¿Quién lo ha hecho?"
+  },
+  "slides": [
+    { "eu": "Nor da?", "es": "¿Quién es?", "example_eu": "Nor da hor? —Mikel da.", "example_es": "¿Quién está ahí? —Es Mikel." },
+    { "eu": "Zer da hau?", "es": "¿Qué es esto?", "example_eu": "Zer da hau? —Liburu bat da.", "example_es": "¿Qué es esto? —Es un libro." },
+    { "eu": "Nor zara zu?", "es": "¿Quién eres tú?", "example_eu": "Nor zara zu? —Ni Amaia naiz.", "example_es": "¿Quién eres tú? —Yo soy Amaia." },
+    { "eu": "Zer nahi duzu?", "es": "¿Qué quieres?", "example_eu": "Zer nahi duzu? —Ura nahi dut.", "example_es": "¿Qué quieres? —Quiero agua." }
+  ],
+  "exercises": [
+    { "id": "e01", "type": "multiple_choice", "instruction": "¿Qué pregunta usas para preguntar por una persona?", "options": ["Zer?", "Non?", "Nor?", "Noiz?"], "answer": "Nor?" },
+    { "id": "e02", "type": "translation_eu_es", "eu": "Zer da hau?", "answer": "¿Qué es esto?" },
+    { "id": "e03", "type": "translation_es_eu", "es": "¿Quién eres tú?", "answer": "Nor zara zu?" },
+    { "id": "e04", "type": "true_false", "eu": "Nor? = ¿Qué?", "es": "Nor? = ¿Qué?", "answer": false, "explanation": "Nor? significa '¿Quién?'. ¿Qué? es 'Zer?'." },
+    { "id": "e05", "type": "fill_blank", "sentence": "___ nahi duzu? (¿qué quieres?)", "translation": "¿Qué quieres?", "hint": "¿Qué?", "answer": "Zer" },
+    { "id": "e06", "type": "order_words", "words": ["nor", "da", "hori?"], "translation": "¿Quién es ese/esa?", "answer": "Nor da hori?" },
+    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "Nor da?", "es": "¿Quién es?"}, {"eu": "Zer da hau?", "es": "¿Qué es esto?"}, {"eu": "Nor zara?", "es": "¿Quién eres?"}, {"eu": "Zer nahi duzu?", "es": "¿Qué quieres?"}] },
+    { "id": "e08", "type": "grammar_select", "sentence": "___ da hau? —Liburu bat da.", "translation": "¿Qué es esto? —Es un libro.", "options": ["Zer", "Nor", "Non", "Noiz"], "answer": "Zer" }
+  ]
+}

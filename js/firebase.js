@@ -92,6 +92,20 @@ const FB = (() => {
     }
   }
 
+  async function getAllDueSRSItems() {
+    try {
+      const snap = await db
+        .collection(`users/${uid}/srs`)
+        .where('nextReview', '<=', Date.now())
+        .get();
+      const result = [];
+      snap.forEach(doc => result.push(doc.data()));
+      return result;
+    } catch {
+      return [];
+    }
+  }
+
   async function getStreak() {
     try {
       const snap = await userRef('streak/current').get();
@@ -127,6 +141,7 @@ const FB = (() => {
     getSRSItem,
     setSRSItem,
     getAllSRSForTopic,
+    getAllDueSRSItems,
     getStreak,
     updateStreak,
     isReady: () => db !== null && uid !== null,

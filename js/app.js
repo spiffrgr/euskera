@@ -64,7 +64,42 @@ const App = (() => {
     lessonProgressMap = Object.fromEntries(entries);
 
     UI.renderUnitMap(course, unitMetaMap, lessonProgressMap, onUnitClick);
+
+    const dueItems = await FB.getAllDueSRSItems();
+    UI.renderReviewButton(dueItems.length, startReviewSession);
+
     UI.show('screen-home');
+  }
+
+  async function startReviewSession() {
+    const dueItems = await FB.getAllDueSRSItems();
+    if (!dueItems.length) return;
+
+    const topicIds = [...new Set(dueItems.map(item => item.topicId))];
+    const lessonMap = {};
+    await Promise.all(topicIds.map(async topicId => {
+      const [unitId, lessonId] = topicId.split('_');
+      try { lessonMap[topicId] = await Course.loadLesson(unitId, lessonId); } catch {}
+    }));
+
+    const exercises = dueItems.flatMap(item => {
+      const ex = lessonMap[item.topicId]?.exercises?.find(e => e.id === item.itemId);
+      return ex ? [{ ...ex, _itemId: `${item.topicId}_${item.itemId}` }] : [];
+    }).sort(() => Math.random() - 0.5);
+
+    if (!exercises.length) return;
+
+    currentUnit = null;
+    currentLessonId = 'review';
+    currentLesson = { title: 'Repaso SRS' };
+    currentExercises = exercises;
+    exerciseIndex = 0;
+    sessionStats = { correct: 0, wrong: 0 };
+    allSlides = [];
+
+    UI.setSessionTitle(`Repaso · ${exercises.length} ejercicios`);
+    UI.show('screen-session');
+    renderCurrentExercise();
   }
 
   async function onUnitClick(unit) {
@@ -272,18 +307,32 @@ const App = (() => {
     else sessionStats.wrong++;
 
     UI.showFeedback(isCorrect, exercise);
+
+    // SRS tracking — fire-and-forget, works for both lessons and review sessions
+    const itemId = exercise._itemId ||
+      (currentUnit ? `${currentUnit.id}_${currentLessonId}_${exercise.id}` : null);
+    if (itemId) {
+      FB.getSRSItem(itemId).then(existing => {
+        const parts = itemId.split('_');
+        const topicId = `${parts[0]}_${parts[1]}`;
+        const item = existing || SRS.defaultItem(topicId, parts[2]);
+        FB.setSRSItem(itemId, SRS.update(item, isCorrect));
+      });
+    }
   }
 
   async function endSession() {
     const newStreak = await FB.updateStreak();
     streakDays = newStreak;
 
-    // Mark lesson as completed
-    const key = `${currentUnit.id}_${currentLessonId}`;
-    await FB.setProgress(key, { completed: true });
-    lessonProgressMap[key] = { completed: true };
+    // Mark lesson as completed (skip for review sessions)
+    if (currentUnit && currentLessonId !== 'review') {
+      const key = `${currentUnit.id}_${currentLessonId}`;
+      await FB.setProgress(key, { completed: true });
+      lessonProgressMap[key] = { completed: true };
+    }
 
-    UI.renderSummary(sessionStats.correct, sessionStats.wrong, newStreak);
+    UI.renderSummary(sessionStats.correct, sessionStats.wrong, newStreak, currentLessonId === 'review');
     UI.show('screen-summary');
   }
 
@@ -312,8 +361,12 @@ const App = (() => {
 
     // Summary
     document.getElementById('btn-continue-unit').addEventListener('click', () => {
-      UI.renderLessonList(currentUnit, lessonProgressMap, onLessonClick);
-      UI.show('screen-unit');
+      if (currentUnit) {
+        UI.renderLessonList(currentUnit, lessonProgressMap, onLessonClick);
+        UI.show('screen-unit');
+      } else {
+        showHome();
+      }
     });
     document.getElementById('btn-home').addEventListener('click', showHome);
 

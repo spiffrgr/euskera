@@ -1,4 +1,4 @@
-const CACHE = 'euskera-v6';
+const CACHE = 'euskera-v7';
 const BASE = self.registration.scope;
 const STATIC = [
   '',

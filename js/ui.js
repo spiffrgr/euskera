@@ -63,17 +63,22 @@ const UI = (() => {
       const key = `${unit.id}_${lesson.id}`;
       const isDone = lessonProgressMap[key]?.completed === true;
       const isTest = lesson.type === 'test';
+      const isReview = lesson.type === 'review';
 
       const item = document.createElement('div');
-      item.className = 'lesson-item' + (isDone ? ' completed' : '') + (isTest ? ' test-item' : '');
+      item.className = 'lesson-item' +
+        (isDone ? ' completed' : '') +
+        (isTest ? ' test-item' : '') +
+        (isReview ? ' review-item' : '');
 
-      const numContent = isTest ? '📝' : String(idx + 1);
+      const numContent = isTest ? '📝' : isReview ? '🔄' : String(idx + 1);
+      const typeLabel = isTest ? 'Test de la unidad' : isReview ? 'Repaso acumulativo' : 'Lección';
 
       item.innerHTML = `
         <div class="lesson-num">${numContent}</div>
         <div class="lesson-item-info">
           <div class="lesson-item-title">${escHtml(lesson.title)}</div>
-          <div class="lesson-item-type">${isTest ? 'Test de la unidad' : 'Lección'}</div>
+          <div class="lesson-item-type">${typeLabel}</div>
         </div>
         <div class="lesson-check">${isDone ? '✓' : ''}</div>
       `;
@@ -315,7 +320,7 @@ const UI = (() => {
 
   // ---- Summary ----
 
-  function renderSummary(correct, wrong, streak) {
+  function renderSummary(correct, wrong, streak, isReview = false) {
     document.getElementById('stat-correct').textContent = correct;
     document.getElementById('stat-wrong').textContent = wrong;
     document.getElementById('stat-streak').textContent = streak;
@@ -329,6 +334,9 @@ const UI = (() => {
     else if (ratio >= 0.75) { icon.textContent = '🎉'; title.textContent = '¡Muy bien!'; }
     else if (ratio >= 0.5) { icon.textContent = '💪'; title.textContent = '¡Sigue practicando!'; }
     else { icon.textContent = '📚'; title.textContent = 'Hay que repasar más'; }
+
+    document.getElementById('btn-continue-unit').textContent =
+      isReview ? '← Volver al inicio' : 'Siguiente lección →';
   }
 
   // ---- Private helpers ----
@@ -365,11 +373,31 @@ const UI = (() => {
     return String(str).replace(/"/g, '&quot;');
   }
 
+  function renderReviewButton(count, onClick) {
+    const existing = document.getElementById('review-banner');
+    if (existing) existing.remove();
+    if (count === 0) return;
+
+    const banner = document.createElement('div');
+    banner.id = 'review-banner';
+    banner.className = 'review-banner';
+    banner.innerHTML = `
+      <button class="btn btn-review">
+        🔄 Repasar · <strong>${count}</strong> ejercicios pendientes
+      </button>
+    `;
+    banner.querySelector('.btn-review').addEventListener('click', onClick);
+
+    const homeContent = document.querySelector('.home-content');
+    if (homeContent) homeContent.insertBefore(banner, homeContent.firstChild);
+  }
+
   return {
     show,
     setStreak,
     renderUnitMap,
     renderLessonList,
+    renderReviewButton,
     renderLessonSlide,
     setSessionTitle,
     renderExercise,

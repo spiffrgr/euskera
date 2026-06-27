@@ -77,12 +77,12 @@ const App = (() => {
     }
   }
 
+  let lessonSlides = [];
+  let lessonIndex = 0;
+
   async function onTopicClick(topic) {
     if (!topic.unlocked) return;
     currentTopic = topic;
-
-    UI.setSessionTitle(topic.title);
-    UI.show('screen-session');
 
     srsMap = await FB.getAllSRSForTopic(topic.id);
     currentSession = await Exercises.buildSession(topic.id, srsMap, 8);
@@ -90,7 +90,17 @@ const App = (() => {
     sessionCorrect = 0;
     sessionWrong = 0;
 
-    renderCurrentExercise();
+    await startLesson();
+  }
+
+  async function startLesson() {
+    const allItems = await Exercises.loadTopic(currentTopic.id);
+    const sorted = SRS.sortByPriority(allItems, srsMap);
+    lessonSlides = sorted.slice(0, 3);
+    lessonIndex = 0;
+
+    UI.renderLessonSlide(lessonSlides[0], 0, lessonSlides.length, currentTopic.title);
+    UI.show('screen-lesson');
   }
 
   function renderCurrentExercise() {
@@ -152,7 +162,32 @@ const App = (() => {
     UI.show('screen-summary');
   }
 
+  function startSession() {
+    UI.setSessionTitle(currentTopic.title);
+    UI.show('screen-session');
+    renderCurrentExercise();
+  }
+
   function bindGlobalEvents() {
+    // lesson navigation
+    document.getElementById('btn-lesson-next').addEventListener('click', () => {
+      lessonIndex++;
+      if (lessonIndex >= lessonSlides.length) {
+        startSession();
+      } else {
+        UI.renderLessonSlide(lessonSlides[lessonIndex], lessonIndex, lessonSlides.length, currentTopic.title);
+      }
+    });
+
+    document.getElementById('btn-lesson-skip').addEventListener('click', () => {
+      startSession();
+    });
+
+    document.getElementById('btn-lesson-back').addEventListener('click', () => {
+      loadHome();
+    });
+
+    // session navigation
     document.getElementById('btn-next').addEventListener('click', () => {
       currentIndex++;
       renderCurrentExercise();

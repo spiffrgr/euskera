@@ -261,6 +261,106 @@ html, body {
 }
 .topic-lock { font-size: 0.9rem; color: var(--text2); flex-shrink: 0; }
 
+/* ---- Lesson slides ---- */
+#screen-lesson { background: var(--bg); }
+
+.lesson-dots {
+  display: flex;
+  gap: 6px;
+  margin-top: 4px;
+}
+.lesson-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--border);
+  transition: background 0.25s, transform 0.25s;
+}
+.lesson-dot.active {
+  background: var(--accent);
+  transform: scale(1.2);
+}
+.lesson-dot.done {
+  background: var(--green);
+}
+
+.lesson-slide-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1.25rem;
+}
+
+.lesson-slide {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  animation: slideIn 0.25s ease;
+}
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.lesson-slide-num {
+  font-size: 0.75rem;
+  color: var(--text2);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1.25rem;
+}
+
+.lesson-word-eu {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+  margin-bottom: 0.6rem;
+}
+
+.lesson-word-es {
+  font-size: 1.15rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.lesson-example {
+  background: var(--card2);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border);
+  margin-bottom: 0.5rem;
+}
+.lesson-example-eu {
+  font-size: 1rem;
+  color: var(--text);
+  font-style: italic;
+  margin-bottom: 0.4rem;
+}
+.lesson-example-es {
+  font-size: 0.85rem;
+  color: var(--text2);
+}
+
+.lesson-nav {
+  display: flex;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem 1.75rem;
+}
+.lesson-nav .btn {
+  flex: 1;
+  padding: 0.9rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.btn-secondary {
+  background: var(--card2);
+  color: var(--text2);
+  border: 1px solid var(--border);
+}
+
 /* ---- Session ---- */
 #screen-session { background: var(--bg); }
 

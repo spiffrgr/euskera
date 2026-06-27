@@ -170,10 +170,41 @@ const UI = (() => {
     return String(str).replace(/"/g, '&quot;');
   }
 
+  function renderLessonSlide(slide, index, total, topicTitle) {
+    document.getElementById('lesson-topic-title').textContent = topicTitle;
+    document.getElementById('lesson-counter').textContent = `${index + 1}/${total}`;
+
+    // dots
+    const dotsEl = document.getElementById('lesson-dots');
+    dotsEl.innerHTML = Array.from({ length: total }, (_, i) => {
+      const cls = i < index ? 'done' : i === index ? 'active' : '';
+      return `<span class="lesson-dot ${cls}"></span>`;
+    }).join('');
+
+    // slide content
+    const wrap = document.getElementById('lesson-slide-wrap');
+    wrap.innerHTML = `
+      <div class="lesson-slide">
+        <div class="lesson-slide-num">Aprende · ${index + 1} de ${total}</div>
+        <div class="lesson-word-eu">${escHtml(slide.eu)}</div>
+        <div class="lesson-word-es">${escHtml(slide.es)}</div>
+        <div class="lesson-example">
+          <div class="lesson-example-eu">${escHtml(slide.example_eu)}</div>
+          <div class="lesson-example-es">${escHtml(slide.example_es)}</div>
+        </div>
+      </div>
+    `;
+
+    // last slide → change button text
+    const btn = document.getElementById('btn-lesson-next');
+    btn.textContent = index === total - 1 ? '¡Empezar! →' : 'Siguiente →';
+  }
+
   return {
     show,
     renderTopics,
     setStreak,
+    renderLessonSlide,
     renderExercise,
     showFeedback,
     setSessionTitle,

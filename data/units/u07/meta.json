@@ -1,10 +1,10 @@
 { "id": "u07", "title": "Aditzak I", "emoji": "⚡", "lessons": [
   { "id": "l01", "title": "NAIZ, ZARA, DA (singular)", "type": "lesson" },
   { "id": "l02", "title": "GARA, ZARETE, DIRA (plural)", "type": "lesson" },
-  { "id": "l03", "title": "NINTZEN, ZINEN, ZEN (pasado)", "type": "lesson" },
+  { "id": "l03", "title": "NOLAKOA da? (Descripción con adjetivos)", "type": "lesson" },
   { "id": "l04", "title": "NOR? galdera (pregunta ¿quién?)", "type": "lesson" },
   { "id": "l05", "title": "Ez naiz... (negación con IZAN)", "type": "lesson" },
-  { "id": "l06", "title": "IZANGO NAIZ (futuro)", "type": "lesson" },
+  { "id": "l06", "title": "IZAN elkarrizketan (IZAN en conversación)", "type": "lesson" },
   { "id": "l07", "title": "IZAN errepasaketa (repaso completo)", "type": "lesson" },
   { "id": "test", "title": "Test de la unidad", "type": "test" }
 ]}

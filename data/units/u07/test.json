@@ -1,164 +1,114 @@
-﻿{
-    "id":  "test",
-    "title":  "Test de la Unidad 7: Aditzak I (IZAN)",
-    "objective":  "Demostrar que dominas el verbo IZAN y el contraste NOR/NORK (absolutivo/ergativo)",
-    "type":  "test",
-    "exercises":  [
-                      {
-                          "id":  "e01",
-                          "type":  "grammar_select",
-                          "sentence":  "___ ogia jan du.",
-                          "translation":  "Él/ella ha comido el pan (sujeto de verbo transitivo).",
-                          "options":  [
-                                          "Hark",
-                                          "Hura",
-                                          "Nik",
-                                          "Ni"
-                                      ],
-                          "answer":  "Hark"
-                      },
-                      {
-                          "id":  "e02",
-                          "type":  "grammar_select",
-                          "sentence":  "Zuek mediku ___.",
-                          "translation":  "Vosotros sois médicos.",
-                          "options":  [
-                                          "gara",
-                                          "zarete",
-                                          "dira",
-                                          "da"
-                                      ],
-                          "answer":  "zarete"
-                      },
-                      {
-                          "id":  "e03",
-                          "type":  "translation_eu_es",
-                          "eu":  "Bera irakaslea zen.",
-                          "answer":  "Él/ella era profesor/a."
-                      },
-                      {
-                          "id":  "e04",
-                          "type":  "match_pairs",
-                          "pairs":  [
-                                        {
-                                            "eu":  "ni naiz",
-                                            "es":  "yo soy (intransitivo, NOR)"
-                                        },
-                                        {
-                                            "eu":  "nik jan dut",
-                                            "es":  "yo he comido (transitivo, NORK)"
-                                        },
-                                        {
-                                            "eu":  "hura da",
-                                            "es":  "él/ella es (intransitivo, NOR)"
-                                        },
-                                        {
-                                            "eu":  "hark ikusi du",
-                                            "es":  "él/ella ha visto (transitivo, NORK)"
-                                        }
-                                    ]
-                      },
-                      {
-                          "id":  "e05",
-                          "type":  "match_pairs",
-                          "pairs":  [
-                                        {
-                                            "eu":  "naiz",
-                                            "es":  "soy"
-                                        },
-                                        {
-                                            "eu":  "zen",
-                                            "es":  "era"
-                                        },
-                                        {
-                                            "eu":  "izango da",
-                                            "es":  "será"
-                                        },
-                                        {
-                                            "eu":  "ez gara",
-                                            "es":  "no somos"
-                                        }
-                                    ]
-                      },
-                      {
-                          "id":  "e06",
-                          "type":  "translation_es_eu",
-                          "es":  "Somos vascos.",
-                          "answer":  "Euskaldunak gara."
-                      },
-                      {
-                          "id":  "e08",
-                          "type":  "order_words",
-                          "words":  [
-                                        "bera",
-                                        "medikua",
-                                        "izango",
-                                        "da."
-                                    ],
-                          "translation":  "Él/ella será médico/a.",
-                          "answer":  "bera medikua izango da."
-                      },
-                      {
-                          "id":  "e09",
-                          "type":  "translation_eu_es",
-                          "eu":  "Nor zara zu?",
-                          "answer":  "¿Quién eres tú?"
-                      },
-                      {
-                          "id":  "e10",
-                          "type":  "grammar_select",
-                          "sentence":  "Haiek ikasle ___ (pasado).",
-                          "translation":  "Ellos eran estudiantes.",
-                          "options":  [
-                                          "dira",
-                                          "ziren",
-                                          "ginen",
-                                          "zara"
-                                      ],
-                          "answer":  "ziren"
-                      },
-                      {
-                          "id":  "e11",
-                          "type":  "fill_blank",
-                          "sentence":  "Lagunak izango ___ beti.",
-                          "translation":  "Seremos amigos siempre.",
-                          "hint":  "futuro 1ª persona plural de IZAN",
-                          "answer":  "gara"
-                      },
-                      {
-                          "id":  "e12",
-                          "type":  "translation_es_eu",
-                          "es":  "Antes era estudiante. Ahora soy profesora.",
-                          "answer":  "Lehen ikaslea nintzen. Orain irakaslea naiz."
-                      },
-                      {
-                          "id":  "e13",
-                          "type":  "error_correction",
-                          "wrong":  "Ni ogia jan dut.",
-                          "translation":  "Yo he comido el pan.",
-                          "hint":  "sujeto de verbo transitivo → -K",
-                          "answer":  "Nik ogia jan dut."
-                      },
-                      {
-                          "id":  "e14",
-                          "type":  "error_correction",
-                          "wrong":  "Gu futbola jokatu dugu.",
-                          "translation":  "Nosotros hemos jugado al fútbol.",
-                          "hint":  "sujeto transitivo plural → -K",
-                          "answer":  "Guk futbola jokatu dugu."
-                      },
-                      {
-                          "id":  "ow01",
-                          "type":  "order_words",
-                          "words":  [
-                                        "Gaur",
-                                        "zu",
-                                        "mediku",
-                                        "izango",
-                                        "zara."
-                                    ],
-                          "translation":  "Hoy tu seras medico/a.",
-                          "answer":  "Gaur zu mediku izango zara."
-                      }
-                  ]
+{
+    "id": "test",
+    "title": "Test de la Unidad 7: Aditzak I (IZAN)",
+    "objective": "Demostrar que dominas el verbo IZAN en presente y el contraste NOR/NORK (absolutivo/ergativo)",
+    "type": "test",
+    "exercises": [
+        {
+            "id": "e01",
+            "type": "grammar_select",
+            "sentence": "___ ogia jan du.",
+            "translation": "Él/ella ha comido el pan (sujeto de verbo transitivo).",
+            "options": ["Hark", "Hura", "Nik", "Ni"],
+            "answer": "Hark"
+        },
+        {
+            "id": "e02",
+            "type": "grammar_select",
+            "sentence": "Zuek mediku ___.",
+            "translation": "Vosotros sois médicos.",
+            "options": ["gara", "zarete", "dira", "da"],
+            "answer": "zarete"
+        },
+        {
+            "id": "e03",
+            "type": "translation_eu_es",
+            "eu": "Nor da hau?",
+            "answer": "¿Quién es este/esta?"
+        },
+        {
+            "id": "e04",
+            "type": "match_pairs",
+            "pairs": [
+                { "eu": "ni naiz", "es": "yo soy (intransitivo, NOR)" },
+                { "eu": "nik jan dut", "es": "yo he comido (transitivo, NORK)" },
+                { "eu": "hura da", "es": "él/ella es (intransitivo, NOR)" },
+                { "eu": "hark ikusi du", "es": "él/ella ha visto (transitivo, NORK)" }
+            ]
+        },
+        {
+            "id": "e05",
+            "type": "match_pairs",
+            "pairs": [
+                { "eu": "naiz", "es": "soy" },
+                { "eu": "da", "es": "es" },
+                { "eu": "gara", "es": "somos" },
+                { "eu": "ez da", "es": "no es" }
+            ]
+        },
+        {
+            "id": "e06",
+            "type": "translation_es_eu",
+            "es": "Somos vascos.",
+            "answer": "Euskaldunak gara."
+        },
+        {
+            "id": "e08",
+            "type": "order_words",
+            "words": ["Gu", "ikasleak", "gara."],
+            "translation": "Nosotros somos estudiantes.",
+            "answer": "Gu ikasleak gara."
+        },
+        {
+            "id": "e09",
+            "type": "translation_eu_es",
+            "eu": "Nor zara zu?",
+            "answer": "¿Quién eres tú?"
+        },
+        {
+            "id": "e10",
+            "type": "grammar_select",
+            "sentence": "Haiek Donostiakoak ___.",
+            "translation": "Ellos son de San Sebastián.",
+            "options": ["naiz", "da", "gara", "dira"],
+            "answer": "dira"
+        },
+        {
+            "id": "e11",
+            "type": "fill_blank",
+            "sentence": "Ez ___ Bilbotarrak, Donostiakoak gara.",
+            "translation": "No somos bilbaínos, somos de San Sebastián.",
+            "hint": "no somos",
+            "answer": "gara"
+        },
+        {
+            "id": "e12",
+            "type": "translation_es_eu",
+            "es": "¿Sois vascos?",
+            "answer": "Euskaldunak zarete?"
+        },
+        {
+            "id": "e13",
+            "type": "error_correction",
+            "wrong": "Ni ogia jan dut.",
+            "translation": "Yo he comido el pan.",
+            "hint": "sujeto de verbo transitivo → -K",
+            "answer": "Nik ogia jan dut."
+        },
+        {
+            "id": "e14",
+            "type": "error_correction",
+            "wrong": "Gu futbola jokatu dugu.",
+            "translation": "Nosotros hemos jugado al fútbol.",
+            "hint": "sujeto transitivo plural → -K",
+            "answer": "Guk futbola jokatu dugu."
+        },
+        {
+            "id": "ow01",
+            "type": "order_words",
+            "words": ["Hark", "ogia", "jan", "du."],
+            "translation": "Él/ella ha comido el pan.",
+            "answer": "Hark ogia jan du."
+        }
+    ]
 }

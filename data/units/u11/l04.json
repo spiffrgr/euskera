@@ -1,116 +1,96 @@
-﻿{
-    "id":  "l04",
-    "title":  "NOLA? eta ZERGATIK?",
-    "grammar_note":  {
-                         "title":  "¿Cómo? y ¿Por qué? — con DELAKO",
-                         "body":  "**NOLA?** → ¿Cómo?\n**ZERGATIK?** → ¿Por qué?\n\nLa respuesta a ZERGATIK usa el sufijo **-DELAKO** (porque es/está) o **-LAKO** tras verbos:\n**Zergatik etortzen ez zara?** → ¿Por qué no vienes?\n**Nekatuta nagolako** → Porque estoy cansado/a\n**Zergatik gustatzen zaizu?** → ¿Por qué te gusta?\n**Ona delako** → Porque es bueno",
-                         "tip":  "-LAKO = \u0027porque\u0027: joan nahi dudalako (porque quiero ir), berandu delako (porque es tarde)."
-                     },
-    "slides":  [
-                   {
-                       "eu":  "Nola zaude?",
-                       "es":  "¿Cómo estás?",
-                       "example_eu":  "Nola zaude gaur? —Ondo nago, eskerrik asko.",
-                       "example_es":  "¿Cómo estás hoy? —Bien, gracias."
-                   },
-                   {
-                       "eu":  "Zergatik?",
-                       "es":  "¿Por qué?",
-                       "example_eu":  "Zergatik ez zara etorri? —Nekatuta nengoelako.",
-                       "example_es":  "¿Por qué no viniste? —Porque estaba cansado/a."
-                   },
-                   {
-                       "eu":  "-lako (porque)",
-                       "es":  "porque (sufijo de causa)",
-                       "example_eu":  "Ez noa, berandu delako.",
-                       "example_es":  "No voy, porque es tarde."
-                   },
-                   {
-                       "eu":  "Nola esaten da?",
-                       "es":  "¿Cómo se dice?",
-                       "example_eu":  "Nola esaten da euskaraz \u0027gracias\u0027? —\u0027Eskerrik asko\u0027.",
-                       "example_es":  "¿Cómo se dice en euskera \u0027gracias\u0027? —\u0027Eskerrik asko\u0027."
-                   }
-               ],
-    "exercises":  [
-                      {
-                          "id":  "e01",
-                          "type":  "multiple_choice",
-                          "instruction":  "¿Qué pregunta usas para preguntar \u0027¿Por qué?\u0027?",
-                          "options":  [
-                                          "Nola?",
-                                          "Zergatik?",
-                                          "Noiz?",
-                                          "Zenbat?"
-                                      ],
-                          "answer":  "Zergatik?"
-                      },
-                      {
-                          "id":  "e02",
-                          "type":  "translation_eu_es",
-                          "eu":  "Zergatik ez zara etorri?",
-                          "answer":  "¿Por qué no viniste?"
-                      },
-                      {
-                          "id":  "e03",
-                          "type":  "translation_es_eu",
-                          "es":  "¿Cómo estás?",
-                          "answer":  "Nola zaude?"
-                      },
-                      {
-                          "id":  "e05",
-                          "type":  "fill_blank",
-                          "sentence":  "Ez noa, berandu ___ (porque es tarde)",
-                          "translation":  "No voy, porque es tarde",
-                          "hint":  "sufijo de causa tras \u0027da\u0027",
-                          "answer":  "delako"
-                      },
-                      {
-                          "id":  "e06",
-                          "type":  "order_words",
-                          "words":  [
-                                        "zergatik",
-                                        "ez",
-                                        "zara",
-                                        "etorri?"
-                                    ],
-                          "translation":  "¿Por qué no viniste?",
-                          "answer":  "Zergatik ez zara etorri?"
-                      },
-                      {
-                          "id":  "e07",
-                          "type":  "match_pairs",
-                          "pairs":  [
-                                        {
-                                            "eu":  "Nola?",
-                                            "es":  "¿Cómo?"
-                                        },
-                                        {
-                                            "eu":  "Zergatik?",
-                                            "es":  "¿Por qué?"
-                                        },
-                                        {
-                                            "eu":  "-lako",
-                                            "es":  "porque"
-                                        },
-                                        {
-                                            "eu":  "Nola esaten da?",
-                                            "es":  "¿Cómo se dice?"
-                                        }
-                                    ]
-                      },
-                      {
-                          "id":  "e08",
-                          "type":  "grammar_select",
-                          "sentence":  "Ez nator, nekatuta nago___.",
-                          "translation":  "No vengo, porque estoy cansado/a.",
-                          "options":  [
-                                          "-lako",
-                                          "-ra",
-                                          "-tik",
-                                          "-n"
-                                      ],
-                          "answer":  "-lako"
-                      }
-                  ]
+{
+    "id": "l04",
+    "title": "NOLA? (¿Cómo?)",
+    "objective": "Preguntar y responder sobre el modo, el estado y la manera con NOLA",
+    "grammar_note": {
+        "title": "NOLA? — ¿Cómo? en distintos contextos",
+        "body": "**NOLA?** se usa para preguntar sobre estado, carácter o manera:\n\n**Nola zaude?** → ¿Cómo estás? (estado, con EGON)\n**Nolakoa zara?** → ¿Cómo eres? (carácter, con IZAN)\n**Nola deitzen zara?** → ¿Cómo te llamas?\n**Nola esaten da...?** → ¿Cómo se dice...?\n\nRespuestas:\n**Ondo nago.** (Estoy bien.) · **Alaia naiz.** (Soy alegre.)",
+        "tip": "'Nola zaude?' usa EGON (estado temporal). 'Nolakoa zara?' usa IZAN (carácter permanente)."
+    },
+    "slides": [
+        {
+            "eu": "Nola zaude?",
+            "es": "¿Cómo estás?",
+            "example_eu": "—Nola zaude? —Ondo nago, eskerrik asko.",
+            "example_es": "—¿Cómo estás? —Estoy bien, gracias."
+        },
+        {
+            "eu": "Nolakoa zara?",
+            "es": "¿Cómo eres?",
+            "example_eu": "—Nolakoa zara? —Alaia eta langilea naiz.",
+            "example_es": "—¿Cómo eres? —Soy alegre y trabajador/a."
+        },
+        {
+            "eu": "Nola deitzen zara?",
+            "es": "¿Cómo te llamas?",
+            "example_eu": "—Nola deitzen zara? —Mikel deitzen naiz.",
+            "example_es": "—¿Cómo te llamas? —Me llamo Mikel."
+        },
+        {
+            "eu": "Nola esaten da...?",
+            "es": "¿Cómo se dice...?",
+            "example_eu": "Nola esaten da euskaraz 'gracias'? —'Eskerrik asko' esaten da.",
+            "example_es": "¿Cómo se dice 'gracias' en euskera? —Se dice 'Eskerrik asko'."
+        }
+    ],
+    "exercises": [
+        {
+            "id": "e01",
+            "type": "multiple_choice",
+            "instruction": "¿Cómo preguntas '¿Cómo estás?' en euskera?",
+            "options": ["Nola zaude?", "Zer zara?", "Nola dago?", "Nor zaude?"],
+            "answer": "Nola zaude?"
+        },
+        {
+            "id": "e02",
+            "type": "translation_eu_es",
+            "eu": "Nola deitzen zara?",
+            "answer": "¿Cómo te llamas?"
+        },
+        {
+            "id": "e03",
+            "type": "translation_es_eu",
+            "es": "¿Cómo estás?",
+            "answer": "Nola zaude?"
+        },
+        {
+            "id": "e04",
+            "type": "fill_blank",
+            "sentence": "Nola ___ da euskaraz 'gracias'?",
+            "translation": "¿Cómo se dice 'gracias' en euskera?",
+            "hint": "verbo 'decir' (esaten)",
+            "answer": "esaten"
+        },
+        {
+            "id": "e05",
+            "type": "grammar_select",
+            "sentence": "___ zara? —Alaia eta langilea naiz.",
+            "translation": "¿Cómo eres? —Soy alegre y trabajadora.",
+            "options": ["Nola", "Nolakoa", "Non", "Nor"],
+            "answer": "Nolakoa"
+        },
+        {
+            "id": "e06",
+            "type": "order_words",
+            "words": ["Nola", "zaude", "gaur?"],
+            "translation": "¿Cómo estás hoy?",
+            "answer": "Nola zaude gaur?"
+        },
+        {
+            "id": "e07",
+            "type": "match_pairs",
+            "pairs": [
+                { "eu": "Nola zaude?", "es": "¿Cómo estás?" },
+                { "eu": "Nolakoa zara?", "es": "¿Cómo eres?" },
+                { "eu": "Nola deitzen zara?", "es": "¿Cómo te llamas?" },
+                { "eu": "Nola esaten da?", "es": "¿Cómo se dice?" }
+            ]
+        },
+        {
+            "id": "e08",
+            "type": "translation_eu_es",
+            "eu": "Nola esaten da euskaraz 'gracias'?",
+            "answer": "¿Cómo se dice 'gracias' en euskera?"
+        }
+    ]
 }

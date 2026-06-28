@@ -1,116 +1,96 @@
-﻿{
-    "id":  "l03",
-    "title":  "NINTZEN, ZINEN, ZEN (pasado)",
-    "grammar_note":  {
-                         "title":  "IZAN – iragana (IZAN – pasado)",
-                         "body":  "Pasado de IZAN: **ni nintzen** (yo era/estaba), **zu zinen** (tú eras/estabas), **bera zen** (él/ella era/estaba), **gu ginen** (nosotros éramos), **haiek ziren** (ellos eran). Expresa estados pasados: **Gaztea nintzen** (Era joven).",
-                         "tip":  "zen / ziren son las formas más usadas: Bera medikua zen (Era médico). Gazteak ziren (Eran jóvenes)."
-                     },
-    "slides":  [
-                   {
-                       "eu":  "ni nintzen / zu zinen / bera zen",
-                       "es":  "yo era/estaba / tú eras / él-ella era",
-                       "example_eu":  "Ni gaztea nintzen. Zu nolakoa zinen?",
-                       "example_es":  "Yo era joven. ¿Cómo eras tú?"
-                   },
-                   {
-                       "eu":  "gu ginen / haiek ziren",
-                       "es":  "nosotros éramos / ellos/ellas eran",
-                       "example_eu":  "Gu ikasle ginen eta haiek irakasle ziren.",
-                       "example_es":  "Nosotros éramos estudiantes y ellos eran profesores."
-                   },
-                   {
-                       "eu":  "Gaztea nintzen eta alaia.",
-                       "es":  "Era joven y alegre.",
-                       "example_eu":  "Hamar urte nituenean, alaia eta ausarta nintzen.",
-                       "example_es":  "Cuando tenía diez años, era alegre y valiente."
-                   }
-               ],
-    "exercises":  [
-                      {
-                          "id":  "e01",
-                          "type":  "multiple_choice",
-                          "instruction":  "¿Cuál es el pasado de \u0027da\u0027 (era/estaba - él)?",
-                          "options":  [
-                                          "zen",
-                                          "zinen",
-                                          "nintzen",
-                                          "ziren"
-                                      ],
-                          "answer":  "zen"
-                      },
-                      {
-                          "id":  "e03",
-                          "type":  "translation_eu_es",
-                          "instruction":  "Traduce al castellano",
-                          "eu":  "Bera medikua zen.",
-                          "answer":  "Él/ella era médico/a."
-                      },
-                      {
-                          "id":  "e04",
-                          "type":  "fill_blank",
-                          "instruction":  "Rellena el hueco",
-                          "sentence":  "Ni gaztea ___.",
-                          "translation":  "Yo era joven.",
-                          "hint":  "pasado de NAIZ",
-                          "answer":  "nintzen"
-                      },
-                      {
-                          "id":  "e05",
-                          "type":  "grammar_select",
-                          "instruction":  "Para decir \u0027ellos eran estudiantes\u0027 usas:",
-                          "sentence":  "Haiek ikasle ___",
-                          "translation":  "Ellos eran estudiantes",
-                          "options":  [
-                                          "ginen",
-                                          "ziren",
-                                          "zinen",
-                                          "nintzen"
-                                      ],
-                          "answer":  "ziren"
-                      },
-                      {
-                          "id":  "e06",
-                          "type":  "translation_es_eu",
-                          "instruction":  "Traduce al euskera",
-                          "es":  "Éramos estudiantes.",
-                          "answer":  "Ikasle ginen."
-                      },
-                      {
-                          "id":  "e07",
-                          "type":  "match_pairs",
-                          "instruction":  "Une presente con pasado",
-                          "pairs":  [
-                                        {
-                                            "eu":  "naiz → nintzen",
-                                            "es":  "soy → era"
-                                        },
-                                        {
-                                            "eu":  "zara → zinen",
-                                            "es":  "eres → eras"
-                                        },
-                                        {
-                                            "eu":  "da → zen",
-                                            "es":  "es → era"
-                                        },
-                                        {
-                                            "eu":  "dira → ziren",
-                                            "es":  "son → eran"
-                                        }
-                                    ]
-                      },
-                      {
-                          "id":  "e08",
-                          "type":  "order_words",
-                          "instruction":  "Ordena las palabras",
-                          "words":  [
-                                        "alaia",
-                                        "nintzen",
-                                        "gaztea",
-                                        "eta"
-                                    ],
-                          "translation":  "Era joven y alegre",
-                          "answer":  "gaztea eta alaia nintzen"
-                      }
-                  ]
+{
+    "id": "l03",
+    "title": "NOLAKOA da? (Descripción con adjetivos)",
+    "objective": "Describir personas y cosas usando adjetivos con IZAN",
+    "grammar_note": {
+        "title": "Adjetivos con IZAN: describir personas y cosas",
+        "body": "Para describir usamos IZAN + adjetivo. En euskera el adjetivo va después del nombre y lleva el artículo **-a**:\n\n**Etxea handia da** → La casa es grande\n**Ni alaia naiz** → Soy alegre\n**Film hau ona da** → Esta película es buena\n\nAlgunos adjetivos frecuentes:\n**handi** (grande) · **txiki** (pequeño) · **ona** (bueno) · **txarra** (malo) · **polita** (bonito) · **zaharra** (viejo) · **berria** (nuevo)",
+        "tip": "El artículo '-a' ya está incluido: handi+a = handia, on+a = ona, txar+ra = txarra."
+    },
+    "slides": [
+        {
+            "eu": "handia / txikia",
+            "es": "grande / pequeño/a",
+            "example_eu": "Bilbo handia da. Herria txikia da.",
+            "example_es": "Bilbao es grande. El pueblo es pequeño."
+        },
+        {
+            "eu": "ona / txarra",
+            "es": "bueno/a / malo/a",
+            "example_eu": "Film hau ona da. Eguraldia txarra da.",
+            "example_es": "Esta película es buena. El tiempo es malo."
+        },
+        {
+            "eu": "polita / itsusia",
+            "es": "bonito/a / feo/a",
+            "example_eu": "Hiri hau polita da. Etxe hau itsusia da.",
+            "example_es": "Esta ciudad es bonita. Esta casa es fea."
+        },
+        {
+            "eu": "zaharra / berria",
+            "es": "viejo/antiguo / nuevo",
+            "example_eu": "Kale zaharra. Denda berria.",
+            "example_es": "Calle vieja. Tienda nueva."
+        }
+    ],
+    "exercises": [
+        {
+            "id": "e01",
+            "type": "multiple_choice",
+            "instruction": "¿Cómo se dice 'La casa es grande'?",
+            "options": ["Etxea handia da.", "Etxea handi da.", "Handia etxea da.", "Etxe handia."],
+            "answer": "Etxea handia da."
+        },
+        {
+            "id": "e02",
+            "type": "translation_eu_es",
+            "eu": "Herria txikia da.",
+            "answer": "El pueblo es pequeño."
+        },
+        {
+            "id": "e03",
+            "type": "translation_es_eu",
+            "es": "Esta película es mala.",
+            "answer": "Film hau txarra da."
+        },
+        {
+            "id": "e04",
+            "type": "match_pairs",
+            "pairs": [
+                { "eu": "handia", "es": "grande" },
+                { "eu": "txikia", "es": "pequeño/a" },
+                { "eu": "ona", "es": "bueno/a" },
+                { "eu": "txarra", "es": "malo/a" }
+            ]
+        },
+        {
+            "id": "e05",
+            "type": "fill_blank",
+            "sentence": "Liburu hau ___ da.",
+            "translation": "Este libro es bueno.",
+            "hint": "bueno/a",
+            "answer": "ona"
+        },
+        {
+            "id": "e06",
+            "type": "grammar_select",
+            "sentence": "Ni alaia ___.",
+            "translation": "Soy alegre.",
+            "options": ["naiz", "da", "gara", "dira"],
+            "answer": "naiz"
+        },
+        {
+            "id": "e07",
+            "type": "translation_eu_es",
+            "eu": "Kale hau polita da.",
+            "answer": "Esta calle es bonita."
+        },
+        {
+            "id": "e08",
+            "type": "order_words",
+            "words": ["da.", "txikia", "Herria"],
+            "translation": "El pueblo es pequeño.",
+            "answer": "Herria txikia da."
+        }
+    ]
 }

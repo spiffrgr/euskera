@@ -1,0 +1,109 @@
+{
+    "id": "l01",
+    "title": "EDUN singularra — dut, duzu, du",
+    "grammar_note": {
+        "title": "EDUN — El verbo 'tener' y auxiliar transitivo",
+        "body": "**EDUN** es uno de los dos verbos auxiliares principales del euskera.\n\nConjugación singular del presente:\n| Persona | Forma | Significado |\n|---------|-------|-------------|\n| nik | **dut** | yo tengo / yo lo tengo |\n| zuk | **duzu** | tú tienes |\n| hark | **du** | él/ella tiene |\n\nSe usa para:\n1. **Posesión**: *Nik kotxe bat dut* (Tengo un coche)\n2. **Auxiliar transitivo**: *Nik liburua irakurtzen dut* (Leo el libro)\n\n**Negación**: ez + forma → *ez dut, ez duzu, ez du*",
+        "tip": "Regla fácil: si la frase tiene un OBJETO directo (qué tienes, qué haces), el auxiliar es EDUN (dut/duzu/du). Si no hay objeto, es IZAN (naiz/zara/da). ¡Ojo! El sujeto de EDUN lleva -k: NIK, ZUK, HARK."
+    },
+    "slides": [
+        {
+            "eu": "nik dut",
+            "es": "yo tengo / yo lo tengo",
+            "example_eu": "Nik kotxe bat dut.",
+            "example_es": "Yo tengo un coche."
+        },
+        {
+            "eu": "zuk duzu",
+            "es": "tú tienes",
+            "example_eu": "Zuk mugikorra duzu?",
+            "example_es": "¿Tú tienes el móvil?"
+        },
+        {
+            "eu": "hark du",
+            "es": "él/ella tiene",
+            "example_eu": "Hark etxe polita du.",
+            "example_es": "Él/ella tiene una casa bonita."
+        },
+        {
+            "eu": "ez dut / ez duzu / ez du",
+            "es": "no tengo / no tienes / no tiene",
+            "example_eu": "Nik ez dut kotxerik.",
+            "example_es": "Yo no tengo coche."
+        },
+        {
+            "eu": "Ba al duzu...?",
+            "es": "¿Tienes...? (pregunta formal)",
+            "example_eu": "Ba al duzu denbora?",
+            "example_es": "¿Tienes tiempo?"
+        },
+        {
+            "eu": "Zer duzu?",
+            "es": "¿Qué tienes?",
+            "example_eu": "Zer duzu eskuan?",
+            "example_es": "¿Qué tienes en la mano?"
+        }
+    ],
+    "exercises": [
+        {
+            "id": "e01",
+            "type": "multiple_choice",
+            "instruction": "¿Cómo se dice 'yo tengo' en euskera?",
+            "options": ["naiz", "dut", "du", "duzu"],
+            "answer": "dut"
+        },
+        {
+            "id": "e02",
+            "type": "translation_eu_es",
+            "eu": "Hark etxe bat du.",
+            "answer": "Él/ella tiene una casa."
+        },
+        {
+            "id": "e03",
+            "type": "translation_es_eu",
+            "es": "Tú tienes un móvil.",
+            "answer": "Zuk mugikor bat duzu."
+        },
+        {
+            "id": "e04",
+            "type": "fill_blank",
+            "sentence": "Nik kotxe bat ___.",
+            "translation": "Yo tengo un coche.",
+            "hint": "yo tengo → nik ___",
+            "answer": "dut"
+        },
+        {
+            "id": "e05",
+            "type": "grammar_select",
+            "sentence": "___ liburua du.",
+            "translation": "Él/ella tiene el libro.",
+            "options": ["Ni", "Hark", "Hura", "Zu"],
+            "answer": "Hark"
+        },
+        {
+            "id": "e06",
+            "type": "order_words",
+            "words": ["Zuk", "anaia", "bat", "duzu."],
+            "translation": "Tú tienes un hermano.",
+            "answer": "Zuk anaia bat duzu."
+        },
+        {
+            "id": "e07",
+            "type": "match_pairs",
+            "pairs": [
+                { "eu": "nik dut", "es": "yo tengo" },
+                { "eu": "zuk duzu", "es": "tú tienes" },
+                { "eu": "hark du", "es": "él/ella tiene" },
+                { "eu": "ez dut", "es": "yo no tengo" }
+            ]
+        },
+        {
+            "id": "e08",
+            "type": "true_false",
+            "instruction": "¿Verdadero o falso?",
+            "statement": "El sujeto de EDUN lleva la marca ergativa -k: nik, zuk, hark.",
+            "translation": "El sujeto de EDUN lleva la marca ergativa -k: nik, zuk, hark.",
+            "answer": "true"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "l06",
+  "title": "A1 errepasoa: aditzak eta gramatika (Repaso de verbos y gramática A1)",
+  "objective": "Repasar todos los verbos y estructuras gramaticales principales del nivel A1",
+  "grammar_note": {
+    "title": "A1 laburpena — Lo más importante",
+    "body": "**Verbos principales:**\n- **IZAN**: ni naiz, zu zara, hura da, gu gara, zuek zarete, haiek dira (ser/estar — identidad, profesión, origen)\n- **EGON**: ni nago, zu zaude, hura dago, gu gaude, zuek zaudete, haiek daude (estar — ubicación, estado temporal)\n- **EDUN**: nik dut, zuk duzu, hark du, guk dugu, zuek duzue, haiek dute (haber/tener — auxiliar transitivo)\n- **JOAN**: ni noa, zu zoaz, hura doa, gu goaz (ir) | habitual: joaten naiz\n- **ETORRI**: ni nator, zu zatoz, hura dator (venir) | habitual: etortzen naiz\n\n**Casos principales:**\n- **NOR** (quién/qué): ni, zu, hura — sujeto intransitivo\n- **NORK** (quién hace qué): nik, zuk, hark — sujeto transitivo\n- **NON** (dónde): -n/-an: etxean, kalean\n- **NORA** (adónde): -ra/-era: etxera, kalera\n- **NONDIK** (de dónde): -tik/-etik: etxetik, kaletik\n- **Instrumental** (cómo/con qué): -z/-ez: trenez, oinez\n\n**Modales:**\n- NAHI DUT (quiero) + infinitivo\n- AHAL DUT (puedo) + infinitivo | Negación: EZIN DUT\n- BEHAR DUT (tengo que) + infinitivo",
+    "tip": "Si dudas: ¿hay un objeto directo (qué / a quién)? → EDUN (nik...dut). ¿Sin objeto directo? → IZAN (ni...naiz)."
+  },
+  "slides": [
+    {
+      "eu": "IZAN eta EGON — ser/estar de identidad y de ubicación",
+      "es": "IZAN para identidad/profesión/origen: 'Ni irakaslea naiz.' EGON para ubicación/estado temporal: 'Ni etxean nago.'",
+      "example_eu": "Ni medikua naiz. Orain ospitalean nago.",
+      "example_es": "Soy médico/a. Ahora estoy en el hospital."
+    },
+    {
+      "eu": "EDUN — el auxiliar transitivo (nik dut / zuk duzu / hark du)",
+      "es": "EDUN se usa cuando hay un objeto directo. Sujeto en NORK (-k): Nik liburu bat dut. (Tengo un libro.)",
+      "example_eu": "Nik kotxe bat dut. Zuk zer daukazu?",
+      "example_es": "Yo tengo un coche. ¿Tú qué tienes?"
+    },
+    {
+      "eu": "JOAN eta ETORRI — ir y venir",
+      "es": "JOAN: ni noa (voy), joaten naiz (voy habitualmente). ETORRI: ni nator (vengo), etortzen naiz (vengo habitualmente).",
+      "example_eu": "Ni lanera joaten naiz. Zuk etxera zatoz?",
+      "example_es": "Yo voy al trabajo. ¿Tú vienes a casa?"
+    },
+    {
+      "eu": "Kasuak: NON, NORA, NONDIK — dónde, adónde, de dónde",
+      "es": "NON (-n/-an): etxean. NORA (-ra/-era): etxera. NONDIK (-tik/-etik): etxetik. Siempre con el artículo -a absorbido.",
+      "example_eu": "Etxean nago. Eskolara joaten naiz. Lanetik nator.",
+      "example_es": "Estoy en casa. Voy a la escuela. Vengo del trabajo."
+    },
+    {
+      "eu": "Modales: NAHI / AHAL / BEHAR + EDUN",
+      "es": "Los tres modales siguen la misma pauta: [infinitivo] + modal + EDUN. Ezin dut = no puedo (negación de AHAL).",
+      "example_eu": "Joan nahi dut baina ezin dut. Bihar joan behar dut.",
+      "example_es": "Quiero ir pero no puedo. Mañana tengo que ir."
+    },
+    {
+      "eu": "Instrumental -z — Trenez joaten naiz.",
+      "es": "El sufijo -z indica el medio (en tren, en autobús, a pie). El artículo -a desaparece: trena → trenez.",
+      "example_eu": "Autobusez joaten naiz lanera. Oinez itzultzen naiz.",
+      "example_es": "Voy al trabajo en autobús. Vuelvo a pie."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "grammar_select",
+      "question": "¿Qué verbo usas para decir dónde está algo? (ubicación)",
+      "options": ["IZAN (naiz/da)", "EGON (nago/dago)", "EDUN (dut/du)", "JOAN (noa/doa)"],
+      "answer": "EGON (nago/dago)"
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Soy profesora. Estoy en la escuela'?",
+      "answer": "Irakaslea naiz. Eskolan nago."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Nik liburu bat ___ . (Yo tengo un libro.)",
+      "answer": "dut",
+      "hint": "EDUN, primera persona singular (nik)"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "¿Cuál es la forma habitual de JOAN para 'yo'?",
+      "options": ["noa", "joaten naiz", "joan dut", "joaten da"],
+      "answer": "joaten naiz"
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Lanetik nator. Etxera joaten naiz'?",
+      "answer": "Vengo del trabajo. Voy a casa."
+    },
+    {
+      "type": "true_false",
+      "question": "El sufijo -ra/-era indica 'de dónde' (NONDIK).",
+      "answer": false,
+      "explanation": "-ra/-era es NORA (adónde). 'De dónde' (NONDIK) es -tik/-etik."
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena para formar: 'No puedo venir. Tengo que trabajar.'",
+      "words": ["Ezin", "dut", "etorri.", "Lan", "egin", "behar", "dut."],
+      "answer": "Ezin dut etorri. Lan egin behar dut."
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une cada caso con su sufijo",
+      "pairs": [
+        { "eu": "NON (dónde)", "es": "-n / -an" },
+        { "eu": "NORA (adónde)", "es": "-ra / -era" },
+        { "eu": "NONDIK (de dónde)", "es": "-tik / -etik" },
+        { "eu": "Instrumental (cómo)", "es": "-z / -ez" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "u13_l07",
+  "title": "Hiri-elkarrizketa (Diálogo en la ciudad)",
+  "objective": "Comprender y producir un diálogo real en la ciudad: pedir direcciones, tomar el bus y comprar algo",
+  "grammar_note": null,
+  "slides": [
+    {
+      "eu": "Barkatu, liburutegia non dago?",
+      "es": "Disculpa, ¿dónde está la biblioteca?",
+      "example_eu": "— Barkatu, liburutegia non dago? — Zuzen-zuzen joan eta ezkerrera.",
+      "example_es": "— Disculpa, ¿dónde está la biblioteca? — Ve todo recto y a la izquierda."
+    },
+    {
+      "eu": "Ze autobusek joaten da geltokira?",
+      "es": "¿Qué autobús va a la estación?",
+      "example_eu": "— Ze autobusek joaten da geltokira? — Zazpiak joaten da.",
+      "example_es": "— ¿Qué autobús va a la estación? — El siete va."
+    },
+    {
+      "eu": "Hurrengo geltokia noiz da?",
+      "es": "¿Cuándo es la próxima parada?",
+      "example_eu": "— Hurrengo geltokia noiz da? — Bi minututan.",
+      "example_es": "— ¿Cuándo es la próxima parada? — En dos minutos."
+    },
+    {
+      "eu": "Zenbat balio du txartela?",
+      "es": "¿Cuánto cuesta el billete?",
+      "example_eu": "— Zenbat balio du txartela? — Euro eta erdi balio du.",
+      "example_es": "— ¿Cuánto cuesta el billete? — Cuesta un euro y medio."
+    },
+    {
+      "eu": "Farmazia hemen gertu dago?",
+      "es": "¿Hay una farmacia cerca de aquí?",
+      "example_eu": "— Farmazia hemen gertu dago? — Bai, plazan dago.",
+      "example_es": "— ¿Hay una farmacia cerca de aquí? — Sí, está en la plaza."
+    },
+    {
+      "eu": "Eskerrik asko! / Ez horregatik.",
+      "es": "¡Gracias! / De nada.",
+      "example_eu": "— Eskerrik asko zure laguntzagatik! — Ez horregatik, agur!",
+      "example_es": "— ¡Gracias por tu ayuda! — De nada, ¡adiós!"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo preguntas '¿Dónde está la biblioteca?' en euskera?",
+      "options": [
+        "Liburutegia non dago?",
+        "Liburutegia urrun dago?",
+        "Liburutegira noa?",
+        "Liburutegitik nator?"
+      ],
+      "answer": "Liburutegia non dago?"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Zuzen-zuzen joan eta gero ezkerrera.",
+      "answer": "Ve todo recto y luego a la izquierda."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "instruction": "Empareja cada frase con su traducción",
+      "pairs": [
+        { "eu": "Barkatu", "es": "Disculpa" },
+        { "eu": "Eskerrik asko", "es": "Gracias" },
+        { "eu": "Mesedez", "es": "Por favor" },
+        { "eu": "Ez horregatik", "es": "De nada" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "¿Cuánto cuesta el billete?",
+      "answer": "Zenbat balio du txartela?"
+    },
+    {
+      "id": "e05",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco con la respuesta correcta",
+      "sentence": "— Farmazia non dago? — Plazan ___.",
+      "translation": "— ¿Dónde está la farmacia? — Está en la plaza.",
+      "hint": "el verbo EGON en 3ª persona singular",
+      "answer": "dago"
+    },
+    {
+      "id": "e06",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "Autobusetik irteerara noa farmazia erostera.",
+      "translation": "Voy desde el autobús a la salida a comprar en la farmacia.",
+      "answer": "true"
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras para formar la pregunta correcta",
+      "words": ["Ze", "autobusek", "joaten", "da", "geltokira?"],
+      "translation": "¿Qué autobús va a la estación?",
+      "answer": "Ze autobusek joaten da geltokira?"
+    },
+    {
+      "id": "e08",
+      "type": "multiple_choice",
+      "instruction": "Tu interlocutor te ayuda a llegar a la biblioteca. ¿Qué le dices al final?",
+      "options": ["Eskerrik asko!", "Barkatu!", "Agur!", "Kaixo!"],
+      "answer": "Eskerrik asko!"
+    }
+  ]
+}

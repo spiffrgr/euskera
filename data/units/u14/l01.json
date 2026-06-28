@@ -1,0 +1,108 @@
+{
+  "id": "u14_l01",
+  "title": "Eguraldi orokorra (El tiempo básico)",
+  "objective": "Describir el tiempo meteorológico básico en euskera",
+  "grammar_note": {
+    "title": "Dos estructuras clave para el tiempo",
+    "body": "En euskera hay dos formas principales de hablar del tiempo:\n\n**1. \"Ari da\" (progresivo)** — para fenómenos en curso:\n- **Euria ari da** (Está lloviendo)\n- **Elurra ari da** (Está nevando)\n\n**2. \"Dago\" (estado)** — para presencia de algo:\n- **Eguzkia dago** (Hay sol)\n- **Haizea dago** (Hay viento)\n- **Lainoa dago** (Hay niebla)",
+    "tip": "Piensa en 'dago' como 'está/hay' y 'ari da' como 'está + gerundio'"
+  },
+  "slides": [
+    {
+      "eu": "eguzkia / eguzkia dago",
+      "es": "el sol / hay sol (hace sol)",
+      "example_eu": "Gaur eguzkia dago eta epela da.",
+      "example_es": "Hoy hay sol y está templado."
+    },
+    {
+      "eu": "euria / euria ari da",
+      "es": "la lluvia / está lloviendo",
+      "example_eu": "Euria ari da, aterkia hartu!",
+      "example_es": "Está lloviendo, ¡coge el paraguas!"
+    },
+    {
+      "eu": "elurra / elurra ari da",
+      "es": "la nieve / está nevando",
+      "example_eu": "Elurra ari da mendian.",
+      "example_es": "Está nevando en la montaña."
+    },
+    {
+      "eu": "haizea / haizea dago",
+      "es": "el viento / hay viento (hace viento)",
+      "example_eu": "Haizea dago eta hotza da.",
+      "example_es": "Hay viento y hace frío."
+    },
+    {
+      "eu": "hodeia / hodei asko daude",
+      "es": "la nube / hay muchas nubes",
+      "example_eu": "Hodei asko daude zeruan.",
+      "example_es": "Hay muchas nubes en el cielo."
+    },
+    {
+      "eu": "lainoa / lainoa dago",
+      "es": "la niebla / hay niebla",
+      "example_eu": "Lainoa dago eta ezer ez da ikusten.",
+      "example_es": "Hay niebla y no se ve nada."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "question": "¿Cómo se dice 'está lloviendo' en euskera?",
+      "options": ["Euria dago", "Euria ari da", "Elurra ari da", "Haizea dago"],
+      "answer": "Euria ari da"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Haizea dago'?",
+      "options": ["Está nevando", "Hay sol", "Hay viento", "Hay niebla"],
+      "answer": "Hay viento"
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        { "eu": "eguzkia", "es": "el sol" },
+        { "eu": "euria", "es": "la lluvia" },
+        { "eu": "elurra", "es": "la nieve" },
+        { "eu": "lainoa", "es": "la niebla" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "grammar_select",
+      "question": "Elurra ___ mendian. (Está nevando en la montaña.)",
+      "options": ["dago", "ari da", "daude", "da"],
+      "answer": "ari da"
+    },
+    {
+      "id": "e05",
+      "type": "true_false",
+      "question": "'Hodei asko daude' significa 'Hay muchas nubes'.",
+      "answer": "true"
+    },
+    {
+      "id": "e06",
+      "type": "fill_blank",
+      "sentence": "Eguzkia ___ eta epela da. (Hay sol y está templado.)",
+      "hint": "verbo 'dago' o 'ari da'",
+      "answer": "dago"
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "question": "Ordena las palabras: está / nevando / en la montaña",
+      "words": ["mendian", "ari", "Elurra", "da"],
+      "answer": "Elurra ari da mendian"
+    },
+    {
+      "id": "e08",
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Hay niebla' en euskera?",
+      "options": ["Euria ari da", "Lainoa dago", "Haizea dago", "Hodei asko daude"],
+      "answer": "Lainoa dago"
+    }
+  ]
+}

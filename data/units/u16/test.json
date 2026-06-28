@@ -1,0 +1,95 @@
+{
+    "id": "test",
+    "title": "Test de la Unidad 16: EDUN eta EGIN",
+    "objective": "Demostrar que dominas el verbo EDUN y los verbos compuestos con EGIN",
+    "type": "test",
+    "exercises": [
+        {
+            "id": "e01",
+            "type": "multiple_choice",
+            "instruction": "¿Cómo se dice 'nosotros tenemos' en euskera?",
+            "options": ["dute", "dugu", "duzue", "duzu"],
+            "answer": "dugu"
+        },
+        {
+            "id": "e02",
+            "type": "translation_eu_es",
+            "eu": "Haiek diru asko dute.",
+            "answer": "Ellos/ellas tienen mucho dinero."
+        },
+        {
+            "id": "e03",
+            "type": "translation_es_eu",
+            "es": "Yo tengo un perro.",
+            "answer": "Nik txakur bat dut."
+        },
+        {
+            "id": "e04",
+            "type": "fill_blank",
+            "sentence": "Zuk ordenagailu bat ___.",
+            "translation": "Tú tienes un ordenador.",
+            "hint": "tú tienes → zuk ___",
+            "answer": "duzu"
+        },
+        {
+            "id": "e05",
+            "type": "multiple_choice",
+            "instruction": "¿Cuál es la forma correcta de 'trabajar' con EGIN en presente habitual?",
+            "options": ["lan egin dut", "lan egiten dut", "lan egin naiz", "lan egingo dut"],
+            "answer": "lan egiten dut"
+        },
+        {
+            "id": "e06",
+            "type": "translation_eu_es",
+            "eu": "Guk astean bitan kirola egiten dugu.",
+            "answer": "Nosotros hacemos deporte dos veces a la semana."
+        },
+        {
+            "id": "e07",
+            "type": "translation_es_eu",
+            "es": "Él/ella lee el libro.",
+            "answer": "Hark liburua irakurtzen du."
+        },
+        {
+            "id": "e08",
+            "type": "order_words",
+            "words": ["Nik", "musika", "entzuten", "dut", "autoan."],
+            "translation": "Yo escucho música en el coche.",
+            "answer": "Nik musika entzuten dut autoan."
+        },
+        {
+            "id": "e09",
+            "type": "match_pairs",
+            "pairs": [
+                { "eu": "lan egin", "es": "trabajar" },
+                { "eu": "lo egin", "es": "dormir" },
+                { "eu": "barre egin", "es": "reír" },
+                { "eu": "negar egin", "es": "llorar" }
+            ]
+        },
+        {
+            "id": "e10",
+            "type": "grammar_select",
+            "sentence": "Nik ogia jaten ___. (transitivo)",
+            "translation": "Yo como pan.",
+            "options": ["dut", "naiz", "da", "noa"],
+            "answer": "dut"
+        },
+        {
+            "id": "ec01",
+            "type": "error_correction",
+            "wrong": "Nik etxera doa.",
+            "translation": "Yo voy a casa.",
+            "hint": "JOAN es intransitivo → sujeto NOR (ni, sin -k) y auxiliar noa",
+            "answer": "Ni etxera noa."
+        },
+        {
+            "id": "ec02",
+            "type": "error_correction",
+            "wrong": "Hura liburua irakurtzen du.",
+            "translation": "Él/ella lee el libro.",
+            "hint": "sujeto de verbo transitivo (NOR-NORK) → hark (con -k ergativo)",
+            "answer": "Hark liburua irakurtzen du."
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "test",
+  "unit": "u15",
+  "title": "Test de la Unidad 15: Aisia eta kirolak",
+  "objective": "Demostrar que puedes hablar de aficiones, deportes y tiempo libre en euskera",
+  "type": "test",
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'el baloncesto' en euskera?",
+      "options": ["futbola", "saskibaloia", "tenisa", "atletismoa"],
+      "answer": "saskibaloia"
+    },
+    {
+      "id": "e02",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Me gusta mucho el fútbol.",
+      "answer": "Oso gustuko dut futbola."
+    },
+    {
+      "id": "e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Astean behin igerian _ dut.",
+      "translation": "Nado una vez a la semana.",
+      "hint": "egin → presente habitual",
+      "answer": "egiten"
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "instruction": "Empareja la afición con su traducción",
+      "pairs": [
+        { "eu": "musika entzun", "es": "escuchar música" },
+        { "eu": "zineman joan", "es": "ir al cine" },
+        { "eu": "mendira joan", "es": "ir al monte" },
+        { "eu": "irakurri", "es": "leer" }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Ez dut zinema gustuko.",
+      "answer": "No me gusta el cine."
+    },
+    {
+      "id": "e06",
+      "type": "grammar_select",
+      "instruction": "Elige la forma correcta de EDUN en 'gustuko' para 2ª persona singular",
+      "sentence": "Zuk zer gustuko _?",
+      "translation": "¿Qué te gusta?",
+      "options": ["dut", "duzu", "du", "dute"],
+      "answer": "duzu"
+    },
+    {
+      "id": "e07",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "'Eleberria' significa 'el cómic'.",
+      "translation": "'Eleberria' significa 'el cómic'.",
+      "answer": "false"
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["dut", "Liburuak", "irakurtzen", "ditut"],
+      "translation": "Leo libros.",
+      "answer": "Liburuak irakurtzen ditut."
+    },
+    {
+      "id": "e09",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál es la traducción de 'asteburua'?",
+      "options": ["el martes", "el fin de semana", "la semana", "el lunes"],
+      "answer": "el fin de semana"
+    },
+    {
+      "id": "e10",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Los sábados bailo con mis amigos.",
+      "answer": "Larunbatean lagunekin dantzan egiten dut."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Zineman joan _ dut.",
+      "translation": "Quiero ir al cine.",
+      "hint": "querer = nahi",
+      "answer": "nahi"
+    },
+    {
+      "id": "e12",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Igandean mendira joan gaitezke.",
+      "answer": "El domingo podemos ir al monte."
+    }
+  ]
+}

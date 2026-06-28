@@ -1,0 +1,107 @@
+{
+    "id": "l03",
+    "title": "Zer duzu? (¿Qué tienes?)",
+    "grammar_note": {
+        "title": "Posesión con EDUN",
+        "body": "Para expresar posesión en euskera usamos EDUN:\n\n**Estructura**: [sujeto-NORK] + [objeto] + [EDUN]\n\nEjemplos:\n- *Nik **kotxe bat** dut.* → Tengo un coche.\n- *Zuk **mugikorra** duzu.* → Tienes el móvil.\n- *Hark **anaia bat** du.* → Él/ella tiene un hermano.\n\n**Vocabulario de posesiones frecuentes:**\n- kotxea / autoa → el coche\n- bizikleta → la bici\n- mugikorra → el móvil\n- ordenagailua → el ordenador\n- txakurra → el perro\n- katua → el gato\n- dirua → el dinero\n- laguna → el/la amigo/a",
+        "tip": "Nota: en euskera el artículo definido -a ya va incluido en la palabra (kotxe**a** = el coche). Cuando dices 'un coche' usas 'kotxe bat' (sin artículo -a)."
+    },
+    "slides": [
+        {
+            "eu": "Nik kotxe bat dut.",
+            "es": "Yo tengo un coche.",
+            "example_eu": "Nik kotxe gorri bat dut.",
+            "example_es": "Yo tengo un coche rojo."
+        },
+        {
+            "eu": "Zuk bizikleta bat duzu?",
+            "es": "¿Tú tienes una bicicleta?",
+            "example_eu": "Bai, zuk bizikleta berri bat duzu.",
+            "example_es": "Sí, tú tienes una bicicleta nueva."
+        },
+        {
+            "eu": "Hark txakur eta katu bat ditu.",
+            "es": "Él/ella tiene un perro y un gato.",
+            "example_eu": "Hark txakur bat eta katu bat ditu etxean.",
+            "example_es": "Él/ella tiene un perro y un gato en casa."
+        },
+        {
+            "eu": "Guk etxe handi bat dugu.",
+            "es": "Nosotros tenemos una casa grande.",
+            "example_eu": "Guk etxe handi bat dugu herrian.",
+            "example_es": "Nosotros tenemos una casa grande en el pueblo."
+        },
+        {
+            "eu": "Ba al duzu mugikorrik?",
+            "es": "¿Tienes móvil?",
+            "example_eu": "Ba al duzu mugikorrik? —Bai, Samsung berria dut.",
+            "example_es": "¿Tienes móvil? —Sí, tengo un Samsung nuevo."
+        },
+        {
+            "eu": "Haiek diru asko dute.",
+            "es": "Ellos/ellas tienen mucho dinero.",
+            "example_eu": "Haiek diru asko dute baina alai bizi dira.",
+            "example_es": "Ellos tienen mucho dinero pero viven felices."
+        }
+    ],
+    "exercises": [
+        {
+            "id": "e01",
+            "type": "multiple_choice",
+            "instruction": "¿Cómo se dice 'el móvil' en euskera?",
+            "options": ["ordenagailua", "kotxea", "mugikorra", "bizikleta"],
+            "answer": "mugikorra"
+        },
+        {
+            "id": "e02",
+            "type": "translation_eu_es",
+            "eu": "Nik txakur bat dut.",
+            "answer": "Yo tengo un perro."
+        },
+        {
+            "id": "e03",
+            "type": "translation_es_eu",
+            "es": "¿Tú tienes un ordenador?",
+            "answer": "Zuk ordenagailu bat duzu?"
+        },
+        {
+            "id": "e04",
+            "type": "fill_blank",
+            "sentence": "Hark etxe ___ bat du.",
+            "translation": "Él/ella tiene una casa grande.",
+            "hint": "grande (en euskera va después del sustantivo)",
+            "answer": "handi"
+        },
+        {
+            "id": "e05",
+            "type": "grammar_select",
+            "sentence": "Zuk ___ duzu?",
+            "translation": "¿Tú tienes un gato?",
+            "options": ["katu bat", "katua bi", "katuak dute", "katua naiz"],
+            "answer": "katu bat"
+        },
+        {
+            "id": "e06",
+            "type": "order_words",
+            "words": ["Guk", "bizikleta", "bat", "dugu."],
+            "translation": "Nosotros tenemos una bicicleta.",
+            "answer": "Guk bizikleta bat dugu."
+        },
+        {
+            "id": "e07",
+            "type": "match_pairs",
+            "pairs": [
+                { "eu": "kotxea", "es": "el coche" },
+                { "eu": "mugikorra", "es": "el móvil" },
+                { "eu": "txakurra", "es": "el perro" },
+                { "eu": "dirua", "es": "el dinero" }
+            ]
+        },
+        {
+            "id": "e08",
+            "type": "translation_es_eu",
+            "es": "Ellos tienen mucho dinero.",
+            "answer": "Haiek diru asko dute."
+        }
+    ]
+}

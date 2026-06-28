@@ -1,0 +1,119 @@
+{
+  "id": "u14_l07",
+  "title": "Eguraldi-elkarrizketa (Diálogo sobre el tiempo)",
+  "objective": "Mantener una conversación natural sobre el tiempo y hacer planes según el tiempo",
+  "grammar_note": null,
+  "slides": [
+    {
+      "eu": "Elkarrizketa 1 — Kaixo! Zer moduz eguraldia gaur?",
+      "es": "Diálogo 1 — ¡Hola! ¿Qué tal el tiempo hoy?",
+      "example_eu": "— Kaixo, Ane! Zer moduz eguraldia gaur?\n— Ai, eguraldia txarra da! Euria ari da eta haizea dago.\n— Bai, hotz handia dago ere!",
+      "example_es": "— ¡Hola, Ane! ¿Qué tal el tiempo hoy?\n— ¡Ay, hace mal tiempo! Está lloviendo y hace viento.\n— ¡Sí, también hace mucho frío!"
+    },
+    {
+      "eu": "Elkarrizketa 2 — Atera baino lehen",
+      "es": "Diálogo 2 — Antes de salir",
+      "example_eu": "— Atera aurretik, begiratu eguraldia!\n— Bai, euria ari da. Aterkia hartu behar dut.\n— Eta berokia ere jantzi. Hotz handia dago!",
+      "example_es": "— ¡Antes de salir, mira el tiempo!\n— Sí, está lloviendo. Tengo que coger el paraguas.\n— Y también ponte el abrigo. ¡Hace mucho frío!"
+    },
+    {
+      "eu": "Elkarrizketa 3 — Planak eguraldiarekiko",
+      "es": "Diálogo 3 — Planes según el tiempo",
+      "example_eu": "— Bihar mendira joan nahi dut. Nolako eguraldia izango da?\n— Eguraldi-iragarpena ona da: eguzkia aterako da.\n— Perfektua! Orduan joan gaitezke.",
+      "example_es": "— Mañana quiero ir a la montaña. ¿Qué tiempo hará?\n— La previsión es buena: saldrá el sol.\n— ¡Perfecto! Entonces podemos ir."
+    },
+    {
+      "eu": "Elkarrizketa 4 — Tenperaturaz",
+      "es": "Diálogo 4 — Sobre la temperatura",
+      "example_eu": "— Zenbat gradu dago kanpoan?\n— Hamar gradu bakarrik! Hotz handia dago.\n— Bai, negua da. Bufanda eta eskularruak jantziko ditut.",
+      "example_es": "— ¿Cuántos grados hay fuera?\n— ¡Solo diez grados! Hace mucho frío.\n— Sí, es invierno. Me pondré bufanda y guantes."
+    },
+    {
+      "eu": "Elkarrizketa 5 — Urtaro gustukoenak",
+      "es": "Diálogo 5 — Estaciones favoritas",
+      "example_eu": "— Zein urtaro gustatzen zaizu gehien?\n— Uda gustatzen zait, bero dagoelako eta eguzkia ateratzen delako.\n— Niri udaberria gustatzen zait gehiago, epela delako.",
+      "example_es": "— ¿Qué estación te gusta más?\n— Me gusta el verano, porque hace calor y sale el sol.\n— A mí me gusta más la primavera, porque es templada."
+    },
+    {
+      "eu": "Hitz gakoak elkarrizketarako",
+      "es": "Palabras clave para la conversación",
+      "example_eu": "Zer moduz? • Nolakoa da? • Zenbat gradu? • Bihar • Eguraldia ona/txarra • Aterkia hartu • Berokia jantzi",
+      "example_es": "¿Qué tal? • ¿Cómo es/está? • ¿Cuántos grados? • Mañana • Buen/mal tiempo • Coge el paraguas • Ponte el abrigo"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "question": "En el diálogo, Ane dice que el tiempo es malo. ¿Cuál es la frase correcta?",
+      "options": [
+        "Eguraldia ona da.",
+        "Eguraldia txarra da.",
+        "Eguraldia epela da.",
+        "Eguraldia urdina da."
+      ],
+      "answer": "Eguraldia txarra da."
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Bihar mendira joan nahi dut'?",
+      "options": [
+        "Hoy quiero ir a la playa.",
+        "Mañana quiero ir a la montaña.",
+        "Mañana quiero ir al parque.",
+        "Hoy quiero quedarme en casa."
+      ],
+      "answer": "Mañana quiero ir a la montaña."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        { "eu": "Atera aurretik", "es": "Antes de salir" },
+        { "eu": "Eguzkia aterako da.", "es": "Saldrá el sol." },
+        { "eu": "Joan gaitezke.", "es": "Podemos ir." },
+        { "eu": "Gustatzen zait.", "es": "Me gusta." }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "true_false",
+      "question": "En el diálogo 4, 'Hamar gradu bakarrik' significa 'Solo diez grados'.",
+      "answer": "true"
+    },
+    {
+      "id": "e05",
+      "type": "grammar_select",
+      "question": "— Zenbat gradu dago kanpoan?\n— ___ gradu bakarrik! (¡Solo diez grados!)",
+      "options": ["Bost", "Hamar", "Hogeita bost", "Berrogeita hamar"],
+      "answer": "Hamar"
+    },
+    {
+      "id": "e06",
+      "type": "fill_blank",
+      "sentence": "Euria ari da eta ___ behar dut. (Está lloviendo y necesito el paraguas.)",
+      "hint": "el paraguas",
+      "answer": "aterkia"
+    },
+    {
+      "id": "e07",
+      "type": "translation_es_eu",
+      "question": "¿Cómo respondes a '¿Cuántos grados hay?' si hay veinte grados?",
+      "options": [
+        "Hogei gradu dago.",
+        "Hamar gradu dago.",
+        "Bost gradu dago.",
+        "Hogeita hamar gradu dago."
+      ],
+      "answer": "Hogei gradu dago."
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "question": "Ordena la respuesta: La previsión es buena: saldrá el sol.",
+      "words": ["da:", "Eguraldi-iragarpena", "aterako", "da.", "ona", "eguzkia"],
+      "answer": "Eguraldi-iragarpena ona da: eguzkia aterako da."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "l03",
+  "title": "-ko: de un lugar",
+  "objective": "Aprender el sufijo -ko para expresar pertenencia o procedencia de un lugar",
+  "grammar_note": {
+    "title": "-ko — el genitivo locativo: 'del lugar'",
+    "body": "El sufijo **-ko** convierte un nombre de lugar en un modificador que significa 'de', 'del' o 'de la'. Funciona como un adjetivo que siempre precede al nombre que modifica.\n\n**Cómo se forma:**\n\n| Base | Con -ko | Significado |\n|---|---|---|\n| etxe (casa) | **etxeko** | de la casa |\n| herri (pueblo) | **herriko** | del pueblo |\n| Bilbo | **Bilboko** | de Bilbao |\n| Donostia | **Donostiako** | de San Sebastián |\n| Gasteiz | **Gasteizko** | de Vitoria |\n| Euskal Herri | **Euskal Herriko** | del País Vasco |\n\n**Uso con nombres:** -ko siempre va ANTES del nombre que modifica:\n- **etxeko atea** (la puerta de la casa)\n- **herriko plaza** (la plaza del pueblo)\n- **Bilboko kale** (una calle de Bilbao)\n\n**Regla de forma:** Si el lugar termina en vocal, -ko se añade directamente. Si termina en consonante, también se añade -ko directamente (no hay vocal de unión).",
+    "tip": "-ko = 'del lugar'. Siempre delante del nombre: herriko plaza, etxeko atea. Recuerda: Bilbo → Bilboko, Donostia → Donostiako."
+  },
+  "slides": [
+    {
+      "eu": "etxeko — de la casa",
+      "es": "'Etxe' (casa) + -ko = etxeko. Indica que algo pertenece a la casa o está en ella.",
+      "example_eu": "Etxeko atea itxita dago.",
+      "example_es": "La puerta de la casa está cerrada."
+    },
+    {
+      "eu": "herriko — del pueblo",
+      "es": "'Herri' (pueblo/ciudad) + -ko = herriko. Muy usado para hablar de lo que es de o está en el pueblo.",
+      "example_eu": "Herriko plaza ederra da.",
+      "example_es": "La plaza del pueblo es bonita."
+    },
+    {
+      "eu": "Bilboko — de Bilbao",
+      "es": "Los nombres de ciudad también toman -ko. 'Bilbo' + ko = Bilboko.",
+      "example_eu": "Bilboko museoa ikusgarria da.",
+      "example_es": "El museo de Bilbao es impresionante."
+    },
+    {
+      "eu": "Donostiako — de San Sebastián",
+      "es": "'Donostia' + -ko = Donostiako. La vocal final se mantiene y -ko se añade directamente.",
+      "example_eu": "Donostiako hondartza oso ederra da.",
+      "example_es": "La playa de San Sebastián es muy bonita."
+    },
+    {
+      "eu": "Euskal Herriko — del País Vasco",
+      "es": "Se aplica también a regiones o territorios. 'Euskal Herri' + -ko = Euskal Herriko.",
+      "example_eu": "Euskal Herriko jendea oso atsegina da.",
+      "example_es": "La gente del País Vasco es muy agradable."
+    },
+    {
+      "eu": "Gasteizko — de Vitoria",
+      "es": "'Gasteiz' termina en consonante, pero -ko se añade directamente sin vocal de unión.",
+      "example_eu": "Gasteizko jaiak ospetsuak dira.",
+      "example_es": "Las fiestas de Vitoria son famosas."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'de Bilbao' (para modificar un nombre) en euskera?",
+      "options": ["Bilboan", "Bilboko", "Bilbotan", "Bilbora"],
+      "answer": "Bilboko"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Herriko plaza ederra da.",
+      "answer": "La plaza del pueblo es bonita."
+    },
+    {
+      "id": "e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "___ hondartza oso ederra da. (La playa de San Sebastián es muy bonita.)",
+      "translation": "La playa de San Sebastián es muy bonita.",
+      "hint": "Donostia + -ko",
+      "answer": "Donostiako"
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "instruction": "Empareja cada forma con -ko con su significado",
+      "pairs": [
+        { "eu": "etxeko", "es": "de la casa" },
+        { "eu": "herriko", "es": "del pueblo" },
+        { "eu": "Bilboko", "es": "de Bilbao" },
+        { "eu": "Gasteizko", "es": "de Vitoria" }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "La puerta de la casa está cerrada.",
+      "answer": "Etxeko atea itxita dago."
+    },
+    {
+      "id": "e06",
+      "type": "error_correction",
+      "instruction": "Corrige el error",
+      "sentence": "Bilboa museoa ikusgarria da.",
+      "translation": "El museo de Bilbao es impresionante.",
+      "answer": "Bilboko museoa ikusgarria da."
+    },
+    {
+      "id": "e07",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "En euskera, -ko va DESPUÉS del nombre que modifica: 'plaza herriko'.",
+      "translation": "En euskera, -ko va DESPUÉS del nombre que modifica: 'plaza herriko'.",
+      "answer": "false",
+      "explanation": "Falso. -ko va ANTES del nombre: 'herriko plaza' (la plaza del pueblo), igual que cualquier modificador en euskera."
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["Euskal", "Herriko", "jendea", "oso", "atsegina", "da."],
+      "translation": "La gente del País Vasco es muy agradable.",
+      "answer": "Euskal Herriko jendea oso atsegina da."
+    }
+  ]
+}

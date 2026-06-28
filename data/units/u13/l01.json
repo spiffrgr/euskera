@@ -1,0 +1,110 @@
+{
+  "id": "u13_l01",
+  "title": "Hiri-lekuak (Lugares de la ciudad)",
+  "objective": "Nombrar los principales lugares de la ciudad en euskera",
+  "grammar_note": null,
+  "slides": [
+    {
+      "eu": "kalea",
+      "es": "la calle",
+      "example_eu": "Donostiako kaleak oso politak dira.",
+      "example_es": "Las calles de San Sebastián son muy bonitas."
+    },
+    {
+      "eu": "plaza",
+      "es": "la plaza",
+      "example_eu": "Bilboko plaza nagusia Arriagaren ondoan dago.",
+      "example_es": "La plaza principal de Bilbao está junto al Arriaga."
+    },
+    {
+      "eu": "udaletxea",
+      "es": "el ayuntamiento",
+      "example_eu": "Udaletxea plazaren aurrean dago.",
+      "example_es": "El ayuntamiento está delante de la plaza."
+    },
+    {
+      "eu": "bankua",
+      "es": "el banco",
+      "example_eu": "Bankua kalean dago, supermerkatuaren ondoan.",
+      "example_es": "El banco está en la calle, al lado del supermercado."
+    },
+    {
+      "eu": "ospitalea",
+      "es": "el hospital",
+      "example_eu": "Ospitalea hiritik gertu dago.",
+      "example_es": "El hospital está cerca de la ciudad."
+    },
+    {
+      "eu": "liburutegia",
+      "es": "la biblioteca",
+      "example_eu": "Liburutegia ikastetxearen ondoan dago.",
+      "example_es": "La biblioteca está al lado de la escuela."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'el hospital' en euskera?",
+      "options": ["ospitalea", "bankua", "udaletxea", "liburutegia"],
+      "answer": "ospitalea"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Bankua kalean dago.",
+      "answer": "El banco está en la calle."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "instruction": "Empareja cada lugar con su traducción",
+      "pairs": [
+        { "eu": "kalea", "es": "la calle" },
+        { "eu": "plaza", "es": "la plaza" },
+        { "eu": "udaletxea", "es": "el ayuntamiento" },
+        { "eu": "liburutegia", "es": "la biblioteca" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "el banco",
+      "answer": "bankua"
+    },
+    {
+      "id": "e05",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Liburuak ___ daude, ez kale-denda batean.",
+      "translation": "Los libros están en la biblioteca, no en una tienda.",
+      "hint": "liburutegia + ineso (-n → liburutegian)",
+      "answer": "liburutegian"
+    },
+    {
+      "id": "e06",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "Ospitalean medikuak eta erizainak daude.",
+      "translation": "En el hospital hay médicos y enfermeras.",
+      "answer": "true"
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras para formar una frase correcta",
+      "words": ["Udaletxea", "plazaren", "aurrean", "dago."],
+      "translation": "El ayuntamiento está delante de la plaza.",
+      "answer": "Udaletxea plazaren aurrean dago."
+    },
+    {
+      "id": "e08",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'la plaza' en euskera?",
+      "options": ["plaza", "kalea", "parkea", "eliza"],
+      "answer": "plaza"
+    }
+  ]
+}

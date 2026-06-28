@@ -1,0 +1,85 @@
+{
+  "id": "test",
+  "title": "Test de la Unidad 17: Mugimendua eta bidaia",
+  "objective": "Demostrar que puedes usar el transporte y planificar viajes en euskera",
+  "type": "test",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "¿Cómo se dice 'en autobús' en euskera?",
+      "options": ["autobusez", "autobusa", "autobusaz", "autobusean"],
+      "answer": "autobusez"
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Voy al trabajo en tren.'?",
+      "answer": "Trenez joaten naiz lanera."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "¿Qué significa 'Noiz irteten da trena?'",
+      "options": [
+        "¿Cuándo sale el tren?",
+        "¿Cuándo llega el tren?",
+        "¿Dónde está el tren?",
+        "¿Cuánto cuesta el tren?"
+      ],
+      "answer": "¿Cuándo sale el tren?"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Tengo que comprar el billete: Txartela erosi ___ dut.",
+      "answer": "behar",
+      "hint": "BEHAR DUT = tengo que"
+    },
+    {
+      "type": "grammar_select",
+      "question": "Completa: 'Voy de Bilbao a San Sebastián.' — 'Bilbo___ Donostia___ noa.'",
+      "options": ["-tik / -ra", "-ra / -tik", "-z / -n", "-n / -z"],
+      "answer": "-tik / -ra"
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'joan-etorri txartela'?",
+      "answer": "billete de ida y vuelta"
+    },
+    {
+      "type": "true_false",
+      "question": "'Oinez joaten naiz' significa 'Voy en autobús'.",
+      "answer": false,
+      "explanation": "'Oinez joaten naiz' significa 'Voy a pie'. Oinez es la forma especial para 'a pie'."
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena para formar: '¿Cuánto cuesta el billete?'",
+      "words": ["Zenbat", "balio", "du", "txartelak?"],
+      "answer": "Zenbat balio du txartelak?"
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une cada palabra con su significado",
+      "pairs": [
+        { "eu": "geltokia", "es": "la estación" },
+        { "eu": "helmuga", "es": "el destino" },
+        { "eu": "atzerapena", "es": "el retraso" },
+        { "eu": "aldaketa", "es": "el transbordo" }
+      ]
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice '¿Dónde tengo que hacer transbordo?'",
+      "answer": "Non aldatu behar dut?"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "¿Cuál es la forma correcta para 'en metro'?",
+      "options": ["metroz", "metroa", "metroaz", "metroan"],
+      "answer": "metroz"
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Bidaia ona! Gozatu bidaian!'?",
+      "answer": "¡Buen viaje! ¡Disfruta del viaje!"
+    }
+  ]
+}

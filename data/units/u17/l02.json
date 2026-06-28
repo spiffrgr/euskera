@@ -1,0 +1,100 @@
+{
+  "id": "l02",
+  "title": "Nola joaten zara lanera? (¿Cómo vas al trabajo?)",
+  "objective": "Hablar del transporte habitual usando el verbo JOAN en presente habitual",
+  "grammar_note": {
+    "title": "Garraiobideak + -z (instrumental) — 'en autobús', 'en tren'",
+    "body": "Para decir en qué medio de transporte vas, usa el sufijo **-z** (sufijo instrumental):\n\n- *autobus**ez*** (en autobús)\n- *tren**ez*** (en tren)\n- *metro**z*** (en metro)\n- *kotx**ez*** (en coche)\n- *bizikleta**z*** (en bici)\n- *oinez* (a pie — forma especial, sin -z)\n\nEjemplo: **Trenez joaten naiz lanera.** (Voy al trabajo en tren.)",
+    "tip": "La -a del artículo desaparece antes de -z: autobusa → autobusez (NO 'autobusaz')"
+  },
+  "slides": [
+    {
+      "eu": "Nola joaten zara lanera? — ¿Cómo vas al trabajo?",
+      "es": "Preguntamos el medio de transporte habitual con NOLA (¿cómo?) + JOAN (ir) en presente habitual.",
+      "example_eu": "— Nola joaten zara lanera?\n— Autobusez joaten naiz.",
+      "example_es": "— ¿Cómo vas al trabajo?\n— Voy en autobús."
+    },
+    {
+      "eu": "Autobusez joaten naiz. — Voy en autobús.",
+      "es": "JOAN habitual: joaten naiz (voy habitualmente), joaten zara (vas), joaten da (va).",
+      "example_eu": "Nik autobusez joaten naiz lanera egunero.",
+      "example_es": "Yo voy al trabajo en autobús todos los días."
+    },
+    {
+      "eu": "Trenez joaten da. — Va en tren.",
+      "es": "El sufijo instrumental -z indica el medio. El artículo -a desaparece: trena → trenez.",
+      "example_eu": "Anek trenez joaten da Donostiara.",
+      "example_es": "Ane va a San Sebastián en tren."
+    },
+    {
+      "eu": "Oinez joaten gara. — Vamos a pie.",
+      "es": "'Oinez' es la forma especial para 'a pie'. No lleva sufijo -z adicional.",
+      "example_eu": "Guk oinez joaten gara eskolara.",
+      "example_es": "Nosotros vamos a la escuela a pie."
+    },
+    {
+      "eu": "Kotxez joaten zara? — ¿Vas en coche?",
+      "es": "Para preguntar el medio, ponemos el instrumental al principio con entonación interrogativa.",
+      "example_eu": "— Kotxez joaten zara?\n— Ez, metroz joaten naiz.",
+      "example_es": "— ¿Vas en coche?\n— No, voy en metro."
+    },
+    {
+      "eu": "Bizikletaz joaten dira. — Van en bicicleta.",
+      "es": "Formas del presente habitual de JOAN: naiz, zara, da, gara, zarete, dira.",
+      "example_eu": "Haiek bizikletaz joaten dira lanera udaran.",
+      "example_es": "Ellos van al trabajo en bicicleta en verano."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "¿Cómo se dice 'en autobús' (medio de transporte) en euskera?",
+      "options": ["autobusez", "autobusa", "autobusaz", "autobusean"],
+      "answer": "autobusez"
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Voy al trabajo en tren.'?",
+      "answer": "Trenez joaten naiz lanera."
+    },
+    {
+      "type": "fill_blank",
+      "question": "— Nola joaten zara lanera?\n— ___ joaten naiz. (en metro)",
+      "answer": "Metroz",
+      "hint": "metro + z (el artículo -a desaparece)"
+    },
+    {
+      "type": "grammar_select",
+      "question": "Elige la forma correcta del instrumental: 'en coche'",
+      "options": ["kotxez", "kotxea", "kotxeaz", "kotxen"],
+      "answer": "kotxez"
+    },
+    {
+      "type": "true_false",
+      "question": "'Oinez joaten naiz' significa 'Voy en autobús'.",
+      "answer": false,
+      "explanation": "'Oinez joaten naiz' significa 'Voy a pie'. Oinez = a pie."
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Bizikletaz joaten da lanera'?",
+      "answer": "Va al trabajo en bicicleta."
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena para formar: '¿Cómo vas a la escuela?'",
+      "words": ["Nola", "joaten", "zara", "eskolara"],
+      "answer": "Nola joaten zara eskolara"
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une el instrumental con su medio de transporte",
+      "pairs": [
+        { "eu": "autobusez", "es": "en autobús" },
+        { "eu": "trenez", "es": "en tren" },
+        { "eu": "kotxez", "es": "en coche" },
+        { "eu": "oinez", "es": "a pie" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "u13_l02",
+  "title": "Kaleak eta norabideak (Calles y direcciones)",
+  "objective": "Entender y dar indicaciones de dirección básicas en euskera",
+  "grammar_note": null,
+  "slides": [
+    {
+      "eu": "eskuinera",
+      "es": "a la derecha",
+      "example_eu": "Bankura joateko, eskuinera joan.",
+      "example_es": "Para ir al banco, ve a la derecha."
+    },
+    {
+      "eu": "ezkerrera",
+      "es": "a la izquierda",
+      "example_eu": "Libururtegiara joateko, ezkerrera joan.",
+      "example_es": "Para ir a la biblioteca, ve a la izquierda."
+    },
+    {
+      "eu": "zuzen / zuzen-zuzen",
+      "es": "todo recto",
+      "example_eu": "Zuzen-zuzen joan eta plaza ikusiko duzu.",
+      "example_es": "Ve todo recto y verás la plaza."
+    },
+    {
+      "eu": "gertu / urrun",
+      "es": "cerca / lejos",
+      "example_eu": "Ospitalea ez dago urrun; gertu dago.",
+      "example_es": "El hospital no está lejos; está cerca."
+    },
+    {
+      "eu": "ondoan / aurrean",
+      "es": "al lado / delante",
+      "example_eu": "Farmazia bankuaren ondoan dago.",
+      "example_es": "La farmacia está al lado del banco."
+    },
+    {
+      "eu": "atzean / artean",
+      "es": "detrás / entre",
+      "example_eu": "Parkea elizaren atzean dago.",
+      "example_es": "El parque está detrás de la iglesia."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'a la derecha' en euskera?",
+      "options": ["eskuinera", "ezkerrera", "zuzen", "atzera"],
+      "answer": "eskuinera"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Farmazia bankuaren ondoan dago.",
+      "answer": "La farmacia está al lado del banco."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "instruction": "Empareja cada dirección con su traducción",
+      "pairs": [
+        { "eu": "eskuinera", "es": "a la derecha" },
+        { "eu": "ezkerrera", "es": "a la izquierda" },
+        { "eu": "gertu", "es": "cerca" },
+        { "eu": "urrun", "es": "lejos" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "todo recto",
+      "answer": "zuzen"
+    },
+    {
+      "id": "e05",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Parkea elizaren ___ dago.",
+      "translation": "El parque está detrás de la iglesia.",
+      "hint": "la palabra para 'detrás'",
+      "answer": "atzean"
+    },
+    {
+      "id": "e06",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "Ezkerrera joan eta eskuinera iritsi.",
+      "translation": "Ve a la izquierda y llegarás a la derecha.",
+      "answer": "false"
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras para formar una frase correcta",
+      "words": ["Zuzen-zuzen", "joan", "eta", "plaza", "ikusiko", "duzu."],
+      "translation": "Ve todo recto y verás la plaza.",
+      "answer": "Zuzen-zuzen joan eta plaza ikusiko duzu."
+    },
+    {
+      "id": "e08",
+      "type": "multiple_choice",
+      "instruction": "¿Qué significa 'artean'?",
+      "options": ["entre", "delante", "detrás", "lejos"],
+      "answer": "entre"
+    }
+  ]
+}

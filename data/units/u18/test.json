@@ -1,0 +1,105 @@
+{
+  "id": "test",
+  "unit": "u18",
+  "title": "Test de la Unidad 18: Etorkizuna",
+  "objective": "Demostrar que puedes expresar planes, deseos y obligaciones en euskera",
+  "type": "test",
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'pasado mañana' en euskera?",
+      "options": ["bihar", "etzi", "laster", "geroago"],
+      "answer": "etzi"
+    },
+    {
+      "id": "e02",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Quiero ir a Bilbao.",
+      "answer": "Bilbora joan nahi dut."
+    },
+    {
+      "id": "e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Asko ikasi ___ dut. (Tengo que estudiar mucho.)",
+      "translation": "Tengo que estudiar mucho.",
+      "hint": "El modal para obligación",
+      "answer": "behar"
+    },
+    {
+      "id": "e04",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál es la negación más natural de 'ahal dut'?",
+      "options": ["ez dut nahi", "ezin dut", "behar dut", "ez nago"],
+      "answer": "ezin dut"
+    },
+    {
+      "id": "e05",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Datorren astean Donostira joaten naiz.",
+      "answer": "La semana que viene voy a San Sebastián."
+    },
+    {
+      "id": "e06",
+      "type": "grammar_select",
+      "instruction": "Elige la forma correcta de NAHI para 'nosotros queremos'",
+      "sentence": "Guk bidaiatu ___ ___.",
+      "translation": "Nosotros queremos viajar.",
+      "options": ["nahi dut", "nahi duzu", "nahi dugu", "nahi dute"],
+      "answer": "nahi dugu"
+    },
+    {
+      "id": "e07",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "'Datorren urtean' significa 'este año'.",
+      "translation": "'Datorren urtean' significa 'este año'.",
+      "answer": "false"
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["Ezin", "dut", "gaur", "etorri."],
+      "translation": "Hoy no puedo venir.",
+      "answer": "Ezin dut gaur etorri."
+    },
+    {
+      "id": "e09",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "El año que viene quiero vivir en el País Vasco.",
+      "answer": "Datorren urtean Euskal Herrian bizi nahi dut."
+    },
+    {
+      "id": "e10",
+      "type": "match_pairs",
+      "instruction": "Empareja el modal con su significado",
+      "pairs": [
+        { "eu": "nahi dut", "es": "quiero" },
+        { "eu": "ahal dut", "es": "puedo" },
+        { "eu": "behar dut", "es": "tengo que" },
+        { "eu": "ezin dut", "es": "no puedo" }
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Nire ___ Euskal Herrian bizi eta lan egitea da. (Mi sueño es...)",
+      "translation": "Mi sueño es vivir y trabajar en el País Vasco.",
+      "hint": "sueño / ilusión",
+      "answer": "ametsa"
+    },
+    {
+      "id": "e12",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Bihar goizean goiz jaiki behar dut. Datorren hilean oporretan joaten naiz.",
+      "answer": "Mañana por la mañana tengo que levantarme temprano. El mes que viene me voy de vacaciones."
+    }
+  ]
+}

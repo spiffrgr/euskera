@@ -1,0 +1,116 @@
+{
+  "id": "l06",
+  "title": "Combinando sufijos",
+  "objective": "Usar -rekin, -ko y -rik juntos en frases más ricas y naturales",
+  "grammar_note": {
+    "title": "Los tres sufijos juntos: resumen y combinaciones",
+    "body": "En esta lección repasamos los tres sufijos de la unidad y los combinamos en frases más naturales y complejas.\n\n**Tabla resumen:**\n\n| Sufijo | Función | Ejemplo |\n|---|---|---|\n| **-rekin** | sociativo: 'con alguien' | lagunarekin (con un/a amigo/a) |\n| **-ko** | genitivo locativo: 'del lugar / de' | herriko (del pueblo), laneko (del trabajo) |\n| **-rik** | partitivo en negación | Ez dut dirurik (No tengo dinero) |\n\n**Combinaciones frecuentes:**\n\n- -rekin + lugar: *Lagunarekin Bilboko taberna batean gaude.* (Estamos con un amigo en un bar de Bilbao.)\n- -ko + -rekin: *Laneko lagunarekin joaten naiz.* (Voy con mi compañero/a de trabajo.)\n- Negación con -rik + -ko: *Ez dut laneko lagunik.* (No tengo compañeros/as de trabajo.)\n- Pregunta con norekin + -ko: *Norekin zaude herriko plazan?* (¿Con quién estás en la plaza del pueblo?)\n\n**Importante:** Los tres sufijos nunca se mezclan entre sí sobre la misma palabra. Cada uno tiene su función clara.",
+    "tip": "Combina los sufijos en frases distintas, no sobre el mismo nombre. 'Laneko lagunarekin': -ko en 'laneko' y -rekin en 'lagunarekin'. Cada sufijo hace su trabajo."
+  },
+  "slides": [
+    {
+      "eu": "Lagunarekin Bilboko taberna batean gaude.",
+      "es": "-rekin (compañía) + -ko (lugar): dos sufijos distintos en la misma frase, sobre nombres distintos.",
+      "example_eu": "Lagunarekin Bilboko taberna batean gaude eta pintxoak jaten ditugu.",
+      "example_es": "Estamos con un/a amigo/a en un bar de Bilbao y comemos pintxos."
+    },
+    {
+      "eu": "Nirekin etorri nahi duzu herriko festara?",
+      "es": "-rekin (conmigo) + -ko (del pueblo): invitación a una fiesta local. Frase muy natural.",
+      "example_eu": "Nirekin etorri nahi duzu herriko festara? Oso ona da!",
+      "example_es": "¿Quieres venir conmigo a la fiesta del pueblo? ¡Es muy buena!"
+    },
+    {
+      "eu": "Ez dut laneko lagunik. — No tengo compañeros/as de trabajo.",
+      "es": "-ko (del trabajo) + -rik (partitivo negativo): -ko crea el compuesto, -rik marca la negación en el nombre.",
+      "example_eu": "Hiri berri honetan ez dut laneko lagunik oraindik.",
+      "example_es": "En esta ciudad nueva todavía no tengo compañeros/as de trabajo."
+    },
+    {
+      "eu": "Zurekin joan nahi dut Donostiako hondartza batera.",
+      "es": "-rekin (contigo) + -ko (de San Sebastián): deseo de ir con alguien a un lugar concreto.",
+      "example_eu": "Zurekin joan nahi dut Donostiako hondartza batera. Ados?",
+      "example_es": "Quiero ir contigo a una playa de San Sebastián. ¿De acuerdo?"
+    },
+    {
+      "eu": "Goizeko kafea lagunarekin — el café de la mañana con un/a amigo/a",
+      "es": "-ko (de la mañana) + -rekin (compañía): rutina diaria combinando dos sufijos.",
+      "example_eu": "Goizeko kafea lagunarekin hartzen dut egunero.",
+      "example_es": "Tomo el café de la mañana con un/a amigo/a cada día."
+    },
+    {
+      "eu": "Ez dago denborarik zurekin egoteko.",
+      "es": "-rik (partitivo negativo) + zurekin (-rekin): no hay tiempo para estar con alguien.",
+      "example_eu": "Barkatu, gaur ez dago denborarik zurekin egoteko. Bihar agian?",
+      "example_es": "Perdona, hoy no hay tiempo para estar contigo. ¿Mañana quizás?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Qué sufijo expresa compañía ('con alguien')?",
+      "options": ["-rik", "-ko", "-rekin", "-an"],
+      "answer": "-rekin"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Nirekin etorri nahi duzu herriko festara?",
+      "answer": "¿Quieres venir conmigo a la fiesta del pueblo?"
+    },
+    {
+      "id": "e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Ez dut laneko ___. (No tengo compañeros/as de trabajo.)",
+      "translation": "No tengo compañeros/as de trabajo.",
+      "hint": "lagun + -ik (partitivo, termina en consonante)",
+      "answer": "lagunik"
+    },
+    {
+      "id": "e04",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Quiero ir contigo a una playa de San Sebastián.",
+      "answer": "Zurekin joan nahi dut Donostiako hondartza batera."
+    },
+    {
+      "id": "e05",
+      "type": "error_correction",
+      "instruction": "Corrige el error",
+      "sentence": "Ez dago denbora zurekin egoteko.",
+      "translation": "No hay tiempo para estar contigo.",
+      "answer": "Ez dago denborarik zurekin egoteko."
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "instruction": "Empareja cada sufijo con su función",
+      "pairs": [
+        { "eu": "-rekin", "es": "compañía: 'con alguien'" },
+        { "eu": "-ko", "es": "procedencia: 'del lugar / de'" },
+        { "eu": "-rik", "es": "partitivo en frases negativas" },
+        { "eu": "norekin", "es": "pregunta: '¿con quién?'" }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "En la frase 'Laneko lagunarekin joaten naiz', -ko va en 'lagunarekin' y -rekin va en 'laneko'.",
+      "translation": "En la frase 'Laneko lagunarekin joaten naiz', -ko va en 'lagunarekin' y -rekin va en 'laneko'.",
+      "answer": "false",
+      "explanation": "Falso. Es al contrario: -ko va en 'laneko' (del trabajo) y -rekin va en 'lagunarekin' (con el/la compañero/a). Cada sufijo se aplica a un nombre distinto."
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["Goizeko", "kafea", "lagunarekin", "hartzen", "dut", "egunero."],
+      "translation": "Tomo el café de la mañana con un/a amigo/a cada día.",
+      "answer": "Goizeko kafea lagunarekin hartzen dut egunero."
+    }
+  ]
+}

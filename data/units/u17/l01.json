@@ -1,0 +1,100 @@
+{
+  "id": "l01",
+  "title": "Garraio motak (Medios de transporte)",
+  "objective": "Aprender los nombres de los medios de transporte en euskera",
+  "grammar_note": {
+    "title": "Garraio motak — nombres de transporte",
+    "body": "En euskera los medios de transporte llevan el artículo **-a** cuando van solos:\n\n- *autobus**a*** (el autobús)\n- *tren**a*** (el tren)\n- *metro**a*** (el metro)\n- *trambi**a*** (el tranvía)\n- *taxi**a*** (el taxi)\n- *kotx**ea*** (el coche)\n- *biziklet**a*** (la bicicleta)\n- *hegazkin**a*** (el avión)\n- *itsasontzi**a*** (el barco/ferry)\n\nEl artículo **-a** es el artículo definido singular en euskera.",
+    "tip": "El artículo -a se añade directamente al nombre: tren → trena (el tren). Si el nombre ya termina en -a, no se añade otra: bizikleta (ya tiene artículo incorporado)."
+  },
+  "slides": [
+    {
+      "eu": "autobusa — el autobús",
+      "es": "El autobús es el medio de transporte más común en las ciudades vascas.",
+      "example_eu": "Autobusa hartu dut.",
+      "example_es": "He cogido el autobús."
+    },
+    {
+      "eu": "trena — el tren",
+      "es": "El tren conecta las principales ciudades del País Vasco.",
+      "example_eu": "Trena geltokian dago.",
+      "example_es": "El tren está en la estación."
+    },
+    {
+      "eu": "metroa eta trambia — el metro y el tranvía",
+      "es": "Bilbao tiene metro y Vitoria-Gasteiz tiene tranvía.",
+      "example_eu": "Metroa oso azkarra da.",
+      "example_es": "El metro es muy rápido."
+    },
+    {
+      "eu": "taxia eta kotxea — el taxi y el coche",
+      "es": "El taxi es de pago. El coche puede ser privado.",
+      "example_eu": "Taxia hartu dut aireportura.",
+      "example_es": "He cogido un taxi al aeropuerto."
+    },
+    {
+      "eu": "bizikleta eta motoa — la bicicleta y la moto",
+      "es": "La bicicleta es ecológica. La moto es rápida en ciudad.",
+      "example_eu": "Bizikleta dut etxean.",
+      "example_es": "Tengo una bicicleta en casa."
+    },
+    {
+      "eu": "hegazkina eta itsasontzia — el avión y el barco",
+      "es": "El avión vuela. El barco navega por el mar.",
+      "example_eu": "Hegazkina ordu bitan iristen da.",
+      "example_es": "El avión llega en dos horas."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "¿Cómo se dice 'el tren' en euskera?",
+      "options": ["trena", "trambia", "taxia", "autobusa"],
+      "answer": "trena"
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'metroa'?",
+      "answer": "el metro"
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une cada medio de transporte con su traducción",
+      "pairs": [
+        { "eu": "autobusa", "es": "el autobús" },
+        { "eu": "trena", "es": "el tren" },
+        { "eu": "taxia", "es": "el taxi" },
+        { "eu": "hegazkina", "es": "el avión" }
+      ]
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'la bicicleta' en euskera?",
+      "answer": "bizikleta"
+    },
+    {
+      "type": "true_false",
+      "question": "'Itsasontzia' significa 'el avión'.",
+      "answer": false,
+      "explanation": "'Itsasontzia' significa 'el barco/ferry'. 'Hegazkina' es 'el avión'."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "¿Cómo se dice 'el tranvía' en euskera?",
+      "options": ["trambia", "trena", "metroa", "motoa"],
+      "answer": "trambia"
+    },
+    {
+      "type": "fill_blank",
+      "question": "El coche en euskera es ___.",
+      "answer": "kotxea",
+      "hint": "Empieza por 'k'"
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena para formar: 'El metro es muy rápido.'",
+      "words": ["Metroa", "oso", "azkarra", "da"],
+      "answer": "Metroa oso azkarra da"
+    }
+  ]
+}

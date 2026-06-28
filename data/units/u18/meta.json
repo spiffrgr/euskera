@@ -1,0 +1,15 @@
+{
+  "id": "u18",
+  "title": "Etorkizuna",
+  "emoji": "🔮",
+  "lessons": [
+    { "id": "l01", "title": "Bihar eta etzi (Mañana y pasado mañana)", "type": "lesson" },
+    { "id": "l02", "title": "Datorren astean (La semana que viene)", "type": "lesson" },
+    { "id": "l03", "title": "Zer nahi duzu egin? (¿Qué quieres hacer?)", "type": "lesson" },
+    { "id": "l04", "title": "AHAL DUT eta BEHAR DUT (Puedo y tengo que)", "type": "lesson" },
+    { "id": "l05", "title": "Asmoak eta planak (Intenciones y planes)", "type": "lesson" },
+    { "id": "l06", "title": "A1 errepasoa: aditzak eta gramatika", "type": "lesson" },
+    { "id": "l07", "title": "Azken elkarrizketa (Diálogo final A1)", "type": "lesson" },
+    { "id": "test", "title": "Test de la unidad", "type": "test" }
+  ]
+}

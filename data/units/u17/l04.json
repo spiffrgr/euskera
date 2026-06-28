@@ -1,0 +1,105 @@
+{
+  "id": "l04",
+  "title": "Txartela erosten (Comprando billetes)",
+  "objective": "Comprar billetes de transporte, preguntar precios y horarios en taquilla",
+  "grammar_note": {
+    "title": "NAHI DUT + infinitivo — quiero / quisiera",
+    "body": "Para pedir algo en la taquilla, usamos **NAHI DUT** (quiero) + infinitivo:\n\n- *Txartela erosi **nahi dut**.* (Quiero comprar un billete.)\n- *Bi txartel erosi **nahi ditut**.* (Quiero comprar dos billetes.)\n- *Bilborako txartela **nahi dut**.* (Quiero un billete para Bilbao.)\n\nEjemplo en diálogo:\n— **Zer nahi duzu?** (¿Qué desea?)\n— **Donostiara txartela nahi dut.** (Quiero un billete para San Sebastián.)",
+    "tip": "joan-etorri txartela = billete de ida y vuelta / joango txartela soilik = billete solo de ida"
+  },
+  "slides": [
+    {
+      "eu": "txartela — el billete",
+      "es": "En la taquilla (leihatila) compramos el billete (txartela). También: sarrera (entrada), agiri (documento/vale).",
+      "example_eu": "Txartela erosi nahi dut.",
+      "example_es": "Quiero comprar un billete."
+    },
+    {
+      "eu": "joan-etorri txartela — billete de ida y vuelta",
+      "es": "Joan-etorri = ida y vuelta (literalmente 'ir-volver'). Joango soilik = solo de ida.",
+      "example_eu": "— Joan-etorri txartela nahi duzu?\n— Ez, joango soilik.",
+      "example_es": "— ¿Quiere billete de ida y vuelta?\n— No, solo de ida."
+    },
+    {
+      "eu": "Zenbat balio du txartelak? — ¿Cuánto cuesta el billete?",
+      "es": "ZENBAT BALIO DU? = ¿cuánto cuesta? Es la pregunta clave para saber el precio.",
+      "example_eu": "— Zenbat balio du txartelak?\n— Hamasei euro balio du.",
+      "example_es": "— ¿Cuánto cuesta el billete?\n— Cuesta dieciséis euros."
+    },
+    {
+      "eu": "lehen klasea eta bigarren klasea — primera y segunda clase",
+      "es": "Los trenes tienen diferentes clases: lehen klasea (primera clase) y bigarren klasea (segunda clase).",
+      "example_eu": "Bigarren klaseko txartela nahi dut.",
+      "example_es": "Quiero un billete de segunda clase."
+    },
+    {
+      "eu": "Zein ordutan doa trena? — ¿A qué hora sale el tren?",
+      "es": "En taquilla también preguntamos el horario: ZEIN ORDUTAN? (¿a qué hora?) con DOA (va).",
+      "example_eu": "— Zein ordutan doa Donostiara trena?\n— Hamaiketan.",
+      "example_es": "— ¿A qué hora va el tren a San Sebastián?\n— A las once."
+    },
+    {
+      "eu": "Eskerrik asko! — ¡Muchas gracias!",
+      "es": "Al terminar la compra, damos las gracias. El taquillero puede decir: 'Bidaia ona!' (¡Buen viaje!).",
+      "example_eu": "— Hona txartela. Bidaia ona!\n— Eskerrik asko!",
+      "example_es": "— Aquí tiene el billete. ¡Buen viaje!\n— ¡Muchas gracias!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "¿Cómo se pregunta '¿Cuánto cuesta el billete?' en euskera?",
+      "options": [
+        "Zenbat balio du txartelak?",
+        "Noiz doa trena?",
+        "Non da leihatila?",
+        "Zer nahi duzu?"
+      ],
+      "answer": "Zenbat balio du txartelak?"
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'joan-etorri txartela'?",
+      "answer": "billete de ida y vuelta"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Solo de ida: ___ soilik txartela.",
+      "answer": "joango",
+      "hint": "JOAN (ir) + -go (futuro/solo)"
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Quiero un billete para Bilbao.'?",
+      "answer": "Bilborako txartela nahi dut."
+    },
+    {
+      "type": "true_false",
+      "question": "'Lehen klasea' significa 'segunda clase'.",
+      "answer": false,
+      "explanation": "'Lehen klasea' significa 'primera clase'. 'Bigarren klasea' es 'segunda clase'. Lehen = primero/a."
+    },
+    {
+      "type": "grammar_select",
+      "question": "Completa: '¿A qué hora va el tren?' — 'Zein ___ doa trena?'",
+      "options": ["ordutan", "noiz", "nola", "nondik"],
+      "answer": "ordutan"
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena para formar: 'Quiero un billete de segunda clase.'",
+      "words": ["Bigarren", "klaseko", "txartela", "nahi", "dut."],
+      "answer": "Bigarren klaseko txartela nahi dut."
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une las expresiones con su significado",
+      "pairs": [
+        { "eu": "txartela", "es": "el billete" },
+        { "eu": "leihatila", "es": "la taquilla" },
+        { "eu": "Bidaia ona!", "es": "¡Buen viaje!" },
+        { "eu": "prezioа", "es": "el precio" }
+      ]
+    }
+  ]
+}

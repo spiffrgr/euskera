@@ -1,0 +1,100 @@
+{
+  "id": "l01",
+  "title": "Bihar eta etzi (Mañana y pasado mañana)",
+  "objective": "Aprender las expresiones de tiempo para hablar del futuro cercano",
+  "grammar_note": {
+    "title": "Denbora-adierazleak — expresiones de tiempo futuro",
+    "body": "Para situar una acción en el futuro cercano, usamos expresiones de tiempo al principio de la frase:\n\n- **bihar** (mañana)\n- **etzi** (pasado mañana)\n- **gaur** (hoy) — punto de referencia\n- **aste honetan** (esta semana)\n- **laster** (pronto)\n- **geroago** (más tarde / después)\n\nEjemplo: **Bihar joaten naiz Bilbora.** (Mañana voy a Bilbao.)\n\nEn euskera A1, usamos el **presente** con marcador temporal para hablar de planes inmediatos. No hace falta un tiempo futuro especial.",
+    "tip": "Bihar = mañana, etzi = pasado mañana. Pon siempre la expresión de tiempo al principio: Bihar + frase."
+  },
+  "slides": [
+    {
+      "eu": "bihar — mañana",
+      "es": "'Bihar' es la palabra más usada para hablar del día siguiente. Se coloca al inicio de la frase.",
+      "example_eu": "Bihar eskolara joaten naiz.",
+      "example_es": "Mañana voy a la escuela."
+    },
+    {
+      "eu": "etzi — pasado mañana",
+      "es": "'Etzi' significa el día después de mañana. Se usa igual que 'bihar'.",
+      "example_eu": "Etzi Donostian nago.",
+      "example_es": "Pasado mañana estoy en San Sebastián."
+    },
+    {
+      "eu": "gaur, bihar, etzi — hoy, mañana, pasado mañana",
+      "es": "Tres días consecutivos. 'Gaur' es hoy, punto de partida para situar el futuro.",
+      "example_eu": "Gaur etxean nago. Bihar lanera joaten naiz.",
+      "example_es": "Hoy estoy en casa. Mañana voy al trabajo."
+    },
+    {
+      "eu": "laster — pronto",
+      "es": "'Laster' indica que algo va a pasar en un tiempo cercano, sin especificar el día exacto.",
+      "example_eu": "Laster Bilbora joaten naiz.",
+      "example_es": "Pronto voy a Bilbao."
+    },
+    {
+      "eu": "geroago — más tarde / después",
+      "es": "'Geroago' sitúa la acción después del momento presente, ese mismo día o en el futuro.",
+      "example_eu": "Geroago kafea hartzen dut.",
+      "example_es": "Más tarde tomo un café."
+    },
+    {
+      "eu": "Bihar zer egiten duzu? — ¿Qué haces mañana?",
+      "es": "Pregunta habitual para preguntar por los planes del día siguiente. Respuesta con presente + bihar.",
+      "example_eu": "— Bihar zer egiten duzu?\n— Bihar lagunekin egoten naiz.",
+      "example_es": "— ¿Qué haces mañana?\n— Mañana estoy con amigos."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "¿Cómo se dice 'pasado mañana' en euskera?",
+      "options": ["bihar", "etzi", "laster", "gaur"],
+      "answer": "etzi"
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Bihar eskolara joaten naiz'?",
+      "answer": "Mañana voy a la escuela."
+    },
+    {
+      "type": "fill_blank",
+      "question": "___ Bilbora joaten naiz. (Mañana voy a Bilbao.)",
+      "answer": "Bihar",
+      "hint": "La palabra para 'mañana'"
+    },
+    {
+      "type": "true_false",
+      "question": "'Etzi' significa 'mañana'.",
+      "answer": false,
+      "explanation": "'Etzi' significa 'pasado mañana'. 'Bihar' es 'mañana'."
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Hoy estoy en casa'?",
+      "answer": "Gaur etxean nago."
+    },
+    {
+      "type": "grammar_select",
+      "question": "¿Qué palabra significa 'pronto'?",
+      "options": ["geroago", "laster", "etzi", "bihar"],
+      "answer": "laster"
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena para formar: 'Pasado mañana voy al trabajo.'",
+      "words": ["Etzi", "lanera", "joaten", "naiz"],
+      "answer": "Etzi lanera joaten naiz"
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une cada expresión de tiempo con su traducción",
+      "pairs": [
+        { "eu": "gaur", "es": "hoy" },
+        { "eu": "bihar", "es": "mañana" },
+        { "eu": "etzi", "es": "pasado mañana" },
+        { "eu": "laster", "es": "pronto" }
+      ]
+    }
+  ]
+}

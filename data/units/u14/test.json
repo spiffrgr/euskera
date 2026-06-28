@@ -1,0 +1,107 @@
+{
+  "id": "test",
+  "title": "Test de la Unidad 14: Eguraldia",
+  "objective": "Demostrar que puedes hablar del tiempo, las estaciones y la temperatura en euskera",
+  "type": "test",
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "question": "¿Cómo se dice 'Está lloviendo' en euskera?",
+      "options": ["Euria dago", "Euria ari da", "Elurra ari da", "Lainoa dago"],
+      "answer": "Euria ari da"
+    },
+    {
+      "id": "e02",
+      "type": "match_pairs",
+      "pairs": [
+        { "eu": "udaberria", "es": "la primavera" },
+        { "eu": "udazkena", "es": "el otoño" },
+        { "eu": "negua", "es": "el invierno" },
+        { "eu": "uda", "es": "el verano" }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "multiple_choice",
+      "question": "¿Cómo se dice 'en invierno' en euskera?",
+      "options": ["negua", "neguean", "neguan", "neguran"],
+      "answer": "neguan"
+    },
+    {
+      "id": "e04",
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Zenbat gradu dago kanpoan?'",
+      "options": [
+        "¿Cómo está el tiempo fuera?",
+        "¿Cuántos grados hay fuera?",
+        "¿Qué temperatura necesitas?",
+        "¿Hace frío fuera?"
+      ],
+      "answer": "¿Cuántos grados hay fuera?"
+    },
+    {
+      "id": "e05",
+      "type": "grammar_select",
+      "question": "Zerua ___ da eta euria etorriko da. (El cielo está nublado y va a llover.)",
+      "options": ["urdina", "eguzkitsua", "hodeitsua", "haizetsua"],
+      "answer": "hodeitsua"
+    },
+    {
+      "id": "e06",
+      "type": "true_false",
+      "question": "'Haizea ari da' y 'Haizea dago' son dos formas correctas de decir que hay viento.",
+      "answer": "true"
+    },
+    {
+      "id": "e07",
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Hace mucho frío, coge el paraguas' en euskera?",
+      "options": [
+        "Bero handia dago, aterkia hartu.",
+        "Hotz handia dago, aterkia hartu.",
+        "Hotz handia dago, berokia jantzi.",
+        "Bero handia dago, kamiseta jantzi."
+      ],
+      "answer": "Hotz handia dago, aterkia hartu."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": "Euria ari da eta ___ behar dut. (Está lloviendo y necesito el paraguas.)",
+      "hint": "el paraguas",
+      "answer": "aterkia"
+    },
+    {
+      "id": "e09",
+      "type": "multiple_choice",
+      "question": "¿Cómo se pregunta '¿Qué tal el tiempo?' en euskera?",
+      "options": [
+        "Nolakoa da zerua?",
+        "Zenbat gradu dago?",
+        "Zer moduz eguraldia?",
+        "Zer urtaro da?"
+      ],
+      "answer": "Zer moduz eguraldia?"
+    },
+    {
+      "id": "e10",
+      "type": "order_words",
+      "question": "Ordena: en verano / hay sol / y hace mucho calor",
+      "words": ["dago", "Udan", "eta", "eguzkia", "bero", "handia", "dago."],
+      "answer": "Udan eguzkia dago eta bero handia dago."
+    },
+    {
+      "id": "e11",
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Gaur euria ari da, baina bihar eguraldia aldatuko da'?",
+      "options": [
+        "Ayer llovió, pero hoy cambiará el tiempo.",
+        "Hoy está lloviendo, pero mañana cambiará el tiempo.",
+        "Mañana lloverá, pero hoy hace buen tiempo.",
+        "El tiempo siempre cambia en el País Vasco."
+      ],
+      "answer": "Hoy está lloviendo, pero mañana cambiará el tiempo."
+    }
+  ]
+}

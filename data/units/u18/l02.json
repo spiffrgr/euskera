@@ -1,0 +1,100 @@
+{
+  "id": "l02",
+  "title": "Datorren astean (La semana que viene)",
+  "objective": "Expresar planes para la semana, mes y año próximos",
+  "grammar_note": {
+    "title": "Datorren... — La próxima semana / mes / año",
+    "body": "Para hablar de la semana, mes o año que viene, usamos **datorren** (el/la próximo/a) + sustantivo:\n\n- **datorren astean** (la semana que viene)\n- **datorren hilean** (el mes que viene)\n- **datorren urtean** (el año que viene)\n- **hurrengo** (el/la próximo/a — variante equivalente)\n\n'Datorren' es el participio del verbo ETORRI (venir) + artículo: literalmente 'el que viene'.\n\nEjemplo: **Datorren astean Madrilera joaten naiz.** (La semana que viene voy a Madrid.)\n\nOtra expresión útil: **aurten** (este año).",
+    "tip": "Datorren astean = la semana que viene. Recuerda: datorren + [aste/hile/urte] + -an (locativo)."
+  },
+  "slides": [
+    {
+      "eu": "datorren astean — la semana que viene",
+      "es": "'Datorren' + 'astean' = 'en la semana que viene'. El locativo -an indica cuándo.",
+      "example_eu": "Datorren astean lanean ez nago.",
+      "example_es": "La semana que viene no estoy en el trabajo."
+    },
+    {
+      "eu": "datorren hilean — el mes que viene",
+      "es": "'Hilean' viene de 'hilea' (el mes) + -an (locativo). Datorren hilean = el mes que viene.",
+      "example_eu": "Datorren hilean oporretan joaten naiz.",
+      "example_es": "El mes que viene me voy de vacaciones."
+    },
+    {
+      "eu": "datorren urtean — el año que viene",
+      "es": "'Urtean' = en el año. Datorren urtean = el año que viene.",
+      "example_eu": "Datorren urtean etxe berria nahi dut.",
+      "example_es": "El año que viene quiero una casa nueva."
+    },
+    {
+      "eu": "aurten — este año",
+      "es": "'Aurten' es una sola palabra que significa 'este año'. No lleva declinación adicional.",
+      "example_eu": "Aurten euskara ikasten dut.",
+      "example_es": "Este año aprendo euskera."
+    },
+    {
+      "eu": "aste honetan — esta semana",
+      "es": "'Honetan' viene de 'hau' (este/a) + -tan (locativo plural). Aste honetan = esta semana.",
+      "example_eu": "Aste honetan oso lanpetuta nago.",
+      "example_es": "Esta semana estoy muy ocupado/a."
+    },
+    {
+      "eu": "Datorren astean zer egiten duzu? — ¿Qué haces la semana que viene?",
+      "es": "Pregunta habitual para conocer los planes próximos. Respuesta: Datorren astean...",
+      "example_eu": "— Datorren astean zer egiten duzu?\n— Datorren astean Bartzelonara joaten naiz.",
+      "example_es": "— ¿Qué haces la semana que viene?\n— La semana que viene voy a Barcelona."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "¿Cómo se dice 'el mes que viene' en euskera?",
+      "options": ["datorren astean", "datorren hilean", "datorren urtean", "aste honetan"],
+      "answer": "datorren hilean"
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Datorren urtean Parisa joaten naiz'?",
+      "answer": "El año que viene voy a París."
+    },
+    {
+      "type": "fill_blank",
+      "question": "___ astean oporretan joaten naiz. (La semana que viene me voy de vacaciones.)",
+      "answer": "Datorren",
+      "hint": "El/la próximo/a"
+    },
+    {
+      "type": "true_false",
+      "question": "'Aurten' significa 'el año que viene'.",
+      "answer": false,
+      "explanation": "'Aurten' significa 'este año'. 'El año que viene' es 'datorren urtean'."
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Esta semana estoy muy ocupado/a'?",
+      "answer": "Aste honetan oso lanpetuta nago."
+    },
+    {
+      "type": "grammar_select",
+      "question": "¿Cómo se dice 'la semana que viene'?",
+      "options": ["datorren astean", "hurrengo urtean", "aste honetan", "aurten"],
+      "answer": "datorren astean"
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena para formar: 'El mes que viene voy de vacaciones.'",
+      "words": ["Datorren", "hilean", "oporretan", "joaten", "naiz"],
+      "answer": "Datorren hilean oporretan joaten naiz"
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une cada expresión con su traducción",
+      "pairs": [
+        { "eu": "datorren astean", "es": "la semana que viene" },
+        { "eu": "datorren hilean", "es": "el mes que viene" },
+        { "eu": "datorren urtean", "es": "el año que viene" },
+        { "eu": "aurten", "es": "este año" }
+      ]
+    }
+  ]
+}

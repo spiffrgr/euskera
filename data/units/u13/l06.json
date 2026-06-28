@@ -1,0 +1,115 @@
+{
+  "id": "u13_l06",
+  "title": "Nola joan? (¿Cómo llegar?)",
+  "objective": "Pedir y dar indicaciones para llegar a un lugar",
+  "grammar_note": null,
+  "slides": [
+    {
+      "eu": "Nola joaten naiz...?",
+      "es": "¿Cómo voy a...?",
+      "example_eu": "Nola joaten naiz geltokira?",
+      "example_es": "¿Cómo voy a la estación?"
+    },
+    {
+      "eu": "Zuzen joan eta gero...",
+      "es": "Ve recto y luego...",
+      "example_eu": "Zuzen joan eta gero, eskuinera biratu.",
+      "example_es": "Ve recto y luego, gira a la derecha."
+    },
+    {
+      "eu": "aurrerago",
+      "es": "más adelante",
+      "example_eu": "Aurrerago ikusiko duzu bankua.",
+      "example_es": "Más adelante verás el banco."
+    },
+    {
+      "eu": "zinema / antzerkia",
+      "es": "el cine / el teatro",
+      "example_eu": "Zinema eta antzerkia plazan daude.",
+      "example_es": "El cine y el teatro están en la plaza."
+    },
+    {
+      "eu": "ikastetxea / unibertsitatea",
+      "es": "la escuela / la universidad",
+      "example_eu": "Unibertsitatea hiritik urrun dago, ikastetxea gertu.",
+      "example_es": "La universidad está lejos de la ciudad, la escuela cerca."
+    },
+    {
+      "eu": "museoa / eliza",
+      "es": "el museo / la iglesia",
+      "example_eu": "Museoa elizaren ondoan dago.",
+      "example_es": "El museo está al lado de la iglesia."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo preguntas '¿Cómo voy a la biblioteca?' en euskera?",
+      "options": [
+        "Nola joaten naiz liburutegira?",
+        "Non dago liburutegia?",
+        "Liburutegia urrun dago?",
+        "Nola deitzen da liburutegia?"
+      ],
+      "answer": "Nola joaten naiz liburutegira?"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Zuzen joan eta gero, ezkerrera biratu.",
+      "answer": "Ve recto y luego, gira a la izquierda."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "instruction": "Empareja cada lugar con su traducción",
+      "pairs": [
+        { "eu": "zinema", "es": "el cine" },
+        { "eu": "antzerkia", "es": "el teatro" },
+        { "eu": "ikastetxea", "es": "la escuela" },
+        { "eu": "unibertsitatea", "es": "la universidad" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "el museo",
+      "answer": "museoa"
+    },
+    {
+      "id": "e05",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "___ ikusiko duzu geltokia.",
+      "translation": "Más adelante verás la estación.",
+      "hint": "la palabra para 'más adelante'",
+      "answer": "Aurrerago"
+    },
+    {
+      "id": "e06",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "Museoa elizaren ondoan dago.",
+      "translation": "El museo está al lado de la iglesia.",
+      "answer": "true"
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras para formar una frase correcta",
+      "words": ["Nola", "joaten", "naiz", "geltokira?"],
+      "translation": "¿Cómo voy a la estación?",
+      "answer": "Nola joaten naiz geltokira?"
+    },
+    {
+      "id": "e08",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'la iglesia' en euskera?",
+      "options": ["eliza", "zinema", "ikastetxea", "antzerkia"],
+      "answer": "eliza"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+    "id": "l07",
+    "title": "EDUN/EGIN elkarrizketa (Diálogo)",
+    "grammar_note": {
+        "title": "Diálogo en el trabajo — EDUN y EGIN",
+        "body": "Expresiones clave para hablar del trabajo y la semana:\n\n**Preguntas sobre posesión y actividades:**\n- *Zer duzu?* → ¿Qué tienes?\n- *Ba al duzu...?* → ¿Tienes...?\n- *Zer egiten duzu?* → ¿Qué haces? / ¿Qué sueles hacer?\n- *Non lan egiten duzu?* → ¿Dónde trabajas?\n\n**Expresiones frecuentes:**\n- *Astean bitan kirola egiten dut.* → Hago deporte dos veces a la semana.\n- *Arratsaldean lo egiten dut.* → Duermo por la tarde.\n- *Asteburuan barre egiten dugu.* → El fin de semana reímos.\n- *Nik lanpostua dut.* → Yo tengo un trabajo.\n- *Zuk zenbat lan ordu dituzu?* → ¿Cuántas horas de trabajo tienes?",
+        "tip": "En los diálogos naturales se omite frecuentemente el sujeto si queda claro por el contexto. Pero en euskera el auxiliar (dut/duzu/du) lo indica siempre."
+    },
+    "slides": [
+        {
+            "eu": "Zer egiten duzu astean?",
+            "es": "¿Qué haces durante la semana?",
+            "example_eu": "—Zer egiten duzu astean? —Lan egiten dut eta kirola ere egiten dut.",
+            "example_es": "—¿Qué haces durante la semana? —Trabajo y también hago deporte."
+        },
+        {
+            "eu": "Ba al duzu denborarik?",
+            "es": "¿Tienes tiempo?",
+            "example_eu": "—Ba al duzu denborarik astean? —Bai, baina gutxi. Lan asko dut.",
+            "example_es": "—¿Tienes tiempo durante la semana? —Sí, pero poco. Tengo mucho trabajo."
+        },
+        {
+            "eu": "Astean bitan kirola egiten dut.",
+            "es": "Hago deporte dos veces a la semana.",
+            "example_eu": "Nik astean bitan kirola egiten dut, asteazkenean eta ostiralean.",
+            "example_es": "Yo hago deporte dos veces a la semana, el miércoles y el viernes."
+        },
+        {
+            "eu": "Niri gustatzen zait musika.",
+            "es": "A mí me gusta la música.",
+            "example_eu": "Niri musika gustatzen zait. Nik egunero musika entzuten dut.",
+            "example_es": "A mí me gusta la música. Yo escucho música todos los días."
+        },
+        {
+            "eu": "Nik kotxea dut, baina bizikletaz joaten naiz.",
+            "es": "Yo tengo coche, pero voy en bici.",
+            "example_eu": "Nik kotxea dut, baina lanera bizikletaz joaten naiz.",
+            "example_es": "Yo tengo coche, pero voy al trabajo en bicicleta."
+        },
+        {
+            "eu": "Diálogo completo",
+            "es": "Ane eta Mikel bulegoan",
+            "example_eu": "Ane: Mikel, ba al duzu denbora? Mikel: Bai. Zer duzu? Ane: Txostena irakurtzen dut eta laguntza behar dut. Mikel: Noski! Batera lan egiten dugu.",
+            "example_es": "Ane: Mikel, ¿tienes tiempo? Mikel: Sí. ¿Qué tienes? Ane: Leo el informe y necesito ayuda. Mikel: ¡Claro! Trabajamos juntos."
+        }
+    ],
+    "exercises": [
+        {
+            "id": "e01",
+            "type": "multiple_choice",
+            "instruction": "¿Cómo se pregunta '¿Qué haces durante la semana?' en euskera?",
+            "options": [
+                "Zer duzu astean?",
+                "Zer egiten duzu astean?",
+                "Non zaude astean?",
+                "Nola zaude astean?"
+            ],
+            "answer": "Zer egiten duzu astean?"
+        },
+        {
+            "id": "e02",
+            "type": "translation_eu_es",
+            "eu": "Nik astean bitan kirola egiten dut.",
+            "answer": "Yo hago deporte dos veces a la semana."
+        },
+        {
+            "id": "e03",
+            "type": "translation_es_eu",
+            "es": "¿Tienes tiempo?",
+            "answer": "Ba al duzu denborarik?"
+        },
+        {
+            "id": "e04",
+            "type": "fill_blank",
+            "sentence": "Nik kotxea dut, baina lanera bizikletaz ___ naiz.",
+            "translation": "Yo tengo coche, pero voy al trabajo en bicicleta.",
+            "hint": "ir → noa / joaten ___",
+            "answer": "joaten"
+        },
+        {
+            "id": "e05",
+            "type": "grammar_select",
+            "sentence": "Ane: Txostena irakurtzen ___ eta laguntza behar dut.",
+            "translation": "Ane: Leo el informe y necesito ayuda.",
+            "options": ["dut", "naiz", "da", "dugu"],
+            "answer": "dut"
+        },
+        {
+            "id": "e06",
+            "type": "order_words",
+            "words": ["Nik", "egunero", "musika", "entzuten", "dut."],
+            "translation": "Yo escucho música todos los días.",
+            "answer": "Nik egunero musika entzuten dut."
+        },
+        {
+            "id": "e07",
+            "type": "match_pairs",
+            "pairs": [
+                { "eu": "Zer egiten duzu?", "es": "¿Qué haces?" },
+                { "eu": "Lan asko dut.", "es": "Tengo mucho trabajo." },
+                { "eu": "Batera lan egiten dugu.", "es": "Trabajamos juntos." },
+                { "eu": "Ba al duzu denborarik?", "es": "¿Tienes tiempo?" }
+            ]
+        },
+        {
+            "id": "e08",
+            "type": "translation_es_eu",
+            "es": "Yo trabajo y también hago deporte.",
+            "answer": "Nik lan egiten dut eta kirola ere egiten dut."
+        }
+    ]
+}

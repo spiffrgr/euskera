@@ -1,0 +1,105 @@
+{
+  "id": "l05",
+  "title": "Bidaia planak (Planes de viaje)",
+  "objective": "Hablar de planes de viaje y expresar obligación con BEHAR DUT",
+  "grammar_note": {
+    "title": "BEHAR DUT — Tengo que / Necesito",
+    "body": "Para expresar necesidad u obligación:\n\n**[Sujeto NORK] + [verbo infinitivo] + behar + [EDUN]**\n\nEjemplos:\n- *Nik txartela erosi **behar dut**.* (Tengo que comprar el billete.)\n- *Zuk aldatu **behar duzu**.* (Tienes que hacer transbordo.)\n- *Hark goizago irten **behar du**.* (Tiene que salir antes.)\n- *Guk bidaia antolatu **behar dugu**.* (Tenemos que organizar el viaje.)",
+    "tip": "BEHAR DUT = necesidad. NAHI DUT = quiero. Los dos van con el infinitivo del verbo principal."
+  },
+  "slides": [
+    {
+      "eu": "bidaia planak — planes de viaje",
+      "es": "Para hablar de planes de viaje usamos BEHAR DUT (tengo que), NAHI DUT (quiero) y JOAN NAHI DUT (quiero ir).",
+      "example_eu": "Uda honetan Donostiara joan nahi dut.",
+      "example_es": "Este verano quiero ir a San Sebastián."
+    },
+    {
+      "eu": "Txartela erosi behar dut. — Tengo que comprar el billete.",
+      "es": "BEHAR DUT expresa obligación o necesidad. Va con el infinitivo del verbo principal antes de BEHAR.",
+      "example_eu": "Bidaia baino lehen txartela erosi behar dut.",
+      "example_es": "Tengo que comprar el billete antes del viaje."
+    },
+    {
+      "eu": "helmuga — el destino",
+      "es": "El destino del viaje (helmuga). Las ciudades del País Vasco: Bilbo, Donostia, Gasteiz, Iruñea, Baiona.",
+      "example_eu": "Nire helmuga Gasteiz da.",
+      "example_es": "Mi destino es Vitoria-Gasteiz."
+    },
+    {
+      "eu": "Noiz joan nahi duzu? — ¿Cuándo quieres ir?",
+      "es": "Preguntamos cuándo (NOIZ) quiere ir alguien. JOAN NAHI DUT = quiero ir.",
+      "example_eu": "— Noiz joan nahi duzu Bilbora?\n— Datorren astean.",
+      "example_es": "— ¿Cuándo quieres ir a Bilbao?\n— La semana que viene."
+    },
+    {
+      "eu": "Goiz irten behar dugu. — Tenemos que salir pronto.",
+      "es": "BEHAR con nosotros: BEHAR DUGU (tenemos que). Formas: behar dut, behar duzu, behar du, behar dugu, behar duzue, behar dute.",
+      "example_eu": "Trena goizeko seietan doa. Goiz irten behar dugu.",
+      "example_es": "El tren sale a las seis de la mañana. Tenemos que salir pronto."
+    },
+    {
+      "eu": "Bidaia ona! — ¡Buen viaje!",
+      "es": "Al despedirnos de alguien que viaja decimos: Bidaia ona! También: Gozatu bidaian! (¡Disfruta del viaje!)",
+      "example_eu": "— Donostiara noa.\n— Bidaia ona! Gozatu!",
+      "example_es": "— Voy a San Sebastián.\n— ¡Buen viaje! ¡Disfruta!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "¿Qué significa 'Txartela erosi behar dut'?",
+      "options": [
+        "Tengo que comprar el billete.",
+        "He comprado el billete.",
+        "Quiero comprar el billete.",
+        "El billete está comprado."
+      ],
+      "answer": "Tengo que comprar el billete."
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Tenemos que organizar el viaje.'?",
+      "answer": "Bidaia antolatu behar dugu."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Mi destino es Bilbao: Nire ___ Bilbo da.",
+      "answer": "helmuga",
+      "hint": "el destino del viaje"
+    },
+    {
+      "type": "grammar_select",
+      "question": "Completa con la forma correcta de BEHAR: 'Zu aldatu ___ duzu.'",
+      "options": ["behar", "nahi", "joan", "irten"],
+      "answer": "behar"
+    },
+    {
+      "type": "true_false",
+      "question": "'BEHAR DUT' y 'NAHI DUT' significan lo mismo.",
+      "answer": false,
+      "explanation": "BEHAR DUT = tengo que / necesito (obligación). NAHI DUT = quiero (deseo). Son diferentes."
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Uda honetan Donostiara joan nahi dut'?",
+      "answer": "Este verano quiero ir a San Sebastián."
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena para formar: 'Tienes que salir pronto.'",
+      "words": ["Goiz", "irten", "behar", "duzu."],
+      "answer": "Goiz irten behar duzu."
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une cada expresión con su significado",
+      "pairs": [
+        { "eu": "helmuga", "es": "el destino" },
+        { "eu": "bidaia", "es": "el viaje" },
+        { "eu": "behar dut", "es": "tengo que" },
+        { "eu": "nahi dut", "es": "quiero" }
+      ]
+    }
+  ]
+}

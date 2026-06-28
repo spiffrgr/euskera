@@ -1,0 +1,115 @@
+{
+  "id": "u13_l04",
+  "title": "Non dago? (¿Dónde está?)",
+  "objective": "Usar los casos de lugar NON/NORA/NONDIK para preguntar y decir dónde están las cosas",
+  "grammar_note": {
+    "title": "NON? / NORA? / NONDIK? — Los casos de lugar",
+    "body": "En euskera, la ubicación y el movimiento se expresan con sufijos de caso que se añaden al nombre SIN el artículo final (-a):\n\n**NON? (¿dónde?)** → sufijo **-n/-an** (inesibo): *bankuan* (en el banco), *parkean* (en el parque)\n**NORA? (¿adónde?)** → sufijo **-ra/-era** (adlatibo): *bankura* (al banco), *parkera* (al parque)\n**NONDIK? (¿de dónde?)** → sufijo **-tik/-etik** (ablatibo): *bankatik* (del banco), *parketik* (del parque)",
+    "tip": "Regla clave: la -a final (artículo) desaparece antes del sufijo. ¡bankua+an = bankuan, NO 'bankuaan'!"
+  },
+  "slides": [
+    {
+      "eu": "NON? → -n/-an (inesibo)",
+      "es": "¿DÓNDE? → sufijo de ubicación",
+      "example_eu": "Bankua kalean dago. / Museoa plazan dago.",
+      "example_es": "El banco está en la calle. / El museo está en la plaza."
+    },
+    {
+      "eu": "NORA? → -ra/-era (adlatibo)",
+      "es": "¿ADÓNDE? → sufijo de destino",
+      "example_eu": "Ni bankura noa. / Parkera joaten gara.",
+      "example_es": "Yo voy al banco. / Vamos al parque."
+    },
+    {
+      "eu": "NONDIK? → -tik/-etik (ablatibo)",
+      "es": "¿DE DÓNDE? → sufijo de origen",
+      "example_eu": "Bankatik nator. / Parketik gatoz.",
+      "example_es": "Vengo del banco. / Venimos del parque."
+    },
+    {
+      "eu": "Non dago liburutegia?",
+      "es": "¿Dónde está la biblioteca?",
+      "example_eu": "— Non dago liburutegia? — Ikastetxearen ondoan dago.",
+      "example_es": "— ¿Dónde está la biblioteca? — Está al lado de la escuela."
+    },
+    {
+      "eu": "Ez dago urrun",
+      "es": "No está lejos",
+      "example_eu": "— Ospitalea urrun dago? — Ez, ez dago urrun; gertu dago.",
+      "example_es": "— ¿El hospital está lejos? — No, no está lejos; está cerca."
+    },
+    {
+      "eu": "Hemen dago / Han dago",
+      "es": "Está aquí / Está allí",
+      "example_eu": "— Non dago farmazia? — Han dago, plazan.",
+      "example_es": "— ¿Dónde está la farmacia? — Está allí, en la plaza."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál es la forma correcta de 'en el banco' (NON)?",
+      "options": ["bankuan", "bankura", "bankatik", "bankuak"],
+      "answer": "bankuan"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Ni parkera noa.",
+      "answer": "Yo voy al parque."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "instruction": "Empareja cada forma con su caso",
+      "pairs": [
+        { "eu": "museoan", "es": "en el museo (NON)" },
+        { "eu": "museora", "es": "al museo (NORA)" },
+        { "eu": "museotik", "es": "del museo (NONDIK)" },
+        { "eu": "kalean", "es": "en la calle (NON)" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco con la forma correcta (NORA)",
+      "sentence": "Ni liburutegi___ noa.",
+      "translation": "Yo voy a la biblioteca.",
+      "hint": "liburutegia + adlatibo (-ra): liburutegira",
+      "answer": "liburutegira"
+    },
+    {
+      "id": "e05",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "¿Dónde está el ayuntamiento?",
+      "answer": "Non dago udaletxea?"
+    },
+    {
+      "id": "e06",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco con la forma correcta (NONDIK)",
+      "sentence": "Ospitale___ nator.",
+      "translation": "Vengo del hospital.",
+      "hint": "ospitalea + ablatibo (-tik): ospitaletik",
+      "answer": "ospitaletik"
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras para formar una frase correcta",
+      "words": ["Non", "dago", "geltokia?"],
+      "translation": "¿Dónde está la estación?",
+      "answer": "Non dago geltokia?"
+    },
+    {
+      "id": "e08",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál es la forma correcta de 'al parque' (NORA)?",
+      "options": ["parkera", "parkean", "parketik", "parkea"],
+      "answer": "parkera"
+    }
+  ]
+}

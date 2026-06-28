@@ -1,0 +1,123 @@
+{
+  "id": "l07",
+  "unit": "u15",
+  "title": "Aisia-elkarrizketa (Diálogo de ocio)",
+  "dialogue": {
+    "title": "Asteburuko plana (El plan del fin de semana)",
+    "speakers": ["Amaia", "Josu"],
+    "lines": [
+      { "speaker": "Amaia", "eu": "Kaixo, Josu! Zer plana duzu larunbaterako?", "es": "¡Hola, Josu! ¿Qué plan tienes para el sábado?" },
+      { "speaker": "Josu", "eu": "Ez dakit oraindik. Eta zu?", "es": "No sé todavía. ¿Y tú?" },
+      { "speaker": "Amaia", "eu": "Nik zineman joan nahi dut. Pelikula berri bat dago.", "es": "Yo quiero ir al cine. Hay una película nueva." },
+      { "speaker": "Josu", "eu": "Zinema? Bale! Nik ere oso gustuko dut zinema.", "es": "¿El cine? ¡Vale! A mí también me gusta mucho el cine." },
+      { "speaker": "Amaia", "eu": "Aurretik mendira joan gaitezke igandean.", "es": "Antes podemos ir al monte el domingo." },
+      { "speaker": "Josu", "eu": "Bai, oso gustuko dut mendizaletasuna. Ados!", "es": "Sí, me gusta mucho el senderismo. ¡De acuerdo!" }
+    ]
+  },
+  "slides": [
+    {
+      "eu": "Zer plana duzu? — ¿Qué plan tienes?",
+      "es": "Plana duzu: 'tienes el plan'. Se usa para preguntar por planes concretos de fin de semana.",
+      "example_eu": "Zer plana duzu larunbaterako?",
+      "example_es": "¿Qué plan tienes para el sábado?"
+    },
+    {
+      "eu": "Ez dakit — No sé / Oraindik — todavía",
+      "es": "Ez dakit: ez (no) + dakit (sé, de jakin). Oraindik = todavía/aún. Muy útiles en conversación.",
+      "example_eu": "Ez dakit oraindik zer egin.",
+      "example_es": "Todavía no sé qué hacer."
+    },
+    {
+      "eu": "Joan nahi dut — Quiero ir",
+      "es": "Joan = ir. Nahi dut = quiero (nahi = querer/deseo + dut). Joan nahi dut = quiero ir.",
+      "example_eu": "Zineman joan nahi dut.",
+      "example_es": "Quiero ir al cine."
+    },
+    {
+      "eu": "Pelikula berri bat — una película nueva",
+      "es": "Pelikula = película. Berri = nuevo/nueva. Bat = uno/una (artículo indefinido). Orden: sustantivo + adj + bat.",
+      "example_eu": "Pelikula berri bat ikusten dugu.",
+      "example_es": "Vemos una película nueva."
+    },
+    {
+      "eu": "Nik ere — yo también / Bale / Ados — vale / de acuerdo",
+      "es": "Ere = también. Nik ere = yo también. Bale y Ados son expresiones de acuerdo muy comunes.",
+      "example_eu": "Nik ere zineman joan nahi dut.",
+      "example_es": "Yo también quiero ir al cine."
+    },
+    {
+      "eu": "Joan gaitezke — podemos ir",
+      "es": "Gaitezke: forma potencial de joan en 1ª pers. plural (nosotros podemos). Muy útil para proponer planes.",
+      "example_eu": "Mendira joan gaitezke igandean.",
+      "example_es": "Podemos ir al monte el domingo."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "En el diálogo, ¿qué quiere hacer Amaia el sábado?",
+      "options": ["Ir al monte", "Ir al cine", "Nadar", "Leer en casa"],
+      "answer": "Ir al cine"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Ez dakit oraindik zer egin.",
+      "answer": "Todavía no sé qué hacer."
+    },
+    {
+      "id": "e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Zineman joan _ dut.",
+      "translation": "Quiero ir al cine.",
+      "hint": "querer = nahi",
+      "answer": "nahi"
+    },
+    {
+      "id": "e04",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "En el diálogo, a Josu le gusta el senderismo.",
+      "translation": "En el diálogo, a Josu le gusta el senderismo.",
+      "answer": "true"
+    },
+    {
+      "id": "e05",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "¿Qué plan tienes para el sábado?",
+      "answer": "Zer plana duzu larunbaterako?"
+    },
+    {
+      "id": "e06",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["joan", "Mendira", "igandean", "gaitezke"],
+      "translation": "Podemos ir al monte el domingo.",
+      "answer": "Mendira joan gaitezke igandean."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "instruction": "Empareja la expresión con su significado",
+      "pairs": [
+        { "eu": "Ez dakit", "es": "No sé" },
+        { "eu": "Nik ere", "es": "Yo también" },
+        { "eu": "Bale!", "es": "¡Vale!" },
+        { "eu": "Oraindik", "es": "Todavía" }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "grammar_select",
+      "instruction": "Elige la expresión correcta para 'de acuerdo'",
+      "sentence": "Bai, joan gaitezke. _!",
+      "translation": "Sí, podemos ir. ¡De acuerdo!",
+      "options": ["Ez dakit", "Ados", "Oraindik ez", "Inoiz ez"],
+      "answer": "Ados"
+    }
+  ]
+}

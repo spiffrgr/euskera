@@ -1,0 +1,110 @@
+{
+  "id": "u13_l03",
+  "title": "Garraio publikoa (Transporte público)",
+  "objective": "Nombrar los medios de transporte público y hablar de paradas y viajes",
+  "grammar_note": null,
+  "slides": [
+    {
+      "eu": "autobusa",
+      "es": "el autobús",
+      "example_eu": "Autobus gorria kalean doa.",
+      "example_es": "El autobús rojo va por la calle."
+    },
+    {
+      "eu": "metroa",
+      "es": "el metro",
+      "example_eu": "Metroa azkarrago da autobusa baino.",
+      "example_es": "El metro es más rápido que el autobús."
+    },
+    {
+      "eu": "trambia",
+      "es": "el tranvía",
+      "example_eu": "Donostian trambia dago.",
+      "example_es": "En San Sebastián hay tranvía."
+    },
+    {
+      "eu": "trena",
+      "es": "el tren",
+      "example_eu": "Trenarekin Bilbotik Donostiara noa.",
+      "example_es": "Con el tren voy de Bilbao a San Sebastián."
+    },
+    {
+      "eu": "geltokia",
+      "es": "la parada / la estación",
+      "example_eu": "Autobus-geltokia plazan dago.",
+      "example_es": "La parada de autobús está en la plaza."
+    },
+    {
+      "eu": "sarrera / irteera",
+      "es": "la entrada / la salida",
+      "example_eu": "Metro-sarrera kalean dago; irteera plazan.",
+      "example_es": "La entrada al metro está en la calle; la salida en la plaza."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'el tranvía' en euskera?",
+      "options": ["trambia", "trena", "metroa", "taxia"],
+      "answer": "trambia"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Autobus-geltokia plazan dago.",
+      "answer": "La parada de autobús está en la plaza."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "instruction": "Empareja cada medio de transporte con su traducción",
+      "pairs": [
+        { "eu": "autobusa", "es": "el autobús" },
+        { "eu": "metroa", "es": "el metro" },
+        { "eu": "trena", "es": "el tren" },
+        { "eu": "trambia", "es": "el tranvía" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "la estación",
+      "answer": "geltokia"
+    },
+    {
+      "id": "e05",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Metro-___ kalean dago.",
+      "translation": "La entrada al metro está en la calle.",
+      "hint": "la palabra para 'entrada'",
+      "answer": "sarrera"
+    },
+    {
+      "id": "e06",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "Donostian trambia dago.",
+      "translation": "En San Sebastián hay tranvía.",
+      "answer": "true"
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras para formar una frase correcta",
+      "words": ["Metroa", "azkarrago", "da", "autobusa", "baino."],
+      "translation": "El metro es más rápido que el autobús.",
+      "answer": "Metroa azkarrago da autobusa baino."
+    },
+    {
+      "id": "e08",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'la salida' en euskera?",
+      "options": ["irteera", "sarrera", "geltokia", "bidea"],
+      "answer": "irteera"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{ "id": "u16", "title": "EDUN eta EGIN", "emoji": "🤝", "lessons": [
+  { "id": "l01", "title": "EDUN singularra — dut, duzu, du", "type": "lesson" },
+  { "id": "l02", "title": "EDUN plurala — dugu, duzue, dute", "type": "lesson" },
+  { "id": "l03", "title": "Zer duzu? (¿Qué tienes?)", "type": "lesson" },
+  { "id": "l04", "title": "EGIN aditz-konposatua (Verbos con EGIN)", "type": "lesson" },
+  { "id": "l05", "title": "Aditz nagusiak eta EDUN laguntzailea", "type": "lesson" },
+  { "id": "l06", "title": "NOR-NORK adostasuna (NOR vs NOR-NORK)", "type": "lesson" },
+  { "id": "l07", "title": "EDUN/EGIN elkarrizketa (Diálogo)", "type": "lesson" },
+  { "id": "test", "title": "Test de la unidad", "type": "test" }
+]}

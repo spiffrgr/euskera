@@ -1,0 +1,100 @@
+﻿{
+  "id": "l06",
+  "title": "Nondik nora? (¿De dónde adónde?)",
+  "objective": "Describir rutas, transbordos y duración de viajes",
+  "grammar_note": {
+    "title": "NONDIK? (ablativo -tik) — origen del viaje",
+    "body": "Para indicar el origen (de dónde), usa el sufijo ablativo **-tik**:\n\n- *Bilbo**tik*** (de Bilbao)\n- *Donostia**tik*** (de San Sebastián)\n- *Gasteiz**tik*** (de Vitoria-Gasteiz)\n- *geltoki**tik*** (desde la estación)\n\nEjemplos:\n- **Bilbotik Donostiara noa.** (Voy de Bilbao a San Sebastián.)\n- **Donostiatik nator.** (Vengo de San Sebastián.)\n\nEsquema: **NONDIK** (-tik) → origen | **NORA** (-ra/-era) → destino",
+    "tip": "El artículo -a desaparece antes de -tik: geltokia → geltokitik (desde la estación)."
+  },
+  "slides": [
+    {
+      "eu": "Nondik? Nora? — ¿De dónde? ¿Adónde?",
+      "es": "NONDIK (¿de dónde?) usa el ablativo -tik. NORA (¿adónde?) usa el allativo -ra/-era. Juntos describen una ruta.",
+      "example_eu": "Bilbotik Donostiara joaten naiz.",
+      "example_es": "Voy de Bilbao a San Sebastián."
+    },
+    {
+      "eu": "aldaketa — el transbordo / aldatu behar dut — tengo que hacer transbordo",
+      "es": "ALDATU = cambiar. ALDAKETA = cambio/transbordo. NON ALDATU BEHAR DUT? = ¿Dónde tengo que hacer transbordo?",
+      "example_eu": "— Non aldatu behar dut?\n— Gasteizen aldatu behar duzu.",
+      "example_es": "— ¿Dónde tengo que hacer transbordo?\n— Tienes que hacer transbordo en Vitoria-Gasteiz."
+    },
+    {
+      "eu": "Zenbat denbora irauten du bidaiak? — ¿Cuánto dura el viaje?",
+      "es": "ZENBAT DENBORA? = ¿cuánto tiempo? IRAUTEN DU = dura. Para preguntar la duración.",
+      "example_eu": "— Zenbat denbora irauten du bidaiak?\n— Ordubete irauten du.",
+      "example_es": "— ¿Cuánto dura el viaje?\n— Dura una hora."
+    },
+    {
+      "eu": "gelditu — parar / geltoki — parada/estación",
+      "es": "GELDITU = parar, detenerse. El tren GELDITZEN DA cada estación. GELTOKI = estación/parada.",
+      "example_eu": "Autobus honek lau aldiz gelditzen da.",
+      "example_es": "Este autobús para cuatro veces."
+    },
+    {
+      "eu": "Hurrengo trena noiz doa? — ¿Cuándo sale el próximo tren?",
+      "es": "HURRENGO = siguiente/próximo. Pregunta muy útil en estaciones cuando pierdes el tren.",
+      "example_eu": "— Hurrengo trena noiz doa Bilbora?\n— Ordu erdian.",
+      "example_es": "— ¿Cuándo sale el próximo tren a Bilbao?\n— En media hora."
+    },
+    {
+      "eu": "Iruñeatik Donostiara — De Pamplona a San Sebastián",
+      "es": "Rutas típicas del País Vasco: ciudades conectadas por tren, autobús y coche.",
+      "example_eu": "Iruñeatik Donostiara autobusez bi orduko bidaia da.",
+      "example_es": "De Pamplona a San Sebastián en autobús son dos horas de viaje."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "¿Qué sufijo indica el origen en euskera (de Bilbao)?",
+      "options": ["-tik", "-ra", "-n", "-z"],
+      "answer": "-tik"
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Bilbotik Donostiara joaten naiz'?",
+      "answer": "Voy de Bilbao a San Sebastián."
+    },
+    {
+      "type": "fill_blank",
+      "question": "¿Dónde tengo que hacer transbordo? — Non aldatu behar ___?",
+      "answer": "dut",
+      "hint": "forma de EDUN para 'yo' (ni)"
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Vengo de San Sebastián.'?",
+      "answer": "Donostiatik nator."
+    },
+    {
+      "type": "true_false",
+      "question": "'Aldaketa' significa 'la llegada'.",
+      "answer": false,
+      "explanation": "'Aldaketa' significa 'el transbordo / el cambio'. 'Iristea' o 'heltzea' significa 'la llegada'."
+    },
+    {
+      "type": "grammar_select",
+      "question": "Completa la ruta: 'Donostia___ Bilbo___ noa.'",
+      "options": ["-tik / -ra", "-ra / -tik", "-n / -z", "-z / -n"],
+      "answer": "-tik / -ra"
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena para formar: '¿Cuánto dura el viaje?'",
+      "words": ["Zenbat", "denbora", "irauten", "du", "bidaiak?"],
+      "answer": "Zenbat denbora irauten du bidaiak?"
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une la ciudad con su forma ablativa (de...)",
+      "pairs": [
+        { "eu": "Bilbotik", "es": "de Bilbao" },
+        { "eu": "Donostiatik", "es": "de San Sebastián" },
+        { "eu": "Gasteiztik", "es": "de Vitoria-Gasteiz" },
+        { "eu": "Iruñeatik", "es": "de Pamplona" }
+      ]
+    }
+  ]
+}

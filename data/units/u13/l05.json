@@ -1,0 +1,110 @@
+{
+  "id": "u13_l05",
+  "title": "Dendetan (En las tiendas)",
+  "objective": "Pedir artículos y preguntar precios en una tienda",
+  "grammar_note": null,
+  "slides": [
+    {
+      "eu": "denda",
+      "es": "la tienda",
+      "example_eu": "Denda hori oso ona da.",
+      "example_es": "Esa tienda es muy buena."
+    },
+    {
+      "eu": "supermerkatua",
+      "es": "el supermercado",
+      "example_eu": "Supermerkatua kaletik gertu dago.",
+      "example_es": "El supermercado está cerca de la calle."
+    },
+    {
+      "eu": "farmazia",
+      "es": "la farmacia",
+      "example_eu": "Farmazian botikak saltzen dituzte.",
+      "example_es": "En la farmacia venden medicamentos."
+    },
+    {
+      "eu": "merkatua",
+      "es": "el mercado",
+      "example_eu": "Merkatuan frutak eta barazkiak daude.",
+      "example_es": "En el mercado hay frutas y verduras."
+    },
+    {
+      "eu": "Zenbat balio du?",
+      "es": "¿Cuánto cuesta?",
+      "example_eu": "— Zenbat balio du hau? — Bi euro balio du.",
+      "example_es": "— ¿Cuánto cuesta esto? — Cuesta dos euros."
+    },
+    {
+      "eu": "Hori nahi dut / Bat nahi dut",
+      "es": "Quiero ese / Quiero uno",
+      "example_eu": "— Zer nahi duzu? — Hori nahi dut, mesedez.",
+      "example_es": "— ¿Qué quiere usted? — Quiero ese, por favor."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se pregunta '¿Cuánto cuesta?' en euskera?",
+      "options": ["Zenbat balio du?", "Zer nahi duzu?", "Non dago?", "Nola deitzen da?"],
+      "answer": "Zenbat balio du?"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Merkatuan frutak eta barazkiak daude.",
+      "answer": "En el mercado hay frutas y verduras."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "instruction": "Empareja cada término con su traducción",
+      "pairs": [
+        { "eu": "denda", "es": "la tienda" },
+        { "eu": "farmazia", "es": "la farmacia" },
+        { "eu": "supermerkatua", "es": "el supermercado" },
+        { "eu": "merkatua", "es": "el mercado" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Quiero uno, por favor.",
+      "answer": "Bat nahi dut, mesedez."
+    },
+    {
+      "id": "e05",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "___ balio du hau?",
+      "translation": "¿Cuánto cuesta esto?",
+      "hint": "la palabra para '¿cuánto?'",
+      "answer": "Zenbat"
+    },
+    {
+      "id": "e06",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "Farmazian frutak saltzen dituzte.",
+      "translation": "En la farmacia venden frutas.",
+      "answer": "false"
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras para formar una frase correcta",
+      "words": ["Hori", "nahi", "dut,", "mesedez."],
+      "translation": "Quiero ese, por favor.",
+      "answer": "Hori nahi dut, mesedez."
+    },
+    {
+      "id": "e08",
+      "type": "multiple_choice",
+      "instruction": "Estás en una tienda. ¿Cómo dices 'Disculpa' para llamar la atención?",
+      "options": ["Barkatu", "Eskerrik asko", "Agur", "Kaixo"],
+      "answer": "Barkatu"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "l07",
+  "title": "Azken elkarrizketa (Diálogo final A1)",
+  "objective": "Mantener una conversación completa en euskera sobre la vida, el trabajo, la rutina diaria y los planes de futuro",
+  "grammar_note": {
+    "title": "A1 elkarrizketa — Todo junto",
+    "body": "En este diálogo final usamos todo lo aprendido en A1:\n\n- **Presentación**: Nire izena... da. ...n bizi naiz. ...a naiz (profesión).\n- **Rutina**: Goizean... Arratsaldean... Egunero...\n- **Gustos**: Gustuko dut... / Ez dut gustuko...\n- **Ubicación**: ...n nago. ...ra joaten naiz.\n- **Transporte**: ...ez joaten naiz.\n- **Planes**: Bihar... / Datorren astean...\n- **Deseos**: ...nahi dut. / ...asmoa dut.\n- **Obligaciones**: ...behar dut. / Ezin dut...\n\n¡Felicidades! Has completado el nivel A1 de euskera.",
+    "tip": "Combina los recursos aprendidos: presentación + rutina + gustos + planes. ¡Eso es una conversación real en A1!"
+  },
+  "slides": [
+    {
+      "eu": "Kaixo! Nire izena Ane da. Bilbon bizi naiz eta irakaslea naiz.",
+      "es": "Presentación completa: nombre + ciudad donde vives + profesión. IZAN para todo: naiz, bizi naiz.",
+      "example_eu": "— Kaixo! Nire izena Mikel da. Donostian bizi naiz. Zu nor zara?\n— Ane naiz. Bilbon bizi naiz eta medikua naiz.",
+      "example_es": "— ¡Hola! Me llamo Mikel. Vivo en San Sebastián. ¿Tú quién eres?\n— Soy Ane. Vivo en Bilbao y soy médica."
+    },
+    {
+      "eu": "Eguneroko erroutina — La rutina diaria",
+      "es": "Describir el día a día: levantarse, ir al trabajo, volver a casa, tiempo libre.",
+      "example_eu": "Goizean zazpitan jaiki eta autobusez lanera joaten naiz. Arratsaldean etxera itzultzen naiz eta liburuak irakurtzen ditut.",
+      "example_es": "Por la mañana me levanto a las siete y voy al trabajo en autobús. Por la tarde vuelvo a casa y leo libros."
+    },
+    {
+      "eu": "Gustuko dituzu kirolak? — ¿Te gustan los deportes?",
+      "es": "Hablar de gustos con GUSTUKO DUT / EZ DUT GUSTUKO. Conectar con tiempo libre.",
+      "example_eu": "— Gustuko dituzu kirolak?\n— Bai, futbola eta igeria oso gustuko ditut. Asteburuetan lagunekin jolasten dut.",
+      "example_es": "— ¿Te gustan los deportes?\n— Sí, me gustan mucho el fútbol y la natación. Los fines de semana juego con amigos."
+    },
+    {
+      "eu": "Non bizi zara? Familia duzu hemen? — ¿Dónde vives? ¿Tienes familia aquí?",
+      "es": "Preguntas sobre vida personal. NON + EGON/BIZI IZAN. EDUN para 'tener' familia.",
+      "example_eu": "— Bilboko zentroan bizi naiz. Familia txikia dut: ama, aita eta anai bat. Haiek Gasteizen bizi dira.",
+      "example_es": "— Vivo en el centro de Bilbao. Tengo una familia pequeña: mamá, papá y un hermano. Ellos viven en Vitoria."
+    },
+    {
+      "eu": "Bihar eta datorren astean zer egiten duzu? — ¿Qué haces mañana y la semana que viene?",
+      "es": "Planes de futuro cercano con tiempo + presente o NAHI DUT. Combinar varios marcos temporales.",
+      "example_eu": "— Bihar lagunekin afaltzen dut. Datorren astean Bartzelonara joateko asmoa dut. Oporretan joaten gara!\n— Zoragarria! Nork daki, agian laster Euskal Herrira itzultzen zara.",
+      "example_es": "— Mañana ceno con amigos. La semana que viene tengo intención de ir a Barcelona. ¡Nos vamos de vacaciones!\n— ¡Genial! Quién sabe, quizás pronto vuelves al País Vasco."
+    },
+    {
+      "eu": "Zer nahi duzu etorkizunean? — ¿Qué quieres en el futuro?",
+      "es": "Hablar de sueños y aspiraciones. NAHI DUT para deseos, ASMOA DUT para intenciones.",
+      "example_eu": "— Nire ametsa Euskal Herrian bizi eta euskaraz hitz egitea da. Aurten asko ikasi behar dut, baina datorren urtean euskaldun ona izateko asmoa dut!\n— Zorte on! Egingo duzu!",
+      "example_es": "— Mi sueño es vivir en el País Vasco y hablar en euskera. Este año tengo que estudiar mucho, ¡pero el año que viene tengo intención de ser un buen euskaldun!\n— ¡Mucha suerte! ¡Lo harás!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Nire izena Ane da. Bilbon bizi naiz eta medikua naiz'?",
+      "answer": "Me llamo Ane. Vivo en Bilbao y soy médica."
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Por la mañana voy al trabajo en autobús'?",
+      "answer": "Goizean autobusez lanera joaten naiz."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "¿Cómo preguntas '¿Tienes familia aquí?' en euskera?",
+      "options": ["Familia duzu hemen?", "Familia nago hemen?", "Familia joaten zara?", "Familia naiz hemen?"],
+      "answer": "Familia duzu hemen?"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Nire ametsa Euskal Herrian bizi eta euskaraz hitz ___ da. (hablar)",
+      "answer": "egitea",
+      "hint": "hitz egin → infinitivo nominalizado"
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Datorren astean Bartzelonara joateko asmoa dut'?",
+      "answer": "La semana que viene tengo intención de ir a Barcelona."
+    },
+    {
+      "type": "true_false",
+      "question": "Para describir tu profesión en euskera usas el verbo EGON.",
+      "answer": false,
+      "explanation": "La profesión se describe con IZAN: 'Medikua naiz' (Soy médico/a), no con EGON."
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena para formar: 'Este año tengo que estudiar mucho.'",
+      "words": ["Aurten", "asko", "ikasi", "behar", "dut"],
+      "answer": "Aurten asko ikasi behar dut"
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une cada frase del diálogo con su función comunicativa",
+      "pairs": [
+        { "eu": "Medikua naiz.", "es": "decir la profesión" },
+        { "eu": "Bilbon bizi naiz.", "es": "decir dónde vives" },
+        { "eu": "Autobusez joaten naiz.", "es": "decir cómo vas" },
+        { "eu": "Joan nahi dut.", "es": "expresar un deseo" }
+      ]
+    }
+  ]
+}

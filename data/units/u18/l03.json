@@ -1,0 +1,100 @@
+{
+  "id": "l03",
+  "title": "Zer nahi duzu egin? (¿Qué quieres hacer?)",
+  "objective": "Expresar deseos y planes usando NAHI DUT + infinitivo",
+  "grammar_note": {
+    "title": "NAHI DUT + infinitibo — Quiero + infinitivo",
+    "body": "Para expresar lo que quieres hacer:\n\n**[sujeto NORK] + [infinitivo] + nahi + [EDUN]**\n\nLas formas de EDUN con NAHI:\n- *Nik joan **nahi dut**.* (Quiero ir.)\n- *Zuk etorri **nahi duzu**.* (Quieres venir.)\n- *Hark ikasi **nahi du**.* (Quiere estudiar.)\n- *Guk bidaiatu **nahi dugu**.* (Queremos viajar.)\n- *Zuek lan egin **nahi duzue**.* (Queréis trabajar.)\n- *Haiek jan **nahi dute**.* (Quieren comer.)\n\nNegación: **Ez** + [infinitivo] + **nahi** + EDUN\n- *Nik ez dut joan nahi.* (No quiero ir.)",
+    "tip": "NAHI DUT = quiero. La misma conjugación que EDUN: dut/duzu/du/dugu/duzue/dute. El infinitivo va ANTES de 'nahi'."
+  },
+  "slides": [
+    {
+      "eu": "nahi dut — quiero",
+      "es": "NAHI DUT expresa deseo. El verbo infinitivo va antes de 'nahi': [infinitivo] nahi dut.",
+      "example_eu": "Nik Bilbora joan nahi dut.",
+      "example_es": "Quiero ir a Bilbao."
+    },
+    {
+      "eu": "Nik ikasi nahi dut. — Quiero estudiar.",
+      "es": "Fórmula: sujeto (NORK) + infinitivo + nahi + EDUN. Nik = yo (ergativo, NORK).",
+      "example_eu": "Nik euskara ikasi nahi dut.",
+      "example_es": "Quiero estudiar euskera."
+    },
+    {
+      "eu": "Zuk zer nahi duzu egin? — ¿Qué quieres hacer?",
+      "es": "Pregunta con ZER (qué) + nahi duzu + EGIN (hacer). La respuesta sigue la misma estructura.",
+      "example_eu": "— Zuk zer nahi duzu egin?\n— Nik musika entzun nahi dut.",
+      "example_es": "— ¿Qué quieres hacer?\n— Quiero escuchar música."
+    },
+    {
+      "eu": "Hark jan nahi du. / Guk jolastu nahi dugu. — Quiere comer. / Queremos jugar.",
+      "es": "Las formas cambian según la persona: du (él/ella), dugu (nosotros). El infinitivo siempre antes de nahi.",
+      "example_eu": "Amak kafea edan nahi du. Guk parkean jolastu nahi dugu.",
+      "example_es": "La madre quiere tomar café. Nosotros queremos jugar en el parque."
+    },
+    {
+      "eu": "Ez dut joan nahi. — No quiero ir.",
+      "es": "Negación: 'ez' va antes de EDUN. El infinitivo sigue antes de 'nahi': ez + dut + [inf.] + nahi.",
+      "example_eu": "Ez dut lanera joan nahi. Etxean geratu nahi dut.",
+      "example_es": "No quiero ir al trabajo. Quiero quedarme en casa."
+    },
+    {
+      "eu": "Bihar zinera joan nahi dut. — Mañana quiero ir al cine.",
+      "es": "NAHI DUT se combina con expresiones de tiempo para hablar de planes y deseos futuros.",
+      "example_eu": "Datorren astean itsasora joan nahi dut.",
+      "example_es": "La semana que viene quiero ir al mar."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "¿Cuál es la traducción de 'Nik Parisa joan nahi dut'?",
+      "options": ["Puedo ir a París.", "Tengo que ir a París.", "Quiero ir a París.", "Voy a París."],
+      "answer": "Quiero ir a París."
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Quiero estudiar euskera'?",
+      "answer": "Nik euskara ikasi nahi dut."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Nik musika entzun ___ dut. (Quiero escuchar música.)",
+      "answer": "nahi",
+      "hint": "La palabra que significa 'querer' en esta estructura"
+    },
+    {
+      "type": "grammar_select",
+      "question": "¿Cuál es la forma correcta para 'ella quiere' con NAHI?",
+      "options": ["nahi dut", "nahi duzu", "nahi du", "nahi dugu"],
+      "answer": "nahi du"
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Ez dut lanera joan nahi'?",
+      "answer": "No quiero ir al trabajo."
+    },
+    {
+      "type": "true_false",
+      "question": "En la estructura NAHI DUT, el infinitivo va DESPUÉS de 'nahi'.",
+      "answer": false,
+      "explanation": "El infinitivo va ANTES de 'nahi': 'joan nahi dut' (quiero ir), no 'nahi joan dut'."
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena para formar: 'Queremos viajar a Londres.'",
+      "words": ["Guk", "Londresera", "bidaiatu", "nahi", "dugu"],
+      "answer": "Guk Londresera bidaiatu nahi dugu"
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une cada forma de NAHI con su persona",
+      "pairs": [
+        { "eu": "nahi dut", "es": "quiero (yo)" },
+        { "eu": "nahi duzu", "es": "quieres (tú)" },
+        { "eu": "nahi du", "es": "quiere (él/ella)" },
+        { "eu": "nahi dugu", "es": "queremos (nosotros)" }
+      ]
+    }
+  ]
+}

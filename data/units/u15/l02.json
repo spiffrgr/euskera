@@ -1,0 +1,111 @@
+{
+  "id": "l02",
+  "unit": "u15",
+  "title": "Kirol motak (Tipos de deporte)",
+  "slides": [
+    {
+      "eu": "Kirola — el deporte / Kirol motak — los tipos de deporte",
+      "es": "En euskera, muchos deportes son préstamos del castellano o inglés con terminación vasca.",
+      "example_eu": "Zer kirol egiten duzu?",
+      "example_es": "¿Qué deporte practicas?"
+    },
+    {
+      "eu": "Futbola — el fútbol / Saskibaloia — el baloncesto",
+      "es": "Futbol + -a (artículo). Saskibaloian = canasta (saski) + balón (baloian). Se usa JOLASTU con estos deportes.",
+      "example_eu": "Futbola jolasten dut.",
+      "example_es": "Juego al fútbol."
+    },
+    {
+      "eu": "Tenisa — el tenis / Padela — el pádel",
+      "es": "Tenisa: préstamo con artículo vasco -a. Padela: ídem. Con JOLASTU o EGIN.",
+      "example_eu": "Astean behin tenisa jolasten dut.",
+      "example_es": "Juego al tenis una vez a la semana."
+    },
+    {
+      "eu": "Igerian egin — nadar / Txirrindularitza — el ciclismo",
+      "es": "Igerian egin (lit. 'hacer en natación'). Txirrindularitza: forma larga. También txirrindua = la bicicleta.",
+      "example_eu": "Igerian egiten dut astean bitan.",
+      "example_es": "Nado dos veces a la semana."
+    },
+    {
+      "eu": "Atletismoa — el atletismo / Surfa — el surf",
+      "es": "Atletismoa es una actividad individual. Surfa: préstamo. Surf egitea = hacer surf.",
+      "example_eu": "Atletismoa egiten dut egunero.",
+      "example_es": "Hago atletismo cada día."
+    },
+    {
+      "eu": "Mendira joan — ir al monte / Mendizaletasuna — el senderismo",
+      "es": "Mendi = montaña. Joan = ir. Mendizaletasuna: pasión por el monte. Muy popular en Euskal Herria.",
+      "example_eu": "Igandean mendira joaten gara.",
+      "example_es": "El domingo vamos al monte."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match_pairs",
+      "instruction": "Empareja el deporte con su traducción",
+      "pairs": [
+        { "eu": "futbola", "es": "el fútbol" },
+        { "eu": "saskibaloia", "es": "el baloncesto" },
+        { "eu": "igerian egin", "es": "nadar" },
+        { "eu": "txirrindularitza", "es": "el ciclismo" }
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál es la traducción de 'mendizaletasuna'?",
+      "options": ["el atletismo", "el senderismo", "el surf", "el pádel"],
+      "answer": "el senderismo"
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Futbola jolasten dut.",
+      "answer": "Juego al fútbol."
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Igerian _ dut astean bitan.",
+      "translation": "Nado dos veces a la semana.",
+      "hint": "egin → presente habitual",
+      "answer": "egiten"
+    },
+    {
+      "id": "e05",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "El domingo vamos al monte.",
+      "answer": "Igandean mendira joaten gara."
+    },
+    {
+      "id": "e06",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "'Tenisa jolasten dut' significa 'Juego al tenis'.",
+      "translation": "'Tenisa jolasten dut' significa 'Juego al tenis'.",
+      "answer": "true"
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["dut", "Atletismoa", "egunero", "egiten"],
+      "translation": "Hago atletismo cada día.",
+      "answer": "Atletismoa egiten dut egunero."
+    },
+    {
+      "id": "e08",
+      "type": "grammar_select",
+      "instruction": "¿Qué verbo se usa para 'jugar al baloncesto'?",
+      "sentence": "Saskibaloia _ dut.",
+      "translation": "Juego al baloncesto.",
+      "options": ["egiten", "jolasten", "ikusten", "entzuten"],
+      "answer": "jolasten"
+    }
+  ]
+}

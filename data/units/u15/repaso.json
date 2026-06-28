@@ -1,0 +1,103 @@
+{
+  "id": "repaso",
+  "title": "Repaso: Unidades 13-15",
+  "subtitle": "Hiria · Eguraldia · Aisia eta kirolak",
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match_pairs",
+      "instruction": "U13 — Empareja los lugares de la ciudad con su traducción",
+      "pairs": [
+        { "eu": "udaletxea", "es": "el ayuntamiento" },
+        { "eu": "ospitalea", "es": "el hospital" },
+        { "eu": "liburutegia", "es": "la biblioteca" },
+        { "eu": "geltokia", "es": "la estación" }
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "multiple_choice",
+      "instruction": "U14 — ¿Cómo se dice 'Está lloviendo' en euskera?",
+      "options": ["Euria dago", "Euria ari da", "Euriak egiten du", "Euria da"],
+      "answer": "Euria ari da"
+    },
+    {
+      "id": "e03",
+      "type": "multiple_choice",
+      "instruction": "U15 — ¿Cómo se dice 'el baloncesto' en euskera?",
+      "options": ["futbola", "atletismoa", "saskibaloia", "tenisa"],
+      "answer": "saskibaloia"
+    },
+    {
+      "id": "e04",
+      "type": "translation_eu_es",
+      "instruction": "U13 — Traduce al castellano",
+      "eu": "Zuzen-zuzen joan eta plaza ikusiko duzu.",
+      "answer": "Ve todo recto y verás la plaza."
+    },
+    {
+      "id": "e05",
+      "type": "translation_eu_es",
+      "instruction": "U14 — Traduce al castellano",
+      "eu": "Udazkenean haizea dago eta euria egiten du.",
+      "answer": "En otoño hay viento y llueve."
+    },
+    {
+      "id": "e06",
+      "type": "translation_eu_es",
+      "instruction": "U15 — Traduce al castellano",
+      "eu": "Nik futbola gustuko dut.",
+      "answer": "Me gusta el fútbol."
+    },
+    {
+      "id": "e07",
+      "type": "fill_blank",
+      "instruction": "U13 — Rellena el hueco",
+      "sentence": "Bankua ez dago urrun; _ dago.",
+      "translation": "El banco no está lejos; está cerca.",
+      "hint": "cerca = g_r_u",
+      "answer": "gertu"
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "instruction": "U14 — Rellena el hueco",
+      "sentence": "_ eguzkia dago eta epela da.",
+      "translation": "Hoy hay sol y está templado.",
+      "hint": "hoy = ...",
+      "answer": "Gaur"
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "instruction": "U15 — Rellena el hueco",
+      "sentence": "Astean behin igerian _ dut.",
+      "translation": "Nado una vez a la semana.",
+      "hint": "egin → presente habitual",
+      "answer": "egiten"
+    },
+    {
+      "id": "e10",
+      "type": "true_false",
+      "instruction": "U13 — ¿Verdadero o falso?",
+      "statement": "'Eskuinera' significa 'a la izquierda'.",
+      "translation": "'Eskuinera' significa 'a la izquierda'.",
+      "answer": "false"
+    },
+    {
+      "id": "e11",
+      "type": "order_words",
+      "instruction": "U14 — Ordena las palabras",
+      "words": ["bero", "Udan", "egoten", "handia", "da"],
+      "translation": "En verano hace mucho calor.",
+      "answer": "Udan bero handia egoten da."
+    },
+    {
+      "id": "e12",
+      "type": "translation_es_eu",
+      "instruction": "U15 — Traduce al euskera",
+      "es": "No me gusta el cine.",
+      "answer": "Ez dut zinema gustuko."
+    }
+  ]
+}

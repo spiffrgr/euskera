@@ -1,0 +1,115 @@
+{
+  "id": "l04",
+  "title": "-ko en nombres compuestos",
+  "objective": "Usar -ko para crear adjetivos compuestos relacionados con el tiempo y el contexto",
+  "grammar_note": {
+    "title": "-ko para crear compuestos: trabajo, tiempo y contexto",
+    "body": "Además de lugares, **-ko** se usa para crear adjetivos compuestos a partir de palabras de tiempo, contexto o ámbito. Es muy productivo en euskera para construir nuevas palabras.\n\n**Compuestos de tiempo:**\n\n| Base | Con -ko | Significado |\n|---|---|---|\n| goiz (mañana-tiempo) | **goizeko** | de la mañana, matutino |\n| gau (noche) | **gaueko** | de la noche, nocturno |\n| egun (día) | **eguneroko** | diario, cotidiano |\n| aste (semana) | **asteko** | de la semana, semanal |\n\n**Compuestos de contexto:**\n\n| Base | Con -ko | Significado |\n|---|---|---|\n| lan (trabajo) | **laneko** | del trabajo, laboral |\n| eskola (escuela) | **eskolako** | de la escuela, escolar |\n| klase (clase) | **klaseko** | de la clase |\n\n**Uso:** Siempre antes del nombre:\n- **goizeko kafea** (el café de la mañana)\n- **gaueko trena** (el tren de la noche)\n- **eguneroko bizitza** (la vida diaria / cotidiana)\n- **laneko laguna** (el/la compañero/a de trabajo)\n- **eskolako ikaslea** (el/la alumno/a de la escuela)\n\n**Nota:** 'Egunero' (cada día) + -ko = 'eguneroko' (diario). Esta forma doble es irregular pero muy frecuente.",
+    "tip": "lan → laneko (del trabajo), goiz → goizeko (de la mañana), gau → gaueko (de la noche). -ko crea compuestos igual que en inglés: 'work-' friend = laneko laguna."
+  },
+  "slides": [
+    {
+      "eu": "laneko laguna — el/la compañero/a de trabajo",
+      "es": "'Lan' (trabajo) + -eko = laneko. Se usa -eko (con vocal de unión) cuando la base termina en consonante en contexto de compuesto habitual.",
+      "example_eu": "Nire laneko laguna oso ona da.",
+      "example_es": "Mi compañero/a de trabajo es muy bueno/a."
+    },
+    {
+      "eu": "goizeko kafea — el café de la mañana",
+      "es": "'Goiz' (mañana/temprano) + -eko = goizeko. Muy usado para hablar de rutinas matutinas.",
+      "example_eu": "Goizeko kafea edan eta lanera joaten naiz.",
+      "example_es": "Me tomo el café de la mañana y voy al trabajo."
+    },
+    {
+      "eu": "gaueko trena — el tren de la noche",
+      "es": "'Gau' (noche) + -eko = gaueko. Para hablar de servicios o actividades nocturnas.",
+      "example_eu": "Gaueko trena hartu behar dut.",
+      "example_es": "Tengo que coger el tren de la noche."
+    },
+    {
+      "eu": "eguneroko bizitza — la vida cotidiana / diaria",
+      "es": "'Egunero' (cada día) + -ko = eguneroko. Este compuesto es especialmente común para hablar de la rutina.",
+      "example_eu": "Eguneroko bizitza gogorra da baina ederra ere bai.",
+      "example_es": "La vida diaria es dura pero también bonita."
+    },
+    {
+      "eu": "eskolako ikaslea — el/la alumno/a de la escuela",
+      "es": "'Eskola' (escuela) + -ko = eskolako. Muy útil en contextos educativos.",
+      "example_eu": "Eskolako ikasleak oso argiak dira.",
+      "example_es": "Los/as alumnos/as de la escuela son muy listos/as."
+    },
+    {
+      "eu": "asteko planak — los planes de la semana",
+      "es": "'Aste' (semana) + -ko = asteko. Para hablar de algo que pertenece o corresponde a la semana.",
+      "example_eu": "Asteko planak egin ditut.",
+      "example_es": "He hecho los planes de la semana."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'el compañero/a de trabajo' en euskera?",
+      "options": ["lanko laguna", "laneko laguna", "lanako laguna", "lanko lana"],
+      "answer": "laneko laguna"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Eguneroko bizitza gogorra da baina ederra ere bai.",
+      "answer": "La vida diaria es dura pero también bonita."
+    },
+    {
+      "id": "e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "___ kafea edan eta lanera joaten naiz. (Me tomo el café de la mañana y voy al trabajo.)",
+      "translation": "Me tomo el café de la mañana y voy al trabajo.",
+      "hint": "goiz + -eko",
+      "answer": "Goizeko"
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "instruction": "Empareja cada compuesto con su significado",
+      "pairs": [
+        { "eu": "laneko", "es": "del trabajo" },
+        { "eu": "goizeko", "es": "de la mañana" },
+        { "eu": "gaueko", "es": "de la noche" },
+        { "eu": "eguneroko", "es": "diario/cotidiano" }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Tengo que coger el tren de la noche.",
+      "answer": "Gaueko trena hartu behar dut."
+    },
+    {
+      "id": "e06",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "'Eguneroko' viene de 'egun' (día) y significa 'diario' o 'cotidiano'.",
+      "translation": "'Eguneroko' viene de 'egun' (día) y significa 'diario' o 'cotidiano'.",
+      "answer": "true",
+      "explanation": "Correcto. 'Egunero' (cada día) + -ko = 'eguneroko' (diario/cotidiano). Es una de las palabras compuestas más frecuentes en euskera."
+    },
+    {
+      "id": "e07",
+      "type": "error_correction",
+      "instruction": "Corrige el error",
+      "sentence": "Nire lan laguna oso ona da.",
+      "translation": "Mi compañero/a de trabajo es muy bueno/a.",
+      "answer": "Nire laneko laguna oso ona da."
+    },
+    {
+      "id": "e08",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Eskolako ikasleak oso argiak dira.",
+      "answer": "Los/as alumnos/as de la escuela son muy listos/as."
+    }
+  ]
+}

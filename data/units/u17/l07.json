@@ -1,0 +1,110 @@
+{
+  "id": "l07",
+  "title": "Bidaia-elkarrizketa (Diálogo de viaje)",
+  "objective": "Mantener una conversación realista comprando un billete de tren de Bilbao a San Sebastián",
+  "grammar_note": {
+    "title": "Repaso integral — todo en contexto",
+    "body": "En este diálogo se combinan todos los puntos gramaticales de la unidad:\n\n1. **Instrumental -z**: Trenez joaten naiz.\n2. **Allativo -ra**: Donostiara noa.\n3. **Ablativo -tik**: Bilbotik irten da.\n4. **BEHAR DUT** + infinitivo: Txartela erosi behar dut.\n5. **NOIZ?**: Noiz irteten da trena?\n6. **ZENBAT?**: Zenbat balio du?\n\nPracticar el diálogo completo consolida el vocabulario y la gramática de la unidad.",
+    "tip": "Lee el diálogo en voz alta. Primero como Bezero (cliente), luego como Saltzailea (vendedor). ¡La pronunciación también importa!"
+  },
+  "slides": [
+    {
+      "eu": "Leihatilan — En la taquilla",
+      "es": "Situación: Quieres ir de Bilbao a San Sebastián en tren. Llegas a la taquilla de Abando.",
+      "example_eu": "Bezero: Kaixo, Donostiara txartela nahi nuke.\nSaltzailea: Bai, noski. Joango soilik ala joan-etorri?",
+      "example_es": "Cliente: Hola, quisiera un billete para San Sebastián.\nVendedor: Sí, claro. ¿Solo de ida o de ida y vuelta?"
+    },
+    {
+      "eu": "Txartelaren xehetasunak — Detalles del billete",
+      "es": "El vendedor pregunta detalles: clase, hora, número de billetes.",
+      "example_eu": "Bezero: Joan-etorri, mesedez. Gaur arratsaldeko trenean.\nSaltzailea: Lehen ala bigarren klasea?",
+      "example_es": "Cliente: De ida y vuelta, por favor. En el tren de esta tarde.\nVendedor: ¿Primera o segunda clase?"
+    },
+    {
+      "eu": "Prezioa eta ordua — Precio y hora",
+      "es": "Preguntamos el precio y confirmamos la hora de salida.",
+      "example_eu": "Bezero: Bigarren klasea. Zenbat balio du?\nSaltzailea: Hamahiru euro eta berrogeita hamar zentimo. Trena bostak eta erditan irteten da.",
+      "example_es": "Cliente: Segunda clase. ¿Cuánto cuesta?\nVendedor: Trece euros y cincuenta céntimos. El tren sale a las cinco y media."
+    },
+    {
+      "eu": "Noiz iristen da? — ¿Cuándo llega?",
+      "es": "Preguntamos la hora de llegada a San Sebastián.",
+      "example_eu": "Bezero: Noiz iristen da Donostiara?\nSaltzailea: Seiak eta laurdenetan iristen da. Ordubete eta laurden inguru.",
+      "example_es": "Cliente: ¿Cuándo llega a San Sebastián?\nVendedor: Llega a las seis y cuarto. Aproximadamente una hora y cuarto."
+    },
+    {
+      "eu": "Aldaketarik? — ¿Hay transbordo?",
+      "es": "Preguntamos si hay que hacer transbordo en algún punto de la ruta.",
+      "example_eu": "Bezero: Non aldatu behar dut?\nSaltzailea: Ez duzu aldatu behar. Tren zuzena da Bilbotik Donostiara.",
+      "example_es": "Cliente: ¿Dónde tengo que hacer transbordo?\nVendedor: No tiene que hacer transbordo. Es tren directo de Bilbao a San Sebastián."
+    },
+    {
+      "eu": "Txartela hartu eta agur — Recibir el billete y despedirse",
+      "es": "Terminamos la compra y nos despedimos con buenos deseos.",
+      "example_eu": "Saltzailea: Hona zure txartela. Laugarren andeletik. Bidaia ona!\nBezero: Eskerrik asko! Agur!",
+      "example_es": "Vendedor: Aquí tiene su billete. Desde el andén cuatro. ¡Buen viaje!\nCliente: ¡Muchas gracias! ¡Adiós!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "En el diálogo, ¿qué clase de billete pide el cliente?",
+      "options": [
+        "Bigarren klasea (segunda clase)",
+        "Lehen klasea (primera clase)",
+        "Joan-etorri lehen klasea",
+        "Joango soilik"
+      ],
+      "answer": "Bigarren klasea (segunda clase)"
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Tren zuzena da Bilbotik Donostiara'?",
+      "answer": "Es tren directo de Bilbao a San Sebastián."
+    },
+    {
+      "type": "true_false",
+      "question": "En el diálogo, el cliente tiene que hacer transbordo.",
+      "answer": false,
+      "explanation": "El vendedor dice 'Ez duzu aldatu behar' (No tiene que hacer transbordo). Es tren directo."
+    },
+    {
+      "type": "fill_blank",
+      "question": "El billete es de ___y vuelta: joan-___ txartela.",
+      "answer": "etorri",
+      "hint": "joan (ir) + etorri (volver)"
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo dice el vendedor '¡Buen viaje!'?",
+      "answer": "Bidaia ona!"
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena la frase del cliente: 'Quisiera un billete para San Sebastián.'",
+      "words": ["Donostiara", "txartela", "nahi", "nuke."],
+      "answer": "Donostiara txartela nahi nuke."
+    },
+    {
+      "type": "grammar_select",
+      "question": "¿Cómo se dice 'de Bilbao a San Sebastián' (ruta completa)?",
+      "options": [
+        "Bilbotik Donostiara",
+        "Bilbora Donostiatik",
+        "Bilboz Donostian",
+        "Bilbon Donostiaraino"
+      ],
+      "answer": "Bilbotik Donostiara"
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une las preguntas del diálogo con las respuestas",
+      "pairs": [
+        { "eu": "Zenbat balio du?", "es": "Hamahiru euro eta berrogeita hamar zentimo." },
+        { "eu": "Noiz iristen da?", "es": "Seiak eta laurdenetan." },
+        { "eu": "Non aldatu behar dut?", "es": "Ez duzu aldatu behar." },
+        { "eu": "Zein andeletik?", "es": "Laugarren andeletik." }
+      ]
+    }
+  ]
+}

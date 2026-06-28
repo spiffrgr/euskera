@@ -1,0 +1,111 @@
+{
+    "id": "l06",
+    "title": "NOR-NORK adostasuna (NOR vs NOR-NORK)",
+    "grammar_note": {
+        "title": "NOR vs NOR-NORK — ¿Cuándo uso EDUN?",
+        "body": "La diferencia más importante del euskera:\n\n**Verbos NOR (intransitivos)**: sin objeto directo → auxiliar **IZAN**\n- *Ni etxera joaten **naiz**.* (Voy a casa.) — sin objeto\n- *Hura lotan **dago**.* (Está durmiendo.) — sin objeto\n- *Zu etortzen **zara**.* (Tú vienes.) — sin objeto\n\n**Verbos NOR-NORK (transitivos)**: con objeto directo → auxiliar **EDUN**\n- *Nik ogia jaten **dut**.* (Como pan.) — *ogia* es el objeto\n- *Zuk musika entzuten **duzu**.* (Escuchas música.) — *musika* es el objeto\n- *Hark liburua irakurtzen **du**.* (Él lee el libro.) — *liburua* es el objeto\n\n**Sujeto NOR**: ni, zu, hura, gu, zuek, haiek (sin -k)\n**Sujeto NORK**: nik, zuk, hark, guk, zuek, haiek (con -k)",
+        "tip": "Pregúntate: ¿hay un 'qué' o 'a quién' en la frase? Si sí → EDUN (dut/duzu/du). Si no → IZAN (naiz/zara/da). También: el sujeto con objeto lleva -k (NIK, ZUK, HARK)."
+    },
+    "slides": [
+        {
+            "eu": "NOR: Ni etxera joaten naiz.",
+            "es": "Voy a casa. (sin objeto → IZAN)",
+            "example_eu": "Ni goizean lanera joaten naiz. (NOR → naiz)",
+            "example_es": "Voy al trabajo por la mañana. (intransitivo → naiz)"
+        },
+        {
+            "eu": "NOR-NORK: Nik ogia jaten dut.",
+            "es": "Como pan. (objeto: ogia → EDUN)",
+            "example_eu": "Nik arrautzak jaten ditut goizean. (NOR-NORK → dut/ditut)",
+            "example_es": "Como huevos por la mañana. (transitivo → dut)"
+        },
+        {
+            "eu": "NOR: Hura lotan dago.",
+            "es": "Él/ella está durmiendo. (estado → EGON, sin objeto)",
+            "example_eu": "Hura orain lotan dago. (NOR → dago)",
+            "example_es": "Él/ella ahora está durmiendo. (intransitivo → dago)"
+        },
+        {
+            "eu": "NOR-NORK: Hark liburua irakurtzen du.",
+            "es": "Él/ella lee el libro. (objeto: liburua → EDUN)",
+            "example_eu": "Hark egunero liburua irakurtzen du. (NOR-NORK → du)",
+            "example_es": "Él/ella lee el libro todos los días. (transitivo → du)"
+        },
+        {
+            "eu": "Sujeto NOR vs NORK",
+            "es": "ni/zu/hura (NOR) vs nik/zuk/hark (NORK)",
+            "example_eu": "NI noa (ni = NOR) — NIK erosi dut (nik = NORK)",
+            "example_es": "NI voy (sujeto intrans.) — NIK compré (sujeto trans.)"
+        },
+        {
+            "eu": "Nik lan egiten dut vs Ni lanera noa.",
+            "es": "Yo trabajo (trans.) vs Yo voy al trabajo (intrans.)",
+            "example_eu": "Nik lan egiten dut (EDUN) — Ni lanera noa (IZAN).",
+            "example_es": "Yo trabajo (EDUN) — Yo voy al trabajo (JOAN+NAIZ)."
+        }
+    ],
+    "exercises": [
+        {
+            "id": "e01",
+            "type": "multiple_choice",
+            "instruction": "'Nik liburua irakurtzen ___'. ¿Qué auxiliar es correcto?",
+            "options": ["naiz", "da", "dut", "noa"],
+            "answer": "dut"
+        },
+        {
+            "id": "e02",
+            "type": "grammar_select",
+            "sentence": "Ni etxera ___.",
+            "translation": "Yo voy a casa. (intransitivo)",
+            "options": ["dut", "naiz", "noa", "dago"],
+            "answer": "noa"
+        },
+        {
+            "id": "e03",
+            "type": "translation_eu_es",
+            "eu": "Hark musika entzuten du.",
+            "answer": "Él/ella escucha música."
+        },
+        {
+            "id": "e04",
+            "type": "true_false",
+            "instruction": "¿Verdadero o falso?",
+            "statement": "La frase 'Ni liburua irakurtzen naiz' es correcta.",
+            "translation": "La frase 'Ni liburua irakurtzen naiz' es correcta.",
+            "answer": "false"
+        },
+        {
+            "id": "e05",
+            "type": "fill_blank",
+            "sentence": "___ lan egiten dut bulegoan.",
+            "translation": "Yo trabajo en la oficina. (sujeto ergativo)",
+            "hint": "yo (con objeto/transitivo) → ___",
+            "answer": "Nik"
+        },
+        {
+            "id": "e06",
+            "type": "order_words",
+            "words": ["Nik", "telebista", "ikusten", "dut."],
+            "translation": "Yo veo la televisión.",
+            "answer": "Nik telebista ikusten dut."
+        },
+        {
+            "id": "e07",
+            "type": "error_correction",
+            "wrong": "Nik etxera doa.",
+            "translation": "Yo voy a casa.",
+            "hint": "JOAN es intransitivo → sujeto NOR (ni), auxiliar JOAN+NI = noa",
+            "answer": "Ni etxera noa."
+        },
+        {
+            "id": "e08",
+            "type": "match_pairs",
+            "pairs": [
+                { "eu": "Ni joaten naiz.", "es": "Intransitivo → IZAN" },
+                { "eu": "Nik liburua irakurtzen dut.", "es": "Transitivo → EDUN" },
+                { "eu": "Hura etortzen da.", "es": "Intransitivo → IZAN" },
+                { "eu": "Hark ogia jaten du.", "es": "Transitivo → EDUN" }
+            ]
+        }
+    ]
+}

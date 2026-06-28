@@ -1,7 +1,7 @@
 {
   "id": "a1",
-  "title": "Euskera A1",
-  "description": "Nivel principiante — del cero a la comunicación básica",
+  "title": "Euskera A1.1",
+  "description": "Primera mitad del nivel principiante — del cero a la comunicación básica",
   "units": [
     { "id": "u01", "title": "Kaixo!", "description": "Saludos y primeras palabras", "emoji": "👋", "available": true },
     { "id": "u02", "title": "Zenbakiak", "description": "Números del 1 al 20", "emoji": "🔢", "available": true },
@@ -14,6 +14,13 @@
     { "id": "u09", "title": "Denbora", "description": "Días, horas y rutina diaria", "emoji": "📅", "available": true },
     { "id": "u10", "title": "Etxea", "description": "La casa y los objetos", "emoji": "🏠", "available": true },
     { "id": "u11", "title": "Galderak", "description": "Hacer preguntas en euskera", "emoji": "❓", "available": true },
-    { "id": "u12", "title": "Gorputza", "description": "El cuerpo y la salud", "emoji": "🏥", "available": true }
+    { "id": "u12", "title": "Gorputza", "description": "El cuerpo y la salud", "emoji": "🏥", "available": true },
+    { "id": "u13", "title": "Hiria", "description": "La ciudad: lugares, direcciones y transporte", "emoji": "🏙️", "available": true },
+    { "id": "u14", "title": "Eguraldia", "description": "El tiempo meteorológico y las estaciones", "emoji": "☀️", "available": true },
+    { "id": "u15", "title": "Aisia eta kirolak", "description": "Ocio, deportes y aficiones", "emoji": "🎭", "available": true },
+    { "id": "u16", "title": "EDUN eta EGIN", "description": "Tener, hacer y los verbos transitivos", "emoji": "🤝", "available": true },
+    { "id": "u17", "title": "Mugimendua eta bidaia", "description": "Transporte, viajes y billetes", "emoji": "🚌", "available": true },
+    { "id": "u18", "title": "Etorkizuna", "description": "Planes, futuro y repaso final A1.1", "emoji": "🔮", "available": true },
+    { "id": "u19", "title": "Atzizkiak", "description": "Sufijos -rekin, -ko y -rik: con, de y partitivo", "emoji": "🔗", "available": true }
   ]
 }

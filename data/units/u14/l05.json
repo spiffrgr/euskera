@@ -1,0 +1,118 @@
+{
+  "id": "u14_l05",
+  "title": "Eguraldia eta janzkera (Tiempo y ropa)",
+  "objective": "Elegir la ropa adecuada según el tiempo meteorológico",
+  "grammar_note": {
+    "title": "Behar dut — Necesito / debo llevar",
+    "body": "Para hablar de lo que uno necesita usar según el tiempo:\n\n- **Aterkia behar dut** (Necesito el paraguas)\n- **Berokia jantzi behar dut** (Debo ponerme el abrigo)\n- **Ez dut kamisetarik behar** (No necesito la camiseta)\n\nEstructura: **[objeto] behar dut** = Necesito [objeto]",
+    "tip": "Janzteko ('para vestirse') + eguraldia ('el tiempo') → ¡siempre hay que mirar el tiempo antes de salir!"
+  },
+  "slides": [
+    {
+      "eu": "aterkia (el paraguas) — euria ari denean",
+      "es": "el paraguas — cuando llueve",
+      "example_eu": "Euria ari da, aterkia behar dut.",
+      "example_es": "Está lloviendo, necesito el paraguas."
+    },
+    {
+      "eu": "berokia (el abrigo) — hotza dagoenean",
+      "es": "el abrigo — cuando hace frío",
+      "example_eu": "Hotz handia dago, berokia jantzi behar duzu.",
+      "example_es": "Hace mucho frío, debes ponerte el abrigo."
+    },
+    {
+      "eu": "eskularruak (los guantes) / txapela (boina/gorro)",
+      "es": "los guantes / la boina o gorro",
+      "example_eu": "Neguan eskularruak eta txapela jantzitzen ditut.",
+      "example_es": "En invierno me pongo los guantes y el gorro."
+    },
+    {
+      "eu": "bufanda (la bufanda) / jertsea (el jersey)",
+      "es": "la bufanda / el jersey",
+      "example_eu": "Hotza dagoenean bufanda eta jertsea jantzitzen ditut.",
+      "example_es": "Cuando hace frío me pongo bufanda y jersey."
+    },
+    {
+      "eu": "kamiseta (la camiseta) — beroa dagoenean",
+      "es": "la camiseta — cuando hace calor",
+      "example_eu": "Udan bero handia dago, kamiseta bakarrik jantzitzen dut.",
+      "example_es": "En verano hace mucho calor, solo me pongo la camiseta."
+    },
+    {
+      "eu": "bota-ureztariak (las botas de agua)",
+      "es": "las botas de agua",
+      "example_eu": "Euria ari da, bota-ureztariak jantzi!",
+      "example_es": "Está lloviendo, ¡ponte las botas de agua!"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "question": "¿Qué ropa necesitas cuando 'euria ari da'?",
+      "options": ["kamiseta", "aterkia", "eskularruak", "bota-ureztariak"],
+      "answer": "aterkia"
+    },
+    {
+      "id": "e02",
+      "type": "match_pairs",
+      "pairs": [
+        { "eu": "aterkia", "es": "el paraguas" },
+        { "eu": "berokia", "es": "el abrigo" },
+        { "eu": "eskularruak", "es": "los guantes" },
+        { "eu": "jertsea", "es": "el jersey" }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Hotz handia dago, berokia jantzi behar duzu'?",
+      "options": [
+        "Hace mucho calor, debes quitarte el abrigo.",
+        "Hace mucho frío, debes ponerte el abrigo.",
+        "Está lloviendo, necesitas el paraguas.",
+        "En invierno me pongo el jersey."
+      ],
+      "answer": "Hace mucho frío, debes ponerte el abrigo."
+    },
+    {
+      "id": "e04",
+      "type": "true_false",
+      "question": "'Bota-ureztariak' son las botas de agua.",
+      "answer": "true"
+    },
+    {
+      "id": "e05",
+      "type": "fill_blank",
+      "sentence": "Euria ari da, ___ behar dut. (Está lloviendo, necesito el paraguas.)",
+      "hint": "el paraguas",
+      "answer": "aterkia"
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'En invierno me pongo los guantes' en euskera?",
+      "options": [
+        "Neguan eskularruak jantzitzen ditut.",
+        "Udan kamiseta jantzitzen dut.",
+        "Neguan aterkia behar dut.",
+        "Udan eskularruak jantzitzen ditut."
+      ],
+      "answer": "Neguan eskularruak jantzitzen ditut."
+    },
+    {
+      "id": "e07",
+      "type": "grammar_select",
+      "question": "Udan bero handia dago, ___ bakarrik jantzitzen dut. (En verano hace mucho calor, solo me pongo la camiseta.)",
+      "options": ["berokia", "bufanda", "jertsea", "kamiseta"],
+      "answer": "kamiseta"
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "question": "Ordena: está lloviendo / ponte / las botas de agua",
+      "words": ["ari", "bota-ureztariak", "Euria", "jantzi!", "da,"],
+      "answer": "Euria ari da, bota-ureztariak jantzi!"
+    }
+  ]
+}

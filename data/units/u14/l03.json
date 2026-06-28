@@ -1,0 +1,113 @@
+{
+  "id": "u14_l03",
+  "title": "Tenperatura (La temperatura)",
+  "objective": "Preguntar y responder sobre la temperatura usando grados y expresiones de calor/frío",
+  "grammar_note": {
+    "title": "Tenperatura — Zenbat gradu dago?",
+    "body": "Para preguntar la temperatura: **Zenbat gradu dago?** (¿Cuántos grados hay?)\n\nRespuesta: **[número] gradu dago** (Hay [número] grados).\n\nTemperatura alta/baja:\n- **Hotz handia dago** (Hace mucho frío)\n- **Bero handia dago** (Hace mucho calor)\n- **Epela dago** (Está templado)",
+    "tip": "Bero y hotz son adjetivos/sustantivos: 'Beroa nago' (Tengo calor), 'Hotza nago' (Tengo frío)"
+  },
+  "slides": [
+    {
+      "eu": "bero / bero handia dago",
+      "es": "calor / hace mucho calor",
+      "example_eu": "Bero handia dago gaur, hogeita hamar gradu dira!",
+      "example_es": "Hace mucho calor hoy, ¡son treinta grados!"
+    },
+    {
+      "eu": "hotz / hotz handia dago",
+      "es": "frío / hace mucho frío",
+      "example_eu": "Hotz handia dago neguan, elurra ari da.",
+      "example_es": "Hace mucho frío en invierno, está nevando."
+    },
+    {
+      "eu": "epel / epela dago",
+      "es": "templado / está templado",
+      "example_eu": "Gaur epela dago, ez beroa ez hotza.",
+      "example_es": "Hoy está templado, ni calor ni frío."
+    },
+    {
+      "eu": "Zenbat gradu dago? / [zenbakia] gradu dago.",
+      "es": "¿Cuántos grados hay? / Hay [número] grados.",
+      "example_eu": "Zenbat gradu dago kanpoan? Hamasei gradu dago.",
+      "example_es": "¿Cuántos grados hay fuera? Hay dieciséis grados."
+    },
+    {
+      "eu": "tenperatura (la temperatura) / gradu (grado)",
+      "es": "temperatura / grado",
+      "example_eu": "Gaur tenperatura baxua da, bost gradu bakarrik daude.",
+      "example_es": "Hoy la temperatura es baja, hay solo cinco grados."
+    },
+    {
+      "eu": "Beroa nago / Hotza nago",
+      "es": "Tengo calor / Tengo frío",
+      "example_eu": "Beroa nago, atera berokia!",
+      "example_es": "Tengo calor, ¡quítate el abrigo!"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "question": "¿Cómo se pregunta '¿Cuántos grados hay?' en euskera?",
+      "options": [
+        "Zenbat gradu dago?",
+        "Zer moduz eguraldia?",
+        "Nolakoa da tenperatura?",
+        "Zenbat dago?"
+      ],
+      "answer": "Zenbat gradu dago?"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Hotz handia dago'?",
+      "options": ["Hace mucho calor", "Hace mucho frío", "Está templado", "Hay mucho viento"],
+      "answer": "Hace mucho frío"
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        { "eu": "bero handia dago", "es": "hace mucho calor" },
+        { "eu": "hotz handia dago", "es": "hace mucho frío" },
+        { "eu": "epela dago", "es": "está templado" },
+        { "eu": "gradu", "es": "grado" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "sentence": "Zenbat ___ dago kanpoan? (¿Cuántos grados hay fuera?)",
+      "hint": "la palabra para 'grado'",
+      "answer": "gradu"
+    },
+    {
+      "id": "e05",
+      "type": "true_false",
+      "question": "'Epela dago' significa 'Hace mucho calor'.",
+      "answer": "false"
+    },
+    {
+      "id": "e06",
+      "type": "grammar_select",
+      "question": "Gaur ___ dago, ez beroa ez hotza. (Hoy está templado, ni calor ni frío.)",
+      "options": ["bero", "hotz", "epel", "epela"],
+      "answer": "epela"
+    },
+    {
+      "id": "e07",
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Tengo frío' en euskera?",
+      "options": ["Beroa nago", "Hotza nago", "Hotz handia dago", "Epela dago"],
+      "answer": "Hotza nago"
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "question": "Ordena: ¿cuántos grados hay fuera?",
+      "words": ["gradu", "Zenbat", "kanpoan?", "dago"],
+      "answer": "Zenbat gradu dago kanpoan?"
+    }
+  ]
+}

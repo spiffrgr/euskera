@@ -1,0 +1,118 @@
+{
+  "id": "u14_l06",
+  "title": "Eguraldiaz hitz egiten (Hablar del tiempo)",
+  "objective": "Usar expresiones conversacionales habituales sobre el tiempo meteorológico",
+  "grammar_note": {
+    "title": "Eguraldia — expresiones conversacionales",
+    "body": "Las expresiones más comunes para hablar del tiempo en una conversación:\n\n- **Zer moduz eguraldia?** (¿Qué tal el tiempo?)\n- **Eguraldia ona da** (Hace buen tiempo)\n- **Eguraldia txarra da** (Hace mal tiempo)\n- **Bai, baina bihar aldatuko da.** (Sí, pero mañana cambiará.)\n\nPara dar una opinión del tiempo:\n- **Eguraldia ederra da!** (¡Qué tiempo tan bonito!)\n- **Eguraldia izugarria da!** (¡Qué tiempo horrible!)",
+    "tip": "En el País Vasco el tiempo es tema de conversación constante — ¡estas expresiones las usarás cada día!"
+  },
+  "slides": [
+    {
+      "eu": "Zer moduz eguraldia? / Eguraldia ona da.",
+      "es": "¿Qué tal el tiempo? / Hace buen tiempo.",
+      "example_eu": "Zer moduz eguraldia? Eguraldia ona da gaur, eguzkia dago.",
+      "example_es": "¿Qué tal el tiempo? Hace buen tiempo hoy, hay sol."
+    },
+    {
+      "eu": "Eguraldia txarra da. / Eguraldia ederra da!",
+      "es": "Hace mal tiempo. / ¡Qué tiempo tan bonito!",
+      "example_eu": "Ai, eguraldia txarra da! Euria ari da eta haizea dago.",
+      "example_es": "¡Ay, hace mal tiempo! Está lloviendo y hace viento."
+    },
+    {
+      "eu": "Bihar eguraldia aldatuko da.",
+      "es": "Mañana cambiará el tiempo.",
+      "example_eu": "Gaur euria ari da, baina bihar eguraldia aldatuko da.",
+      "example_es": "Hoy está lloviendo, pero mañana cambiará el tiempo."
+    },
+    {
+      "eu": "Eguraldi-iragarpena / iragarpena ona da",
+      "es": "la previsión del tiempo / la previsión es buena",
+      "example_eu": "Eguraldi-iragarpena ikusi dut: asteburu ona izango da.",
+      "example_es": "He visto la previsión del tiempo: será un buen fin de semana."
+    },
+    {
+      "eu": "Zer moduz dago kanpoan? / Epela dago.",
+      "es": "¿Cómo está fuera? / Está templado.",
+      "example_eu": "Zer moduz dago kanpoan? Epela dago, ez beroa ez hotza.",
+      "example_es": "¿Cómo está fuera? Está templado, ni calor ni frío."
+    },
+    {
+      "eu": "Aterkia hartu! / Berokia jantzi!",
+      "es": "¡Coge el paraguas! / ¡Ponte el abrigo!",
+      "example_eu": "Kontuz, euria ari da! Aterkia hartu eta bota-ureztariak jantzi.",
+      "example_es": "¡Cuidado, está lloviendo! Coge el paraguas y ponte las botas de agua."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "question": "¿Cómo se dice '¿Qué tal el tiempo?' en euskera?",
+      "options": [
+        "Zer moduz eguraldia?",
+        "Nolakoa da zerua?",
+        "Zenbat gradu dago?",
+        "Zer urtaro da?"
+      ],
+      "answer": "Zer moduz eguraldia?"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Eguraldia txarra da'?",
+      "options": ["Hace buen tiempo", "Hace mal tiempo", "El tiempo está templado", "Va a llover"],
+      "answer": "Hace mal tiempo"
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        { "eu": "Eguraldia ona da.", "es": "Hace buen tiempo." },
+        { "eu": "Eguraldia txarra da.", "es": "Hace mal tiempo." },
+        { "eu": "Aterkia hartu!", "es": "¡Coge el paraguas!" },
+        { "eu": "Bihar aldatuko da.", "es": "Mañana cambiará." }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "true_false",
+      "question": "'Eguraldia ederra da' significa 'El tiempo es horrible'.",
+      "answer": "false"
+    },
+    {
+      "id": "e05",
+      "type": "fill_blank",
+      "sentence": "Gaur euria ari da, baina ___ eguraldia aldatuko da. (Hoy está lloviendo, pero mañana cambiará el tiempo.)",
+      "hint": "mañana",
+      "answer": "bihar"
+    },
+    {
+      "id": "e06",
+      "type": "grammar_select",
+      "question": "Zer moduz dago ___? Epela dago. (¿Cómo está fuera? Está templado.)",
+      "options": ["barnean", "kanpoan", "mendian", "etxean"],
+      "answer": "kanpoan"
+    },
+    {
+      "id": "e07",
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Hace buen tiempo hoy' en euskera?",
+      "options": [
+        "Gaur eguraldia txarra da.",
+        "Gaur eguraldia ona da.",
+        "Gaur euria ari da.",
+        "Gaur haizea dago."
+      ],
+      "answer": "Gaur eguraldia ona da."
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "question": "Ordena: hoy / está lloviendo / pero / mañana / cambiará el tiempo",
+      "words": ["baina", "ari", "Gaur", "aldatuko", "euria", "da,", "bihar", "da.", "eguraldia"],
+      "answer": "Gaur euria ari da, baina bihar eguraldia aldatuko da."
+    }
+  ]
+}

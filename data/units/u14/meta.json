@@ -1,0 +1,15 @@
+{
+  "id": "u14",
+  "title": "Eguraldia",
+  "emoji": "☀️",
+  "lessons": [
+    { "id": "l01", "title": "Eguraldi orokorra (El tiempo básico)", "type": "lesson" },
+    { "id": "l02", "title": "Urtaroak (Las estaciones)", "type": "lesson" },
+    { "id": "l03", "title": "Tenperatura (La temperatura)", "type": "lesson" },
+    { "id": "l04", "title": "Zerua nolakoa da? (¿Cómo está el cielo?)", "type": "lesson" },
+    { "id": "l05", "title": "Eguraldia eta janzkera (Tiempo y ropa)", "type": "lesson" },
+    { "id": "l06", "title": "Eguraldiaz hitz egiten (Hablar del tiempo)", "type": "lesson" },
+    { "id": "l07", "title": "Eguraldi-elkarrizketa (Diálogo)", "type": "lesson" },
+    { "id": "test", "title": "Test de la unidad", "type": "test" }
+  ]
+}

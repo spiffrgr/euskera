@@ -1,0 +1,100 @@
+{
+  "id": "l04",
+  "title": "AHAL DUT eta BEHAR DUT (Puedo y tengo que)",
+  "objective": "Usar los verbos modales para expresar capacidad y obligación",
+  "grammar_note": {
+    "title": "AHAL DUT eta BEHAR DUT — Puedo y tengo que",
+    "body": "**AHAL DUT** (puedo / ser capaz):\n- *Nik joan **ahal dut**.* (Puedo ir.)\n- *Zuk euskaraz hitz egin **ahal duzu**.* (Puedes hablar en euskera.)\n- *Hark etorri **ahal du**.* (Puede venir.)\n- Negación frecuente: **Ezin dut** [inf.] = No puedo [verb]\n  - *Ezin dut etorri.* (No puedo venir.)\n  - *Ezin dut lan egin.* (No puedo trabajar.)\n\n**BEHAR DUT** (tengo que / necesito):\n- *Nik lan egin **behar dut**.* (Tengo que trabajar.)\n- *Zuk goiz jaiki **behar duzu**.* (Tienes que levantarte pronto.)\n- *Bihar goizean jaiki **behar dut**.* (Mañana tengo que levantarme temprano.)\n- Negación: *Ez dut [inf.] behar.* (No necesito [verb].)",
+    "tip": "Los tres modales van con EDUN: NAHI dut (quiero), AHAL dut (puedo), BEHAR dut (tengo que). 'Ezin dut' es la negación natural de AHAL DUT."
+  },
+  "slides": [
+    {
+      "eu": "ahal dut — puedo / soy capaz",
+      "es": "AHAL DUT expresa capacidad o posibilidad. El infinitivo va antes de 'ahal': [inf.] ahal dut.",
+      "example_eu": "Nik euskaraz hitz egin ahal dut.",
+      "example_es": "Puedo hablar en euskera."
+    },
+    {
+      "eu": "Ezin dut etorri. — No puedo venir.",
+      "es": "'Ezin' es la negación especial de AHAL DUT. Es muy natural en euskera. Ezin dut + infinitivo.",
+      "example_eu": "Ezin dut gaur etorri. Bihar etorri ahal naiz.",
+      "example_es": "No puedo venir hoy. Mañana puedo venir."
+    },
+    {
+      "eu": "behar dut — tengo que / necesito",
+      "es": "BEHAR DUT expresa obligación o necesidad. El infinitivo va antes de 'behar': [inf.] behar dut.",
+      "example_eu": "Nik lan egin behar dut.",
+      "example_es": "Tengo que trabajar."
+    },
+    {
+      "eu": "Bihar goizean jaiki behar dut. — Mañana tengo que levantarme temprano.",
+      "es": "BEHAR DUT se combina con expresiones de tiempo para expresar obligaciones futuras.",
+      "example_eu": "Datorren astean azterketa bat daukat. Asko ikasi behar dut.",
+      "example_es": "La semana que viene tengo un examen. Tengo que estudiar mucho."
+    },
+    {
+      "eu": "Euskaraz hitz egin ahal duzu? — ¿Puedes hablar en euskera?",
+      "es": "Pregunta de capacidad con AHAL DUT. La respuesta puede ser positiva o con 'ezin'.",
+      "example_eu": "— Euskaraz hitz egin ahal duzu?\n— Bai, apur bat ahal dut. / Ez, ezin dut oraindik.",
+      "example_es": "— ¿Puedes hablar en euskera?\n— Sí, un poco puedo. / No, todavía no puedo."
+    },
+    {
+      "eu": "Hiru modal: NAHI, AHAL, BEHAR",
+      "es": "Los tres modales principales del A1: nahi (quiero), ahal (puedo), behar (tengo que). Todos con EDUN.",
+      "example_eu": "Nik Bilbora joan nahi dut, baina ezin dut. Bihar joan behar dut.",
+      "example_es": "Quiero ir a Bilbao, pero no puedo. Mañana tengo que ir."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "¿Cuál es la traducción de 'Ezin dut etorri'?",
+      "options": ["Quiero venir.", "No puedo venir.", "Tengo que venir.", "Puedo venir."],
+      "answer": "No puedo venir."
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Tengo que estudiar mucho'?",
+      "answer": "Asko ikasi behar dut."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Nik lan egin ___ dut. (Tengo que trabajar.)",
+      "answer": "behar",
+      "hint": "La palabra para 'tener que / necesitar'"
+    },
+    {
+      "type": "grammar_select",
+      "question": "¿Cuál es la negación más natural de AHAL DUT?",
+      "options": ["Ez dut nahi", "Ezin dut", "Ez dut behar", "Ez nago"],
+      "answer": "Ezin dut"
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Bihar goizean jaiki behar duzu'?",
+      "answer": "Mañana tienes que levantarte temprano."
+    },
+    {
+      "type": "true_false",
+      "question": "'BEHAR DUT' expresa capacidad (puedo hacer algo).",
+      "answer": false,
+      "explanation": "'BEHAR DUT' expresa obligación (tengo que). La capacidad es 'AHAL DUT' (puedo)."
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena para formar: '¿Puedes hablar en euskera?'",
+      "words": ["Euskaraz", "hitz", "egin", "ahal", "duzu"],
+      "answer": "Euskaraz hitz egin ahal duzu"
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une cada modal con su significado",
+      "pairs": [
+        { "eu": "nahi dut", "es": "quiero" },
+        { "eu": "ahal dut", "es": "puedo" },
+        { "eu": "behar dut", "es": "tengo que" },
+        { "eu": "ezin dut", "es": "no puedo" }
+      ]
+    }
+  ]
+}

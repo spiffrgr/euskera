@@ -1,0 +1,114 @@
+{
+  "id": "l02",
+  "title": "-rekin: norekin? (¿con quién?)",
+  "objective": "Preguntar y responder sobre compañía, y usar -rekin con movimiento y negación",
+  "grammar_note": {
+    "title": "Norekin? — ¿Con quién? Preguntas y frases con -rekin",
+    "body": "La palabra interrogativa para preguntar la compañía es **norekin?** (¿con quién?).\n\n**Preguntar y responder:**\n\n| Pregunta | Respuesta |\n|---|---|\n| Norekin zoaz? (¿Con quién vas?) | Lagunarekin noa. (Voy con un/a amigo/a.) |\n| Norekin egoten zara? (¿Con quién estás?) | Amarekin egoten naiz. (Estoy con mamá.) |\n\n**Con verbos de movimiento** — -rekin se combina naturalmente con JOAN (ir) y ETORRI (venir):\n- **Nirekin etorri** — venir conmigo\n- **Zurekin joan** — ir contigo\n\n**Negación con -rekin:**\nEn negativo, la frase lleva **ez** al principio (o antes del verbo auxiliar). La forma -rekin no cambia:\n- **Ez nator zurekin.** (No vengo contigo.)\n- **Ez doa harekin.** (No va con él/ella.)\n\n**Con lugares** — se puede combinar -rekin con una referencia de lugar:\n- **Lagunarekin parkean nago.** (Estoy en el parque con un amigo.)",
+    "tip": "Norekin = ¿con quién? La negación es sencilla: pon 'ez' y mantén -rekin tal cual. Ez nator zurekin = No vengo contigo."
+  },
+  "slides": [
+    {
+      "eu": "Norekin? — ¿Con quién?",
+      "es": "'Norekin' es la forma interrogativa del sociativo. Se coloca al inicio de la pregunta.",
+      "example_eu": "Norekin joaten zara mendira?",
+      "example_es": "¿Con quién vas a la montaña?"
+    },
+    {
+      "eu": "Nirekin etorri — venir conmigo",
+      "es": "-rekin se combina con ETORRI (venir) para invitar a alguien. Muy útil en el día a día.",
+      "example_eu": "Nirekin etorri nahi duzu zinera?",
+      "example_es": "¿Quieres venir conmigo al cine?"
+    },
+    {
+      "eu": "Zurekin joan — ir contigo",
+      "es": "JOAN (ir) + zurekin. Habitual para proponer o aceptar acompañar a alguien.",
+      "example_eu": "Zurekin joan nahi dut dendara.",
+      "example_es": "Quiero ir contigo a la tienda."
+    },
+    {
+      "eu": "Ez nator zurekin. — No vengo contigo.",
+      "es": "Negación de ETORRI con -rekin. 'Ez' va antes del verbo conjugado. La forma -rekin no varía.",
+      "example_eu": "Ez nator zurekin gaur. Bihar agian bai.",
+      "example_es": "Hoy no vengo contigo. Mañana quizás sí."
+    },
+    {
+      "eu": "Lagunarekin parkean — en el parque con un/a amigo/a",
+      "es": "-rekin puede aparecer junto a una referencia de lugar en la misma frase, sin conflicto.",
+      "example_eu": "Lagunarekin herriko parkean egoten naiz.",
+      "example_es": "Estoy en el parque del pueblo con un/a amigo/a."
+    },
+    {
+      "eu": "Norberak bere buruarekin — cada uno consigo mismo",
+      "es": "'Norbera' (uno mismo) con -rekin da la idea reflexiva. Expresión útil para hablar de momentos de soledad o reflexión.",
+      "example_eu": "Batzuetan norberak bere buruarekin egon behar du.",
+      "example_es": "A veces uno tiene que estar consigo mismo."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se pregunta '¿Con quién vas?' en euskera?",
+      "options": ["Nola zoaz?", "Norekin zoaz?", "Nora zoaz?", "Noiz zoaz?"],
+      "answer": "Norekin zoaz?"
+    },
+    {
+      "id": "e02",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "¿Quieres venir conmigo al cine?",
+      "answer": "Nirekin etorri nahi duzu zinera?"
+    },
+    {
+      "id": "e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Ez ___ zurekin gaur. (Hoy no vengo contigo.)",
+      "translation": "Hoy no vengo contigo.",
+      "hint": "Conjugación de ETORRI en 1ª persona singular negativa",
+      "answer": "nator"
+    },
+    {
+      "id": "e04",
+      "type": "error_correction",
+      "instruction": "Corrige el error",
+      "sentence": "Norekin zoaztu mendira?",
+      "translation": "¿Con quién vas a la montaña?",
+      "answer": "Norekin zoaz mendira?"
+    },
+    {
+      "id": "e05",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Lagunarekin herriko parkean egoten naiz.",
+      "answer": "Estoy en el parque del pueblo con un/a amigo/a."
+    },
+    {
+      "id": "e06",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "En la negación, -rekin cambia de forma: se convierte en -rik.",
+      "translation": "En la negación, -rekin cambia de forma: se convierte en -rik.",
+      "answer": "false",
+      "explanation": "Falso. -rekin no cambia en la negación. Solo se añade 'ez': 'Ez nator zurekin' (No vengo contigo)."
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["Zurekin", "joan", "nahi", "dut", "dendara."],
+      "translation": "Quiero ir contigo a la tienda.",
+      "answer": "Zurekin joan nahi dut dendara."
+    },
+    {
+      "id": "e08",
+      "type": "grammar_select",
+      "instruction": "Elige la respuesta correcta a '¿Con quién vas?'",
+      "sentence": "— Norekin zoaz?\n— ___",
+      "translation": "— ¿Con quién vas?\n— Voy con mi hermano.",
+      "options": ["Anaiareki noa.", "Anaiarekin noa.", "Anairekin noa.", "Anaiak noa."],
+      "answer": "Anaiarekin noa."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "l06",
+  "unit": "u15",
+  "title": "Zer gustuko duzu? (¿Qué te gusta?)",
+  "grammar_note": {
+    "title": "Gustuko dut — Me gusta",
+    "body": "Para expresar lo que te gusta en euskera:\n\n**Nik [gauza] gustuko dut** = Me gusta [cosa]\n\nEjemplos:\n- *Nik futbola gustuko dut.* (Me gusta el fútbol.)\n- *Zuk zer gustuko duzu?* (¿Qué te gusta?)\n- *Hark musika gustuko du.* (A él/ella le gusta la música.)\n\nNegación: **Ez dut [gauza] gustuko** = No me gusta [cosa]",
+    "tip": "Gustuko dut usa el verbo EDUN (dut/duzu/du) — el objeto (lo que te gusta) va en absolutivo (NOR)."
+  },
+  "slides": [
+    {
+      "eu": "Gustuko dut — Me gusta",
+      "es": "Gustuko dut: literalmente 'lo tengo como gusto'. Usa EDUN (dut/duzu/du). El objeto va en absolutivo.",
+      "example_eu": "Nik futbola gustuko dut.",
+      "example_es": "Me gusta el fútbol."
+    },
+    {
+      "eu": "Oso gustuko dut — Me gusta mucho",
+      "es": "Oso = muy/mucho. Añadido antes de gustuko refuerza el gusto. Oso gustuko = me gusta mucho.",
+      "example_eu": "Oso gustuko dut musika.",
+      "example_es": "Me gusta mucho la música."
+    },
+    {
+      "eu": "Ez dut gustuko — No me gusta",
+      "es": "Negación: ez va al principio + ez dut ... gustuko. El objeto va entre dut y gustuko.",
+      "example_eu": "Ez dut zinema gustuko.",
+      "example_es": "No me gusta el cine."
+    },
+    {
+      "eu": "Zuk zer gustuko duzu? — ¿Qué te gusta?",
+      "es": "Zuk = tú (ergativo). Duzu = 2ª persona singular de EDUN. Zer = qué.",
+      "example_eu": "Zuk zer gustuko duzu, futbola ala saskibaloia?",
+      "example_es": "¿Qué te gusta, el fútbol o el baloncesto?"
+    },
+    {
+      "eu": "Hark musika gustuko du — A él/ella le gusta la música",
+      "es": "Hark = él/ella (ergativo 3ª persona). Du = 3ª persona singular EDUN.",
+      "example_eu": "Hark rocka gustuko du.",
+      "example_es": "A él/ella le gusta el rock."
+    },
+    {
+      "eu": "Gustuko duzue? / Gustuko dute — ¿Os gusta? / Les gusta",
+      "es": "Duzue = 2ª pers. plural. Dute = 3ª pers. plural. La estructura gustuko siempre acompaña a EDUN.",
+      "example_eu": "Zuei kirola gustuko duzue?",
+      "example_es": "¿Os gusta el deporte?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'Me gusta el fútbol' con 'gustuko dut'?",
+      "options": [
+        "Futbola gustatzen zait.",
+        "Nik futbola gustuko dut.",
+        "Nik futbola gustuko naiz.",
+        "Futbola dut gustuko naiz."
+      ],
+      "answer": "Nik futbola gustuko dut."
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Ez dut zinema gustuko.",
+      "answer": "No me gusta el cine."
+    },
+    {
+      "id": "e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Zuk zer gustuko _?",
+      "translation": "¿Qué te gusta?",
+      "hint": "2ª persona singular de EDUN",
+      "answer": "duzu"
+    },
+    {
+      "id": "e04",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "A él/ella le gusta el rock.",
+      "answer": "Hark rocka gustuko du."
+    },
+    {
+      "id": "e05",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "'Oso gustuko dut' significa 'No me gusta'.",
+      "translation": "'Oso gustuko dut' significa 'No me gusta'.",
+      "answer": "false"
+    },
+    {
+      "id": "e06",
+      "type": "grammar_select",
+      "instruction": "Elige la forma correcta de EDUN para 'A ella le gusta'",
+      "sentence": "Hark musika gustuko _.",
+      "translation": "A ella le gusta la música.",
+      "options": ["dut", "duzu", "du", "dute"],
+      "answer": "du"
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["dut", "Oso", "musika", "gustuko"],
+      "translation": "Me gusta mucho la música.",
+      "answer": "Oso gustuko dut musika."
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "instruction": "Empareja la persona con su forma verbal de EDUN en 'gustuko'",
+      "pairs": [
+        { "eu": "Nik ... gustuko dut", "es": "Me gusta" },
+        { "eu": "Zuk ... gustuko duzu", "es": "Te gusta" },
+        { "eu": "Hark ... gustuko du", "es": "Le gusta" },
+        { "eu": "Ez dut ... gustuko", "es": "No me gusta" }
+      ]
+    }
+  ]
+}

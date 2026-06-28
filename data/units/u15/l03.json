@@ -1,0 +1,111 @@
+{
+  "id": "l03",
+  "unit": "u15",
+  "title": "Musika eta zinema (Música y cine)",
+  "slides": [
+    {
+      "eu": "Musika motak — los géneros musicales",
+      "es": "En euskera los géneros musicales suelen ser préstamos con el artículo -a añadido.",
+      "example_eu": "Zer musika mota gustatzen zaizu?",
+      "example_es": "¿Qué tipo de música te gusta?"
+    },
+    {
+      "eu": "Pop musika — música pop / Rocka — el rock",
+      "es": "Pop musika: dos palabras. Rock + a → rocka. Musika entzun = escuchar música (actividad).",
+      "example_eu": "Nik pop musika gustuko dut.",
+      "example_es": "A mí me gusta la música pop."
+    },
+    {
+      "eu": "Jazza — el jazz / Musika klasikoa — música clásica",
+      "es": "Jazza: préstamo + artículo. Musika klasikoa: adjetivo klasiko + -a. Klasikoa = clásica.",
+      "example_eu": "Amak musika klasikoa gustuko du.",
+      "example_es": "A mi madre le gusta la música clásica."
+    },
+    {
+      "eu": "Zineman joan — ir al cine / Antzerkia ikusi — ver teatro",
+      "es": "Zinema = el cine (lugar). Zineman = en el cine / al cine (locativo). Antzerkia = el teatro.",
+      "example_eu": "Ostiralean zineman joaten gara.",
+      "example_es": "Los viernes vamos al cine."
+    },
+    {
+      "eu": "Dantzan egin / Dantzatu — bailar",
+      "es": "Dantzan egin (lit. 'hacer en danza') o simplemente dantzatu. Dantza = el baile/danza.",
+      "example_eu": "Larunbatean dantzan egiten dut.",
+      "example_es": "Los sábados bailo."
+    },
+    {
+      "eu": "Abestu — cantar / Jolastu — jugar",
+      "es": "Abestu = cantar. Jolastu = jugar (también con juegos, videojuegos). Ambos en presente habitual.",
+      "example_eu": "Batzuetan abestu egiten dut.",
+      "example_es": "A veces canto."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match_pairs",
+      "instruction": "Empareja el género musical o actividad con su traducción",
+      "pairs": [
+        { "eu": "pop musika", "es": "música pop" },
+        { "eu": "jazza", "es": "el jazz" },
+        { "eu": "zineman joan", "es": "ir al cine" },
+        { "eu": "dantzan egin", "es": "bailar" }
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'ver teatro' en euskera?",
+      "options": ["abestu", "antzerkia ikusi", "zineman joan", "musika entzun"],
+      "answer": "antzerkia ikusi"
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Ostiralean zineman joaten gara.",
+      "answer": "Los viernes vamos al cine."
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Nik pop musika gustuko _.",
+      "translation": "A mí me gusta la música pop.",
+      "hint": "1ª persona singular de EDUN",
+      "answer": "dut"
+    },
+    {
+      "id": "e05",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "'Musika klasikoa' significa 'música rock'.",
+      "translation": "'Musika klasikoa' significa 'música rock'.",
+      "answer": "false"
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "A mi madre le gusta la música clásica.",
+      "answer": "Amak musika klasikoa gustuko du."
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["Larunbatean", "egiten", "dut", "dantzan"],
+      "translation": "Los sábados bailo.",
+      "answer": "Larunbatean dantzan egiten dut."
+    },
+    {
+      "id": "e08",
+      "type": "grammar_select",
+      "instruction": "Elige la palabra correcta",
+      "sentence": "Batzuetan _ egiten dut.",
+      "translation": "A veces canto.",
+      "options": ["jolastu", "irakurri", "abestu", "bidaiatu"],
+      "answer": "abestu"
+    }
+  ]
+}

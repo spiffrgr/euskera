@@ -1,0 +1,115 @@
+{
+  "id": "l07",
+  "title": "Elkarrizketa (Diálogo)",
+  "objective": "Entender y usar -rekin, -ko y -rik en un diálogo natural sobre planes para una fiesta local",
+  "grammar_note": {
+    "title": "Elkarrizketa — Los tres sufijos en contexto real",
+    "body": "En este diálogo entre **Amaia** y **Koldo**, los tres sufijos aparecen de forma natural:\n\n- **-rekin** para hablar de con quién se va y se queda\n- **-ko** para describir el lugar y los elementos de la fiesta del pueblo\n- **-rik** en las frases donde alguien dice que no tiene algo\n\n**Frases clave del diálogo:**\n\n| Euskera | Español |\n|---|---|\n| Herriko festara nirekin etorri nahi duzu? | ¿Quieres venir a la fiesta del pueblo conmigo? |\n| Ez dut laneko lagunik gurekin etortzeko. | No tengo compañeros/as de trabajo para venir con nosotros. |\n| Herriko plaza beteta egongo da. | La plaza del pueblo estará llena. |\n| Gurekin etorri zaitezke! | ¡Puedes venir con nosotros! |\n\n**Vocabulario del diálogo:**\n- **beteta** — lleno/a\n- **txaranga** — charanga (banda de música festiva)\n- **ados** — de acuerdo\n- **zoragarria** — genial / maravilloso",
+    "tip": "Lee el diálogo en voz alta e identifica cada -rekin, -ko y -rik. Así verás cómo fluyen de forma natural en una conversación real."
+  },
+  "slides": [
+    {
+      "eu": "Koldo: Kaixo Amaia! Herriko festara nirekin etorri nahi duzu?",
+      "es": "Koldo saluda a Amaia y la invita a la fiesta del pueblo. Usa 'nirekin' (-rekin, conmigo) y 'herriko' (-ko, del pueblo).",
+      "example_eu": "— Kaixo Amaia! Herriko festara nirekin etorri nahi duzu? Bihar hasten da!",
+      "example_es": "— ¡Hola Amaia! ¿Quieres venir conmigo a la fiesta del pueblo? ¡Empieza mañana!"
+    },
+    {
+      "eu": "Amaia: Bai, baina... Norekin zoaz zu? Lagunekin?",
+      "es": "Amaia pregunta con quién va Koldo. 'Norekin' (¿con quién?) y 'lagunekin' (-rekin, con amigos).",
+      "example_eu": "— Bai, baina norekin zoaz zu? Lagunekin ala bakarrik?",
+      "example_es": "— Sí, pero ¿con quién vas tú? ¿Con amigos o solo?"
+    },
+    {
+      "eu": "Koldo: Laneko lagunekin noa. Baina ez dut lagunik nahikorik!",
+      "es": "Koldo usa 'laneko' (-ko, del trabajo), 'lagunekin' (-rekin, con amigos) y 'lagunik' (-rik, negativo) en la misma frase.",
+      "example_eu": "— Laneko lagunekin noa, baina ez dut lagunik nahikorik! Zu ere etorri zaitezke.",
+      "example_es": "— Voy con los compañeros/as del trabajo, ¡pero no tengo suficientes amigos! Tú también puedes venir."
+    },
+    {
+      "eu": "Amaia: Herriko plazan zer egingo dugu? Txaranga dago?",
+      "es": "Amaia pregunta qué habrá en la plaza del pueblo. 'Herriko plazan' combina -ko (del pueblo) con el locativo -n.",
+      "example_eu": "— Herriko plazan zer egingo dugu? Txaranga dago aurten?",
+      "example_es": "— ¿Qué haremos en la plaza del pueblo? ¿Hay charanga este año?"
+    },
+    {
+      "eu": "Koldo: Bai! Eta Bilboko talde bat etorriko da ere bai.",
+      "es": "Koldo confirma y añade que vendrá un grupo de Bilbao. 'Bilboko' usa -ko para indicar la procedencia.",
+      "example_eu": "— Bai, txaranga egongo da! Eta Bilboko talde bat ere etorriko da. Zoragarria izango da!",
+      "example_es": "— ¡Sí, habrá charanga! Y también vendrá un grupo de Bilbao. ¡Va a ser genial!"
+    },
+    {
+      "eu": "Amaia: Ados! Gurekin noa. Ez dut denborarik galtzeko!",
+      "es": "Amaia acepta. 'Gurekin' (-rekin, con vosotros/nosotros) y 'denborarik' (-rik, tiempo en negativo). Cierre del diálogo.",
+      "example_eu": "— Ados! Gurekin noa. Ez dut denborarik galtzeko. Zer ordutan?",
+      "example_es": "— ¡De acuerdo! Voy con vosotros/as. No tengo tiempo que perder. ¿A qué hora?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Herriko festara nirekin etorri nahi duzu?",
+      "answer": "¿Quieres venir conmigo a la fiesta del pueblo?"
+    },
+    {
+      "id": "e02",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo dice Koldo 'con los compañeros/as del trabajo'?",
+      "options": ["lagunarekin noa", "laneko lagunekin noa", "laneko laguna noa", "lagunik noa"],
+      "answer": "laneko lagunekin noa"
+    },
+    {
+      "id": "e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Ez dut ___ nahikorik! (¡No tengo suficientes amigos!)",
+      "translation": "¡No tengo suficientes amigos!",
+      "hint": "lagun + -ik (partitivo negativo)",
+      "answer": "lagunik"
+    },
+    {
+      "id": "e04",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Bilboko talde bat etorriko da.",
+      "answer": "Vendrá un grupo de Bilbao."
+    },
+    {
+      "id": "e05",
+      "type": "error_correction",
+      "instruction": "Corrige el error",
+      "sentence": "Herri plazan zer egingo dugu?",
+      "translation": "¿Qué haremos en la plaza del pueblo?",
+      "answer": "Herriko plazan zer egingo dugu?"
+    },
+    {
+      "id": "e06",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "En el diálogo, Amaia rechaza la invitación de Koldo.",
+      "translation": "En el diálogo, Amaia rechaza la invitación de Koldo.",
+      "answer": "false",
+      "explanation": "Falso. Amaia acepta: 'Ados! Gurekin noa.' (¡De acuerdo! Voy con vosotros/as.)"
+    },
+    {
+      "id": "e07",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "¡De acuerdo! Voy con vosotros/as.",
+      "answer": "Ados! Gurekin noa."
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "instruction": "Empareja cada frase del diálogo con el sufijo que usa",
+      "pairs": [
+        { "eu": "nirekin etorri", "es": "-rekin (compañía)" },
+        { "eu": "herriko festa", "es": "-ko (del pueblo)" },
+        { "eu": "ez dut lagunik", "es": "-rik (partitivo negativo)" },
+        { "eu": "Bilboko taldea", "es": "-ko (de Bilbao)" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "u14_l04",
+  "title": "Zerua nolakoa da? (¿Cómo está el cielo?)",
+  "objective": "Describir el aspecto del cielo usando adjetivos meteorológicos",
+  "grammar_note": {
+    "title": "NOLAKOA? — ¿Cómo es/está?",
+    "body": "**Nolakoa?** se usa para preguntar por las características o el estado de algo:\n\n- **Zerua nolakoa da?** (¿Cómo está el cielo?)\n- **Zerua urdina da** (El cielo está azul / despejado)\n- **Zerua hodeitsua da** (El cielo está nublado)\n\nAdjetivos meteorológicos (terminan en **-tsua**):\n- eguzkitsua (soleado), euritsua (lluvioso), hodeitsua (nublado), haizetsua (ventoso)",
+    "tip": "El sufijo -tsua equivale a '-oso/-osa' en español: hodei+tsua = nublo+so"
+  },
+  "slides": [
+    {
+      "eu": "zerua urdina da / eguzkitsua",
+      "es": "el cielo está azul (despejado) / soleado",
+      "example_eu": "Zerua urdina da eta eguzkitsua da gaur.",
+      "example_es": "El cielo está azul y hoy es soleado."
+    },
+    {
+      "eu": "hodeitsua / zerua hodeitsua da",
+      "es": "nublado / el cielo está nublado",
+      "example_eu": "Zerua hodeitsua da eta euria etorriko da.",
+      "example_es": "El cielo está nublado y va a llover."
+    },
+    {
+      "eu": "euritsua / egun euritsua",
+      "es": "lluvioso / un día lluvioso",
+      "example_eu": "Gaur egun euritsua da, aterkia behar dut.",
+      "example_es": "Hoy es un día lluvioso, necesito el paraguas."
+    },
+    {
+      "eu": "trumoia / tximista — ekaitza",
+      "es": "el trueno / el relámpago — la tormenta",
+      "example_eu": "Ekaitza dago: trumoia entzuten da eta tximista ikusten da.",
+      "example_es": "Hay tormenta: se oye el trueno y se ve el relámpago."
+    },
+    {
+      "eu": "oste-argia (el arcoíris)",
+      "es": "el arcoíris",
+      "example_eu": "Euria eta eguzkia egon direnean, oste-argia agertzen da.",
+      "example_es": "Cuando ha habido lluvia y sol, aparece el arcoíris."
+    },
+    {
+      "eu": "haizetsua / egun haizetsua",
+      "es": "ventoso / un día ventoso",
+      "example_eu": "Egun haizetsua da eta hotza sentitzen da.",
+      "example_es": "Es un día ventoso y se siente frío."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "question": "¿Cómo se dice 'nublado' en euskera?",
+      "options": ["eguzkitsua", "euritsua", "hodeitsua", "haizetsua"],
+      "answer": "hodeitsua"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Zerua nolakoa da?'",
+      "options": [
+        "¿Cómo está el tiempo?",
+        "¿Cómo está el cielo?",
+        "¿Cómo está la niebla?",
+        "¿Cuánto llueve?"
+      ],
+      "answer": "¿Cómo está el cielo?"
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        { "eu": "eguzkitsua", "es": "soleado" },
+        { "eu": "euritsua", "es": "lluvioso" },
+        { "eu": "hodeitsua", "es": "nublado" },
+        { "eu": "haizetsua", "es": "ventoso" }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "true_false",
+      "question": "'Oste-argia' significa 'la tormenta'.",
+      "answer": "false"
+    },
+    {
+      "id": "e05",
+      "type": "fill_blank",
+      "sentence": "Ekaitza dago: ___ entzuten da eta tximista ikusten da. (Hay tormenta: se oye el trueno y se ve el relámpago.)",
+      "hint": "el trueno",
+      "answer": "trumoia"
+    },
+    {
+      "id": "e06",
+      "type": "grammar_select",
+      "question": "Zerua ___ da eta euria etorriko da. (El cielo está nublado y va a llover.)",
+      "options": ["urdina", "eguzkitsua", "hodeitsua", "euritsua"],
+      "answer": "hodeitsua"
+    },
+    {
+      "id": "e07",
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Es un día soleado' en euskera?",
+      "options": [
+        "Egun euritsua da.",
+        "Egun haizetsua da.",
+        "Egun eguzkitsua da.",
+        "Egun hodeitsua da."
+      ],
+      "answer": "Egun eguzkitsua da."
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "question": "Ordena: ¿cómo está el cielo?",
+      "words": ["da?", "Zerua", "nolakoa"],
+      "answer": "Zerua nolakoa da?"
+    }
+  ]
+}

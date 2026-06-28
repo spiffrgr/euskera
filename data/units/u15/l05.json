@@ -1,0 +1,111 @@
+{
+  "id": "l05",
+  "unit": "u15",
+  "title": "Asteburuan (El fin de semana)",
+  "slides": [
+    {
+      "eu": "Asteburua — el fin de semana",
+      "es": "Aste = semana, buru = cabeza/final → fin de semana. Asteburuan = el fin de semana (locativo).",
+      "example_eu": "Zer egiten duzu asteburuan?",
+      "example_es": "¿Qué haces el fin de semana?"
+    },
+    {
+      "eu": "Larunbatean — el sábado / Igandean — el domingo",
+      "es": "Larunbat + -ean (locativo de tiempo) = el sábado. Igande + -an = el domingo. Usamos locativo para días.",
+      "example_eu": "Larunbatean lagunekin joaten naiz.",
+      "example_es": "El sábado salgo con los amigos."
+    },
+    {
+      "eu": "Plana — el plan / Denbora librea — el tiempo libre",
+      "es": "Plan + -a = el plan. Denbora = el tiempo (duración). Libre (adjetivo en euskera también).",
+      "example_eu": "Zer plana duzu larunbaterako?",
+      "example_es": "¿Qué plan tienes para el sábado?"
+    },
+    {
+      "eu": "Atsedena hartu — descansar",
+      "es": "Atsedendu (descansar) o atsedena hartu (tomar descanso). Hartu = tomar/coger.",
+      "example_eu": "Igandean atsedena hartzen dut.",
+      "example_es": "El domingo descanso."
+    },
+    {
+      "eu": "Etxean egon — estar en casa / Kalera joan — salir (ir a la calle)",
+      "es": "Etxean = en casa. Kalera = a la calle (adlativo). Egon = estar. Joan = ir.",
+      "example_eu": "Batzuetan etxean egoten naiz.",
+      "example_es": "A veces me quedo en casa."
+    },
+    {
+      "eu": "Askotan / Batzuetan / Inoiz ez — frecuencia",
+      "es": "Askotan = a menudo/muchas veces. Batzuetan = a veces. Inoiz ez = nunca. Egunero = cada día.",
+      "example_eu": "Askotan zineman joaten gara asteburuan.",
+      "example_es": "A menudo vamos al cine el fin de semana."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Qué significa 'asteburua'?",
+      "options": ["el lunes", "la semana", "el fin de semana", "el domingo"],
+      "answer": "el fin de semana"
+    },
+    {
+      "id": "e02",
+      "type": "match_pairs",
+      "instruction": "Empareja la expresión con su traducción",
+      "pairs": [
+        { "eu": "larunbatean", "es": "el sábado" },
+        { "eu": "igandean", "es": "el domingo" },
+        { "eu": "denbora librea", "es": "el tiempo libre" },
+        { "eu": "atsedena hartu", "es": "descansar" }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Zer egiten duzu asteburuan?",
+      "answer": "¿Qué haces el fin de semana?"
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Igandean atsedena _ dut.",
+      "translation": "El domingo descanso.",
+      "hint": "hartu → presente habitual",
+      "answer": "hartzen"
+    },
+    {
+      "id": "e05",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "A veces me quedo en casa.",
+      "answer": "Batzuetan etxean egoten naiz."
+    },
+    {
+      "id": "e06",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "'Kalera joan' significa 'estar en casa'.",
+      "translation": "'Kalera joan' significa 'estar en casa'.",
+      "answer": "false"
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["zineman", "Askotan", "joaten", "asteburuan", "gara"],
+      "translation": "A menudo vamos al cine el fin de semana.",
+      "answer": "Askotan zineman joaten gara asteburuan."
+    },
+    {
+      "id": "e08",
+      "type": "grammar_select",
+      "instruction": "Elige la expresión de frecuencia correcta",
+      "sentence": "_ lagunekin egoten naiz asteburuan.",
+      "translation": "A menudo estoy con los amigos el fin de semana.",
+      "options": ["Inoiz ez", "Batzuetan", "Askotan", "Egunero"],
+      "answer": "Askotan"
+    }
+  ]
+}

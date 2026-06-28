@@ -1,0 +1,117 @@
+{
+  "id": "l01",
+  "title": "-rekin: con alguien",
+  "objective": "Aprender el sufijo -rekin para expresar compañía ('con alguien/algo')",
+  "grammar_note": {
+    "title": "-rekin — el sociativo: 'con alguien'",
+    "body": "El sufijo **-rekin** equivale a 'con' o 'junto a' en español. Se añade al nombre en su forma absolutiva siguiendo estas reglas:\n\n| Tipo de nombre | Regla | Ejemplo |\n|---|---|---|\n| Termina en consonante | añade **-arekin** | lagun → **lagunarekin** |\n| Termina en vocal | sustituye la vocal final por **-arekin** | etxe → **etxearekin** |\n| Nombres propios / ama / aita | añade **-rekin** directamente | Ama → **amarekin** |\n\nCon los **pronombres** la forma es especial y hay que aprenderla:\n\n| Pronombre | Con -rekin |\n|---|---|\n| ni (yo) | **nirekin** |\n| zu (tú) | **zurekin** |\n| hura (él/ella) | **harekin** |\n| gu (nosotros) | **gurekin** |\n| zuek (vosotros) | **zuekin** |\n| haiek (ellos/as) | **haiekin** |\n\n**elkarrekin** significa 'juntos' (literalmente 'el uno con el otro').",
+    "tip": "Regla rápida: consonante → añade -arekin; vocal → cambia la vocal por -arekin. Los pronombres tienen su propia forma: ni→nirekin, zu→zurekin, gu→gurekin."
+  },
+  "slides": [
+    {
+      "eu": "lagunarekin — con un/a amigo/a",
+      "es": "'Lagun' termina en consonante, así que añadimos -arekin: lagun + arekin = lagunarekin.",
+      "example_eu": "Lagunarekin kafea hartzen dut.",
+      "example_es": "Tomo un café con un/a amigo/a."
+    },
+    {
+      "eu": "amarekin — con mamá",
+      "es": "'Ama' termina en vocal -a. Le sustituimos esa vocal final por -arekin: am- + arekin = amarekin.",
+      "example_eu": "Amarekin etxean nago.",
+      "example_es": "Estoy en casa con mamá."
+    },
+    {
+      "eu": "nirekin — conmigo",
+      "es": "Forma pronominal de 'ni' (yo) con -rekin. Los pronombres tienen forma propia: ni → nirekin.",
+      "example_eu": "Nirekin etorri nahi duzu?",
+      "example_es": "¿Quieres venir conmigo?"
+    },
+    {
+      "eu": "zurekin — contigo",
+      "es": "Forma pronominal de 'zu' (tú) con -rekin. zu → zurekin.",
+      "example_eu": "Zurekin joaten naiz.",
+      "example_es": "Voy contigo."
+    },
+    {
+      "eu": "gurekin — con nosotros/as",
+      "es": "Forma pronominal de 'gu' (nosotros) con -rekin. gu → gurekin.",
+      "example_eu": "Gurekin etorriko zara?",
+      "example_es": "¿Vendrás con nosotros?"
+    },
+    {
+      "eu": "elkarrekin — juntos/as",
+      "es": "'Elkarrekin' se usa cuando dos o más personas hacen algo mutuamente o juntas. No lleva pronombre adicional.",
+      "example_eu": "Elkarrekin lan egiten dugu.",
+      "example_es": "Trabajamos juntos."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'con un/a amigo/a' en euskera?",
+      "options": ["lagunrekin", "lagunarekin", "lagunekorekin", "lagunrekin"],
+      "answer": "lagunarekin"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Amarekin kafea hartzen dut.",
+      "answer": "Tomo un café con mamá."
+    },
+    {
+      "id": "e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Nire lagunak ___ joaten dira mendira. (Mis amigos van a la montaña juntos.)",
+      "translation": "Mis amigos van a la montaña juntos.",
+      "hint": "La palabra que significa 'juntos'",
+      "answer": "elkarrekin"
+    },
+    {
+      "id": "e04",
+      "type": "grammar_select",
+      "instruction": "Elige la forma correcta del pronombre con -rekin",
+      "sentence": "Nirekin edo ___kin joaten zara?",
+      "translation": "¿Vas conmigo o con él/ella?",
+      "options": ["hurekin", "harekin", "horikin", "hark"],
+      "answer": "harekin"
+    },
+    {
+      "id": "e05",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "¿Quieres venir conmigo?",
+      "answer": "Nirekin etorri nahi duzu?"
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "instruction": "Empareja cada forma con su traducción",
+      "pairs": [
+        { "eu": "nirekin", "es": "conmigo" },
+        { "eu": "zurekin", "es": "contigo" },
+        { "eu": "gurekin", "es": "con nosotros/as" },
+        { "eu": "elkarrekin", "es": "juntos/as" }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "Para decir 'con mamá' se dice 'amarekin'.",
+      "translation": "Para decir 'con mamá' se dice 'amarekin'.",
+      "answer": "true",
+      "explanation": "Correcto. 'Ama' termina en -a, que se sustituye por -arekin: am- + arekin = amarekin."
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["Lagunarekin", "kafea", "hartzen", "dut."],
+      "translation": "Tomo un café con un/a amigo/a.",
+      "answer": "Lagunarekin kafea hartzen dut."
+    }
+  ]
+}

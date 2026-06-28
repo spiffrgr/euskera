@@ -1,0 +1,109 @@
+{
+    "id": "l04",
+    "title": "EGIN aditz-konposatua (Verbos con EGIN)",
+    "grammar_note": {
+        "title": "Verbos compuestos con EGIN",
+        "body": "En euskera, muchas acciones se expresan con un sustantivo + **EGIN** (hacer):\n\n| Compuesto | Significado | Ejemplo |\n|-----------|-------------|--------|\n| **lan egin** | trabajar | Nik lan egiten dut. |\n| **lo egin** | dormir | Hark lo egiten du. |\n| **kirola egin** | hacer deporte | Guk kirola egiten dugu. |\n| **jolas egin** | jugar | Haiek jolas egiten dute. |\n| **dantza egin** | bailar | Zuk dantza egiten duzu. |\n| **negar egin** | llorar | Hark negar egiten du. |\n| **barre egin** | reír | Nik barre egiten dut. |\n| **deia egin** | llamar por teléfono | Zuk deia egiten duzu. |\n\n**Estructura habitual**: [sujeto-NORK] + [sustantivo] + **egiten** + [EDUN]",
+        "tip": "EGIN es transitivo → siempre usa EDUN como auxiliar (dut, duzu, du...). La forma habitual del presente usa '-ten' o '-tzen': egiten dut = suelo hacer / hago (habitualmente)."
+    },
+    "slides": [
+        {
+            "eu": "lan egin — trabajar",
+            "es": "Nik lan egiten dut.",
+            "example_eu": "Nik egunero lan egiten dut bulegoan.",
+            "example_es": "Yo trabajo todos los días en la oficina."
+        },
+        {
+            "eu": "lo egin — dormir",
+            "es": "Hark lo egiten du.",
+            "example_eu": "Hark zortzi ordu lo egiten du.",
+            "example_es": "Él/ella duerme ocho horas."
+        },
+        {
+            "eu": "kirola egin — hacer deporte",
+            "es": "Guk kirola egiten dugu.",
+            "example_eu": "Guk astean hiru aldiz kirola egiten dugu.",
+            "example_es": "Nosotros hacemos deporte tres veces a la semana."
+        },
+        {
+            "eu": "jolas egin — jugar",
+            "es": "Haiek jolas egiten dute.",
+            "example_eu": "Haiek parkean jolas egiten dute.",
+            "example_es": "Ellos/ellas juegan en el parque."
+        },
+        {
+            "eu": "barre egin / negar egin — reír / llorar",
+            "es": "Nik barre egiten dut. / Hark negar egiten du.",
+            "example_eu": "Nik barre egiten dut, ez negar egiten dut.",
+            "example_es": "Yo río, no lloro."
+        },
+        {
+            "eu": "deia egin — llamar por teléfono",
+            "es": "Zuk deia egiten duzu.",
+            "example_eu": "Zuk egunero deia egiten didazu.",
+            "example_es": "Tú me llamas todos los días."
+        }
+    ],
+    "exercises": [
+        {
+            "id": "e01",
+            "type": "multiple_choice",
+            "instruction": "¿Cómo se dice 'trabajar' con EGIN?",
+            "options": ["lo egin", "lan egin", "barre egin", "negar egin"],
+            "answer": "lan egin"
+        },
+        {
+            "id": "e02",
+            "type": "translation_eu_es",
+            "eu": "Guk kirola egiten dugu.",
+            "answer": "Nosotros hacemos deporte."
+        },
+        {
+            "id": "e03",
+            "type": "translation_es_eu",
+            "es": "Ellos/ellas juegan.",
+            "answer": "Haiek jolas egiten dute."
+        },
+        {
+            "id": "e04",
+            "type": "fill_blank",
+            "sentence": "Hark zortzi ordu lo ___ du.",
+            "translation": "Él/ella duerme ocho horas.",
+            "hint": "lo ___ = forma habitual de lo egin",
+            "answer": "egiten"
+        },
+        {
+            "id": "e05",
+            "type": "grammar_select",
+            "sentence": "Nik barre ___ dut.",
+            "translation": "Yo río / suelo reír.",
+            "options": ["egiten", "egin", "egingo", "eginda"],
+            "answer": "egiten"
+        },
+        {
+            "id": "e06",
+            "type": "order_words",
+            "words": ["Zuk", "egunero", "lan", "egiten", "duzu."],
+            "translation": "Tú trabajas todos los días.",
+            "answer": "Zuk egunero lan egiten duzu."
+        },
+        {
+            "id": "e07",
+            "type": "match_pairs",
+            "pairs": [
+                { "eu": "lan egin", "es": "trabajar" },
+                { "eu": "lo egin", "es": "dormir" },
+                { "eu": "dantza egin", "es": "bailar" },
+                { "eu": "deia egin", "es": "llamar por teléfono" }
+            ]
+        },
+        {
+            "id": "e08",
+            "type": "true_false",
+            "instruction": "¿Verdadero o falso?",
+            "statement": "Los verbos compuestos con EGIN usan EDUN como auxiliar (dut, duzu, du...).",
+            "translation": "Los verbos compuestos con EGIN usan EDUN como auxiliar (dut, duzu, du...).",
+            "answer": "true"
+        }
+    ]
+}

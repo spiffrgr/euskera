@@ -1,0 +1,118 @@
+{
+  "id": "u14_l02",
+  "title": "Urtaroak (Las estaciones)",
+  "objective": "Nombrar las cuatro estaciones y describir el tiempo típico de cada una",
+  "grammar_note": {
+    "title": "Estaciones con caso inesivo (-n)",
+    "body": "Para decir 'en + estación' en euskera, se añade **-n** (inesivo) al nombre de la estación:\n\n- **udaberria** → **udaberrian** (en primavera)\n- **uda** → **udan** (en verano)\n- **udazkena** → **udazkenean** (en otoño)\n- **negua** → **neguan** (en invierno)\n\nEjemplos:\n- **Udan bero handia egoten da.** (En verano hace mucho calor.)\n- **Neguan elurra egiten du mendian.** (En invierno nieva en la montaña.)",
+    "tip": "Fíjate: 'udazkena' añade -n pero el artículo -a desaparece → udazkenEAN (con -ean tras consonante)"
+  },
+  "slides": [
+    {
+      "eu": "udaberria — udaberrian",
+      "es": "la primavera — en primavera",
+      "example_eu": "Udaberrian euria egiten du eta loreak loratzen dira.",
+      "example_es": "En primavera llueve y florecen las flores."
+    },
+    {
+      "eu": "uda — udan",
+      "es": "el verano — en verano",
+      "example_eu": "Udan bero handia egoten da eta eguzkia ateratzen da.",
+      "example_es": "En verano hace mucho calor y sale el sol."
+    },
+    {
+      "eu": "udazkena — udazkenean",
+      "es": "el otoño — en otoño",
+      "example_eu": "Udazkenean haizea dago eta hostoek erortzen dira.",
+      "example_es": "En otoño hay viento y las hojas caen."
+    },
+    {
+      "eu": "negua — neguan",
+      "es": "el invierno — en invierno",
+      "example_eu": "Neguan elurra ari da mendian eta hotz handia dago.",
+      "example_es": "En invierno nieva en la montaña y hace mucho frío."
+    },
+    {
+      "eu": "Zer urtaro da gaur? / Negua da.",
+      "es": "¿Qué estación es hoy? / Es invierno.",
+      "example_eu": "Zer urtaro da orain? Udazkena da, azaroa da.",
+      "example_es": "¿Qué estación es ahora? Es otoño, es noviembre."
+    },
+    {
+      "eu": "Zein da urtaro gogokoeна? / Uda da nire gogokoeна.",
+      "es": "¿Cuál es tu estación favorita? / El verano es mi favorita.",
+      "example_eu": "Nire urtaro gogokoeна udaberria da, epela delako.",
+      "example_es": "Mi estación favorita es la primavera, porque es templada."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "question": "¿Cómo se dice 'en invierno' en euskera?",
+      "options": ["negua", "neguean", "neguan", "neguran"],
+      "answer": "neguan"
+    },
+    {
+      "id": "e02",
+      "type": "match_pairs",
+      "pairs": [
+        { "eu": "udaberria", "es": "la primavera" },
+        { "eu": "uda", "es": "el verano" },
+        { "eu": "udazkena", "es": "el otoño" },
+        { "eu": "negua", "es": "el invierno" }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Udan bero handia egoten da'?",
+      "options": [
+        "En invierno hace mucho frío",
+        "En verano hace mucho calor",
+        "En primavera llueve mucho",
+        "En otoño hay viento"
+      ],
+      "answer": "En verano hace mucho calor"
+    },
+    {
+      "id": "e04",
+      "type": "grammar_select",
+      "question": "___ euria egiten du eta loreak loratzen dira. (En primavera llueve y florecen las flores.)",
+      "options": ["Udaberria", "Udaberrian", "Udaberriean", "Udaberrietan"],
+      "answer": "Udaberrian"
+    },
+    {
+      "id": "e05",
+      "type": "true_false",
+      "question": "'Udazkenean' significa 'en otoño'.",
+      "answer": "true"
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'En invierno nieva en la montaña' en euskera?",
+      "options": [
+        "Neguan elurra ari da mendian.",
+        "Udan elurra ari da mendian.",
+        "Neguan euria ari da mendian.",
+        "Udazkenean elurra ari da."
+      ],
+      "answer": "Neguan elurra ari da mendian."
+    },
+    {
+      "id": "e07",
+      "type": "fill_blank",
+      "sentence": "___ haizea dago eta hostoek erortzen dira. (En otoño hay viento y las hojas caen.)",
+      "hint": "estación en caso inesivo",
+      "answer": "Udazkenean"
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "question": "Ordena: en verano / mucho calor / hace",
+      "words": ["bero", "egoten", "Udan", "handia", "da"],
+      "answer": "Udan bero handia egoten da"
+    }
+  ]
+}

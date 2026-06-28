@@ -1,0 +1,15 @@
+{
+  "id": "u17",
+  "title": "Mugimendua eta bidaia",
+  "emoji": "🚌",
+  "lessons": [
+    { "id": "l01", "title": "Garraio motak (Medios de transporte)", "type": "lesson" },
+    { "id": "l02", "title": "Nola joaten zara? (¿Cómo vas?)", "type": "lesson" },
+    { "id": "l03", "title": "Geltokian (En la estación)", "type": "lesson" },
+    { "id": "l04", "title": "Txartela erosten (Comprando billetes)", "type": "lesson" },
+    { "id": "l05", "title": "Bidaia planak (Planes de viaje)", "type": "lesson" },
+    { "id": "l06", "title": "Nondik nora? (¿De dónde adónde?)", "type": "lesson" },
+    { "id": "l07", "title": "Bidaia-elkarrizketa (Diálogo de viaje)", "type": "lesson" },
+    { "id": "test", "title": "Test de la unidad", "type": "test" }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "test",
+  "unit": "u19",
+  "title": "Test — Atzizkiak",
+  "type": "test",
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'con un/a amigo/a' en euskera?",
+      "options": ["lagunrekin", "lagunko", "lagunarekin", "lagunarik"],
+      "answer": "lagunarekin"
+    },
+    {
+      "id": "e02",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "¿Quieres venir conmigo?",
+      "answer": "Nirekin etorri nahi duzu?"
+    },
+    {
+      "id": "e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Ez dut ___. (No tengo dinero.)",
+      "translation": "No tengo dinero.",
+      "hint": "diru + sufijo partitivo",
+      "answer": "dirurik"
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "instruction": "Empareja cada sufijo con su función",
+      "pairs": [
+        { "eu": "-rekin", "es": "compañía ('con')" },
+        { "eu": "-ko", "es": "procedencia/pertenencia ('de/del')" },
+        { "eu": "-rik", "es": "partitivo en negación" },
+        { "eu": "norekin", "es": "¿con quién?" }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Herriko plaza ederra da.",
+      "answer": "La plaza del pueblo es bonita."
+    },
+    {
+      "id": "e06",
+      "type": "grammar_select",
+      "instruction": "Elige la forma correcta para completar la frase negativa",
+      "sentence": "Ez dago ___ etxean.",
+      "translation": "No hay nadie en casa.",
+      "options": ["norbait", "inor", "inorrik", "ezer"],
+      "answer": "inorrik"
+    },
+    {
+      "id": "e07",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Hoy no tengo tiempo.",
+      "answer": "Ez dut denborarik gaur."
+    },
+    {
+      "id": "e08",
+      "type": "error_correction",
+      "instruction": "Corrige el error",
+      "sentence": "Zurekin joaten naiz Bilboa.",
+      "translation": "Voy contigo a Bilbao.",
+      "answer": "Zurekin joaten naiz Bilbora."
+    },
+    {
+      "id": "e09",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["Laneko", "lagunarekin", "kafea", "hartzen", "dut."],
+      "translation": "Tomo un café con mi compañero/a de trabajo.",
+      "answer": "Laneko lagunarekin kafea hartzen dut."
+    },
+    {
+      "id": "e10",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "'Donostiako hondartza' significa 'la playa con Donostia'.",
+      "translation": "'Donostiako hondartza' significa 'la playa con Donostia'.",
+      "answer": "false",
+      "explanation": "Falso. '-ko' expresa procedencia o pertenencia, no compañía. 'Donostiako hondartza' significa 'la playa de San Sebastián'. Para 'con' se usa '-rekin'."
+    },
+    {
+      "id": "e11",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Nirekin etorri nahi duzu herriko festara? Ez dut lagunik nahikorik!",
+      "answer": "¿Quieres venir conmigo a la fiesta del pueblo? ¡No tengo suficientes amigos!"
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Goizeko kafea ___ hartzen dut egunero. (Tomo el café de la mañana con un/a amigo/a cada día.)",
+      "translation": "Tomo el café de la mañana con un/a amigo/a cada día.",
+      "hint": "lagun + -arekin (termina en consonante)",
+      "answer": "lagunarekin"
+    }
+  ]
+}

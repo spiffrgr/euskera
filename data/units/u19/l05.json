@@ -1,0 +1,116 @@
+{
+  "id": "l05",
+  "title": "-rik en frases negativas",
+  "objective": "Aprender el sufijo partitivo -rik que aparece en frases negativas con 'ez'",
+  "grammar_note": {
+    "title": "-rik — el partitivo en negaciones",
+    "body": "En euskera, cuando una frase es negativa (con **ez**), el complemento directo o el sujeto de EGON suele tomar el sufijo **-rik** en lugar de la forma absolutiva normal. Esto se llama **caso partitivo**.\n\n**Contraste afirmativo / negativo:**\n\n| Afirmativo | Negativo |\n|---|---|\n| **Dirua** daukat. (Tengo dinero.) | Ez dut **dirurik**. (No tengo dinero.) |\n| **Denbora** daukat. (Tengo tiempo.) | Ez dut **denborarik**. (No tengo tiempo.) |\n| **Lagunak** ditut. (Tengo amigos.) | Ez dut **lagunik**. (No tengo amigos.) |\n| **Norbait** dago hemen. (Hay alguien aquí.) | Ez dago **inorrik**. (No hay nadie.) |\n\n**Cómo se forma -rik:**\n- Nombre sin artículo + **-rik**: diru → **dirurik**, denbora → **denborarik**, lagun → **lagunik**\n- Si termina en consonante: añade -ik → lagun + ik = **lagunik**\n- Si termina en vocal: añade -rik → diru + rik = **dirurik**\n\n**Palabras especiales:**\n- **inor** (nadie / alguien) → **inorrik** en negación: *Ez dago inorrik.* (No hay nadie.)\n- **ezer** (nada / algo) → normalmente sin -rik: *Ez dut ezer.* (No tengo nada.) — aunque 'ezerrik' también existe.\n- **inoiz** (nunca / alguna vez) → *Ez dut inoiz ikusi.* (No lo he visto nunca.)",
+    "tip": "Ez + verbo → el objeto toma -rik. Piensa: en negativo el euskera usa la 'forma partida' (-rik) para señalar que no hay ni una parte de algo. Dirua (EL dinero) → dirurik (nada de dinero)."
+  },
+  "slides": [
+    {
+      "eu": "Ez dut dirurik. — No tengo dinero.",
+      "es": "'Diru' (dinero) toma -rik en negación: dirurik. En afirmativo sería 'Dirua daukat' (tengo EL dinero, con artículo -a).",
+      "example_eu": "Ez dut dirurik orain. Bihar banketxera joaten naiz.",
+      "example_es": "Ahora no tengo dinero. Mañana voy al banco."
+    },
+    {
+      "eu": "Ez dut denborarik. — No tengo tiempo.",
+      "es": "'Denbora' (tiempo) termina en vocal, así que añadimos -rik directamente: denbora + rik = denborarik.",
+      "example_eu": "Ez dut denborarik gaur. Asko lan egiten dut.",
+      "example_es": "Hoy no tengo tiempo. Trabajo mucho."
+    },
+    {
+      "eu": "Ez dut lagunik. — No tengo amigos.",
+      "es": "'Lagun' (amigo) termina en consonante, así que añadimos -ik: lagun + ik = lagunik.",
+      "example_eu": "Hiri berri honetan ez dut lagunik oraindik.",
+      "example_es": "En esta ciudad nueva todavía no tengo amigos."
+    },
+    {
+      "eu": "Ez dago inorrik. — No hay nadie.",
+      "es": "'Inor' (nadie/alguien) toma -rik en negación. Se usa con EGON (estar/haber) para indicar ausencia de personas.",
+      "example_eu": "Etxean ez dago inorrik. Denak lanean daude.",
+      "example_es": "En casa no hay nadie. Todos están trabajando."
+    },
+    {
+      "eu": "Ez dut ezer. — No tengo nada.",
+      "es": "'Ezer' (nada/algo) es especial: normalmente no toma -rik en la negación, aunque 'ezerrik' también se oye.",
+      "example_eu": "Ez dut ezer jan nahi.",
+      "example_es": "No quiero comer nada."
+    },
+    {
+      "eu": "Ez daukat aukerarik. — No tengo oportunidad.",
+      "es": "'Aukera' (oportunidad) + -rik = aukerarik. El partitivo funciona con cualquier nombre en negación.",
+      "example_eu": "Gaur ez daukat aukerarik zurekin egoteko.",
+      "example_es": "Hoy no tengo oportunidad de estar contigo."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál es la forma correcta de 'diru' (dinero) en una frase negativa?",
+      "options": ["dirua", "diruak", "dirurik", "diruetan"],
+      "answer": "dirurik"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Ez dago inorrik etxean.",
+      "answer": "No hay nadie en casa."
+    },
+    {
+      "id": "e03",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Ez dut ___ gaur. (No tengo tiempo hoy.)",
+      "translation": "No tengo tiempo hoy.",
+      "hint": "denbora + -rik",
+      "answer": "denborarik"
+    },
+    {
+      "id": "e04",
+      "type": "error_correction",
+      "instruction": "Corrige el error",
+      "sentence": "Ez dut diru.",
+      "translation": "No tengo dinero.",
+      "answer": "Ez dut dirurik."
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "instruction": "Empareja la forma afirmativa con la negativa",
+      "pairs": [
+        { "eu": "Dirua daukat.", "es": "Ez dut dirurik." },
+        { "eu": "Denbora daukat.", "es": "Ez dut denborarik." },
+        { "eu": "Lagunak ditut.", "es": "Ez dut lagunik." },
+        { "eu": "Norbait dago.", "es": "Ez dago inorrik." }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "En esta ciudad nueva todavía no tengo amigos.",
+      "answer": "Hiri berri honetan ez dut lagunik oraindik."
+    },
+    {
+      "id": "e07",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "En la frase 'Ez dut lagunik', la forma -nik viene de lagun + -ik porque termina en consonante.",
+      "translation": "En la frase 'Ez dut lagunik', la forma -nik viene de lagun + -ik porque termina en consonante.",
+      "answer": "true",
+      "explanation": "Correcto. 'Lagun' termina en consonante -n, así que el partitivo es lagun + ik = lagunik. Si terminara en vocal sería + rik."
+    },
+    {
+      "id": "e08",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["Ez", "dut", "denborarik", "gaur."],
+      "translation": "Hoy no tengo tiempo.",
+      "answer": "Ez dut denborarik gaur."
+    }
+  ]
+}

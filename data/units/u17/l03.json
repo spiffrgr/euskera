@@ -1,0 +1,105 @@
+{
+  "id": "l03",
+  "title": "Geltokian (En la estación)",
+  "objective": "Manejar el vocabulario de estaciones y preguntar por horarios y andenes",
+  "grammar_note": {
+    "title": "NORA? (allativo -ra/-era) — destinos",
+    "body": "Para indicar el destino de un viaje, usa el sufijo allativo **-ra** o **-era**:\n\n- *Bilbo**ra*** (a Bilbao)\n- *Donostia**ra*** (a San Sebastián)\n- *Gasteiz**era*** (a Vitoria-Gasteiz)\n- *geltoki**ra*** (a la estación)\n- *aireportu**ra*** (al aeropuerto)\n\nEjemplo: **Bilbora noa.** (Voy a Bilbao.)",
+    "tip": "Si el nombre termina en consonante, usa -era: Gasteiz → Gasteizera. Si termina en vocal, usa -ra: Bilbo → Bilbora."
+  },
+  "slides": [
+    {
+      "eu": "geltokia — la estación",
+      "es": "El vocabulario esencial de la estación: geltokia (estación), andela (andén), sarrera (entrada), irteera (salida).",
+      "example_eu": "Geltokia oso handia da.",
+      "example_es": "La estación es muy grande."
+    },
+    {
+      "eu": "Noiz irteten da trena? — ¿Cuándo sale el tren?",
+      "es": "IRTETEN DA = sale (habitual). Para preguntar la hora de salida de un transporte.",
+      "example_eu": "— Noiz irteten da Bilborako trena?\n— Bederatziak eta erditan.",
+      "example_es": "— ¿Cuándo sale el tren para Bilbao?\n— A las nueve y media."
+    },
+    {
+      "eu": "Noiz iristen da autobusa? — ¿Cuándo llega el autobús?",
+      "es": "IRISTEN DA = llega (habitual). Irteten = sale. Iristen = llega.",
+      "example_eu": "— Noiz iristen da autobusa Donostiatik?\n— Hamaikak eta laurdenetan.",
+      "example_es": "— ¿Cuándo llega el autobús de San Sebastián?\n— A las once y cuarto."
+    },
+    {
+      "eu": "ordutegia — el horario",
+      "es": "El horario (ordutegia) nos dice las horas de salida y llegada de los transportes.",
+      "example_eu": "Ordutegia non dago?",
+      "example_es": "¿Dónde está el horario?"
+    },
+    {
+      "eu": "Barkatu, zein andeletik Bilborako trena? — Disculpa, ¿desde qué andén el tren a Bilbao?",
+      "es": "En la estación necesitamos preguntar el andén: ZEIN ANDELETIK (¿desde qué andén?).",
+      "example_eu": "— Barkatu, zein andeletik Bilborako trena?\n— Laugarren andeletik.",
+      "example_es": "— Disculpa, ¿desde qué andén el tren a Bilbao?\n— Desde el andén cuatro."
+    },
+    {
+      "eu": "atzerapena — el retraso / behar-bezala — a tiempo",
+      "es": "Los trenes y autobuses a veces se retrasan. Atzerapena (retraso), behar-bezala (a tiempo), atzeratu da (se ha retrasado).",
+      "example_eu": "Trena atzeratu da. Hogeita bost minutuko atzerapena du.",
+      "example_es": "El tren se ha retrasado. Tiene veinticinco minutos de retraso."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "¿Cómo se pregunta '¿Cuándo sale el tren?' en euskera?",
+      "options": [
+        "Noiz irteten da trena?",
+        "Noiz iristen da trena?",
+        "Nora doa trena?",
+        "Zein trena da?"
+      ],
+      "answer": "Noiz irteten da trena?"
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'ordutegia'?",
+      "answer": "el horario"
+    },
+    {
+      "type": "true_false",
+      "question": "'Irteten da' significa 'llega'.",
+      "answer": false,
+      "explanation": "'Irteten da' significa 'sale'. 'Iristen da' significa 'llega'."
+    },
+    {
+      "type": "fill_blank",
+      "question": "El tren se ha retrasado: Trena ___ da.",
+      "answer": "atzeratu",
+      "hint": "viene de 'atzerapena' (retraso)"
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice '¿Cuándo llega el autobús?' en euskera?",
+      "answer": "Noiz iristen da autobusa?"
+    },
+    {
+      "type": "grammar_select",
+      "question": "¿Qué sufijo indica destino en euskera? 'Bilbo___ noa.' (Voy a Bilbao.)",
+      "options": ["-ra", "-tik", "-z", "-n"],
+      "answer": "-ra"
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une cada palabra con su significado",
+      "pairs": [
+        { "eu": "geltokia", "es": "la estación" },
+        { "eu": "ordutegia", "es": "el horario" },
+        { "eu": "atzerapena", "es": "el retraso" },
+        { "eu": "irteera", "es": "la salida" }
+      ]
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena para formar: '¿Desde qué andén el tren a Bilbao?'",
+      "words": ["Zein", "andeletik", "Bilborako", "trena?"],
+      "answer": "Zein andeletik Bilborako trena?"
+    }
+  ]
+}

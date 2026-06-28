@@ -1,0 +1,101 @@
+{
+  "id": "test",
+  "title": "Test de la Unidad 13: Hiria",
+  "objective": "Demostrar que puedes moverte y comunicarte en la ciudad en euskera",
+  "type": "test",
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'el ayuntamiento' en euskera? (l01)",
+      "options": ["udaletxea", "ospitalea", "liburutegia", "bankua"],
+      "answer": "udaletxea"
+    },
+    {
+      "id": "e02",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano (l01)",
+      "eu": "Liburutegia ikastetxearen ondoan dago.",
+      "answer": "La biblioteca está al lado de la escuela."
+    },
+    {
+      "id": "e03",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál de estas palabras significa 'a la izquierda'? (l02)",
+      "options": ["ezkerrera", "eskuinera", "zuzen", "aurrerago"],
+      "answer": "ezkerrera"
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco con la dirección correcta (l02)",
+      "sentence": "Bankura joateko, ___ joan eta gero eskuinera.",
+      "translation": "Para ir al banco, ve todo recto y luego a la derecha.",
+      "hint": "la expresión para 'todo recto'",
+      "answer": "zuzen-zuzen"
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "instruction": "Empareja cada transporte con su traducción (l03)",
+      "pairs": [
+        { "eu": "autobusa", "es": "el autobús" },
+        { "eu": "trambia", "es": "el tranvía" },
+        { "eu": "trena", "es": "el tren" },
+        { "eu": "geltokia", "es": "la estación" }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "multiple_choice",
+      "instruction": "¿Cuál es la forma correcta de 'en el parque' (NON)? (l04)",
+      "options": ["parkean", "parkera", "parketik", "parkea"],
+      "answer": "parkean"
+    },
+    {
+      "id": "e07",
+      "type": "fill_blank",
+      "instruction": "Completa con la forma adlatibo correcta (NORA) (l04)",
+      "sentence": "Ni museora noa eta zu bankura: guk hiri___ goaz.",
+      "translation": "Yo voy al museo y tú al banco: nosotros vamos a la ciudad.",
+      "hint": "hiria + adlatibo: hirira",
+      "answer": "hirira"
+    },
+    {
+      "id": "e08",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano (l04)",
+      "eu": "Bankatik nator eta orain parkera noa.",
+      "answer": "Vengo del banco y ahora voy al parque."
+    },
+    {
+      "id": "e09",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo preguntas el precio de algo en una tienda? (l05)",
+      "options": ["Zenbat balio du?", "Zer nahi duzu?", "Non dago?", "Nola joaten naiz?"],
+      "answer": "Zenbat balio du?"
+    },
+    {
+      "id": "e10",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera (l05)",
+      "es": "Quiero ese, por favor.",
+      "answer": "Hori nahi dut, mesedez."
+    },
+    {
+      "id": "e11",
+      "type": "order_words",
+      "instruction": "Ordena las palabras para pedir cómo llegar (l06)",
+      "words": ["Nola", "joaten", "naiz", "liburutegira?"],
+      "translation": "¿Cómo voy a la biblioteca?",
+      "answer": "Nola joaten naiz liburutegira?"
+    },
+    {
+      "id": "e12",
+      "type": "translation_eu_es",
+      "instruction": "Traduce este mini-diálogo al castellano (l07)",
+      "eu": "— Barkatu, farmazia non dago? — Plazan dago, aurrerago. — Eskerrik asko!",
+      "answer": "— Disculpa, ¿dónde está la farmacia? — Está en la plaza, más adelante. — ¡Gracias!"
+    }
+  ]
+}

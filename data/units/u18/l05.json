@@ -1,0 +1,100 @@
+{
+  "id": "l05",
+  "title": "Asmoak eta planak (Intenciones y planes)",
+  "objective": "Hablar sobre intenciones, sueños y proyectos de futuro",
+  "grammar_note": {
+    "title": "Asmoak adierazten — Expresar intenciones",
+    "body": "Para hablar de intenciones y planes de futuro tenemos varias estructuras:\n\n**1. NAHI DUT + infinitivo** (deseo):\n- *Medikua izan nahi dut.* (Quiero ser médico/a.)\n\n**2. Asmoa dut + infinitivo + -ko** (tengo la intención de):\n- *Bilbora joateko asmoa dut.* (Tengo intención de ir a Bilbao.)\n\n**3. Presente + tiempo futuro** (plan concreto):\n- *Datorren urtean Euskal Herrira joaten naiz.* (El año que viene voy al País Vasco.)\n\n**Vocabulario clave:**\n- *plana* (el plan), *asmoa* (la intención), *ametsa* (el sueño), *helburu* (el objetivo), *gogoa* (las ganas)",
+    "tip": "Para sueños y aspiraciones: 'X izan nahi dut' (quiero ser X) o 'X egin nahi dut' (quiero hacer X)."
+  },
+  "slides": [
+    {
+      "eu": "asmoa — la intención / el propósito",
+      "es": "'Asmoa' es la intención o propósito. Se usa en 'Bilbora joateko asmoa dut' (tengo intención de ir a Bilbao).",
+      "example_eu": "Euskara ikasteko asmoa dut.",
+      "example_es": "Tengo intención de aprender euskera."
+    },
+    {
+      "eu": "ametsa — el sueño / la ilusión",
+      "es": "'Ametsa' es un sueño o ilusión de vida. Se combina con NAHI DUT o NAHI DUT IZAN.",
+      "example_eu": "Nire ametsa mundua ikustea da.",
+      "example_es": "Mi sueño es ver el mundo."
+    },
+    {
+      "eu": "helburu — el objetivo / la meta",
+      "es": "'Helburu' es un objetivo concreto que quieres alcanzar.",
+      "example_eu": "Nire helburu euskaraz hitz egitea da.",
+      "example_es": "Mi objetivo es hablar en euskera."
+    },
+    {
+      "eu": "gogoa dut — tengo ganas de",
+      "es": "'Gogoa' son las ganas. 'Gogoa dut' = tengo ganas de. Es una expresión muy natural.",
+      "example_eu": "Mendira joateko gogoa dut.",
+      "example_es": "Tengo ganas de ir al monte."
+    },
+    {
+      "eu": "Etorkizunean zer nahi duzu egin? — ¿Qué quieres hacer en el futuro?",
+      "es": "Pregunta para hablar de planes y sueños a largo plazo. 'Etorkizunean' = en el futuro.",
+      "example_eu": "— Etorkizunean zer nahi duzu egin?\n— Mediku lan egin nahi dut.",
+      "example_es": "— ¿Qué quieres hacer en el futuro?\n— Quiero trabajar como médico/a."
+    },
+    {
+      "eu": "Datorren urtean Euskal Herrira bizitzera joateko asmoa dut.",
+      "es": "Frase completa de intención: año que viene + intención de mudarse al País Vasco.",
+      "example_eu": "Nire ametsa da: Euskal Herrian bizi eta euskaraz hitz egin.",
+      "example_es": "Mi sueño es: vivir en el País Vasco y hablar en euskera."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "¿Cómo se dice 'la intención' en euskera?",
+      "options": ["ametsa", "helburu", "asmoa", "plana"],
+      "answer": "asmoa"
+    },
+    {
+      "type": "translation_eu_es",
+      "question": "¿Qué significa 'Nire ametsa mundua ikustea da'?",
+      "answer": "Mi sueño es ver el mundo."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Mendira joateko ___ dut. (Tengo ganas de ir al monte.)",
+      "answer": "gogoa",
+      "hint": "Las ganas, el deseo"
+    },
+    {
+      "type": "translation_es_eu",
+      "question": "¿Cómo se dice 'Tengo intención de aprender euskera'?",
+      "answer": "Euskara ikasteko asmoa dut."
+    },
+    {
+      "type": "true_false",
+      "question": "'Ametsa' significa 'el objetivo concreto'.",
+      "answer": false,
+      "explanation": "'Ametsa' significa 'el sueño / la ilusión'. 'El objetivo' es 'helburu'."
+    },
+    {
+      "type": "grammar_select",
+      "question": "¿Qué palabra completa 'Nire ___ euskaraz hitz egitea da'? (Mi objetivo es hablar en euskera.)",
+      "options": ["ametsa", "helburu", "asmoa", "plana"],
+      "answer": "helburu"
+    },
+    {
+      "type": "order_words",
+      "question": "Ordena para formar: 'En el futuro quiero trabajar en Bilbao.'",
+      "words": ["Etorkizunean", "Bilbon", "lan", "egin", "nahi", "dut"],
+      "answer": "Etorkizunean Bilbon lan egin nahi dut"
+    },
+    {
+      "type": "match_pairs",
+      "question": "Une cada palabra con su significado",
+      "pairs": [
+        { "eu": "asmoa", "es": "la intención" },
+        { "eu": "ametsa", "es": "el sueño" },
+        { "eu": "helburu", "es": "el objetivo" },
+        { "eu": "gogoa", "es": "las ganas" }
+      ]
+    }
+  ]
+}

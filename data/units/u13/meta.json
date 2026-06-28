@@ -1,0 +1,15 @@
+{
+  "id": "u13",
+  "title": "Hiria",
+  "emoji": "🏙️",
+  "lessons": [
+    { "id": "l01", "title": "Hiri-lekuak (Lugares de la ciudad)", "type": "lesson" },
+    { "id": "l02", "title": "Kaleak eta norabideak (Direcciones)", "type": "lesson" },
+    { "id": "l03", "title": "Garraio publikoa (Transporte público)", "type": "lesson" },
+    { "id": "l04", "title": "Non dago? (¿Dónde está?)", "type": "lesson" },
+    { "id": "l05", "title": "Dendetan (En las tiendas)", "type": "lesson" },
+    { "id": "l06", "title": "Nola joan? (¿Cómo llegar?)", "type": "lesson" },
+    { "id": "l07", "title": "Hiri-elkarrizketa (Diálogo)", "type": "lesson" },
+    { "id": "test", "title": "Test de la unidad", "type": "test" }
+  ]
+}

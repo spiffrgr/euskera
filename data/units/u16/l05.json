@@ -1,0 +1,107 @@
+{
+    "id": "l05",
+    "title": "Aditz nagusiak eta EDUN laguntzailea",
+    "grammar_note": {
+        "title": "Verbos léxicos con EDUN como auxiliar",
+        "body": "Los verbos transitivos (que llevan objeto directo) usan EDUN como auxiliar en el presente habitual:\n\n**Estructura**: [sujeto-NORK] + [objeto] + [RAÍZ + **-ten/-tzen**] + [EDUN]\n\n| Verbo | Raíz habitual | Ejemplo |\n|-------|---------------|--------|\n| irakurri (leer) | irakurtzen | Nik liburua **irakurtzen dut**. |\n| ikusi (ver) | ikusten | Zuk telebista **ikusten duzu**. |\n| jan (comer) | jaten | Hark ogia **jaten du**. |\n| edan (beber) | edaten | Nik ura **edaten dut**. |\n| entzun (escuchar) | entzuten | Guk musika **entzuten dugu**. |\n| erosi (comprar) | erosten | Haiek arropa **erosten dute**. |\n| idatzi (escribir) | idazten | Nik gutun bat **idazten dut**. |\n| esan (decir) | esaten | Zuk egia **esaten duzu**. |",
+        "tip": "El sufijo habitual es -ten o -tzen (depende del verbo). No hay regla única, hay que aprender cada forma. Pero la estructura siempre es la misma: objeto + verbo-ten/tzen + EDUN."
+    },
+    "slides": [
+        {
+            "eu": "irakurri → irakurtzen dut",
+            "es": "leer → (yo) leo / suelo leer",
+            "example_eu": "Nik liburua irakurtzen dut gauero.",
+            "example_es": "Yo leo el libro todas las noches."
+        },
+        {
+            "eu": "ikusi → ikusten du",
+            "es": "ver → (él/ella) ve / suele ver",
+            "example_eu": "Hark telebista ikusten du arratsaldean.",
+            "example_es": "Él/ella ve la televisión por la tarde."
+        },
+        {
+            "eu": "jan → jaten dut / edan → edaten dut",
+            "es": "comer → como / beber → bebo",
+            "example_eu": "Nik fruta jaten dut eta ura edaten dut.",
+            "example_es": "Yo como fruta y bebo agua."
+        },
+        {
+            "eu": "entzun → entzuten dugu",
+            "es": "escuchar → escuchamos",
+            "example_eu": "Guk musika entzuten dugu autoan.",
+            "example_es": "Nosotros escuchamos música en el coche."
+        },
+        {
+            "eu": "erosi → erosten dute",
+            "es": "comprar → compran",
+            "example_eu": "Haiek arropa erosten dute merkatuan.",
+            "example_es": "Ellos/ellas compran ropa en el mercado."
+        },
+        {
+            "eu": "idatzi → idazten dut / esan → esaten duzu",
+            "es": "escribir → escribo / decir → dices",
+            "example_eu": "Nik gutun bat idazten dut eta zuk egia esaten duzu.",
+            "example_es": "Yo escribo una carta y tú dices la verdad."
+        }
+    ],
+    "exercises": [
+        {
+            "id": "e01",
+            "type": "multiple_choice",
+            "instruction": "¿Cuál es la forma habitual de 'ikusi' (ver)?",
+            "options": ["ikustzen", "ikusten", "ikuzen", "ikusitzen"],
+            "answer": "ikusten"
+        },
+        {
+            "id": "e02",
+            "type": "translation_eu_es",
+            "eu": "Nik liburua irakurtzen dut.",
+            "answer": "Yo leo el libro."
+        },
+        {
+            "id": "e03",
+            "type": "translation_es_eu",
+            "es": "Él/ella come pan.",
+            "answer": "Hark ogia jaten du."
+        },
+        {
+            "id": "e04",
+            "type": "fill_blank",
+            "sentence": "Guk musika ___ dugu.",
+            "translation": "Nosotros escuchamos música.",
+            "hint": "entzun → forma habitual: ___",
+            "answer": "entzuten"
+        },
+        {
+            "id": "e05",
+            "type": "grammar_select",
+            "sentence": "Zuk telebista ikusten ___.",
+            "translation": "Tú ves la televisión.",
+            "options": ["duzu", "zara", "naiz", "da"],
+            "answer": "duzu"
+        },
+        {
+            "id": "e06",
+            "type": "order_words",
+            "words": ["Haiek", "arropa", "erosten", "dute."],
+            "translation": "Ellos/ellas compran ropa.",
+            "answer": "Haiek arropa erosten dute."
+        },
+        {
+            "id": "e07",
+            "type": "match_pairs",
+            "pairs": [
+                { "eu": "irakurtzen dut", "es": "yo leo" },
+                { "eu": "jaten du", "es": "él/ella come" },
+                { "eu": "edaten dugu", "es": "nosotros bebemos" },
+                { "eu": "idazten dute", "es": "ellos escriben" }
+            ]
+        },
+        {
+            "id": "e08",
+            "type": "translation_es_eu",
+            "es": "Yo bebo agua.",
+            "answer": "Nik ura edaten dut."
+        }
+    ]
+}

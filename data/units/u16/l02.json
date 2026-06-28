@@ -1,0 +1,109 @@
+{
+    "id": "l02",
+    "title": "EDUN plurala — dugu, duzue, dute",
+    "grammar_note": {
+        "title": "EDUN — Formas plurales del presente",
+        "body": "Conjugación completa de EDUN en presente:\n\n| Persona | Forma | Significado |\n|---------|-------|-------------|\n| nik | dut | yo tengo |\n| zuk | duzu | tú tienes |\n| hark | du | él/ella tiene |\n| guk | **dugu** | nosotros/as tenemos |\n| zuek | **duzue** | vosotros/as tenéis |\n| haiek | **dute** | ellos/ellas tienen |\n\n**Negación plural**: *ez dugu, ez duzue, ez dute*",
+        "tip": "Truco de memoria: guk → dug**u** (con -u final), zuek → duz**ue** (añade -e), haiek → dut**e** (du + -te). Las plurales de 1ª y 3ª añaden -u/-e al final."
+    },
+    "slides": [
+        {
+            "eu": "guk dugu",
+            "es": "nosotros/as tenemos",
+            "example_eu": "Guk txakur bat dugu.",
+            "example_es": "Nosotros tenemos un perro."
+        },
+        {
+            "eu": "zuek duzue",
+            "es": "vosotros/as tenéis",
+            "example_eu": "Zuek auto berri bat duzue.",
+            "example_es": "Vosotros tenéis un coche nuevo."
+        },
+        {
+            "eu": "haiek dute",
+            "es": "ellos/ellas tienen",
+            "example_eu": "Haiek diru asko dute.",
+            "example_es": "Ellos/ellas tienen mucho dinero."
+        },
+        {
+            "eu": "ez dugu / ez duzue / ez dute",
+            "es": "no tenemos / no tenéis / no tienen",
+            "example_eu": "Guk ez dugu denborarik.",
+            "example_es": "Nosotros no tenemos tiempo."
+        },
+        {
+            "eu": "Taula osoa: dut, duzu, du, dugu, duzue, dute",
+            "es": "Tabla completa: yo, tú, él, nosotros, vosotros, ellos",
+            "example_eu": "Nik dut, zuk duzu, hark du, guk dugu, zuek duzue, haiek dute.",
+            "example_es": "Yo tengo, tú tienes, él tiene, nosotros tenemos, vosotros tenéis, ellos tienen."
+        },
+        {
+            "eu": "Ba al duzue...? / Ba al dute...?",
+            "es": "¿Tenéis...? / ¿Tienen...?",
+            "example_eu": "Ba al duzue etxerik herrian?",
+            "example_es": "¿Tenéis casa en el pueblo?"
+        }
+    ],
+    "exercises": [
+        {
+            "id": "e01",
+            "type": "multiple_choice",
+            "instruction": "¿Cómo se dice 'nosotros tenemos' en euskera?",
+            "options": ["dute", "duzue", "dugu", "duzu"],
+            "answer": "dugu"
+        },
+        {
+            "id": "e02",
+            "type": "translation_eu_es",
+            "eu": "Haiek diru asko dute.",
+            "answer": "Ellos/ellas tienen mucho dinero."
+        },
+        {
+            "id": "e03",
+            "type": "translation_es_eu",
+            "es": "Vosotros tenéis un perro.",
+            "answer": "Zuek txakur bat duzue."
+        },
+        {
+            "id": "e04",
+            "type": "fill_blank",
+            "sentence": "Guk etxe bat ___.",
+            "translation": "Nosotros tenemos una casa.",
+            "hint": "nosotros tenemos → guk ___",
+            "answer": "dugu"
+        },
+        {
+            "id": "e05",
+            "type": "grammar_select",
+            "sentence": "Haiek kotxe zaharra ___.",
+            "translation": "Ellos/ellas tienen un coche viejo.",
+            "options": ["dute", "dugu", "duzue", "duzu"],
+            "answer": "dute"
+        },
+        {
+            "id": "e06",
+            "type": "order_words",
+            "words": ["Guk", "txakur", "bat", "dugu."],
+            "translation": "Nosotros tenemos un perro.",
+            "answer": "Guk txakur bat dugu."
+        },
+        {
+            "id": "e07",
+            "type": "match_pairs",
+            "pairs": [
+                { "eu": "guk dugu", "es": "nosotros tenemos" },
+                { "eu": "zuek duzue", "es": "vosotros tenéis" },
+                { "eu": "haiek dute", "es": "ellos tienen" },
+                { "eu": "ez dute", "es": "ellos no tienen" }
+            ]
+        },
+        {
+            "id": "e08",
+            "type": "true_false",
+            "instruction": "¿Verdadero o falso?",
+            "statement": "La forma 'duzue' corresponde a 'zuek' (vosotros).",
+            "translation": "La forma 'duzue' corresponde a 'zuek' (vosotros).",
+            "answer": "true"
+        }
+    ]
+}

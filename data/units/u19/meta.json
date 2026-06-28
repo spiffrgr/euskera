@@ -1,0 +1,15 @@
+{
+  "id": "u19",
+  "title": "Atzizkiak",
+  "emoji": "🔗",
+  "lessons": [
+    { "id": "l01", "title": "-rekin: con alguien", "type": "lesson" },
+    { "id": "l02", "title": "-rekin: norekin? (¿con quién?)", "type": "lesson" },
+    { "id": "l03", "title": "-ko: de un lugar", "type": "lesson" },
+    { "id": "l04", "title": "-ko en nombres compuestos", "type": "lesson" },
+    { "id": "l05", "title": "-rik en frases negativas", "type": "lesson" },
+    { "id": "l06", "title": "Combinando sufijos", "type": "lesson" },
+    { "id": "l07", "title": "Elkarrizketa (Diálogo)", "type": "lesson" },
+    { "id": "test", "title": "Test de la unidad", "type": "test" }
+  ]
+}

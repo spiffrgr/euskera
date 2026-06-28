@@ -1,0 +1,111 @@
+{
+  "id": "l04",
+  "unit": "u15",
+  "title": "Liburuak eta irakurketa (Libros y lectura)",
+  "slides": [
+    {
+      "eu": "Liburua — el libro / Liburuak — los libros",
+      "es": "Liburua = libro + artículo -a. Liburuak = libros (plural con -ak). Irakurketa = la lectura.",
+      "example_eu": "Liburuak irakurtzen ditut.",
+      "example_es": "Leo libros. (plural → ditut)"
+    },
+    {
+      "eu": "Eleberria — la novela / Ipuin-bilduma — cuentos",
+      "es": "Eleberri + -a = novela. Ipuin = cuento, bilduma = colección. Ipuin-bilduma = libro de cuentos.",
+      "example_eu": "Eleberriak irakurtzen ditut.",
+      "example_es": "Leo novelas."
+    },
+    {
+      "eu": "Poesia — la poesía / Historia-liburuak — libros de historia",
+      "es": "Poesia: préstamo directo. Historia-liburuak: historia + liburuak (compuesto).",
+      "example_eu": "Poesia gustuko dut.",
+      "example_es": "Me gusta la poesía."
+    },
+    {
+      "eu": "Komikia — el cómic",
+      "es": "Komiki + -a = el cómic. Muy popular entre jóvenes. También manga en contexto moderno.",
+      "example_eu": "Haurtzaroan komikiak irakurtzen nituen.",
+      "example_es": "De niño leía cómics."
+    },
+    {
+      "eu": "Liburutegia — la biblioteca / Liburudenda — la librería",
+      "es": "Liburutegi + -a = biblioteca. Liburudenda: liburu + denda (tienda) = librería.",
+      "example_eu": "Liburutegian irakurtzen dut.",
+      "example_es": "Leo en la biblioteca."
+    },
+    {
+      "eu": "Astean behin / Batzuetan / Inoiz ez — frecuencia",
+      "es": "Astean behin = una vez a la semana. Batzuetan = a veces. Inoiz ez = nunca. Askotan = a menudo.",
+      "example_eu": "Inoiz ez dut komikirik irakurtzen.",
+      "example_es": "No leo cómics nunca."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match_pairs",
+      "instruction": "Empareja el género literario con su traducción",
+      "pairs": [
+        { "eu": "eleberria", "es": "la novela" },
+        { "eu": "poesia", "es": "la poesía" },
+        { "eu": "komikia", "es": "el cómic" },
+        { "eu": "historia-liburuak", "es": "libros de historia" }
+      ]
+    },
+    {
+      "id": "e02",
+      "type": "multiple_choice",
+      "instruction": "¿Cómo se dice 'la biblioteca' en euskera?",
+      "options": ["liburudenda", "liburutegia", "liburua", "irakurketa"],
+      "answer": "liburutegia"
+    },
+    {
+      "id": "e03",
+      "type": "translation_eu_es",
+      "instruction": "Traduce al castellano",
+      "eu": "Liburuak irakurtzen ditut.",
+      "answer": "Leo libros."
+    },
+    {
+      "id": "e04",
+      "type": "true_false",
+      "instruction": "¿Verdadero o falso?",
+      "statement": "'Liburudenda' significa 'la biblioteca'.",
+      "translation": "'Liburudenda' significa 'la biblioteca'.",
+      "answer": "false"
+    },
+    {
+      "id": "e05",
+      "type": "fill_blank",
+      "instruction": "Rellena el hueco",
+      "sentence": "Liburutegian _ dut.",
+      "translation": "Leo en la biblioteca.",
+      "hint": "irakurri → presente habitual",
+      "answer": "irakurtzen"
+    },
+    {
+      "id": "e06",
+      "type": "translation_es_eu",
+      "instruction": "Traduce al euskera",
+      "es": "Me gusta la poesía.",
+      "answer": "Poesia gustuko dut."
+    },
+    {
+      "id": "e07",
+      "type": "order_words",
+      "instruction": "Ordena las palabras",
+      "words": ["ez", "Inoiz", "irakurtzen", "komikirik", "dut"],
+      "translation": "No leo cómics nunca.",
+      "answer": "Inoiz ez dut komikirik irakurtzen."
+    },
+    {
+      "id": "e08",
+      "type": "grammar_select",
+      "instruction": "Elige el pronombre correcto para 'Leo libros' (objeto plural)",
+      "sentence": "Liburuak irakurtzen _.",
+      "translation": "Leo libros.",
+      "options": ["dut", "ditut", "dugu", "duzu"],
+      "answer": "ditut"
+    }
+  ]
+}

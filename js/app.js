@@ -86,7 +86,18 @@ const App = (() => {
     }));
 
     const exercises = dueItems.flatMap(item => {
-      const ex = lessonMap[item.topicId]?.exercises?.find(e => e.id === item.itemId);
+      const lesson = lessonMap[item.topicId];
+      if (!lesson) return [];
+      const pairMatch = item.itemId.match(/^(.+)_p(\d+)$/);
+      if (pairMatch) {
+        const parentEx = lesson.exercises?.find(e => e.id === pairMatch[1]);
+        if (!parentEx || parentEx.type !== 'match_pairs') return [];
+        const pair = parentEx.pairs?.[parseInt(pairMatch[2])];
+        if (!pair) return [];
+        return [{ id: item.itemId, type: 'translation_eu_es', eu: pair.eu, answer: pair.es,
+                  _itemId: `${item.topicId}_${item.itemId}` }];
+      }
+      const ex = lesson.exercises?.find(e => e.id === item.itemId);
       return ex ? [{ ...ex, _itemId: `${item.topicId}_${item.itemId}` }] : [];
     }).sort(() => Math.random() - 0.5);
 
@@ -124,6 +135,31 @@ const App = (() => {
     openLesson(lesson);
   }
 
+  async function loadInterleavedExercises() {
+    const completedKeys = Object.keys(lessonProgressMap).filter(k => {
+      const parts = k.split('_');
+      if (parts.length < 2) return false;
+      if (parts[1] === 'test' || parts[1] === 'repaso') return false;
+      if (currentUnit && k === `${currentUnit.id}_${currentLessonId}`) return false;
+      return lessonProgressMap[k]?.completed;
+    });
+    if (!completedKeys.length) return [];
+    const randomKey = completedKeys[Math.floor(Math.random() * completedKeys.length)];
+    const [uid, lid] = randomKey.split('_');
+    try {
+      const lessonData = await Course.loadLesson(uid, lid);
+      const vocab = (lessonData.exercises || []).filter(e =>
+        e.type === 'translation_eu_es' || e.type === 'translation_es_eu'
+      );
+      if (!vocab.length) return [];
+      return vocab.sort(() => Math.random() - 0.5).slice(0, 2).map(e => ({
+        ...e,
+        _itemId: `${uid}_${lid}_${e.id}`,
+        _interleaved: true,
+      }));
+    } catch { return []; }
+  }
+
   async function openLesson(lesson) {
     currentLessonId = lesson.id;
     const data = await Course.loadLesson(currentUnit.id, lesson.id);
@@ -131,7 +167,13 @@ const App = (() => {
     const allExercises = data.exercises || [];
     const isUncapped = currentLessonId === 'test' || currentLessonId === 'repaso';
     const cap = isUncapped ? allExercises.length : (data.exercise_cap || 8);
-    currentExercises = allExercises.slice(0, cap);
+    const mainExs = allExercises.slice(0, cap);
+    const interleaved = (!isUncapped && mainExs.length >= 2) ? await loadInterleavedExercises() : [];
+    if (interleaved.length) {
+      const insertAt = Math.max(1, Math.floor(mainExs.length / 2));
+      mainExs.splice(insertAt, 0, ...interleaved);
+    }
+    currentExercises = mainExs;
     exerciseIndex = 0;
     sessionStats = { correct: 0, wrong: 0 };
     failedExercises = [];
@@ -284,6 +326,17 @@ const App = (() => {
     interactiveAbort = new AbortController();
     const signal = interactiveAbort.signal;
 
+    function srsForPair(pairIdx, wasCorrect) {
+      const base = exercise._itemId || (currentUnit ? `${currentUnit.id}_${currentLessonId}_${exercise.id}` : null);
+      if (!base) return;
+      const key = `${base}_p${pairIdx}`;
+      FB.getSRSItem(key).then(existing => {
+        const kp = key.split('_');
+        const item = existing || SRS.defaultItem(`${kp[0]}_${kp[1]}`, kp.slice(2).join('_'));
+        FB.setSRSItem(key, SRS.update(item, wasCorrect));
+      });
+    }
+
     let selectedLeftBtn = null;
     let matchedPairs = [];
     const totalPairs = exercise.pairs.length;
@@ -303,7 +356,8 @@ const App = (() => {
 
       const euVal = selectedLeftBtn.dataset.value;
       const esVal = btn.dataset.value;
-      const isPair = exercise.pairs.some(p => p.eu === euVal && p.es === esVal);
+      const pairIdx = exercise.pairs.findIndex(p => p.eu === euVal && p.es === esVal);
+      const isPair = pairIdx !== -1;
 
       if (isPair) {
         selectedLeftBtn.classList.remove('selected');
@@ -313,6 +367,7 @@ const App = (() => {
         btn.disabled = true;
         matchedPairs.push({ eu: euVal, es: esVal });
         selectedLeftBtn = null;
+        srsForPair(pairIdx, true);
         if (matchedPairs.length === totalPairs) {
           handleAnswer(exercise, matchedPairs);
         }
@@ -322,6 +377,8 @@ const App = (() => {
         leftRef.classList.add('wrong-flash');
         btn.classList.add('wrong-flash');
         selectedLeftBtn = null;
+        const wrongIdx = exercise.pairs.findIndex(p => p.eu === euVal);
+        if (wrongIdx !== -1) srsForPair(wrongIdx, false);
         setTimeout(() => {
           leftRef.classList.remove('wrong-flash');
           btn.classList.remove('wrong-flash');
@@ -341,16 +398,18 @@ const App = (() => {
 
     UI.showFeedback(isCorrect, exercise);
 
-    // SRS tracking — fire-and-forget, works for both lessons and review sessions
-    const itemId = exercise._itemId ||
-      (currentUnit ? `${currentUnit.id}_${currentLessonId}_${exercise.id}` : null);
-    if (itemId) {
-      FB.getSRSItem(itemId).then(existing => {
-        const parts = itemId.split('_');
-        const topicId = `${parts[0]}_${parts[1]}`;
-        const item = existing || SRS.defaultItem(topicId, parts[2]);
-        FB.setSRSItem(itemId, SRS.update(item, isCorrect));
-      });
+    // SRS tracking — fire-and-forget; match_pairs tracked per-pair in setupMatchPairs
+    if (exercise.type !== 'match_pairs') {
+      const itemId = exercise._itemId ||
+        (currentUnit ? `${currentUnit.id}_${currentLessonId}_${exercise.id}` : null);
+      if (itemId) {
+        FB.getSRSItem(itemId).then(existing => {
+          const parts = itemId.split('_');
+          const topicId = `${parts[0]}_${parts[1]}`;
+          const item = existing || SRS.defaultItem(topicId, parts[2]);
+          FB.setSRSItem(itemId, SRS.update(item, isCorrect));
+        });
+      }
     }
   }
 

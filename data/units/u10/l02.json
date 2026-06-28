@@ -1,25 +1,115 @@
-{
-  "id": "l02",
-  "title": "Altzariak (Los muebles)",
-  "grammar_note": {
-    "title": "Muebles y objetos del hogar",
-    "body": "Vocabulario de muebles:\n**ohea** → la cama\n**mahaia** → la mesa\n**aulkia** → la silla\n**sofaa** → el sofá\n**armairua** → el armario\n**apalategia** → la estantería\n**leihoa** → la ventana\n**atea** → la puerta",
-    "tip": "Nota la -a final en la mayoría: ohea, mahaia, aulkia... Es el artículo determinado en euskera (como 'el/la' en español)."
-  },
-  "slides": [
-    { "eu": "ohea", "es": "la cama", "example_eu": "Ohea logelan dago.", "example_es": "La cama está en el dormitorio." },
-    { "eu": "mahaia", "es": "la mesa", "example_eu": "Mahaia sukaldean dago.", "example_es": "La mesa está en la cocina." },
-    { "eu": "sofaa", "es": "el sofá", "example_eu": "Sofaa egongelan dago.", "example_es": "El sofá está en el salón." },
-    { "eu": "armairua", "es": "el armario", "example_eu": "Arropa armairuan dago.", "example_es": "La ropa está en el armario." }
-  ],
-  "exercises": [
-    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'la mesa' en euskera?", "options": ["ohea", "mahaia", "aulkia", "sofaa"], "answer": "mahaia" },
-    { "id": "e02", "type": "translation_eu_es", "eu": "Armairua", "answer": "El armario" },
-    { "id": "e03", "type": "translation_es_eu", "es": "La cama", "answer": "Ohea" },
-    { "id": "e04", "type": "true_false", "eu": "Sofaa = la silla", "es": "Sofaa = la silla", "answer": false, "explanation": "Sofaa significa 'el sofá'. La silla es 'aulkia'." },
-    { "id": "e05", "type": "fill_blank", "sentence": "Egongelan ___ dago (el sofá)", "translation": "En el salón está el sofá", "hint": "el sofá", "answer": "sofaa" },
-    { "id": "e06", "type": "order_words", "words": ["arropa", "armairuan", "dago"], "translation": "La ropa está en el armario", "answer": "Arropa armairuan dago" },
-    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "ohea", "es": "cama"}, {"eu": "mahaia", "es": "mesa"}, {"eu": "aulkia", "es": "silla"}, {"eu": "armairua", "es": "armario"}] },
-    { "id": "e08", "type": "grammar_select", "sentence": "___ logelan dago.", "translation": "La cama está en el dormitorio.", "options": ["Ohea", "Sofaa", "Mahaia", "Aulkia"], "answer": "Ohea" }
-  ]
+﻿{
+    "id":  "l02",
+    "title":  "Altzariak (Los muebles)",
+    "grammar_note":  {
+                         "title":  "Muebles y objetos del hogar",
+                         "body":  "Vocabulario de muebles:\n**ohea** → la cama\n**mahaia** → la mesa\n**aulkia** → la silla\n**sofaa** → el sofá\n**armairua** → el armario\n**apalategia** → la estantería\n**leihoa** → la ventana\n**atea** → la puerta",
+                         "tip":  "Nota la -a final en la mayoría: ohea, mahaia, aulkia... Es el artículo determinado en euskera (como \u0027el/la\u0027 en español)."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "ohea",
+                       "es":  "la cama",
+                       "example_eu":  "Ohea logelan dago.",
+                       "example_es":  "La cama está en el dormitorio."
+                   },
+                   {
+                       "eu":  "mahaia",
+                       "es":  "la mesa",
+                       "example_eu":  "Mahaia sukaldean dago.",
+                       "example_es":  "La mesa está en la cocina."
+                   },
+                   {
+                       "eu":  "sofaa",
+                       "es":  "el sofá",
+                       "example_eu":  "Sofaa egongelan dago.",
+                       "example_es":  "El sofá está en el salón."
+                   },
+                   {
+                       "eu":  "armairua",
+                       "es":  "el armario",
+                       "example_eu":  "Arropa armairuan dago.",
+                       "example_es":  "La ropa está en el armario."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027la mesa\u0027 en euskera?",
+                          "options":  [
+                                          "ohea",
+                                          "mahaia",
+                                          "aulkia",
+                                          "sofaa"
+                                      ],
+                          "answer":  "mahaia"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "eu":  "Armairua",
+                          "answer":  "El armario"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_es_eu",
+                          "es":  "La cama",
+                          "answer":  "Ohea"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "fill_blank",
+                          "sentence":  "Egongelan ___ dago (el sofá)",
+                          "translation":  "En el salón está el sofá",
+                          "hint":  "el sofá",
+                          "answer":  "sofaa"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "order_words",
+                          "words":  [
+                                        "arropa",
+                                        "armairuan",
+                                        "dago"
+                                    ],
+                          "translation":  "La ropa está en el armario",
+                          "answer":  "Arropa armairuan dago"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "ohea",
+                                            "es":  "cama"
+                                        },
+                                        {
+                                            "eu":  "mahaia",
+                                            "es":  "mesa"
+                                        },
+                                        {
+                                            "eu":  "aulkia",
+                                            "es":  "silla"
+                                        },
+                                        {
+                                            "eu":  "armairua",
+                                            "es":  "armario"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "grammar_select",
+                          "sentence":  "___ logelan dago.",
+                          "translation":  "La cama está en el dormitorio.",
+                          "options":  [
+                                          "Ohea",
+                                          "Sofaa",
+                                          "Mahaia",
+                                          "Aulkia"
+                                      ],
+                          "answer":  "Ohea"
+                      }
+                  ]
 }

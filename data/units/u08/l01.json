@@ -1,96 +1,110 @@
-{
-  "id": "l01",
-  "title": "NAGO, ZAUDE, DAGO (EGON)",
-  "grammar_note": {
-    "title": "EGON aditza – kokapena (EGON – ubicación)",
-    "body": "EGON = estar (en un lugar o estado temporal). Se distingue de IZAN: **EGON** para ubicación y estado físico, **IZAN** para identidad. Conjugación: **nago** (estoy), **zaude** (estás), **dago** (está), **gaude** (estamos), **daude** (están).",
-    "tip": "EGON para 'estar en un lugar': Etxean nago (Estoy en casa). IZAN para 'ser': Ni medikua naiz (Soy médico)."
-  },
-  "slides": [
-    {
-      "eu": "nago / zaude / dago",
-      "es": "estoy / estás / está",
-      "example_eu": "Etxean nago. Non zaude zu?",
-      "example_es": "Estoy en casa. ¿Dónde estás tú?"
-    },
-    {
-      "eu": "gaude / daude",
-      "es": "estamos / están",
-      "example_eu": "Parkean gaude. Haurrak jolasean daude.",
-      "example_es": "Estamos en el parque. Los niños están jugando."
-    },
-    {
-      "eu": "Nola zaude? / Ondo nago.",
-      "es": "¿Cómo estás? / Estoy bien.",
-      "example_eu": "Nola zaude gaur? Pixka bat nekatuta nago.",
-      "example_es": "¿Cómo estás hoy? Estoy un poco cansado/a."
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cuál es la forma de 'está' (EGON - él/ella)?",
-      "options": ["dago", "nago", "zaude", "daude"],
-      "answer": "dago"
-    },
-    {
-      "id": "e02",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "Etxean nago.",
-      "es": "Estoy en casa.",
-      "answer": true
-    },
-    {
-      "id": "e03",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Parkean gaude.",
-      "answer": "Estamos en el parque."
-    },
-    {
-      "id": "e04",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Non ___ zu?",
-      "translation": "¿Dónde estás tú?",
-      "hint": "EGON 2ª persona singular",
-      "answer": "zaude"
-    },
-    {
-      "id": "e05",
-      "type": "grammar_select",
-      "instruction": "Para decir 'ellos están en el parque' usas:",
-      "sentence": "Parkean ___",
-      "translation": "Ellos están en el parque",
-      "options": ["nago", "dago", "daude", "gaude"],
-      "answer": "daude"
-    },
-    {
-      "id": "e06",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "¿Cómo estás?",
-      "answer": "Nola zaude?"
-    },
-    {
-      "id": "e07",
-      "type": "match_pairs",
-      "instruction": "Une cada par",
-      "pairs": [
-        { "eu": "nago", "es": "estoy" },
-        { "eu": "zaude", "es": "estás" },
-        { "eu": "dago", "es": "está" },
-        { "eu": "daude", "es": "están" }
-      ]
-    },
-    {
-      "id": "e08",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Pixka bat nekatuta nago.",
-      "answer": "Estoy un poco cansado/a."
-    }
-  ]
+﻿{
+    "id":  "l01",
+    "title":  "NAGO, ZAUDE, DAGO (EGON)",
+    "grammar_note":  {
+                         "title":  "EGON aditza – kokapena (EGON – ubicación)",
+                         "body":  "EGON = estar (en un lugar o estado temporal). Se distingue de IZAN: **EGON** para ubicación y estado físico, **IZAN** para identidad. Conjugación: **nago** (estoy), **zaude** (estás), **dago** (está), **gaude** (estamos), **daude** (están).",
+                         "tip":  "EGON para \u0027estar en un lugar\u0027: Etxean nago (Estoy en casa). IZAN para \u0027ser\u0027: Ni medikua naiz (Soy médico)."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "nago / zaude / dago",
+                       "es":  "estoy / estás / está",
+                       "example_eu":  "Etxean nago. Non zaude zu?",
+                       "example_es":  "Estoy en casa. ¿Dónde estás tú?"
+                   },
+                   {
+                       "eu":  "gaude / daude",
+                       "es":  "estamos / están",
+                       "example_eu":  "Parkean gaude. Haurrak jolasean daude.",
+                       "example_es":  "Estamos en el parque. Los niños están jugando."
+                   },
+                   {
+                       "eu":  "Nola zaude? / Ondo nago.",
+                       "es":  "¿Cómo estás? / Estoy bien.",
+                       "example_eu":  "Nola zaude gaur? Pixka bat nekatuta nago.",
+                       "example_es":  "¿Cómo estás hoy? Estoy un poco cansado/a."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cuál es la forma de \u0027está\u0027 (EGON - él/ella)?",
+                          "options":  [
+                                          "dago",
+                                          "nago",
+                                          "zaude",
+                                          "daude"
+                                      ],
+                          "answer":  "dago"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Parkean gaude.",
+                          "answer":  "Estamos en el parque."
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Non ___ zu?",
+                          "translation":  "¿Dónde estás tú?",
+                          "hint":  "EGON 2ª persona singular",
+                          "answer":  "zaude"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "grammar_select",
+                          "instruction":  "Para decir \u0027ellos están en el parque\u0027 usas:",
+                          "sentence":  "Parkean ___",
+                          "translation":  "Ellos están en el parque",
+                          "options":  [
+                                          "nago",
+                                          "dago",
+                                          "daude",
+                                          "gaude"
+                                      ],
+                          "answer":  "daude"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "¿Cómo estás?",
+                          "answer":  "Nola zaude?"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "match_pairs",
+                          "instruction":  "Une cada par",
+                          "pairs":  [
+                                        {
+                                            "eu":  "nago",
+                                            "es":  "estoy"
+                                        },
+                                        {
+                                            "eu":  "zaude",
+                                            "es":  "estás"
+                                        },
+                                        {
+                                            "eu":  "dago",
+                                            "es":  "está"
+                                        },
+                                        {
+                                            "eu":  "daude",
+                                            "es":  "están"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Pixka bat nekatuta nago.",
+                          "answer":  "Estoy un poco cansado/a."
+                      }
+                  ]
 }

@@ -1,25 +1,115 @@
-{
-  "id": "l07",
-  "title": "Galdera-elkarrizketa (Diálogo)",
-  "grammar_note": {
-    "title": "Hacer preguntas en conversación real",
-    "body": "En una conversación fluida, las preguntas y respuestas se encadenan:\n**Nor zara?** → Ni Mikel naiz.\n**Nongoa zara?** → Donostia-koa naiz.\n**Non bizi zara?** → Bilbon bizi naiz.\n**Zer egiten duzu?** → Irakaslea naiz.\n**Zergatik ikasi duzu euskara?** → Gustuko dudalako.\n\nPractica estas secuencias hasta que fluyan de manera natural.",
-    "tip": "Las preguntas de cortesía son clave: Nola zaude? al empezar, Eskerrik asko al terminar."
-  },
-  "slides": [
-    { "eu": "Zer egiten duzu?", "es": "¿Qué haces? (profesión)", "example_eu": "Zer egiten duzu? —Medikua naiz.", "example_es": "¿Qué haces? —Soy médico/a." },
-    { "eu": "Non bizi zara?", "es": "¿Dónde vives?", "example_eu": "Non bizi zara? —Gasteizen bizi naiz.", "example_es": "¿Dónde vives? —Vivo en Vitoria." },
-    { "eu": "Zenbat urte dituzu?", "es": "¿Cuántos años tienes?", "example_eu": "Zenbat urte dituzu? —Hogeita hamar urte ditut.", "example_es": "¿Cuántos años tienes? —Tengo treinta años." },
-    { "eu": "Zergatik ikasi duzu euskara?", "es": "¿Por qué has aprendido euskera?", "example_eu": "Zergatik ikasi duzu euskara? —Lanerako behar dudalako eta kultura ezagutzeko.", "example_es": "¿Por qué has aprendido euskera? —Porque lo necesito para el trabajo y para conocer la cultura." }
-  ],
-  "exercises": [
-    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo preguntas la profesión de alguien?", "options": ["Non bizi zara?", "Zer egiten duzu?", "Nongoa zara?", "Zenbat urte dituzu?"], "answer": "Zer egiten duzu?" },
-    { "id": "e02", "type": "translation_eu_es", "eu": "Non bizi zara?", "answer": "¿Dónde vives?" },
-    { "id": "e03", "type": "translation_es_eu", "es": "¿Por qué has aprendido euskera?", "answer": "Zergatik ikasi duzu euskara?" },
-    { "id": "e04", "type": "true_false", "eu": "Nongoa zara? = ¿Dónde vives?", "es": "Nongoa zara? = ¿Dónde vives?", "answer": false, "explanation": "Nongoa zara? significa '¿De dónde eres?'. ¿Dónde vives? es 'Non bizi zara?'." },
-    { "id": "e05", "type": "fill_blank", "sentence": "Zergatik ikasi duzu euskara? —Gustuko ___ (porque me gusta)", "translation": "¿Por qué has aprendido euskera? —Porque me gusta", "hint": "dudalako = porque (lo) tengo gusto", "answer": "dudalako" },
-    { "id": "e06", "type": "order_words", "words": ["zenbat", "urte", "dituzu?"], "translation": "¿Cuántos años tienes?", "answer": "Zenbat urte dituzu?" },
-    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "Nor zara?", "es": "¿Quién eres?"}, {"eu": "Non bizi zara?", "es": "¿Dónde vives?"}, {"eu": "Zer egiten duzu?", "es": "¿Qué haces?"}, {"eu": "Nongoa zara?", "es": "¿De dónde eres?"}] },
-    { "id": "e08", "type": "grammar_select", "sentence": "___ bizi zara? —Bilbon bizi naiz.", "translation": "¿Dónde vives? —Vivo en Bilbao.", "options": ["Non", "Nora", "Nondik", "Noiz"], "answer": "Non" }
-  ]
+﻿{
+    "id":  "l07",
+    "title":  "Galdera-elkarrizketa (Diálogo)",
+    "grammar_note":  {
+                         "title":  "Hacer preguntas en conversación real",
+                         "body":  "En una conversación fluida, las preguntas y respuestas se encadenan:\n**Nor zara?** → Ni Mikel naiz.\n**Nongoa zara?** → Donostia-koa naiz.\n**Non bizi zara?** → Bilbon bizi naiz.\n**Zer egiten duzu?** → Irakaslea naiz.\n**Zergatik ikasi duzu euskara?** → Gustuko dudalako.\n\nPractica estas secuencias hasta que fluyan de manera natural.",
+                         "tip":  "Las preguntas de cortesía son clave: Nola zaude? al empezar, Eskerrik asko al terminar."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "Zer egiten duzu?",
+                       "es":  "¿Qué haces? (profesión)",
+                       "example_eu":  "Zer egiten duzu? —Medikua naiz.",
+                       "example_es":  "¿Qué haces? —Soy médico/a."
+                   },
+                   {
+                       "eu":  "Non bizi zara?",
+                       "es":  "¿Dónde vives?",
+                       "example_eu":  "Non bizi zara? —Gasteizen bizi naiz.",
+                       "example_es":  "¿Dónde vives? —Vivo en Vitoria."
+                   },
+                   {
+                       "eu":  "Zenbat urte dituzu?",
+                       "es":  "¿Cuántos años tienes?",
+                       "example_eu":  "Zenbat urte dituzu? —Hogeita hamar urte ditut.",
+                       "example_es":  "¿Cuántos años tienes? —Tengo treinta años."
+                   },
+                   {
+                       "eu":  "Zergatik ikasi duzu euskara?",
+                       "es":  "¿Por qué has aprendido euskera?",
+                       "example_eu":  "Zergatik ikasi duzu euskara? —Lanerako behar dudalako eta kultura ezagutzeko.",
+                       "example_es":  "¿Por qué has aprendido euskera? —Porque lo necesito para el trabajo y para conocer la cultura."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo preguntas la profesión de alguien?",
+                          "options":  [
+                                          "Non bizi zara?",
+                                          "Zer egiten duzu?",
+                                          "Nongoa zara?",
+                                          "Zenbat urte dituzu?"
+                                      ],
+                          "answer":  "Zer egiten duzu?"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "eu":  "Non bizi zara?",
+                          "answer":  "¿Dónde vives?"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_es_eu",
+                          "es":  "¿Por qué has aprendido euskera?",
+                          "answer":  "Zergatik ikasi duzu euskara?"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "fill_blank",
+                          "sentence":  "Zergatik ikasi duzu euskara? —Gustuko ___ (porque me gusta)",
+                          "translation":  "¿Por qué has aprendido euskera? —Porque me gusta",
+                          "hint":  "dudalako = porque (lo) tengo gusto",
+                          "answer":  "dudalako"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "order_words",
+                          "words":  [
+                                        "zenbat",
+                                        "urte",
+                                        "dituzu?"
+                                    ],
+                          "translation":  "¿Cuántos años tienes?",
+                          "answer":  "Zenbat urte dituzu?"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "Nor zara?",
+                                            "es":  "¿Quién eres?"
+                                        },
+                                        {
+                                            "eu":  "Non bizi zara?",
+                                            "es":  "¿Dónde vives?"
+                                        },
+                                        {
+                                            "eu":  "Zer egiten duzu?",
+                                            "es":  "¿Qué haces?"
+                                        },
+                                        {
+                                            "eu":  "Nongoa zara?",
+                                            "es":  "¿De dónde eres?"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "grammar_select",
+                          "sentence":  "___ bizi zara? —Bilbon bizi naiz.",
+                          "translation":  "¿Dónde vives? —Vivo en Bilbao.",
+                          "options":  [
+                                          "Non",
+                                          "Nora",
+                                          "Nondik",
+                                          "Noiz"
+                                      ],
+                          "answer":  "Non"
+                      }
+                  ]
 }

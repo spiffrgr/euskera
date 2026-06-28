@@ -1,25 +1,117 @@
-{
-  "id": "l07",
-  "title": "Osasun-elkarrizketa (Diálogo)",
-  "grammar_note": {
-    "title": "Diálogo completo en el médico",
-    "body": "Secuencia típica en una consulta médica:\n1. **Sarrera**: Egunon, zer gertatzen zaizu? (Buenos días, ¿qué le pasa?)\n2. **Sintomak**: Burua min dut eta sukarra dut (Me duele la cabeza y tengo fiebre)\n3. **Diagnostikoa**: Gripea duzu (Tiene gripe)\n4. **Tratamendua**: Sendagaiak hartu eta atseden egin (Tome medicamentos y descanse)\n5. **Agurra**: Laster sendatu! (¡Que se mejore pronto!)",
-    "tip": "Laster sendatu! es la expresión para desear mejoría. Sendatu = curarse/sanar."
-  },
-  "slides": [
-    { "eu": "Zer gertatzen zaizu?", "es": "¿Qué le pasa? / ¿Qué te pasa?", "example_eu": "Zer gertatzen zaizu? —Burua min dut.", "example_es": "¿Qué le pasa? —Me duele la cabeza." },
-    { "eu": "Gripea duzu", "es": "Tiene/Tienes gripe", "example_eu": "Gripea duzu. Sendatzeko, atseden hartu eta ur asko edan behar duzu.", "example_es": "Tiene gripe. Para recuperarse, debe descansar y beber mucha agua." },
-    { "eu": "Sendagaiak hartu", "es": "Tome los medicamentos", "example_eu": "Egunean hiru aldiz sendagaiak hartu behar dituzu.", "example_es": "Debe tomar los medicamentos tres veces al día." },
-    { "eu": "Laster sendatu!", "es": "¡Que se mejore pronto!", "example_eu": "Laster sendatu eta on egin!", "example_es": "¡Que se mejore pronto y que aproveche!" }
-  ],
-  "exercises": [
-    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se pregunta '¿Qué le pasa?' en el médico?", "options": ["Non zaude?", "Zer gertatzen zaizu?", "Nola zaude?", "Zer egiten duzu?"], "answer": "Zer gertatzen zaizu?" },
-    { "id": "e02", "type": "translation_eu_es", "eu": "Laster sendatu!", "answer": "¡Que se mejore pronto!" },
-    { "id": "e03", "type": "translation_es_eu", "es": "Tiene gripe", "answer": "Gripea duzu" },
-    { "id": "e04", "type": "true_false", "eu": "Sendatu = curarse / sanar", "es": "Sendatu = curarse / sanar", "answer": true, "explanation": "Correcto. Sendatu significa curar/sanar. Laster sendatu = que te cures pronto." },
-    { "id": "e05", "type": "fill_blank", "sentence": "Zer ___ zaizu? (¿qué te pasa?)", "translation": "¿Qué te pasa?", "hint": "gertatzen = pasando, ocurriendo", "answer": "gertatzen" },
-    { "id": "e06", "type": "order_words", "words": ["sendagaiak", "hartu", "eta", "atseden", "egin"], "translation": "Tome los medicamentos y descanse", "answer": "Sendagaiak hartu eta atseden egin" },
-    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "Zer gertatzen zaizu?", "es": "¿Qué le pasa?"}, {"eu": "Gripea duzu", "es": "Tiene gripe"}, {"eu": "Sendagaiak hartu", "es": "tome los medicamentos"}, {"eu": "Laster sendatu!", "es": "¡Que se mejore!"}] },
-    { "id": "e08", "type": "grammar_select", "sentence": "Egunean hiru aldiz sendagaiak hartu ___ dituzu.", "translation": "Debe tomar los medicamentos tres veces al día.", "options": ["behar", "nahi", "joan", "etorri"], "answer": "behar" }
-  ]
+﻿{
+    "id":  "l07",
+    "title":  "Osasun-elkarrizketa (Diálogo)",
+    "grammar_note":  {
+                         "title":  "Diálogo completo en el médico",
+                         "body":  "Secuencia típica en una consulta médica:\n1. **Sarrera**: Egunon, zer gertatzen zaizu? (Buenos días, ¿qué le pasa?)\n2. **Sintomak**: Burua min dut eta sukarra dut (Me duele la cabeza y tengo fiebre)\n3. **Diagnostikoa**: Gripea duzu (Tiene gripe)\n4. **Tratamendua**: Sendagaiak hartu eta atseden egin (Tome medicamentos y descanse)\n5. **Agurra**: Laster sendatu! (¡Que se mejore pronto!)",
+                         "tip":  "Laster sendatu! es la expresión para desear mejoría. Sendatu = curarse/sanar."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "Zer gertatzen zaizu?",
+                       "es":  "¿Qué le pasa? / ¿Qué te pasa?",
+                       "example_eu":  "Zer gertatzen zaizu? —Burua min dut.",
+                       "example_es":  "¿Qué le pasa? —Me duele la cabeza."
+                   },
+                   {
+                       "eu":  "Gripea duzu",
+                       "es":  "Tiene/Tienes gripe",
+                       "example_eu":  "Gripea duzu. Sendatzeko, atseden hartu eta ur asko edan behar duzu.",
+                       "example_es":  "Tiene gripe. Para recuperarse, debe descansar y beber mucha agua."
+                   },
+                   {
+                       "eu":  "Sendagaiak hartu",
+                       "es":  "Tome los medicamentos",
+                       "example_eu":  "Egunean hiru aldiz sendagaiak hartu behar dituzu.",
+                       "example_es":  "Debe tomar los medicamentos tres veces al día."
+                   },
+                   {
+                       "eu":  "Laster sendatu!",
+                       "es":  "¡Que se mejore pronto!",
+                       "example_eu":  "Laster sendatu eta on egin!",
+                       "example_es":  "¡Que se mejore pronto y que aproveche!"
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se pregunta \u0027¿Qué le pasa?\u0027 en el médico?",
+                          "options":  [
+                                          "Non zaude?",
+                                          "Zer gertatzen zaizu?",
+                                          "Nola zaude?",
+                                          "Zer egiten duzu?"
+                                      ],
+                          "answer":  "Zer gertatzen zaizu?"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "eu":  "Laster sendatu!",
+                          "answer":  "¡Que se mejore pronto!"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_es_eu",
+                          "es":  "Tiene gripe",
+                          "answer":  "Gripea duzu"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "fill_blank",
+                          "sentence":  "Zer ___ zaizu? (¿qué te pasa?)",
+                          "translation":  "¿Qué te pasa?",
+                          "hint":  "gertatzen = pasando, ocurriendo",
+                          "answer":  "gertatzen"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "order_words",
+                          "words":  [
+                                        "sendagaiak",
+                                        "hartu",
+                                        "eta",
+                                        "atseden",
+                                        "egin"
+                                    ],
+                          "translation":  "Tome los medicamentos y descanse",
+                          "answer":  "Sendagaiak hartu eta atseden egin"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "Zer gertatzen zaizu?",
+                                            "es":  "¿Qué le pasa?"
+                                        },
+                                        {
+                                            "eu":  "Gripea duzu",
+                                            "es":  "Tiene gripe"
+                                        },
+                                        {
+                                            "eu":  "Sendagaiak hartu",
+                                            "es":  "tome los medicamentos"
+                                        },
+                                        {
+                                            "eu":  "Laster sendatu!",
+                                            "es":  "¡Que se mejore!"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "grammar_select",
+                          "sentence":  "Egunean hiru aldiz sendagaiak hartu ___ dituzu.",
+                          "translation":  "Debe tomar los medicamentos tres veces al día.",
+                          "options":  [
+                                          "behar",
+                                          "nahi",
+                                          "joan",
+                                          "etorri"
+                                      ],
+                          "answer":  "behar"
+                      }
+                  ]
 }

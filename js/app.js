@@ -6,9 +6,12 @@ const App = (() => {
   let currentLesson = null;     // full lesson data (slides + exercises)
   let allSlides = [];
   let slideIndex = 0;
+  let slideRevealed = false;
   let currentExercises = [];
   let exerciseIndex = 0;
   let sessionStats = { correct: 0, wrong: 0 };
+  let failedExercises = [];
+  let isRefuerzoRound = false;
   let lessonProgressMap = {};
   let streakDays = 0;
   let interactiveAbort = null;  // AbortController for interactive exercise listeners
@@ -95,6 +98,8 @@ const App = (() => {
     currentExercises = exercises;
     exerciseIndex = 0;
     sessionStats = { correct: 0, wrong: 0 };
+    failedExercises = [];
+    isRefuerzoRound = false;
     allSlides = [];
 
     UI.setSessionTitle(`Repaso · ${exercises.length} ejercicios`);
@@ -111,14 +116,26 @@ const App = (() => {
   // ---- Lesson list → Lesson slides ----
 
   async function onLessonClick(lesson) {
+    const dueItems = await FB.getAllDueSRSItems();
+    if (dueItems.length >= 5) {
+      UI.showSRSPrompt(dueItems.length, startReviewSession, () => openLesson(lesson));
+      return;
+    }
+    openLesson(lesson);
+  }
+
+  async function openLesson(lesson) {
     currentLessonId = lesson.id;
     const data = await Course.loadLesson(currentUnit.id, lesson.id);
     currentLesson = data;
     const allExercises = data.exercises || [];
-    const cap = (currentLessonId === 'test' || currentLessonId === 'repaso') ? allExercises.length : 8;
+    const isUncapped = currentLessonId === 'test' || currentLessonId === 'repaso';
+    const cap = isUncapped ? allExercises.length : (data.exercise_cap || 8);
     currentExercises = allExercises.slice(0, cap);
     exerciseIndex = 0;
     sessionStats = { correct: 0, wrong: 0 };
+    failedExercises = [];
+    isRefuerzoRound = false;
 
     // Build slide list: optional grammar note + vocab slides
     allSlides = [];
@@ -128,6 +145,7 @@ const App = (() => {
     (data.slides || []).forEach(s => allSlides.push({ type: 'vocab', ...s }));
 
     slideIndex = 0;
+    slideRevealed = false;
     if (allSlides.length > 0) {
       UI.renderLessonSlide(allSlides[0], 0, allSlides.length, data.title);
       UI.show('screen-lesson');
@@ -137,7 +155,14 @@ const App = (() => {
   }
 
   function nextSlide() {
+    const slide = allSlides[slideIndex];
+    if (slide.type === 'vocab' && !slideRevealed) {
+      slideRevealed = true;
+      UI.revealSlide();
+      return;
+    }
     slideIndex++;
+    slideRevealed = false;
     if (slideIndex >= allSlides.length) {
       startSession();
     } else {
@@ -155,6 +180,16 @@ const App = (() => {
 
   function renderCurrentExercise() {
     if (exerciseIndex >= currentExercises.length) {
+      if (!isRefuerzoRound && failedExercises.length > 0) {
+        isRefuerzoRound = true;
+        currentExercises = [...failedExercises].sort(() => Math.random() - 0.5);
+        failedExercises = [];
+        exerciseIndex = 0;
+        const n = currentExercises.length;
+        UI.setSessionTitle(`Refuerzo · ${n} error${n !== 1 ? 'es' : ''}`);
+        renderCurrentExercise();
+        return;
+      }
       endSession();
       return;
     }
@@ -171,11 +206,6 @@ const App = (() => {
 
     if (exercise.type === 'multiple_choice' || exercise.type === 'grammar_select') {
       answerArea.querySelectorAll('.choice-btn').forEach(btn => {
-        btn.addEventListener('click', () => handleAnswer(exercise, btn.dataset.value));
-      });
-
-    } else if (exercise.type === 'true_false') {
-      answerArea.querySelectorAll('.tf-btn').forEach(btn => {
         btn.addEventListener('click', () => handleAnswer(exercise, btn.dataset.value));
       });
 
@@ -304,7 +334,10 @@ const App = (() => {
     const isCorrect = Exercises.checkAnswer(exercise, userAnswer);
 
     if (isCorrect) sessionStats.correct++;
-    else sessionStats.wrong++;
+    else {
+      sessionStats.wrong++;
+      if (!isRefuerzoRound) failedExercises.push(exercise);
+    }
 
     UI.showFeedback(isCorrect, exercise);
 

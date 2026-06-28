@@ -1,25 +1,116 @@
-{
-  "id": "l01",
-  "title": "Gelak (Las habitaciones)",
-  "grammar_note": {
-    "title": "Partes de la casa",
-    "body": "Las habitaciones de la casa en euskera:\n**etxea** → la casa\n**sukaldea** → la cocina\n**egongela** → el salón / sala de estar\n**logela** → el dormitorio\n**komuna** → el baño / aseo\n**jangela** → el comedor\n**gela** → la habitación (genérico)",
-    "tip": "Muchas habitaciones terminan en -gela (que significa 'habitación/sala'): lo-gela = sala de dormir, jan-gela = sala de comer."
-  },
-  "slides": [
-    { "eu": "sukaldea", "es": "la cocina", "example_eu": "Sukaldean bazkaldu prestatzen dut, familia etortzen denean.", "example_es": "Preparo el almuerzo en la cocina cuando viene la familia." },
-    { "eu": "egongela", "es": "el salón", "example_eu": "Egongelan telebista dago.", "example_es": "En el salón hay una televisión." },
-    { "eu": "logela", "es": "el dormitorio", "example_eu": "Nire logelan ohea eta mahaia daude.", "example_es": "En mi dormitorio hay una cama y una mesa." },
-    { "eu": "komuna", "es": "el baño", "example_eu": "Komunean dutxa dago.", "example_es": "En el baño hay una ducha." }
-  ],
-  "exercises": [
-    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'dormitorio' en euskera?", "options": ["sukaldea", "egongela", "logela", "komuna"], "answer": "logela" },
-    { "id": "e02", "type": "translation_eu_es", "eu": "Sukaldea", "answer": "La cocina" },
-    { "id": "e03", "type": "translation_es_eu", "es": "El salón", "answer": "Egongela" },
-    { "id": "e04", "type": "true_false", "eu": "Komuna = el baño", "es": "Komuna = el baño", "answer": true, "explanation": "Correcto. Komuna es el baño o aseo." },
-    { "id": "e05", "type": "fill_blank", "sentence": "___ telebista dago (en el salón)", "translation": "En el salón hay una televisión", "hint": "en el salón", "answer": "Egongelan" },
-    { "id": "e06", "type": "order_words", "words": ["sukaldean", "jan", "prestatzen", "dut"], "translation": "Preparo la comida en la cocina", "answer": "Sukaldean jan prestatzen dut" },
-    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "sukaldea", "es": "cocina"}, {"eu": "egongela", "es": "salón"}, {"eu": "logela", "es": "dormitorio"}, {"eu": "komuna", "es": "baño"}] },
-    { "id": "e08", "type": "grammar_select", "sentence": "Nire ___ ohea dago.", "translation": "En mi dormitorio hay una cama.", "options": ["logelan", "sukaldean", "jangela", "etxean"], "answer": "logelan" }
-  ]
+﻿{
+    "id":  "l01",
+    "title":  "Gelak (Las habitaciones)",
+    "grammar_note":  {
+                         "title":  "Partes de la casa",
+                         "body":  "Las habitaciones de la casa en euskera:\n**etxea** → la casa\n**sukaldea** → la cocina\n**egongela** → el salón / sala de estar\n**logela** → el dormitorio\n**komuna** → el baño / aseo\n**jangela** → el comedor\n**gela** → la habitación (genérico)",
+                         "tip":  "Muchas habitaciones terminan en -gela (que significa \u0027habitación/sala\u0027): lo-gela = sala de dormir, jan-gela = sala de comer."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "sukaldea",
+                       "es":  "la cocina",
+                       "example_eu":  "Sukaldean bazkaldu prestatzen dut, familia etortzen denean.",
+                       "example_es":  "Preparo el almuerzo en la cocina cuando viene la familia."
+                   },
+                   {
+                       "eu":  "egongela",
+                       "es":  "el salón",
+                       "example_eu":  "Egongelan telebista dago.",
+                       "example_es":  "En el salón hay una televisión."
+                   },
+                   {
+                       "eu":  "logela",
+                       "es":  "el dormitorio",
+                       "example_eu":  "Nire logelan ohea eta mahaia daude.",
+                       "example_es":  "En mi dormitorio hay una cama y una mesa."
+                   },
+                   {
+                       "eu":  "komuna",
+                       "es":  "el baño",
+                       "example_eu":  "Komunean dutxa dago.",
+                       "example_es":  "En el baño hay una ducha."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027dormitorio\u0027 en euskera?",
+                          "options":  [
+                                          "sukaldea",
+                                          "egongela",
+                                          "logela",
+                                          "komuna"
+                                      ],
+                          "answer":  "logela"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "eu":  "Sukaldea",
+                          "answer":  "La cocina"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_es_eu",
+                          "es":  "El salón",
+                          "answer":  "Egongela"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "fill_blank",
+                          "sentence":  "___ telebista dago (en el salón)",
+                          "translation":  "En el salón hay una televisión",
+                          "hint":  "en el salón",
+                          "answer":  "Egongelan"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "order_words",
+                          "words":  [
+                                        "sukaldean",
+                                        "jan",
+                                        "prestatzen",
+                                        "dut"
+                                    ],
+                          "translation":  "Preparo la comida en la cocina",
+                          "answer":  "Sukaldean jan prestatzen dut"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "sukaldea",
+                                            "es":  "cocina"
+                                        },
+                                        {
+                                            "eu":  "egongela",
+                                            "es":  "salón"
+                                        },
+                                        {
+                                            "eu":  "logela",
+                                            "es":  "dormitorio"
+                                        },
+                                        {
+                                            "eu":  "komuna",
+                                            "es":  "baño"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "grammar_select",
+                          "sentence":  "Nire ___ ohea dago.",
+                          "translation":  "En mi dormitorio hay una cama.",
+                          "options":  [
+                                          "logelan",
+                                          "sukaldean",
+                                          "jangela",
+                                          "etxean"
+                                      ],
+                          "answer":  "logelan"
+                      }
+                  ]
 }

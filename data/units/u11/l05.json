@@ -1,25 +1,115 @@
-{
-  "id": "l05",
-  "title": "Al galderak (Preguntas sí/no)",
-  "grammar_note": {
-    "title": "Preguntas de sí o no con 'al'",
-    "body": "En euskera las preguntas de sí/no se forman con la partícula **al** antes del verbo auxiliar:\n**Badakizu?** → ¿Sabes? (con ba-)\n**Etorriko al zara?** → ¿Vendrás?\n**Joan al zara?** → ¿Has ido?\n**Badator?** → ¿Viene?\n\nAlternativamente, se usa entonación ascendente sin 'al':\n**Etorri zara?** → ¿Has venido?",
-    "tip": "La partícula 'al' hace la pregunta más formal/explícita. En conversación informal, basta con entonación ascendente."
-  },
-  "slides": [
-    { "eu": "Etorriko al zara?", "es": "¿Vendrás?", "example_eu": "Bai, etorriko naiz. / Ez, ez naiz etorriko.", "example_es": "Sí, vendré. / No, no vendré." },
-    { "eu": "Euskaraz ba al dakizu?", "es": "¿Sabes euskera?", "example_eu": "Bai, pixka bat dakit. / Ez, ez dakit.", "example_es": "Sí, sé un poco. / No, no sé." },
-    { "eu": "Jan al duzu?", "es": "¿Has comido?", "example_eu": "Bai, jan dut. / Ez, oraindik ez.", "example_es": "Sí, he comido. / No, todavía no." },
-    { "eu": "Ados al zaude?", "es": "¿Estás de acuerdo?", "example_eu": "Bai, ados nago. / Ez, ez nago ados.", "example_es": "Sí, estoy de acuerdo. / No, no estoy de acuerdo." }
-  ],
-  "exercises": [
-    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se forma una pregunta sí/no en euskera?", "options": ["Con 'zer' al inicio", "Con 'al' antes del auxiliar", "Con 'non' al final", "Con 'noiz' al inicio"], "answer": "Con 'al' antes del auxiliar" },
-    { "id": "e02", "type": "translation_eu_es", "eu": "Etorriko al zara?", "answer": "¿Vendrás?" },
-    { "id": "e03", "type": "translation_es_eu", "es": "¿Has comido?", "answer": "Jan al duzu?" },
-    { "id": "e04", "type": "true_false", "eu": "'Al' siempre es obligatorio para preguntar", "es": "'Al' siempre es obligatorio para preguntar", "answer": false, "explanation": "Al hace la pregunta más explícita, pero la entonación ascendente sola también es válida en conversación." },
-    { "id": "e05", "type": "fill_blank", "sentence": "Euskaraz ba ___ dakizu? (¿sabes...?)", "translation": "¿Sabes euskera?", "hint": "partícula de pregunta sí/no", "answer": "al" },
-    { "id": "e06", "type": "order_words", "words": ["ados", "al", "zaude?"], "translation": "¿Estás de acuerdo?", "answer": "Ados al zaude?" },
-    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "Etorriko al zara?", "es": "¿Vendrás?"}, {"eu": "Jan al duzu?", "es": "¿Has comido?"}, {"eu": "Badakizu?", "es": "¿Sabes?"}, {"eu": "Ados al zaude?", "es": "¿Estás de acuerdo?"}] },
-    { "id": "e08", "type": "grammar_select", "sentence": "Joan ___ zara gaur?", "translation": "¿Has ido hoy?", "options": ["al", "ez", "ba", "bai"], "answer": "al" }
-  ]
+﻿{
+    "id":  "l05",
+    "title":  "Al galderak (Preguntas sí/no)",
+    "grammar_note":  {
+                         "title":  "Preguntas de sí o no con \u0027al\u0027",
+                         "body":  "En euskera las preguntas de sí/no se forman con la partícula **al** antes del verbo auxiliar:\n**Badakizu?** → ¿Sabes? (con ba-)\n**Etorriko al zara?** → ¿Vendrás?\n**Joan al zara?** → ¿Has ido?\n**Badator?** → ¿Viene?\n\nAlternativamente, se usa entonación ascendente sin \u0027al\u0027:\n**Etorri zara?** → ¿Has venido?",
+                         "tip":  "La partícula \u0027al\u0027 hace la pregunta más formal/explícita. En conversación informal, basta con entonación ascendente."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "Etorriko al zara?",
+                       "es":  "¿Vendrás?",
+                       "example_eu":  "Bai, etorriko naiz. / Ez, ez naiz etorriko.",
+                       "example_es":  "Sí, vendré. / No, no vendré."
+                   },
+                   {
+                       "eu":  "Euskaraz ba al dakizu?",
+                       "es":  "¿Sabes euskera?",
+                       "example_eu":  "Bai, pixka bat dakit. / Ez, ez dakit.",
+                       "example_es":  "Sí, sé un poco. / No, no sé."
+                   },
+                   {
+                       "eu":  "Jan al duzu?",
+                       "es":  "¿Has comido?",
+                       "example_eu":  "Bai, jan dut. / Ez, oraindik ez.",
+                       "example_es":  "Sí, he comido. / No, todavía no."
+                   },
+                   {
+                       "eu":  "Ados al zaude?",
+                       "es":  "¿Estás de acuerdo?",
+                       "example_eu":  "Bai, ados nago. / Ez, ez nago ados.",
+                       "example_es":  "Sí, estoy de acuerdo. / No, no estoy de acuerdo."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se forma una pregunta sí/no en euskera?",
+                          "options":  [
+                                          "Con \u0027zer\u0027 al inicio",
+                                          "Con \u0027al\u0027 antes del auxiliar",
+                                          "Con \u0027non\u0027 al final",
+                                          "Con \u0027noiz\u0027 al inicio"
+                                      ],
+                          "answer":  "Con \u0027al\u0027 antes del auxiliar"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "eu":  "Etorriko al zara?",
+                          "answer":  "¿Vendrás?"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_es_eu",
+                          "es":  "¿Has comido?",
+                          "answer":  "Jan al duzu?"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "fill_blank",
+                          "sentence":  "Euskaraz ba ___ dakizu? (¿sabes...?)",
+                          "translation":  "¿Sabes euskera?",
+                          "hint":  "partícula de pregunta sí/no",
+                          "answer":  "al"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "order_words",
+                          "words":  [
+                                        "ados",
+                                        "al",
+                                        "zaude?"
+                                    ],
+                          "translation":  "¿Estás de acuerdo?",
+                          "answer":  "Ados al zaude?"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "Etorriko al zara?",
+                                            "es":  "¿Vendrás?"
+                                        },
+                                        {
+                                            "eu":  "Jan al duzu?",
+                                            "es":  "¿Has comido?"
+                                        },
+                                        {
+                                            "eu":  "Badakizu?",
+                                            "es":  "¿Sabes?"
+                                        },
+                                        {
+                                            "eu":  "Ados al zaude?",
+                                            "es":  "¿Estás de acuerdo?"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "grammar_select",
+                          "sentence":  "Joan ___ zara gaur?",
+                          "translation":  "¿Has ido hoy?",
+                          "options":  [
+                                          "al",
+                                          "ez",
+                                          "ba",
+                                          "bai"
+                                      ],
+                          "answer":  "al"
+                      }
+                  ]
 }

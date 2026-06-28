@@ -1,100 +1,122 @@
-{
-  "id": "l01",
-  "title": "NAIZ, ZARA, DA (singular)",
-  "grammar_note": {
-    "title": "IZAN aditza + NOR vs NORK (caso absolutivo vs ergativo)",
-    "body": "IZAN = ser/estar. Singular: **ni naiz** (yo soy), **zu zara** (tú eres), **bera/hura da** (él/ella es).\n\n⚠️ **NOR vs NORK** — el contraste más importante del euskera:\n**NOR** (absolutivo): sujeto de verbos intransitivos como IZAN, EGON\n→ **ni** naiz, **zu** zara, **bera** da\n\n**NORK** (ergativo): sujeto de verbos transitivos como jan (comer), ikusi (ver), egin (hacer)\n→ **nik** jan dut, **zuk** ikusi duzu, **hark** egin du\n\nRegla: si el verbo tiene objeto directo → sujeto lleva -K.",
-    "tip": "NAIZ/ZARA/DA nunca llevan -K porque IZAN es intransitivo. Pero 'nik jan dut' (yo comí) sí lleva -K porque 'jan' tiene objeto."
-  },
-  "slides": [
-    {
-      "eu": "ni naiz / zu zara / bera da",
-      "es": "yo soy / tú eres / él-ella es",
-      "example_eu": "Ni Mikel naiz. Zu nor zara?",
-      "example_es": "Yo soy Mikel. ¿Tú quién eres?"
-    },
-    {
-      "eu": "ni ≠ nik (NOR vs NORK)",
-      "es": "yo (intrans.) ≠ yo (trans.)",
-      "example_eu": "Ni medikua naiz. / Nik ogia jan dut.",
-      "example_es": "Yo soy médico. / Yo he comido pan."
-    },
-    {
-      "eu": "Bera Bilbokoa da.",
-      "es": "Él/ella es de Bilbao.",
-      "example_eu": "Bera Bilbokoa da, ez Donostiakoa.",
-      "example_es": "Él/ella es de Bilbao, no de San Sebastián."
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cuál es la forma correcta de 'soy' (yo) con IZAN?",
-      "options": ["naiz", "zara", "da", "dira"],
-      "answer": "naiz"
-    },
-    {
-      "id": "e02",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "Para decir 'Yo comí el pan' usas: NI ogia jan dut",
-      "es": "Para decir 'Yo comí el pan' usas: NI ogia jan dut",
-      "answer": false,
-      "explanation": "Falso. 'Jan' es transitivo, así que el sujeto lleva -K: NIK ogia jan dut."
-    },
-    {
-      "id": "e03",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Bera medikua da.",
-      "answer": "Él/ella es médico/a."
-    },
-    {
-      "id": "e04",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Ni irakaslea ___.",
-      "translation": "Yo soy profesor/a.",
-      "hint": "forma de IZAN para 'yo' (intransitivo)",
-      "answer": "naiz"
-    },
-    {
-      "id": "e05",
-      "type": "grammar_select",
-      "instruction": "NAIZ usa NOR (sin -K). Elige la forma correcta:",
-      "sentence": "___ medikua naiz.",
-      "translation": "Yo soy médico/a.",
-      "options": ["Ni", "Nik", "Zu", "Hark"],
-      "answer": "Ni"
-    },
-    {
-      "id": "e06",
-      "type": "grammar_select",
-      "instruction": "JAN es transitivo. Elige la forma correcta del sujeto:",
-      "sentence": "___ ogia jan dut.",
-      "translation": "Yo he comido el pan.",
-      "options": ["Ni", "Nik", "Zu", "Hark"],
-      "answer": "Nik"
-    },
-    {
-      "id": "e07",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "words": ["naiz", "ni", "irakaslea"],
-      "translation": "Yo soy profesor/a",
-      "answer": "ni irakaslea naiz"
-    },
-    {
-      "id": "e08",
-      "type": "match_pairs",
-      "instruction": "Une cada par",
-      "pairs": [
-        { "eu": "ni naiz", "es": "yo soy (intrans.)" },
-        { "eu": "nik jan dut", "es": "yo comí (trans.)" },
-        { "eu": "zu zara", "es": "tú eres" },
-        { "eu": "zuk ikusi duzu", "es": "tú viste" }
-      ]
-    }
-  ]
+﻿{
+    "id":  "l01",
+    "title":  "NAIZ, ZARA, DA (singular)",
+    "grammar_note":  {
+                         "title":  "IZAN aditza + NOR vs NORK (caso absolutivo vs ergativo)",
+                         "body":  "IZAN = ser/estar. Singular: **ni naiz** (yo soy), **zu zara** (tú eres), **bera/hura da** (él/ella es).\n\n⚠️ **NOR vs NORK** — el contraste más importante del euskera:\n**NOR** (absolutivo): sujeto de verbos intransitivos como IZAN, EGON\n→ **ni** naiz, **zu** zara, **bera** da\n\n**NORK** (ergativo): sujeto de verbos transitivos como jan (comer), ikusi (ver), egin (hacer)\n→ **nik** jan dut, **zuk** ikusi duzu, **hark** egin du\n\nRegla: si el verbo tiene objeto directo → sujeto lleva -K.",
+                         "tip":  "NAIZ/ZARA/DA nunca llevan -K porque IZAN es intransitivo. Pero \u0027nik jan dut\u0027 (yo comí) sí lleva -K porque \u0027jan\u0027 tiene objeto."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "ni naiz / zu zara / bera da",
+                       "es":  "yo soy / tú eres / él-ella es",
+                       "example_eu":  "Ni Mikel naiz. Zu nor zara?",
+                       "example_es":  "Yo soy Mikel. ¿Tú quién eres?"
+                   },
+                   {
+                       "eu":  "ni ≠ nik (NOR vs NORK)",
+                       "es":  "yo (intrans.) ≠ yo (trans.)",
+                       "example_eu":  "Ni medikua naiz. / Nik ogia jan dut.",
+                       "example_es":  "Yo soy médico. / Yo he comido pan."
+                   },
+                   {
+                       "eu":  "Bera Bilbokoa da.",
+                       "es":  "Él/ella es de Bilbao.",
+                       "example_eu":  "Bera Bilbokoa da, ez Donostiakoa.",
+                       "example_es":  "Él/ella es de Bilbao, no de San Sebastián."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cuál es la forma correcta de \u0027soy\u0027 (yo) con IZAN?",
+                          "options":  [
+                                          "naiz",
+                                          "zara",
+                                          "da",
+                                          "dira"
+                                      ],
+                          "answer":  "naiz"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Bera medikua da.",
+                          "answer":  "Él/ella es médico/a."
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Ni irakaslea ___.",
+                          "translation":  "Yo soy profesor/a.",
+                          "hint":  "forma de IZAN para \u0027yo\u0027 (intransitivo)",
+                          "answer":  "naiz"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "grammar_select",
+                          "instruction":  "NAIZ usa NOR (sin -K). Elige la forma correcta:",
+                          "sentence":  "___ medikua naiz.",
+                          "translation":  "Yo soy médico/a.",
+                          "options":  [
+                                          "Ni",
+                                          "Nik",
+                                          "Zu",
+                                          "Hark"
+                                      ],
+                          "answer":  "Ni"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "grammar_select",
+                          "instruction":  "JAN es transitivo. Elige la forma correcta del sujeto:",
+                          "sentence":  "___ ogia jan dut.",
+                          "translation":  "Yo he comido el pan.",
+                          "options":  [
+                                          "Ni",
+                                          "Nik",
+                                          "Zu",
+                                          "Hark"
+                                      ],
+                          "answer":  "Nik"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras",
+                          "words":  [
+                                        "naiz",
+                                        "ni",
+                                        "irakaslea"
+                                    ],
+                          "translation":  "Yo soy profesor/a",
+                          "answer":  "ni irakaslea naiz"
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "match_pairs",
+                          "instruction":  "Une cada par",
+                          "pairs":  [
+                                        {
+                                            "eu":  "ni naiz",
+                                            "es":  "yo soy (intrans.)"
+                                        },
+                                        {
+                                            "eu":  "nik jan dut",
+                                            "es":  "yo comí (trans.)"
+                                        },
+                                        {
+                                            "eu":  "zu zara",
+                                            "es":  "tú eres"
+                                        },
+                                        {
+                                            "eu":  "zuk ikusi duzu",
+                                            "es":  "tú viste"
+                                        }
+                                    ]
+                      }
+                  ]
 }

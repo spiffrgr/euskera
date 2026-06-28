@@ -1,95 +1,96 @@
-{
-  "id": "l04",
-  "title": "Zenbat senide dituzu?",
-  "grammar_note": {
-    "title": "UKAN senideekin (Contar familiares)",
-    "body": "Para contar familiares se usa UKAN (tener) con el número: **Bi anaia ditut** (Tengo dos hermanos), **Hiru alaba ditu** (Tiene tres hijas). El verbo concuerda con la persona: **ditut** (yo tengo), **dituzu** (tú tienes), **ditu** (él tiene).",
-    "tip": "ditut / dituzu / ditu — la terminación cambia según quién habla."
-  },
-  "slides": [
-    {
-      "eu": "Zenbat senide dituzu?",
-      "es": "¿Cuántos familiares tienes?",
-      "example_eu": "Zenbat anaia-arreba dituzu?",
-      "example_es": "¿Cuántos hermanos tienes?"
-    },
-    {
-      "eu": "Bi anaia eta ahizpa bat ditut.",
-      "es": "Tengo dos hermanos y una hermana.",
-      "example_eu": "Anaia bakarra dut, ez dut ahizparik.",
-      "example_es": "Solo tengo un hermano, no tengo hermanas."
-    },
-    {
-      "eu": "Hiru seme-alaba dituzte.",
-      "es": "Tienen tres hijos.",
-      "example_eu": "Nire osabak bost seme-alaba ditu.",
-      "example_es": "Mi tío tiene cinco hijos."
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se pregunta '¿cuántos hermanos tienes?'",
-      "options": ["Zenbat anaia-arreba dituzu?", "Zenbat da?", "Nola dituzu?", "Nor dituzu?"],
-      "answer": "Zenbat anaia-arreba dituzu?"
-    },
-    {
-      "id": "e02",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Bi anaia ___.",
-      "translation": "Tengo dos hermanos.",
-      "hint": "verbo 'tener' 1ª persona",
-      "answer": "ditut"
-    },
-    {
-      "id": "e03",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "'Anaia bat dut' (DUT, singular) pero 'Bi anaia ditut' (DITUT, plural) → la diferencia es el número del objeto → true",
-      "es": "DUT = tengo uno / DITUT = tengo varios (número del objeto directo)",
-      "answer": true,
-      "explanation": "Regla clave: DUT para objeto singular, DITUT para objeto plural. Anaia bat dut(tengo un hermano) vs bi anaia ditut(tengo dos hermanos). Igual para años: urte bat dut / hogeita bat urte ditut."
-    },
-    {
-      "id": "e04",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Hiru seme-alaba ditu.",
-      "answer": "Tiene tres hijos."
-    },
-    {
-      "id": "e05",
-      "type": "grammar_select",
-      "instruction": "Para decir 'tú tienes dos hijos' usas:",
-      "sentence": "Bi seme-alaba ___ (tú)",
-      "translation": "Tú tienes dos hijos",
-      "options": ["ditut", "dituzu", "ditu", "ditugu"],
-      "answer": "dituzu"
-    },
-    {
-      "id": "e06",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "¿Cuántos hermanos tienes?",
-      "answer": "Zenbat anaia-arreba dituzu?"
-    },
-    {
-      "id": "e07",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Nire osabak bost seme-alaba ___.",
-      "translation": "Mi tío tiene cinco hijos.",
-      "hint": "verbo 3ª persona",
-      "answer": "ditu"
-    },
-    {
-      "id": "e08",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Zenbat senide dituzu?",
-      "answer": "¿Cuántos familiares tienes?"
-    }
-  ]
+﻿{
+    "id":  "l04",
+    "title":  "Zenbat senide dituzu?",
+    "grammar_note":  {
+                         "title":  "UKAN senideekin (Contar familiares)",
+                         "body":  "Para contar familiares se usa UKAN (tener) con el número: **Bi anaia ditut** (Tengo dos hermanos), **Hiru alaba ditu** (Tiene tres hijas). El verbo concuerda con la persona: **ditut** (yo tengo), **dituzu** (tú tienes), **ditu** (él tiene).",
+                         "tip":  "ditut / dituzu / ditu — la terminación cambia según quién habla."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "Zenbat senide dituzu?",
+                       "es":  "¿Cuántos familiares tienes?",
+                       "example_eu":  "Zenbat anaia-arreba dituzu?",
+                       "example_es":  "¿Cuántos hermanos tienes?"
+                   },
+                   {
+                       "eu":  "Bi anaia eta ahizpa bat ditut.",
+                       "es":  "Tengo dos hermanos y una hermana.",
+                       "example_eu":  "Anaia bakarra dut, ez dut ahizparik.",
+                       "example_es":  "Solo tengo un hermano, no tengo hermanas."
+                   },
+                   {
+                       "eu":  "Hiru seme-alaba dituzte.",
+                       "es":  "Tienen tres hijos.",
+                       "example_eu":  "Nire osabak bost seme-alaba ditu.",
+                       "example_es":  "Mi tío tiene cinco hijos."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se pregunta \u0027¿cuántos hermanos tienes?\u0027",
+                          "options":  [
+                                          "Zenbat anaia-arreba dituzu?",
+                                          "Zenbat da?",
+                                          "Nola dituzu?",
+                                          "Nor dituzu?"
+                                      ],
+                          "answer":  "Zenbat anaia-arreba dituzu?"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Bi anaia ___.",
+                          "translation":  "Tengo dos hermanos.",
+                          "hint":  "verbo \u0027tener\u0027 1ª persona",
+                          "answer":  "ditut"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Hiru seme-alaba ditu.",
+                          "answer":  "Tiene tres hijos."
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "grammar_select",
+                          "instruction":  "Para decir \u0027tú tienes dos hijos\u0027 usas:",
+                          "sentence":  "Bi seme-alaba ___ (tú)",
+                          "translation":  "Tú tienes dos hijos",
+                          "options":  [
+                                          "ditut",
+                                          "dituzu",
+                                          "ditu",
+                                          "ditugu"
+                                      ],
+                          "answer":  "dituzu"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "¿Cuántos hermanos tienes?",
+                          "answer":  "Zenbat anaia-arreba dituzu?"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Nire osabak bost seme-alaba ___.",
+                          "translation":  "Mi tío tiene cinco hijos.",
+                          "hint":  "verbo 3ª persona",
+                          "answer":  "ditu"
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Zenbat senide dituzu?",
+                          "answer":  "¿Cuántos familiares tienes?"
+                      }
+                  ]
 }

@@ -1,102 +1,115 @@
-{
-  "id": "l04",
-  "title": "Familia (La familia)",
-  "grammar_note": {
-    "title": "Izenordain posesiboak (Posesivos)",
-    "body": "Los posesivos van **delante** del sustantivo: **nire** aita (mi padre), **zure** ama (tu madre), **bere** anaia (su hermano). Para decir quién es: **Nire aita medikua da** (Mi padre es médico).",
-    "tip": "nire = mi, zure = tu, bere = su. Siempre delante del nombre."
-  },
-  "slides": [
-    {
-      "eu": "aita / ama",
-      "es": "padre / madre",
-      "example_eu": "Nire aita irakaslea da.",
-      "example_es": "Mi padre es profesor."
-    },
-    {
-      "eu": "anaia / ahizpa",
-      "es": "hermano / hermana",
-      "example_eu": "Nire anaia Bilbon bizi da.",
-      "example_es": "Mi hermano vive en Bilbao."
-    },
-    {
-      "eu": "seme / alaba",
-      "es": "hijo / hija",
-      "example_eu": "Bi seme-alaba ditut.",
-      "example_es": "Tengo dos hijos."
-    },
-    {
-      "eu": "aitona / amona",
-      "es": "abuelo / abuela",
-      "example_eu": "Nire amonak laurogei urte ditu.",
-      "example_es": "Mi abuela tiene ochenta años."
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se dice 'madre' en euskera?",
-      "options": ["ama", "aita", "ahizpa", "amona"],
-      "answer": "ama"
-    },
-    {
-      "id": "e02",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "'Nire aitak bi anaia ditu' → 'aitak' lleva -K porque es sujeto de verbo transitivo (EDUKI/tener) → true",
-      "es": "aitak lleva -K = sujeto ergativo (NORK), verbo transitivo",
-      "answer": true,
-      "explanation": "Caso NORK (ergativo): el sujeto de un verbo transitivo lleva -K. aitak(el padre), amak(la madre), anaiak(el hermano) — todos sujetos de DITU(tiene)."
-    },
-    {
-      "id": "e03",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "ahizpa",
-      "answer": "hermana"
-    },
-    {
-      "id": "e04",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Nire ___ irakaslea da.",
-      "translation": "Mi madre es profesora.",
-      "hint": "madre en euskera",
-      "answer": "ama"
-    },
-    {
-      "id": "e05",
-      "type": "match_pairs",
-      "instruction": "Une cada par",
-      "pairs": [
-        { "eu": "aita", "es": "padre" },
-        { "eu": "ama", "es": "madre" },
-        { "eu": "anaia", "es": "hermano" },
-        { "eu": "ahizpa", "es": "hermana" }
-      ]
-    },
-    {
-      "id": "e06",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "abuela",
-      "answer": "amona"
-    },
-    {
-      "id": "e07",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "words": ["Nire", "da", "medikua", "aita"],
-      "translation": "Mi padre es médico",
-      "answer": "Nire aita medikua da"
-    },
-    {
-      "id": "e08",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "seme-alaba",
-      "answer": "hijos"
-    }
-  ]
+﻿{
+    "id":  "l04",
+    "title":  "Familia (La familia)",
+    "grammar_note":  {
+                         "title":  "Izenordain posesiboak (Posesivos)",
+                         "body":  "Los posesivos van **delante** del sustantivo: **nire** aita (mi padre), **zure** ama (tu madre), **bere** anaia (su hermano). Para decir quién es: **Nire aita medikua da** (Mi padre es médico).",
+                         "tip":  "nire = mi, zure = tu, bere = su. Siempre delante del nombre."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "aita / ama",
+                       "es":  "padre / madre",
+                       "example_eu":  "Nire aita irakaslea da.",
+                       "example_es":  "Mi padre es profesor."
+                   },
+                   {
+                       "eu":  "anaia / ahizpa",
+                       "es":  "hermano / hermana",
+                       "example_eu":  "Nire anaia Bilbon bizi da.",
+                       "example_es":  "Mi hermano vive en Bilbao."
+                   },
+                   {
+                       "eu":  "seme / alaba",
+                       "es":  "hijo / hija",
+                       "example_eu":  "Bi seme-alaba ditut.",
+                       "example_es":  "Tengo dos hijos."
+                   },
+                   {
+                       "eu":  "aitona / amona",
+                       "es":  "abuelo / abuela",
+                       "example_eu":  "Nire amonak laurogei urte ditu.",
+                       "example_es":  "Mi abuela tiene ochenta años."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027madre\u0027 en euskera?",
+                          "options":  [
+                                          "ama",
+                                          "aita",
+                                          "ahizpa",
+                                          "amona"
+                                      ],
+                          "answer":  "ama"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "ahizpa",
+                          "answer":  "hermana"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Nire ___ irakaslea da.",
+                          "translation":  "Mi madre es profesora.",
+                          "hint":  "madre en euskera",
+                          "answer":  "ama"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "match_pairs",
+                          "instruction":  "Une cada par",
+                          "pairs":  [
+                                        {
+                                            "eu":  "aita",
+                                            "es":  "padre"
+                                        },
+                                        {
+                                            "eu":  "ama",
+                                            "es":  "madre"
+                                        },
+                                        {
+                                            "eu":  "anaia",
+                                            "es":  "hermano"
+                                        },
+                                        {
+                                            "eu":  "ahizpa",
+                                            "es":  "hermana"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "abuela",
+                          "answer":  "amona"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras",
+                          "words":  [
+                                        "Nire",
+                                        "da",
+                                        "medikua",
+                                        "aita"
+                                    ],
+                          "translation":  "Mi padre es médico",
+                          "answer":  "Nire aita medikua da"
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "seme-alaba",
+                          "answer":  "hijos"
+                      }
+                  ]
 }

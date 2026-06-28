@@ -1,20 +1,141 @@
-{
-  "id": "test",
-  "title": "Test de la Unidad 9: Denbora",
-  "objective": "Demostrar que dominas el vocabulario de tiempo y puedes describir tu rutina",
-  "type": "test",
-  "exercises": [
-    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'ayer' en euskera?", "options": ["gaur", "atzo", "bihar", "gero"], "answer": "atzo" },
-    { "id": "e02", "type": "translation_eu_es", "eu": "Goizean zazpitan jaiki eta gosaltzen dut.", "answer": "Por la mañana me levanto a las siete y desayuno." },
-    { "id": "e03", "type": "translation_es_eu", "es": "Siempre", "answer": "Beti" },
-    { "id": "e04", "type": "true_false", "eu": "Para 'Nunca voy al gimnasio' usas: Inoiz ez noa gimnasiora", "es": "Para 'Nunca voy al gimnasio' usas: Inoiz ez noa gimnasiora", "answer": true, "explanation": "Correcto. INOIZ EZ + verbo negado = nunca. La negación EZ aparece tanto en el adverbio como antes del verbo." },
-    { "id": "e05", "type": "fill_blank", "sentence": "___ jaikitzen naiz.", "translation": "Me levanto a las siete.", "hint": "a las siete", "answer": "Zazpitan" },
-    { "id": "e06", "type": "multiple_choice", "instruction": "¿Qué significa 'askotan'?", "options": ["siempre", "nunca", "a menudo", "a veces"], "answer": "a menudo" },
-    { "id": "e07", "type": "translation_eu_es", "eu": "Asteburuan", "answer": "El fin de semana" },
-    { "id": "e08", "type": "translation_es_eu", "es": "Todos los días", "answer": "Egunero" },
-    { "id": "e09", "type": "order_words", "words": ["Lehen", "Bilbon", "bizi", "nintzen."], "translation": "Antes vivía en Bilbao.", "answer": "Lehen Bilbon bizi nintzen." },
-    { "id": "e10", "type": "match_pairs", "pairs": [{"eu": "astelehena", "es": "lunes"}, {"eu": "asteazkena", "es": "miércoles"}, {"eu": "ostirala", "es": "viernes"}, {"eu": "igandea", "es": "domingo"}] },
-    { "id": "e11", "type": "grammar_select", "sentence": "___ gauean telebista ikusten dut.", "translation": "A veces veo la televisión por la noche.", "options": ["Batzuetan", "Beti", "Inoiz ez", "Lehen"], "answer": "Batzuetan" },
-    { "id": "e12", "type": "true_false", "eu": "Lehen esnea edaten nuen, orain kafea edaten dut → contrasta hábito pasado y presente", "es": "Lehen esnea edaten nuen, orain kafea edaten dut → contrasta hábito pasado y presente", "answer": true, "explanation": "Correcto. LEHEN + habitual pasado (nuen/zuen) vs ORAIN + presente (dut/du) = contraste de hábitos antes/ahora." }
-  ]
+﻿{
+    "id":  "test",
+    "title":  "Test de la Unidad 9: Denbora",
+    "objective":  "Demostrar que dominas el vocabulario de tiempo y puedes describir tu rutina",
+    "type":  "test",
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027ayer\u0027 en euskera?",
+                          "options":  [
+                                          "gaur",
+                                          "atzo",
+                                          "bihar",
+                                          "gero"
+                                      ],
+                          "answer":  "atzo"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "eu":  "Goizean zazpitan jaiki eta gosaltzen dut.",
+                          "answer":  "Por la mañana me levanto a las siete y desayuno."
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_es_eu",
+                          "es":  "Siempre",
+                          "answer":  "Beti"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "fill_blank",
+                          "sentence":  "___ jaikitzen naiz.",
+                          "translation":  "Me levanto a las siete.",
+                          "hint":  "a las siete",
+                          "answer":  "Zazpitan"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Qué significa \u0027askotan\u0027?",
+                          "options":  [
+                                          "siempre",
+                                          "nunca",
+                                          "a menudo",
+                                          "a veces"
+                                      ],
+                          "answer":  "a menudo"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "translation_eu_es",
+                          "eu":  "Asteburuan",
+                          "answer":  "El fin de semana"
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_es_eu",
+                          "es":  "Todos los días",
+                          "answer":  "Egunero"
+                      },
+                      {
+                          "id":  "e09",
+                          "type":  "order_words",
+                          "words":  [
+                                        "Lehen",
+                                        "Bilbon",
+                                        "bizi",
+                                        "nintzen."
+                                    ],
+                          "translation":  "Antes vivía en Bilbao.",
+                          "answer":  "Lehen Bilbon bizi nintzen."
+                      },
+                      {
+                          "id":  "e10",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "astelehena",
+                                            "es":  "lunes"
+                                        },
+                                        {
+                                            "eu":  "asteazkena",
+                                            "es":  "miércoles"
+                                        },
+                                        {
+                                            "eu":  "ostirala",
+                                            "es":  "viernes"
+                                        },
+                                        {
+                                            "eu":  "igandea",
+                                            "es":  "domingo"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e11",
+                          "type":  "grammar_select",
+                          "sentence":  "___ gauean telebista ikusten dut.",
+                          "translation":  "A veces veo la televisión por la noche.",
+                          "options":  [
+                                          "Batzuetan",
+                                          "Beti",
+                                          "Inoiz ez",
+                                          "Lehen"
+                                      ],
+                          "answer":  "Batzuetan"
+                      },
+                      {
+                          "id":  "ow01",
+                          "type":  "order_words",
+                          "words":  [
+                                        "Nire",
+                                        "laguna",
+                                        "mendira",
+                                        "joaten",
+                                        "da",
+                                        "egunero."
+                                    ],
+                          "translation":  "Mi amigo/a va al monte todos los dias.",
+                          "answer":  "Nire laguna mendira joaten da egunero."
+                      },
+                      {
+                          "id":  "ec01",
+                          "type":  "error_correction",
+                          "wrong":  "Ni ardoa edan dut.",
+                          "translation":  "Yo he bebido vino.",
+                          "hint":  "sujeto de verbo transitivo → nik",
+                          "answer":  "Nik ardoa edan dut."
+                      },
+                      {
+                          "id":  "ec02",
+                          "type":  "error_correction",
+                          "wrong":  "Gu oiloa jan dugu.",
+                          "translation":  "Nosotros hemos comido pollo.",
+                          "hint":  "sujeto transitivo plural → guk",
+                          "answer":  "Guk oiloa jan dugu."
+                      }
+                  ]
 }

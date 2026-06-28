@@ -1,20 +1,154 @@
-{
-  "id": "test",
-  "title": "Test de la Unidad 6: Janaria",
-  "objective": "Demostrar que dominas el vocabulario de alimentos y puedes pedir en un restaurante",
-  "type": "test",
-  "exercises": [
-    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'manzana' en euskera?", "options": ["sagarra", "laranja", "mahats", "banana"], "answer": "sagarra" },
-    { "id": "e02", "type": "translation_eu_es", "eu": "gazta", "answer": "queso" },
-    { "id": "e03", "type": "true_false", "eu": "Para 'Ella quiere pollo' usas: Hura oiloa nahi DU (no DUT)", "es": "Para 'Ella quiere pollo' usas: Hura oiloa nahi DU (no DUT)", "answer": true, "explanation": "Correcto. El auxiliar de NAHI DU(T) cambia con la persona: DUT (yo), DUZU (tú), DU (él/ella)." },
-    { "id": "e04", "type": "fill_blank", "sentence": "Oiloa jan ___ dut.", "translation": "Quiero comer pollo.", "hint": "querer", "answer": "nahi" },
-    { "id": "e05", "type": "match_pairs", "pairs": [{"eu": "gosaria", "es": "desayuno"}, {"eu": "bazkaria", "es": "comida"}, {"eu": "afaria", "es": "cena"}, {"eu": "postrea", "es": "postre"}] },
-    { "id": "e06", "type": "translation_es_eu", "es": "Quiero beber agua.", "answer": "Ura edan nahi dut." },
-    { "id": "e07", "type": "grammar_select", "sentence": "Oiloa nahi ___. (ella)", "translation": "Ella quiere pollo.", "options": ["dut", "duzu", "du", "dugu"], "answer": "du" },
-    { "id": "e08", "type": "match_pairs", "pairs": [{"eu": "ura", "es": "agua"}, {"eu": "kafea", "es": "café"}, {"eu": "ardoa", "es": "vino"}, {"eu": "garagardoa", "es": "cerveza"}] },
-    { "id": "e09", "type": "order_words", "words": ["Laranja", "zukua", "nahi", "dut,", "mesedez."], "translation": "Quiero zumo de naranja, por favor.", "answer": "Laranja zukua nahi dut, mesedez." },
-    { "id": "e10", "type": "true_false", "eu": "GOSALTZEN DUT = desayuno (habitual)", "es": "GOSALTZEN DUT = desayuno (habitual)", "answer": true, "explanation": "Correcto. Habitual: infinitivo + -tzen/-ten + auxiliar. Gosaldu → gosaltzen dut (yo desayuno habitualmente)." },
-    { "id": "e11", "type": "translation_eu_es", "eu": "Txekea, mesedez.", "answer": "La cuenta, por favor." },
-    { "id": "e12", "type": "fill_blank", "sentence": "Goizean ___ dut.", "translation": "Por la mañana desayuno.", "hint": "desayunar (habitual, 1ª persona)", "answer": "gosaltzen" }
-  ]
+﻿{
+    "id":  "test",
+    "title":  "Test de la Unidad 6: Janaria",
+    "objective":  "Demostrar que dominas el vocabulario de alimentos y puedes pedir en un restaurante",
+    "type":  "test",
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027manzana\u0027 en euskera?",
+                          "options":  [
+                                          "sagarra",
+                                          "laranja",
+                                          "mahats",
+                                          "banana"
+                                      ],
+                          "answer":  "sagarra"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "eu":  "gazta",
+                          "answer":  "queso"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "fill_blank",
+                          "sentence":  "Oiloa jan ___ dut.",
+                          "translation":  "Quiero comer pollo.",
+                          "hint":  "querer",
+                          "answer":  "nahi"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "gosaria",
+                                            "es":  "desayuno"
+                                        },
+                                        {
+                                            "eu":  "bazkaria",
+                                            "es":  "comida"
+                                        },
+                                        {
+                                            "eu":  "afaria",
+                                            "es":  "cena"
+                                        },
+                                        {
+                                            "eu":  "postrea",
+                                            "es":  "postre"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "translation_es_eu",
+                          "es":  "Quiero beber agua.",
+                          "answer":  "Ura edan nahi dut."
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "grammar_select",
+                          "sentence":  "Oiloa nahi ___. (ella)",
+                          "translation":  "Ella quiere pollo.",
+                          "options":  [
+                                          "dut",
+                                          "duzu",
+                                          "du",
+                                          "dugu"
+                                      ],
+                          "answer":  "du"
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "ura",
+                                            "es":  "agua"
+                                        },
+                                        {
+                                            "eu":  "kafea",
+                                            "es":  "café"
+                                        },
+                                        {
+                                            "eu":  "ardoa",
+                                            "es":  "vino"
+                                        },
+                                        {
+                                            "eu":  "garagardoa",
+                                            "es":  "cerveza"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e09",
+                          "type":  "order_words",
+                          "words":  [
+                                        "Laranja",
+                                        "zukua",
+                                        "nahi",
+                                        "dut,",
+                                        "mesedez."
+                                    ],
+                          "translation":  "Quiero zumo de naranja, por favor.",
+                          "answer":  "Laranja zukua nahi dut, mesedez."
+                      },
+                      {
+                          "id":  "e11",
+                          "type":  "translation_eu_es",
+                          "eu":  "Txekea, mesedez.",
+                          "answer":  "La cuenta, por favor."
+                      },
+                      {
+                          "id":  "e12",
+                          "type":  "fill_blank",
+                          "sentence":  "Goizean ___ dut.",
+                          "translation":  "Por la mañana desayuno.",
+                          "hint":  "desayunar (habitual, 1ª persona)",
+                          "answer":  "gosaltzen"
+                      },
+                      {
+                          "id":  "ow01",
+                          "type":  "order_words",
+                          "words":  [
+                                        "Sagarra",
+                                        "eta",
+                                        "banana",
+                                        "jan",
+                                        "nahi",
+                                        "dut."
+                                    ],
+                          "translation":  "Quiero comer manzana y plátano.",
+                          "answer":  "Sagarra eta banana jan nahi dut."
+                      },
+                      {
+                          "id":  "ec01",
+                          "type":  "error_correction",
+                          "wrong":  "Ni sagarra jan dut.",
+                          "translation":  "Yo he comido la manzana.",
+                          "hint":  "sujeto de verbo transitivo → nik",
+                          "answer":  "Nik sagarra jan dut."
+                      },
+                      {
+                          "id":  "ec02",
+                          "type":  "error_correction",
+                          "wrong":  "Zu ura edan duzu.",
+                          "translation":  "Tu has bebido agua.",
+                          "hint":  "sujeto de verbo transitivo → zuk",
+                          "answer":  "Zuk ura edan duzu."
+                      }
+                  ]
 }

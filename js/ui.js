@@ -114,19 +114,26 @@ const UI = (() => {
     } else {
       wrap.innerHTML = `
         <div class="lesson-slide">
-          <div class="lesson-slide-num">Aprende · ${index + 1} de ${total}</div>
+          <div class="lesson-slide-num">Recuerda · ${index + 1} de ${total}</div>
           <div class="lesson-word-eu">${escHtml(slide.eu)}</div>
-          <div class="lesson-word-es">${escHtml(slide.es)}</div>
-          <div class="lesson-example">
-            <div class="lesson-example-eu">${escHtml(slide.example_eu)}</div>
-            <div class="lesson-example-es">${escHtml(slide.example_es)}</div>
+          <div class="slide-recall-mask" id="slide-recall-mask">
+            <span class="slide-recall-hint">¿Sabes la traducción?</span>
+          </div>
+          <div class="slide-revealed hidden" id="slide-revealed">
+            <div class="lesson-word-es">${escHtml(slide.es)}</div>
+            <div class="lesson-example">
+              <div class="lesson-example-eu">${escHtml(slide.example_eu)}</div>
+              <div class="lesson-example-es">${escHtml(slide.example_es)}</div>
+            </div>
           </div>
         </div>
       `;
     }
 
     const btn = document.getElementById('btn-lesson-next');
-    btn.textContent = index === total - 1 ? '¡Empezar! →' : 'Siguiente →';
+    btn.textContent = slide.type === 'grammar'
+      ? (index === total - 1 ? '¡Empezar! →' : 'Siguiente →')
+      : 'Mostrar traducción';
   }
 
   // ---- Exercise rendering ----
@@ -215,23 +222,6 @@ const UI = (() => {
         schedFocus(answerArea);
         break;
 
-      case 'true_false':
-        container.innerHTML = `
-          <div class="exercise-type-label">${escHtml(exercise.instruction || '¿Verdadero o falso?')}</div>
-          <div class="tf-card">
-            <div class="tf-eu">${escHtml(exercise.eu)}</div>
-            <div class="tf-arrow">→</div>
-            <div class="tf-es">${escHtml(exercise.es)}</div>
-          </div>
-        `;
-        answerArea.innerHTML = `
-          <div class="tf-buttons">
-            <button class="btn tf-btn tf-false" data-value="false">✗ Falso</button>
-            <button class="btn tf-btn tf-true" data-value="true">✓ Verdadero</button>
-          </div>
-        `;
-        break;
-
       case 'order_words': {
         const shuffled = [...exercise.words].sort(() => Math.random() - 0.5);
         container.innerHTML = `
@@ -309,23 +299,12 @@ const UI = (() => {
       });
     }
 
-    // Highlight correct true/false button
-    if (exercise.type === 'true_false') {
-      answerArea.querySelectorAll('.tf-btn').forEach(btn => {
-        if (btn.dataset.value === String(exercise.answer)) btn.classList.add('correct');
-      });
-    }
   }
 
   function formatCorrectAnswer(exercise) {
-    switch (exercise.type) {
-      case 'true_false':
-        return exercise.answer ? 'Verdadero' : 'Falso';
-      case 'match_pairs':
-        return exercise.pairs.map(p => `${escHtml(p.eu)} → ${escHtml(p.es)}`).join(', ');
-      default:
-        return escHtml(String(exercise.answer));
-    }
+    if (exercise.type === 'match_pairs')
+      return exercise.pairs.map(p => `${escHtml(p.eu)} → ${escHtml(p.es)}`).join(', ');
+    return escHtml(String(exercise.answer));
   }
 
   // ---- Summary ----
@@ -402,6 +381,38 @@ const UI = (() => {
     if (homeContent) homeContent.insertBefore(banner, homeContent.firstChild);
   }
 
+  function revealSlide() {
+    const mask = document.getElementById('slide-recall-mask');
+    const revealed = document.getElementById('slide-revealed');
+    if (mask) mask.classList.add('hidden');
+    if (revealed) revealed.classList.remove('hidden');
+    const btn = document.getElementById('btn-lesson-next');
+    if (btn) btn.textContent = '¡Siguiente! →';
+  }
+
+  function showSRSPrompt(count, onReview, onContinue) {
+    const existing = document.getElementById('srs-prompt-overlay');
+    if (existing) existing.remove();
+
+    const overlay = document.createElement('div');
+    overlay.id = 'srs-prompt-overlay';
+    overlay.className = 'srs-prompt-overlay';
+    overlay.innerHTML = `
+      <div class="srs-prompt-card">
+        <div class="srs-prompt-icon">🔄</div>
+        <div class="srs-prompt-title">Tienes ${count} ejercicio${count !== 1 ? 's' : ''} pendiente${count !== 1 ? 's' : ''} de repaso</div>
+        <div class="srs-prompt-body">Repasar ahora ayuda a consolidar lo que ya aprendiste.</div>
+        <div class="srs-prompt-actions">
+          <button class="btn btn-review" id="srs-btn-review">Repasar primero</button>
+          <button class="btn btn-secondary" id="srs-btn-skip">Continuar sin repasar</button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+    document.getElementById('srs-btn-review').addEventListener('click', () => { overlay.remove(); onReview(); });
+    document.getElementById('srs-btn-skip').addEventListener('click', () => { overlay.remove(); onContinue(); });
+  }
+
   return {
     show,
     setStreak,
@@ -413,5 +424,7 @@ const UI = (() => {
     renderExercise,
     showFeedback,
     renderSummary,
+    revealSlide,
+    showSRSPrompt,
   };
 })();

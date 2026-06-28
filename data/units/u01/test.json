@@ -1,20 +1,125 @@
-{
-  "id": "test",
-  "title": "Test de la Unidad 1: Kaixo!",
-  "objective": "Demostrar que dominas los saludos, presentaciones y estados de ánimo básicos",
-  "type": "test",
-  "exercises": [
-    { "id": "e01", "type": "match_pairs", "pairs": [{"eu": "Egun on", "es": "Buenos días"}, {"eu": "Arratsalde on", "es": "Buenas tardes"}, {"eu": "Gabon", "es": "Buenas noches"}, {"eu": "Aupa", "es": "¡Hola! (informal)"}] },
-    { "id": "e02", "type": "order_words", "words": ["Nire", "izena", "Amaia", "da."], "translation": "Mi nombre es Amaia.", "answer": "Nire izena Amaia da." },
-    { "id": "e03", "type": "grammar_select", "sentence": "Gaur oso nekatuta ___.", "translation": "Hoy estoy muy cansado/a.", "options": ["nago", "naiz", "da", "zara"], "answer": "nago" },
-    { "id": "e04", "type": "translation_es_eu", "es": "De nada", "answer": "Ez horregatik" },
-    { "id": "e05", "type": "true_false", "eu": "Para decir 'No soy Ane' dices: Ez nago Ane", "es": "Para decir 'No soy Ane' dices: Ez nago Ane", "answer": false, "explanation": "Ez NAIZ Ane (IZAN = identidad). NAGO es EGON (estado temporal). Para identidad siempre usa NAIZ/ZARA/DA." },
-    { "id": "e06", "type": "translation_eu_es", "eu": "Eser zaitezte.", "answer": "Sentaos." },
-    { "id": "e07", "type": "translation_es_eu", "es": "Hola, soy Ane. Encantada.", "answer": "Kaixo, ni Ane naiz. Pozten naiz." },
-    { "id": "e08", "type": "fill_blank", "sentence": "Ondo ___, eskerrik asko.", "translation": "Estoy bien, gracias.", "hint": "verbo EGON 1ª persona", "answer": "nago" },
-    { "id": "e09", "type": "match_pairs", "pairs": [{"eu": "Eskerrik asko", "es": "Muchas gracias"}, {"eu": "Ez horregatik", "es": "De nada"}, {"eu": "Barkatu", "es": "Perdona"}, {"eu": "Mesedez", "es": "Por favor"}] },
-    { "id": "e10", "type": "translation_es_eu", "es": "Hola, soy Mikel. ¿Cómo estás?", "answer": "Kaixo, ni Mikel naiz. Nola zaude?" },
-    { "id": "e11", "type": "true_false", "eu": "Para 'Estoy contento/a' usas EGON: Pozik nago", "es": "Para 'Estoy contento/a' usas EGON: Pozik nago", "answer": true, "explanation": "Correcto. Los estados de ánimo temporales (contento, cansado, triste) usan EGON (nago/zaude/dago), no IZAN." },
-    { "id": "e12", "type": "order_words", "words": ["Kaixo,", "ni", "Mikel", "naiz.", "Ondo", "nago,", "eskerrik", "asko."], "translation": "Hola, soy Mikel. Estoy bien, gracias.", "answer": "Kaixo, ni Mikel naiz. Ondo nago, eskerrik asko." }
-  ]
+﻿{
+    "id":  "test",
+    "title":  "Test de la Unidad 1: Kaixo!",
+    "objective":  "Demostrar que dominas los saludos, presentaciones y estados de ánimo básicos",
+    "type":  "test",
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "Egun on",
+                                            "es":  "Buenos días"
+                                        },
+                                        {
+                                            "eu":  "Arratsalde on",
+                                            "es":  "Buenas tardes"
+                                        },
+                                        {
+                                            "eu":  "Gabon",
+                                            "es":  "Buenas noches"
+                                        },
+                                        {
+                                            "eu":  "Aupa",
+                                            "es":  "¡Hola! (informal)"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "order_words",
+                          "words":  [
+                                        "Nire",
+                                        "izena",
+                                        "Amaia",
+                                        "da."
+                                    ],
+                          "translation":  "Mi nombre es Amaia.",
+                          "answer":  "Nire izena Amaia da."
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "grammar_select",
+                          "sentence":  "Gaur oso nekatuta ___.",
+                          "translation":  "Hoy estoy muy cansado/a.",
+                          "options":  [
+                                          "nago",
+                                          "naiz",
+                                          "da",
+                                          "zara"
+                                      ],
+                          "answer":  "nago"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "translation_es_eu",
+                          "es":  "De nada",
+                          "answer":  "Ez horregatik"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "translation_eu_es",
+                          "eu":  "Eser zaitezte.",
+                          "answer":  "Sentaos."
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "translation_es_eu",
+                          "es":  "Hola, soy Ane. Encantada.",
+                          "answer":  "Kaixo, ni Ane naiz. Pozten naiz."
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "fill_blank",
+                          "sentence":  "Ondo ___, eskerrik asko.",
+                          "translation":  "Estoy bien, gracias.",
+                          "hint":  "verbo EGON 1ª persona",
+                          "answer":  "nago"
+                      },
+                      {
+                          "id":  "e09",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "Eskerrik asko",
+                                            "es":  "Muchas gracias"
+                                        },
+                                        {
+                                            "eu":  "Ez horregatik",
+                                            "es":  "De nada"
+                                        },
+                                        {
+                                            "eu":  "Barkatu",
+                                            "es":  "Perdona"
+                                        },
+                                        {
+                                            "eu":  "Mesedez",
+                                            "es":  "Por favor"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e10",
+                          "type":  "translation_es_eu",
+                          "es":  "Hola, soy Mikel. ¿Cómo estás?",
+                          "answer":  "Kaixo, ni Mikel naiz. Nola zaude?"
+                      },
+                      {
+                          "id":  "e12",
+                          "type":  "order_words",
+                          "words":  [
+                                        "Kaixo,",
+                                        "ni",
+                                        "Mikel",
+                                        "naiz.",
+                                        "Ondo",
+                                        "nago,",
+                                        "eskerrik",
+                                        "asko."
+                                    ],
+                          "translation":  "Hola, soy Mikel. Estoy bien, gracias.",
+                          "answer":  "Kaixo, ni Mikel naiz. Ondo nago, eskerrik asko."
+                      }
+                  ]
 }

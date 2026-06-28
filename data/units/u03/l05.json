@@ -1,97 +1,110 @@
-{
-  "id": "l05",
-  "title": "Non bizi zara? (¿Dónde vives?)",
-  "grammar_note": {
-    "title": "Leku-genitiboa -n (El locativo -n)",
-    "body": "Para indicar ubicación se añade **-n** (tras vocal) o **-an** (tras consonante): **etxean** = en casa (etxe + an), **Bilbon** = en Bilbao (Bilbo + n), **kalean** = en la calle (kale + an). La pregunta es **non?** (¿dónde?).",
-    "tip": "Regla rápida: si el nombre acaba en vocal → añade -n. Si acaba en consonante → añade -an."
-  },
-  "slides": [
-    {
-      "eu": "Non bizi zara?",
-      "es": "¿Dónde vives?",
-      "example_eu": "Non bizi zara, Ane?",
-      "example_es": "¿Dónde vives, Ane?"
-    },
-    {
-      "eu": "Bilbon bizi naiz / hirian bizi naiz",
-      "es": "Vivo en Bilbao / Vivo en la ciudad",
-      "example_eu": "Bilbon bizi naiz, Abandon.",
-      "example_es": "Vivo en Bilbao, en Abandoibarra."
-    },
-    {
-      "eu": "etxea / herria / auzoa",
-      "es": "casa / pueblo / barrio",
-      "example_eu": "Nire herria txikia da, baina polita.",
-      "example_es": "Mi pueblo es pequeño, pero bonito."
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se pregunta '¿dónde vives?' en euskera?",
-      "options": ["Non bizi zara?", "Zer da hori?", "Nor zara?", "Non zaude?"],
-      "answer": "Non bizi zara?"
-    },
-    {
-      "id": "e02",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "'Etxean nago' = estoy en casa (-N locativo) pero 'etxera noa' = voy a casa (-RA alativo) → true",
-      "es": "etxean(-N) = en casa; etxera(-RA) = a casa — sufijos de caso distintos",
-      "answer": true,
-      "explanation": "Sufijo locativo -N/-AN: etxean(en casa), eskolan(en la escuela). Sufijo alativo -RA: etxera(a casa), eskolara(a la escuela). Con EGON→-N; con JOAN→-RA."
-    },
-    {
-      "id": "e03",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "hiria",
-      "answer": "ciudad"
-    },
-    {
-      "id": "e04",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Bilbon ___ naiz.",
-      "translation": "Vivo en Bilbao.",
-      "hint": "verbo 'vivir'",
-      "answer": "bizi"
-    },
-    {
-      "id": "e05",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "pueblo",
-      "answer": "herria"
-    },
-    {
-      "id": "e06",
-      "type": "grammar_select",
-      "instruction": "Para decir 'en Donostia' usas:",
-      "sentence": "Donostia → en Donostia",
-      "translation": "Donostia acaba en vocal",
-      "options": ["Donostian", "Donostia", "Donostiak", "Donostiatik"],
-      "answer": "Donostian"
-    },
-    {
-      "id": "e07",
-      "type": "match_pairs",
-      "instruction": "Une cada par",
-      "pairs": [
-        { "eu": "etxea", "es": "casa" },
-        { "eu": "herria", "es": "pueblo" },
-        { "eu": "hiria", "es": "ciudad" },
-        { "eu": "auzoa", "es": "barrio" }
-      ]
-    },
-    {
-      "id": "e08",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Non bizi zara?",
-      "answer": "¿Dónde vives?"
-    }
-  ]
+﻿{
+    "id":  "l05",
+    "title":  "Non bizi zara? (¿Dónde vives?)",
+    "grammar_note":  {
+                         "title":  "Leku-genitiboa -n (El locativo -n)",
+                         "body":  "Para indicar ubicación se añade **-n** (tras vocal) o **-an** (tras consonante): **etxean** = en casa (etxe + an), **Bilbon** = en Bilbao (Bilbo + n), **kalean** = en la calle (kale + an). La pregunta es **non?** (¿dónde?).",
+                         "tip":  "Regla rápida: si el nombre acaba en vocal → añade -n. Si acaba en consonante → añade -an."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "Non bizi zara?",
+                       "es":  "¿Dónde vives?",
+                       "example_eu":  "Non bizi zara, Ane?",
+                       "example_es":  "¿Dónde vives, Ane?"
+                   },
+                   {
+                       "eu":  "Bilbon bizi naiz / hirian bizi naiz",
+                       "es":  "Vivo en Bilbao / Vivo en la ciudad",
+                       "example_eu":  "Bilbon bizi naiz, Abandon.",
+                       "example_es":  "Vivo en Bilbao, en Abandoibarra."
+                   },
+                   {
+                       "eu":  "etxea / herria / auzoa",
+                       "es":  "casa / pueblo / barrio",
+                       "example_eu":  "Nire herria txikia da, baina polita.",
+                       "example_es":  "Mi pueblo es pequeño, pero bonito."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se pregunta \u0027¿dónde vives?\u0027 en euskera?",
+                          "options":  [
+                                          "Non bizi zara?",
+                                          "Zer da hori?",
+                                          "Nor zara?",
+                                          "Non zaude?"
+                                      ],
+                          "answer":  "Non bizi zara?"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "hiria",
+                          "answer":  "ciudad"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Bilbon ___ naiz.",
+                          "translation":  "Vivo en Bilbao.",
+                          "hint":  "verbo \u0027vivir\u0027",
+                          "answer":  "bizi"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "pueblo",
+                          "answer":  "herria"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "grammar_select",
+                          "instruction":  "Para decir \u0027en Donostia\u0027 usas:",
+                          "sentence":  "Donostia → en Donostia",
+                          "translation":  "Donostia acaba en vocal",
+                          "options":  [
+                                          "Donostian",
+                                          "Donostia",
+                                          "Donostiak",
+                                          "Donostiatik"
+                                      ],
+                          "answer":  "Donostian"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "match_pairs",
+                          "instruction":  "Une cada par",
+                          "pairs":  [
+                                        {
+                                            "eu":  "etxea",
+                                            "es":  "casa"
+                                        },
+                                        {
+                                            "eu":  "herria",
+                                            "es":  "pueblo"
+                                        },
+                                        {
+                                            "eu":  "hiria",
+                                            "es":  "ciudad"
+                                        },
+                                        {
+                                            "eu":  "auzoa",
+                                            "es":  "barrio"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Non bizi zara?",
+                          "answer":  "¿Dónde vives?"
+                      }
+                  ]
 }

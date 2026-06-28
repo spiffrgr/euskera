@@ -1,25 +1,115 @@
-{
-  "id": "l02",
-  "title": "NON? NORA? NONDIK?",
-  "grammar_note": {
-    "title": "Las tres preguntas de lugar",
-    "body": "El sistema de lugar en euskera tiene tres preguntas distintas:\n**NON?** → ¿Dónde? (posición estática, con EGON)\n**NORA?** → ¿Adónde? (movimiento hacia, con JOAN)\n**NONDIK?** → ¿De dónde? (origen/movimiento desde, con ETORRI)\n\nEjemplos:\n**Non zaude?** → ¿Dónde estás?\n**Nora zoaz?** → ¿Adónde vas?\n**Nondik zatoz?** → ¿De dónde vienes?",
-    "tip": "Estas preguntas corresponden exactamente a los casos locativo (-n), alativo (-ra) y ablativo (-tik) que ya conoces."
-  },
-  "slides": [
-    { "eu": "Non zaude?", "es": "¿Dónde estás?", "example_eu": "Non zaude? —Etxean nago.", "example_es": "¿Dónde estás? —Estoy en casa." },
-    { "eu": "Nora zoaz?", "es": "¿Adónde vas?", "example_eu": "Nora zoaz? —Euskara ikasteko, eskolara noa.", "example_es": "¿Adónde vas? —Voy a la escuela a aprender euskera." },
-    { "eu": "Nondik zatoz?", "es": "¿De dónde vienes?", "example_eu": "Nondik zatoz? —Dendatik nator.", "example_es": "¿De dónde vienes? —Vengo de la tienda." },
-    { "eu": "Nongoa zara?", "es": "¿De dónde eres?", "example_eu": "Nongoa zara? —Donostia-koa naiz.", "example_es": "¿De dónde eres? —Soy de San Sebastián." }
-  ],
-  "exercises": [
-    { "id": "e01", "type": "multiple_choice", "instruction": "¿Qué pregunta usas para saber adónde va alguien?", "options": ["Non?", "Nondik?", "Nora?", "Noiz?"], "answer": "Nora?" },
-    { "id": "e02", "type": "translation_eu_es", "eu": "Nondik zatoz?", "answer": "¿De dónde vienes?" },
-    { "id": "e03", "type": "translation_es_eu", "es": "¿Dónde estás?", "answer": "Non zaude?" },
-    { "id": "e04", "type": "true_false", "eu": "Nora? va con el verbo EGON", "es": "Nora? va con el verbo EGON", "answer": false, "explanation": "Nora? (¿adónde?) va con JOAN (ir). EGON (estar) responde a NON? (¿dónde?)." },
-    { "id": "e05", "type": "fill_blank", "sentence": "___ zoaz? —Eskolara noa (¿Adónde...?)", "translation": "¿Adónde vas? —Voy a la escuela", "hint": "¿Adónde?", "answer": "Nora" },
-    { "id": "e06", "type": "order_words", "words": ["nondik", "zatoz", "zu?"], "translation": "¿De dónde vienes tú?", "answer": "Nondik zatoz zu?" },
-    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "Non zaude?", "es": "¿Dónde estás?"}, {"eu": "Nora zoaz?", "es": "¿Adónde vas?"}, {"eu": "Nondik zatoz?", "es": "¿De dónde vienes?"}, {"eu": "Nongoa zara?", "es": "¿De dónde eres?"}] },
-    { "id": "e08", "type": "grammar_select", "sentence": "___ zaude? —Parkean nago.", "translation": "¿Dónde estás? —Estoy en el parque.", "options": ["Non", "Nora", "Nondik", "Noiz"], "answer": "Non" }
-  ]
+﻿{
+    "id":  "l02",
+    "title":  "NON? NORA? NONDIK?",
+    "grammar_note":  {
+                         "title":  "Las tres preguntas de lugar",
+                         "body":  "El sistema de lugar en euskera tiene tres preguntas distintas:\n**NON?** → ¿Dónde? (posición estática, con EGON)\n**NORA?** → ¿Adónde? (movimiento hacia, con JOAN)\n**NONDIK?** → ¿De dónde? (origen/movimiento desde, con ETORRI)\n\nEjemplos:\n**Non zaude?** → ¿Dónde estás?\n**Nora zoaz?** → ¿Adónde vas?\n**Nondik zatoz?** → ¿De dónde vienes?",
+                         "tip":  "Estas preguntas corresponden exactamente a los casos locativo (-n), alativo (-ra) y ablativo (-tik) que ya conoces."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "Non zaude?",
+                       "es":  "¿Dónde estás?",
+                       "example_eu":  "Non zaude? —Etxean nago.",
+                       "example_es":  "¿Dónde estás? —Estoy en casa."
+                   },
+                   {
+                       "eu":  "Nora zoaz?",
+                       "es":  "¿Adónde vas?",
+                       "example_eu":  "Nora zoaz? —Euskara ikasteko, eskolara noa.",
+                       "example_es":  "¿Adónde vas? —Voy a la escuela a aprender euskera."
+                   },
+                   {
+                       "eu":  "Nondik zatoz?",
+                       "es":  "¿De dónde vienes?",
+                       "example_eu":  "Nondik zatoz? —Dendatik nator.",
+                       "example_es":  "¿De dónde vienes? —Vengo de la tienda."
+                   },
+                   {
+                       "eu":  "Nongoa zara?",
+                       "es":  "¿De dónde eres?",
+                       "example_eu":  "Nongoa zara? —Donostia-koa naiz.",
+                       "example_es":  "¿De dónde eres? —Soy de San Sebastián."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Qué pregunta usas para saber adónde va alguien?",
+                          "options":  [
+                                          "Non?",
+                                          "Nondik?",
+                                          "Nora?",
+                                          "Noiz?"
+                                      ],
+                          "answer":  "Nora?"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "eu":  "Nondik zatoz?",
+                          "answer":  "¿De dónde vienes?"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_es_eu",
+                          "es":  "¿Dónde estás?",
+                          "answer":  "Non zaude?"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "fill_blank",
+                          "sentence":  "___ zoaz? —Eskolara noa (¿Adónde...?)",
+                          "translation":  "¿Adónde vas? —Voy a la escuela",
+                          "hint":  "¿Adónde?",
+                          "answer":  "Nora"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "order_words",
+                          "words":  [
+                                        "nondik",
+                                        "zatoz",
+                                        "zu?"
+                                    ],
+                          "translation":  "¿De dónde vienes tú?",
+                          "answer":  "Nondik zatoz zu?"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "Non zaude?",
+                                            "es":  "¿Dónde estás?"
+                                        },
+                                        {
+                                            "eu":  "Nora zoaz?",
+                                            "es":  "¿Adónde vas?"
+                                        },
+                                        {
+                                            "eu":  "Nondik zatoz?",
+                                            "es":  "¿De dónde vienes?"
+                                        },
+                                        {
+                                            "eu":  "Nongoa zara?",
+                                            "es":  "¿De dónde eres?"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "grammar_select",
+                          "sentence":  "___ zaude? —Parkean nago.",
+                          "translation":  "¿Dónde estás? —Estoy en el parque.",
+                          "options":  [
+                                          "Non",
+                                          "Nora",
+                                          "Nondik",
+                                          "Noiz"
+                                      ],
+                          "answer":  "Non"
+                      }
+                  ]
 }

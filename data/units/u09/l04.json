@@ -1,25 +1,116 @@
-{
-  "id": "l04",
-  "title": "Maiztasuna (La frecuencia)",
-  "grammar_note": {
-    "title": "Adverbios de frecuencia",
-    "body": "Para decir con qué frecuencia hacemos algo:\n**beti** → siempre\n**askotan** → muchas veces / a menudo\n**batzuetan** → a veces\n**gutxitan** → pocas veces\n**inoiz ez** → nunca\n**egunero** → todos los días\n\nSe colocan normalmente antes del verbo: **Beti gosaltzen dut** → Siempre desayuno.",
-    "tip": "Para 'nunca' en euskera usa 'inoiz ez': Inoiz ez dut kafea hartzen = Nunca tomo café."
-  },
-  "slides": [
-    { "eu": "beti", "es": "siempre", "example_eu": "Beti goiz jaikitzen naiz.", "example_es": "Siempre me levanto temprano." },
-    { "eu": "askotan", "es": "muchas veces / a menudo", "example_eu": "Askotan parkera joaten naiz.", "example_es": "A menudo voy al parque." },
-    { "eu": "batzuetan", "es": "a veces", "example_eu": "Batzuetan txirrindaz joaten naiz lanera.", "example_es": "A veces voy al trabajo en bicicleta." },
-    { "eu": "inoiz ez", "es": "nunca", "example_eu": "Inoiz ez dut tabakoa erretzen, osasunari txarra delako.", "example_es": "Nunca fumo, porque es malo para la salud." }
-  ],
-  "exercises": [
-    { "id": "e01", "type": "multiple_choice", "instruction": "¿Qué significa 'beti'?", "options": ["a veces", "nunca", "siempre", "a menudo"], "answer": "siempre" },
-    { "id": "e02", "type": "translation_eu_es", "eu": "Inoiz ez", "answer": "Nunca" },
-    { "id": "e03", "type": "translation_es_eu", "es": "A veces", "answer": "Batzuetan" },
-    { "id": "e04", "type": "true_false", "eu": "Askotan = pocas veces", "es": "Askotan = pocas veces", "answer": false, "explanation": "Askotan significa 'muchas veces / a menudo'. Pocas veces es 'gutxitan'." },
-    { "id": "e05", "type": "fill_blank", "sentence": "___ goiz jaikitzen naiz (siempre)", "translation": "Siempre me levanto temprano", "hint": "siempre", "answer": "Beti" },
-    { "id": "e06", "type": "order_words", "words": ["batzuetan", "parkera", "joaten", "naiz"], "translation": "A veces voy al parque", "answer": "Batzuetan parkera joaten naiz" },
-    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "beti", "es": "siempre"}, {"eu": "askotan", "es": "a menudo"}, {"eu": "batzuetan", "es": "a veces"}, {"eu": "inoiz ez", "es": "nunca"}] },
-    { "id": "e08", "type": "grammar_select", "sentence": "___ dut tabakoa erretzen.", "translation": "Nunca fumo tabaco.", "options": ["Inoiz ez", "Beti", "Askotan", "Batzuetan"], "answer": "Inoiz ez" }
-  ]
+﻿{
+    "id":  "l04",
+    "title":  "Maiztasuna (La frecuencia)",
+    "grammar_note":  {
+                         "title":  "Adverbios de frecuencia",
+                         "body":  "Para decir con qué frecuencia hacemos algo:\n**beti** → siempre\n**askotan** → muchas veces / a menudo\n**batzuetan** → a veces\n**gutxitan** → pocas veces\n**inoiz ez** → nunca\n**egunero** → todos los días\n\nSe colocan normalmente antes del verbo: **Beti gosaltzen dut** → Siempre desayuno.",
+                         "tip":  "Para \u0027nunca\u0027 en euskera usa \u0027inoiz ez\u0027: Inoiz ez dut kafea hartzen = Nunca tomo café."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "beti",
+                       "es":  "siempre",
+                       "example_eu":  "Beti goiz jaikitzen naiz.",
+                       "example_es":  "Siempre me levanto temprano."
+                   },
+                   {
+                       "eu":  "askotan",
+                       "es":  "muchas veces / a menudo",
+                       "example_eu":  "Askotan parkera joaten naiz.",
+                       "example_es":  "A menudo voy al parque."
+                   },
+                   {
+                       "eu":  "batzuetan",
+                       "es":  "a veces",
+                       "example_eu":  "Batzuetan txirrindaz joaten naiz lanera.",
+                       "example_es":  "A veces voy al trabajo en bicicleta."
+                   },
+                   {
+                       "eu":  "inoiz ez",
+                       "es":  "nunca",
+                       "example_eu":  "Inoiz ez dut tabakoa erretzen, osasunari txarra delako.",
+                       "example_es":  "Nunca fumo, porque es malo para la salud."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Qué significa \u0027beti\u0027?",
+                          "options":  [
+                                          "a veces",
+                                          "nunca",
+                                          "siempre",
+                                          "a menudo"
+                                      ],
+                          "answer":  "siempre"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "eu":  "Inoiz ez",
+                          "answer":  "Nunca"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_es_eu",
+                          "es":  "A veces",
+                          "answer":  "Batzuetan"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "fill_blank",
+                          "sentence":  "___ goiz jaikitzen naiz (siempre)",
+                          "translation":  "Siempre me levanto temprano",
+                          "hint":  "siempre",
+                          "answer":  "Beti"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "order_words",
+                          "words":  [
+                                        "batzuetan",
+                                        "parkera",
+                                        "joaten",
+                                        "naiz"
+                                    ],
+                          "translation":  "A veces voy al parque",
+                          "answer":  "Batzuetan parkera joaten naiz"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "beti",
+                                            "es":  "siempre"
+                                        },
+                                        {
+                                            "eu":  "askotan",
+                                            "es":  "a menudo"
+                                        },
+                                        {
+                                            "eu":  "batzuetan",
+                                            "es":  "a veces"
+                                        },
+                                        {
+                                            "eu":  "inoiz ez",
+                                            "es":  "nunca"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "grammar_select",
+                          "sentence":  "___ dut tabakoa erretzen.",
+                          "translation":  "Nunca fumo tabaco.",
+                          "options":  [
+                                          "Inoiz ez",
+                                          "Beti",
+                                          "Askotan",
+                                          "Batzuetan"
+                                      ],
+                          "answer":  "Inoiz ez"
+                      }
+                  ]
 }

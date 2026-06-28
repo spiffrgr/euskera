@@ -1,98 +1,116 @@
-{
-  "id": "l06",
-  "title": "Nolakoa da? (¿Cómo es?)",
-  "grammar_note": {
-    "title": "Adjektibo + izen ordena (Orden del adjetivo)",
-    "body": "En euskera el adjetivo va **después** del sustantivo: **etxe handia** (la casa grande), **liburu berria** (el libro nuevo). Para preguntar cómo es algo: **Nolakoa da?** Para describir a alguien: **[nombre] + adjetivo + da**.",
-    "tip": "Al revés que en español: primero el sustantivo, luego el adjetivo."
-  },
-  "slides": [
-    {
-      "eu": "polita / itsusia",
-      "es": "bonito / feo",
-      "example_eu": "Lore polita da. Zein itsusia den!",
-      "example_es": "Es una flor bonita. ¡Qué feo es!"
-    },
-    {
-      "eu": "alaia / triste",
-      "es": "alegre / triste",
-      "example_eu": "Lagun alaia du beti.",
-      "example_es": "Siempre tiene un amigo alegre."
-    },
-    {
-      "eu": "interesgarria / aspergarria",
-      "es": "interesante / aburrido",
-      "example_eu": "Pelikula interesgarria da, ez aspergarria.",
-      "example_es": "Es una película interesante, no aburrida."
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se dice 'bonito/a' en euskera?",
-      "options": ["polita", "alaia", "interesgarria", "garbia"],
-      "answer": "polita"
-    },
-    {
-      "id": "e02",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "Para 'estoy triste' usas EGON (no IZAN): 'Triste nago' → true (estado temporal, no identidad)",
-      "es": "Los estados de ánimo usan EGON: triste nago, pozik nago, haserre nago",
-      "answer": true,
-      "explanation": "Los estados temporales/de ánimo usan EGON: triste nago(estoy triste), pozik nago(estoy contento), nekatuta nago(estoy cansado). NAIZ(IZAN) es para identidad permanente."
-    },
-    {
-      "id": "e03",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "interesgarria",
-      "answer": "interesante"
-    },
-    {
-      "id": "e04",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Pelikula ___ da.",
-      "translation": "Es una película interesante.",
-      "hint": "interesante en euskera",
-      "answer": "interesgarria"
-    },
-    {
-      "id": "e05",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "feo",
-      "answer": "itsusia"
-    },
-    {
-      "id": "e06",
-      "type": "match_pairs",
-      "instruction": "Une cada par",
-      "pairs": [
-        { "eu": "polita", "es": "bonito" },
-        { "eu": "itsusia", "es": "feo" },
-        { "eu": "alaia", "es": "alegre" },
-        { "eu": "interesgarria", "es": "interesante" }
-      ]
-    },
-    {
-      "id": "e07",
-      "type": "grammar_select",
-      "instruction": "'El libro bonito' en euskera:",
-      "sentence": "liburu + polita",
-      "translation": "Recuerda: sustantivo primero, adjetivo después",
-      "options": ["Liburu polita", "Polita liburua", "Polita liburu", "Liburua polita"],
-      "answer": "Liburu polita"
-    },
-    {
-      "id": "e08",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "words": ["da", "polita", "etxe", "hau"],
-      "translation": "Esta casa es bonita",
-      "answer": "etxe hau polita da"
-    }
-  ]
+﻿{
+    "id":  "l06",
+    "title":  "Nolakoa da? (¿Cómo es?)",
+    "grammar_note":  {
+                         "title":  "Adjektibo + izen ordena (Orden del adjetivo)",
+                         "body":  "En euskera el adjetivo va **después** del sustantivo: **etxe handia** (la casa grande), **liburu berria** (el libro nuevo). Para preguntar cómo es algo: **Nolakoa da?** Para describir a alguien: **[nombre] + adjetivo + da**.",
+                         "tip":  "Al revés que en español: primero el sustantivo, luego el adjetivo."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "polita / itsusia",
+                       "es":  "bonito / feo",
+                       "example_eu":  "Lore polita da. Zein itsusia den!",
+                       "example_es":  "Es una flor bonita. ¡Qué feo es!"
+                   },
+                   {
+                       "eu":  "alaia / triste",
+                       "es":  "alegre / triste",
+                       "example_eu":  "Lagun alaia du beti.",
+                       "example_es":  "Siempre tiene un amigo alegre."
+                   },
+                   {
+                       "eu":  "interesgarria / aspergarria",
+                       "es":  "interesante / aburrido",
+                       "example_eu":  "Pelikula interesgarria da, ez aspergarria.",
+                       "example_es":  "Es una película interesante, no aburrida."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027bonito/a\u0027 en euskera?",
+                          "options":  [
+                                          "polita",
+                                          "alaia",
+                                          "interesgarria",
+                                          "garbia"
+                                      ],
+                          "answer":  "polita"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "interesgarria",
+                          "answer":  "interesante"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Pelikula ___ da.",
+                          "translation":  "Es una película interesante.",
+                          "hint":  "interesante en euskera",
+                          "answer":  "interesgarria"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "feo",
+                          "answer":  "itsusia"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "match_pairs",
+                          "instruction":  "Une cada par",
+                          "pairs":  [
+                                        {
+                                            "eu":  "polita",
+                                            "es":  "bonito"
+                                        },
+                                        {
+                                            "eu":  "itsusia",
+                                            "es":  "feo"
+                                        },
+                                        {
+                                            "eu":  "alaia",
+                                            "es":  "alegre"
+                                        },
+                                        {
+                                            "eu":  "interesgarria",
+                                            "es":  "interesante"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "grammar_select",
+                          "instruction":  "\u0027El libro bonito\u0027 en euskera:",
+                          "sentence":  "liburu + polita",
+                          "translation":  "Recuerda: sustantivo primero, adjetivo después",
+                          "options":  [
+                                          "Liburu polita",
+                                          "Polita liburua",
+                                          "Polita liburu",
+                                          "Liburua polita"
+                                      ],
+                          "answer":  "Liburu polita"
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras",
+                          "words":  [
+                                        "da",
+                                        "polita",
+                                        "etxe",
+                                        "hau"
+                                    ],
+                          "translation":  "Esta casa es bonita",
+                          "answer":  "etxe hau polita da"
+                      }
+                  ]
 }

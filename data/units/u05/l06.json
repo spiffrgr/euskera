@@ -1,91 +1,105 @@
-{
-  "id": "l06",
-  "title": "Nor da nor? (¿Quién es quién?)",
-  "slides": [
-    {
-      "eu": "Hau nire anaia da. Bera futbolaria da.",
-      "es": "Este es mi hermano. Él es futbolista.",
-      "example_eu": "Hau nire anaia Mikel da. Hogeita hamar urte ditu.",
-      "example_es": "Este es mi hermano Mikel. Tiene treinta años."
-    },
-    {
-      "eu": "Hauek nire gurasoak dira.",
-      "es": "Estos son mis padres.",
-      "example_eu": "Hauek nire gurasoak dira: aita Josu eta ama Begoña.",
-      "example_es": "Estos son mis padres: el padre Josu y la madre Begoña."
-    },
-    {
-      "eu": "Nor da? / Nor da hau?",
-      "es": "¿Quién es? / ¿Quién es este/a?",
-      "example_eu": "Nor da hau? — Hau nire lehengusua da.",
-      "example_es": "¿Quién es este? — Este es mi primo."
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se dice '¿Quién es este?' en euskera?",
-      "options": ["Nor da hau?", "Zer da hau?", "Non da hau?", "Nola da hau?"],
-      "answer": "Nor da hau?"
-    },
-    {
-      "id": "e02",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Hauek nire gurasoak dira.",
-      "answer": "Estos son mis padres."
-    },
-    {
-      "id": "e03",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "'Hau nire anaia da' → HAU(este, cerca) y DA(IZAN, 3ª persona) son correctos para presentar a alguien → true",
-      "es": "HAU(este/cerca) + DA(IZAN) = correcto para presentaciones",
-      "answer": true,
-      "explanation": "Demostrativos de distancia: HAU(este, cerca), HORI(ese, media distancia), HURA(aquel, lejos). Para presentar: Hau nire anaia da, hori nire lagun ona da. DA = IZAN 3ª persona."
-    },
-    {
-      "id": "e04",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Nor da ___? — Hau nire ama da.",
-      "translation": "¿Quién es esta? — Esta es mi madre.",
-      "hint": "este/esta en euskera",
-      "answer": "hau"
-    },
-    {
-      "id": "e05",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "words": ["da", "hau", "nire", "lehengusu", "da"],
-      "translation": "Este es mi primo",
-      "answer": "hau nire lehengusua da"
-    },
-    {
-      "id": "e06",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "¿Quién es?",
-      "answer": "Nor da?"
-    },
-    {
-      "id": "e07",
-      "type": "match_pairs",
-      "instruction": "Une cada par",
-      "pairs": [
-        { "eu": "hau", "es": "este/esta" },
-        { "eu": "hauek", "es": "estos/estas" },
-        { "eu": "bera", "es": "él/ella" },
-        { "eu": "haiek", "es": "ellos/ellas" }
-      ]
-    },
-    {
-      "id": "e08",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Hau nire ahizpa Ane da.",
-      "answer": "Esta es mi hermana Ane."
-    }
-  ]
+﻿{
+    "id":  "l06",
+    "title":  "Nor da nor? (¿Quién es quién?)",
+    "slides":  [
+                   {
+                       "eu":  "Hau nire anaia da. Bera futbolaria da.",
+                       "es":  "Este es mi hermano. Él es futbolista.",
+                       "example_eu":  "Hau nire anaia Mikel da. Hogeita hamar urte ditu.",
+                       "example_es":  "Este es mi hermano Mikel. Tiene treinta años."
+                   },
+                   {
+                       "eu":  "Hauek nire gurasoak dira.",
+                       "es":  "Estos son mis padres.",
+                       "example_eu":  "Hauek nire gurasoak dira: aita Josu eta ama Begoña.",
+                       "example_es":  "Estos son mis padres: el padre Josu y la madre Begoña."
+                   },
+                   {
+                       "eu":  "Nor da? / Nor da hau?",
+                       "es":  "¿Quién es? / ¿Quién es este/a?",
+                       "example_eu":  "Nor da hau? — Hau nire lehengusua da.",
+                       "example_es":  "¿Quién es este? — Este es mi primo."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027¿Quién es este?\u0027 en euskera?",
+                          "options":  [
+                                          "Nor da hau?",
+                                          "Zer da hau?",
+                                          "Non da hau?",
+                                          "Nola da hau?"
+                                      ],
+                          "answer":  "Nor da hau?"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Hauek nire gurasoak dira.",
+                          "answer":  "Estos son mis padres."
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Nor da ___? — Hau nire ama da.",
+                          "translation":  "¿Quién es esta? — Esta es mi madre.",
+                          "hint":  "este/esta en euskera",
+                          "answer":  "hau"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras",
+                          "words":  [
+                                        "da",
+                                        "hau",
+                                        "nire",
+                                        "lehengusu",
+                                        "da"
+                                    ],
+                          "translation":  "Este es mi primo",
+                          "answer":  "hau nire lehengusua da"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "¿Quién es?",
+                          "answer":  "Nor da?"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "match_pairs",
+                          "instruction":  "Une cada par",
+                          "pairs":  [
+                                        {
+                                            "eu":  "hau",
+                                            "es":  "este/esta"
+                                        },
+                                        {
+                                            "eu":  "hauek",
+                                            "es":  "estos/estas"
+                                        },
+                                        {
+                                            "eu":  "bera",
+                                            "es":  "él/ella"
+                                        },
+                                        {
+                                            "eu":  "haiek",
+                                            "es":  "ellos/ellas"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Hau nire ahizpa Ane da.",
+                          "answer":  "Esta es mi hermana Ane."
+                      }
+                  ]
 }

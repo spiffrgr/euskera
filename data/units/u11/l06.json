@@ -1,25 +1,116 @@
-{
-  "id": "l06",
-  "title": "Galdera-hitz guztiak (Repaso)",
-  "grammar_note": {
-    "title": "Todas las palabras interrogativas",
-    "body": "Resumen completo de las palabras interrogativas en euskera:\n**NOR?** → ¿Quién?\n**ZER?** → ¿Qué?\n**NON?** → ¿Dónde? (posición)\n**NORA?** → ¿Adónde? (destino)\n**NONDIK?** → ¿De dónde? (origen)\n**NOIZ?** → ¿Cuándo?\n**ZENBAT?** → ¿Cuánto?\n**NOLA?** → ¿Cómo?\n**ZERGATIK?** → ¿Por qué?\n**ZEIN?** → ¿Cuál?",
-    "tip": "ZEIN? es la última que faltaba: Zein da zure izena? = ¿Cuál es tu nombre? / Zein liburu nahi duzu? = ¿Cuál libro quieres?"
-  },
-  "slides": [
-    { "eu": "Zein da zure izena?", "es": "¿Cuál es tu nombre?", "example_eu": "Zein da zure izena? —Nire izena Mikel da.", "example_es": "¿Cuál es tu nombre? —Mi nombre es Mikel." },
-    { "eu": "Zergatik ikasten duzu euskara?", "es": "¿Por qué aprendes euskera?", "example_eu": "Zergatik ikasten duzu euskara? —Bertako jendea ulertzeko, eta gustuko dudalako.", "example_es": "¿Por qué aprendes euskera? —Para entender a la gente de aquí, y porque me gusta." },
-    { "eu": "Nola esaten da hori?", "es": "¿Cómo se dice eso?", "example_eu": "Nola esaten da 'gracias' euskaraz? —Eskerrik asko.", "example_es": "¿Cómo se dice 'gracias' en euskera? —Eskerrik asko." },
-    { "eu": "Zenbat lagun dituzu?", "es": "¿Cuántos amigos tienes?", "example_eu": "Zenbat lagun dituzu? —Lagun asko ditut.", "example_es": "¿Cuántos amigos tienes? —Tengo muchos amigos." }
-  ],
-  "exercises": [
-    { "id": "e01", "type": "multiple_choice", "instruction": "¿Qué palabra interrogativa significa '¿Cuál?'?", "options": ["Zer?", "Nor?", "Zein?", "Nola?"], "answer": "Zein?" },
-    { "id": "e02", "type": "translation_eu_es", "eu": "Zergatik ikasten duzu euskara?", "answer": "¿Por qué aprendes euskera?" },
-    { "id": "e03", "type": "translation_es_eu", "es": "¿Cuántos amigos tienes?", "answer": "Zenbat lagun dituzu?" },
-    { "id": "e04", "type": "true_false", "eu": "Zein? = ¿Cuál?", "es": "Zein? = ¿Cuál?", "answer": true, "explanation": "Correcto. Zein? es la interrogativa para preguntar cuál/cuáles." },
-    { "id": "e05", "type": "fill_blank", "sentence": "___ da zure izena? (¿Cuál...?)", "translation": "¿Cuál es tu nombre?", "hint": "¿Cuál?", "answer": "Zein" },
-    { "id": "e06", "type": "order_words", "words": ["nola", "esaten", "da", "hori?"], "translation": "¿Cómo se dice eso?", "answer": "Nola esaten da hori?" },
-    { "id": "e07", "type": "match_pairs", "pairs": [{"eu": "Nor?", "es": "¿Quién?"}, {"eu": "Zer?", "es": "¿Qué?"}, {"eu": "Zein?", "es": "¿Cuál?"}, {"eu": "Zergatik?", "es": "¿Por qué?"}] },
-    { "id": "e08", "type": "grammar_select", "sentence": "___ lagun dituzu?", "translation": "¿Cuántos amigos tienes?", "options": ["Zenbat", "Nola", "Noiz", "Non"], "answer": "Zenbat" }
-  ]
+﻿{
+    "id":  "l06",
+    "title":  "Galdera-hitz guztiak (Repaso)",
+    "grammar_note":  {
+                         "title":  "Todas las palabras interrogativas",
+                         "body":  "Resumen completo de las palabras interrogativas en euskera:\n**NOR?** → ¿Quién?\n**ZER?** → ¿Qué?\n**NON?** → ¿Dónde? (posición)\n**NORA?** → ¿Adónde? (destino)\n**NONDIK?** → ¿De dónde? (origen)\n**NOIZ?** → ¿Cuándo?\n**ZENBAT?** → ¿Cuánto?\n**NOLA?** → ¿Cómo?\n**ZERGATIK?** → ¿Por qué?\n**ZEIN?** → ¿Cuál?",
+                         "tip":  "ZEIN? es la última que faltaba: Zein da zure izena? = ¿Cuál es tu nombre? / Zein liburu nahi duzu? = ¿Cuál libro quieres?"
+                     },
+    "slides":  [
+                   {
+                       "eu":  "Zein da zure izena?",
+                       "es":  "¿Cuál es tu nombre?",
+                       "example_eu":  "Zein da zure izena? —Nire izena Mikel da.",
+                       "example_es":  "¿Cuál es tu nombre? —Mi nombre es Mikel."
+                   },
+                   {
+                       "eu":  "Zergatik ikasten duzu euskara?",
+                       "es":  "¿Por qué aprendes euskera?",
+                       "example_eu":  "Zergatik ikasten duzu euskara? —Bertako jendea ulertzeko, eta gustuko dudalako.",
+                       "example_es":  "¿Por qué aprendes euskera? —Para entender a la gente de aquí, y porque me gusta."
+                   },
+                   {
+                       "eu":  "Nola esaten da hori?",
+                       "es":  "¿Cómo se dice eso?",
+                       "example_eu":  "Nola esaten da \u0027gracias\u0027 euskaraz? —Eskerrik asko.",
+                       "example_es":  "¿Cómo se dice \u0027gracias\u0027 en euskera? —Eskerrik asko."
+                   },
+                   {
+                       "eu":  "Zenbat lagun dituzu?",
+                       "es":  "¿Cuántos amigos tienes?",
+                       "example_eu":  "Zenbat lagun dituzu? —Lagun asko ditut.",
+                       "example_es":  "¿Cuántos amigos tienes? —Tengo muchos amigos."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Qué palabra interrogativa significa \u0027¿Cuál?\u0027?",
+                          "options":  [
+                                          "Zer?",
+                                          "Nor?",
+                                          "Zein?",
+                                          "Nola?"
+                                      ],
+                          "answer":  "Zein?"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "eu":  "Zergatik ikasten duzu euskara?",
+                          "answer":  "¿Por qué aprendes euskera?"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_es_eu",
+                          "es":  "¿Cuántos amigos tienes?",
+                          "answer":  "Zenbat lagun dituzu?"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "fill_blank",
+                          "sentence":  "___ da zure izena? (¿Cuál...?)",
+                          "translation":  "¿Cuál es tu nombre?",
+                          "hint":  "¿Cuál?",
+                          "answer":  "Zein"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "order_words",
+                          "words":  [
+                                        "nola",
+                                        "esaten",
+                                        "da",
+                                        "hori?"
+                                    ],
+                          "translation":  "¿Cómo se dice eso?",
+                          "answer":  "Nola esaten da hori?"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "Nor?",
+                                            "es":  "¿Quién?"
+                                        },
+                                        {
+                                            "eu":  "Zer?",
+                                            "es":  "¿Qué?"
+                                        },
+                                        {
+                                            "eu":  "Zein?",
+                                            "es":  "¿Cuál?"
+                                        },
+                                        {
+                                            "eu":  "Zergatik?",
+                                            "es":  "¿Por qué?"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "grammar_select",
+                          "sentence":  "___ lagun dituzu?",
+                          "translation":  "¿Cuántos amigos tienes?",
+                          "options":  [
+                                          "Zenbat",
+                                          "Nola",
+                                          "Noiz",
+                                          "Non"
+                                      ],
+                          "answer":  "Zenbat"
+                      }
+                  ]
 }

@@ -1,99 +1,136 @@
-{
-  "id": "u02_l01",
-  "title": "Números 1–10",
-  "objective": "Contar del 1 al 10 en euskera",
-  "grammar_note": {
-    "title": "Los números en euskera",
-    "body": "Los números del 1 al 10 son únicos y hay que memorizarlos:\n\n1=bat / 2=bi / 3=hiru / 4=lau / 5=bost\n6=sei / 7=zazpi / 8=zortzi / 9=bederatzi / 10=hamar",
-    "tip": "Los números no tienen género. 'Bat' (1) a veces va después del sustantivo: 'liburu bat' = un libro."
-  },
-  "slides": [
-    { "eu": "Bat, bi, hiru", "es": "Uno, dos, tres", "example_eu": "Bat, bi, hiru... hamar!", "example_es": "Uno, dos, tres... ¡diez!" },
-    { "eu": "Lau, bost, sei", "es": "Cuatro, cinco, seis", "example_eu": "Lau sagarra eta bost platano ditut.", "example_es": "Tengo cuatro manzanas y cinco plátanos." },
-    { "eu": "Zazpi, zortzi, bederatzi, hamar", "es": "Siete, ocho, nueve, diez", "example_eu": "Zazpitan esnatu naiz.", "example_es": "Me he despertado a las siete." }
-  ],
-  "exercises": [
-    {
-      "id": "u02_l01_e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se dice '5' en euskera?",
-      "answer": "bost",
-      "options": ["bost", "sei", "lau", "bat"]
-    },
-    {
-      "id": "u02_l01_e02",
-      "type": "translation_eu_es",
-      "instruction": "¿Qué número es este?",
-      "eu": "zazpi",
-      "answer": "siete"
-    },
-    {
-      "id": "u02_l01_e03",
-      "type": "translation_es_eu",
-      "instruction": "Escribe en euskera",
-      "es": "nueve",
-      "answer": "bederatzi"
-    },
-    {
-      "id": "u02_l01_e04",
-      "type": "match_pairs",
-      "instruction": "Une cada número con su traducción",
-      "pairs": [
-        { "eu": "bat", "es": "uno" },
-        { "eu": "hiru", "es": "tres" },
-        { "eu": "zortzi", "es": "ocho" },
-        { "eu": "hamar", "es": "diez" }
-      ]
-    },
-    {
-      "id": "u02_l01_e05",
-      "type": "multiple_choice",
-      "instruction": "¿Cuál es el número 6 en euskera?",
-      "answer": "sei",
-      "options": ["sei", "bi", "zazpi", "lau"]
-    },
-    {
-      "id": "u02_l01_e06",
-      "type": "true_false",
-      "instruction": "¿Es correcta esta traducción?",
-      "eu": "En euskera, 'hamaika' (11) es IRREGULAR: no sigue el patrón hamar+bat, sino una forma única",
-      "es": "hamaika (11) es irregular — no es 'hamabat'",
-      "answer": true,
-      "explanation": "11(hamaika) es la gran irregularidad. Del 12-19 sí es regular: hamabi(12), hamahiru(13), hamalau(14)... La regla es hamar + número, excepto hamaika.",
-      "explanation": "'Lau' significa cuatro (4), no cinco. Cinco es 'bost'."
-    },
-    {
-      "id": "u02_l01_e07",
-      "type": "order_words",
-      "instruction": "Ordena los números del menor al mayor",
-      "translation": "dos, cuatro, seis, ocho",
-      "words": ["zortzi", "sei", "bi", "lau"],
-      "answer": "bi lau sei zortzi"
-    },
-    {
-      "id": "u02_l01_e08",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Bat, bi, ___, lau, bost.",
-      "translation": "Uno, dos, ___, cuatro, cinco.",
-      "answer": "hiru",
-      "hint": "tres"
-    },
-    {
-      "id": "u02_l01_e09",
-      "type": "grammar_select",
-      "instruction": "¿Qué número falta en la secuencia? bost, sei, ___",
-      "sentence": "bost, sei, ___",
-      "translation": "cinco, seis, ___",
-      "answer": "zazpi",
-      "options": ["zazpi", "zortzi", "lau", "hamar"]
-    },
-    {
-      "id": "u02_l01_e10",
-      "type": "translation_es_eu",
-      "instruction": "Escribe en euskera",
-      "es": "diez",
-      "answer": "hamar"
-    }
-  ]
+﻿{
+    "id":  "u02_l01",
+    "title":  "Números 1–10",
+    "objective":  "Contar del 1 al 10 en euskera",
+    "grammar_note":  {
+                         "title":  "Los números en euskera",
+                         "body":  "Los números del 1 al 10 son únicos y hay que memorizarlos:\n\n1=bat / 2=bi / 3=hiru / 4=lau / 5=bost\n6=sei / 7=zazpi / 8=zortzi / 9=bederatzi / 10=hamar",
+                         "tip":  "Los números no tienen género. \u0027Bat\u0027 (1) a veces va después del sustantivo: \u0027liburu bat\u0027 = un libro."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "Bat, bi, hiru",
+                       "es":  "Uno, dos, tres",
+                       "example_eu":  "Bat, bi, hiru... hamar!",
+                       "example_es":  "Uno, dos, tres... ¡diez!"
+                   },
+                   {
+                       "eu":  "Lau, bost, sei",
+                       "es":  "Cuatro, cinco, seis",
+                       "example_eu":  "Lau sagarra eta bost platano ditut.",
+                       "example_es":  "Tengo cuatro manzanas y cinco plátanos."
+                   },
+                   {
+                       "eu":  "Zazpi, zortzi, bederatzi, hamar",
+                       "es":  "Siete, ocho, nueve, diez",
+                       "example_eu":  "Zazpitan esnatu naiz.",
+                       "example_es":  "Me he despertado a las siete."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "u02_l01_e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u00275\u0027 en euskera?",
+                          "answer":  "bost",
+                          "options":  [
+                                          "bost",
+                                          "sei",
+                                          "lau",
+                                          "bat"
+                                      ]
+                      },
+                      {
+                          "id":  "u02_l01_e02",
+                          "type":  "translation_eu_es",
+                          "instruction":  "¿Qué número es este?",
+                          "eu":  "zazpi",
+                          "answer":  "siete"
+                      },
+                      {
+                          "id":  "u02_l01_e03",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Escribe en euskera",
+                          "es":  "nueve",
+                          "answer":  "bederatzi"
+                      },
+                      {
+                          "id":  "u02_l01_e04",
+                          "type":  "match_pairs",
+                          "instruction":  "Une cada número con su traducción",
+                          "pairs":  [
+                                        {
+                                            "eu":  "bat",
+                                            "es":  "uno"
+                                        },
+                                        {
+                                            "eu":  "hiru",
+                                            "es":  "tres"
+                                        },
+                                        {
+                                            "eu":  "zortzi",
+                                            "es":  "ocho"
+                                        },
+                                        {
+                                            "eu":  "hamar",
+                                            "es":  "diez"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "u02_l01_e05",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cuál es el número 6 en euskera?",
+                          "answer":  "sei",
+                          "options":  [
+                                          "sei",
+                                          "bi",
+                                          "zazpi",
+                                          "lau"
+                                      ]
+                      },
+                      {
+                          "id":  "u02_l01_e07",
+                          "type":  "order_words",
+                          "instruction":  "Ordena los números del menor al mayor",
+                          "translation":  "dos, cuatro, seis, ocho",
+                          "words":  [
+                                        "zortzi",
+                                        "sei",
+                                        "bi",
+                                        "lau"
+                                    ],
+                          "answer":  "bi lau sei zortzi"
+                      },
+                      {
+                          "id":  "u02_l01_e08",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Bat, bi, ___, lau, bost.",
+                          "translation":  "Uno, dos, ___, cuatro, cinco.",
+                          "answer":  "hiru",
+                          "hint":  "tres"
+                      },
+                      {
+                          "id":  "u02_l01_e09",
+                          "type":  "grammar_select",
+                          "instruction":  "¿Qué número falta en la secuencia? bost, sei, ___",
+                          "sentence":  "bost, sei, ___",
+                          "translation":  "cinco, seis, ___",
+                          "answer":  "zazpi",
+                          "options":  [
+                                          "zazpi",
+                                          "zortzi",
+                                          "lau",
+                                          "hamar"
+                                      ]
+                      },
+                      {
+                          "id":  "u02_l01_e10",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Escribe en euskera",
+                          "es":  "diez",
+                          "answer":  "hamar"
+                      }
+                  ]
 }

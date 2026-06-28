@@ -1,20 +1,124 @@
-{
-  "id": "test",
-  "title": "Test de la Unidad 10: Etxea",
-  "objective": "Demostrar que puedes describir tu casa, sus habitaciones y objetos",
-  "type": "test",
-  "exercises": [
-    { "id": "e01", "type": "multiple_choice", "instruction": "¿Cómo se dice 'dormitorio' en euskera?", "options": ["sukaldea", "egongela", "logela", "komuna"], "answer": "logela" },
-    { "id": "e02", "type": "translation_eu_es", "eu": "Larunbatetan etxea garbitzen dut.", "answer": "Los sábados limpio la casa." },
-    { "id": "e03", "type": "translation_es_eu", "es": "La mesa", "answer": "Mahaia" },
-    { "id": "e04", "type": "true_false", "eu": "Azpian = encima de", "es": "Azpian = encima de", "answer": false, "explanation": "Azpian = debajo de. Encima de es 'gainean'. Par opuesto: gainean (encima) / azpian (debajo)." },
-    { "id": "e05", "type": "fill_blank", "sentence": "Katua sofaren ___ dago.", "translation": "El gato está debajo del sofá.", "hint": "debajo de", "answer": "azpian" },
-    { "id": "e06", "type": "multiple_choice", "instruction": "¿Qué significa 'hozkailua'?", "options": ["lavadora", "horno", "frigorífico", "ordenador"], "answer": "frigorífico" },
-    { "id": "e07", "type": "translation_eu_es", "eu": "Nire etxea haundia da.", "answer": "Mi casa es grande." },
-    { "id": "e08", "type": "translation_es_eu", "es": "Limpiar", "answer": "Garbitu" },
-    { "id": "e09", "type": "order_words", "words": ["Liburua", "mahairen", "gainean", "dago."], "translation": "El libro está encima de la mesa.", "answer": "Liburua mahairen gainean dago." },
-    { "id": "e10", "type": "translation_es_eu", "es": "Mi piso tiene salón, cocina y dos dormitorios.", "answer": "Nire pisua egongela, sukaldea eta bi logela ditu." },
-    { "id": "e11", "type": "grammar_select", "sentence": "Nire etxeak bi logela ___.", "translation": "Mi casa tiene dos dormitorios.", "options": ["ditu", "da", "dago", "naiz"], "answer": "ditu" },
-    { "id": "e12", "type": "true_false", "eu": "Para preguntar '¿Dónde está el gato?' usas: Katua NON dago?", "es": "Para '¿Dónde está el gato?' usas: Katua NON dago?", "answer": true, "explanation": "Correcto. NON? (¿dónde?) + DAGO (EGON, 3ª sg) = ¿dónde está? Para ubicación de objetos y personas." }
-  ]
+﻿{
+    "id":  "test",
+    "title":  "Test de la Unidad 10: Etxea",
+    "objective":  "Demostrar que puedes describir tu casa, sus habitaciones y objetos",
+    "type":  "test",
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027dormitorio\u0027 en euskera?",
+                          "options":  [
+                                          "sukaldea",
+                                          "egongela",
+                                          "logela",
+                                          "komuna"
+                                      ],
+                          "answer":  "logela"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "eu":  "Larunbatetan etxea garbitzen dut.",
+                          "answer":  "Los sábados limpio la casa."
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_es_eu",
+                          "es":  "La mesa",
+                          "answer":  "Mahaia"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "fill_blank",
+                          "sentence":  "Katua sofaren ___ dago.",
+                          "translation":  "El gato está debajo del sofá.",
+                          "hint":  "debajo de",
+                          "answer":  "azpian"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Qué significa \u0027hozkailua\u0027?",
+                          "options":  [
+                                          "lavadora",
+                                          "horno",
+                                          "frigorífico",
+                                          "ordenador"
+                                      ],
+                          "answer":  "frigorífico"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "translation_eu_es",
+                          "eu":  "Nire etxea haundia da.",
+                          "answer":  "Mi casa es grande."
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_es_eu",
+                          "es":  "Limpiar",
+                          "answer":  "Garbitu"
+                      },
+                      {
+                          "id":  "e09",
+                          "type":  "order_words",
+                          "words":  [
+                                        "Liburua",
+                                        "mahairen",
+                                        "gainean",
+                                        "dago."
+                                    ],
+                          "translation":  "El libro está encima de la mesa.",
+                          "answer":  "Liburua mahairen gainean dago."
+                      },
+                      {
+                          "id":  "e10",
+                          "type":  "translation_es_eu",
+                          "es":  "Mi piso tiene salón, cocina y dos dormitorios.",
+                          "answer":  "Nire pisua egongela, sukaldea eta bi logela ditu."
+                      },
+                      {
+                          "id":  "e11",
+                          "type":  "grammar_select",
+                          "sentence":  "Nire etxeak bi logela ___.",
+                          "translation":  "Mi casa tiene dos dormitorios.",
+                          "options":  [
+                                          "ditu",
+                                          "da",
+                                          "dago",
+                                          "naiz"
+                                      ],
+                          "answer":  "ditu"
+                      },
+                      {
+                          "id":  "ow01",
+                          "type":  "order_words",
+                          "words":  [
+                                        "Astean",
+                                        "bitan",
+                                        "kiroldegira",
+                                        "joaten",
+                                        "naiz."
+                                    ],
+                          "translation":  "Voy al polideportivo dos veces a la semana.",
+                          "answer":  "Astean bitan kiroldegira joaten naiz."
+                      },
+                      {
+                          "id":  "ec01",
+                          "type":  "error_correction",
+                          "wrong":  "Hura liburua irakurri du.",
+                          "translation":  "El/ella ha leido el libro.",
+                          "hint":  "sujeto de verbo transitivo → hark",
+                          "answer":  "Hark liburua irakurri du."
+                      },
+                      {
+                          "id":  "ec02",
+                          "type":  "error_correction",
+                          "wrong":  "Zu gazta jan duzu.",
+                          "translation":  "Tu has comido queso.",
+                          "hint":  "sujeto de verbo transitivo → zuk",
+                          "answer":  "Zuk gazta jan duzu."
+                      }
+                  ]
 }

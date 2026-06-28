@@ -1,20 +1,137 @@
-{
-  "id": "test",
-  "title": "Test de la Unidad 3: Nor naiz ni?",
-  "objective": "Demostrar que puedes hacer una presentación completa en euskera",
-  "type": "test",
-  "exercises": [
-    { "id": "e01", "type": "translation_es_eu", "es": "¿De dónde eres?", "answer": "Nongoa zara?" },
-    { "id": "e02", "type": "translation_eu_es", "eu": "Zenbat urte dituzu?", "answer": "¿Cuántos años tienes?" },
-    { "id": "e03", "type": "fill_blank", "sentence": "Ni Donostia___ naiz.", "translation": "Soy de San Sebastián.", "hint": "sufijo de origen (-koa)", "answer": "koa" },
-    { "id": "e04", "type": "grammar_select", "sentence": "Hogei urte ___.", "translation": "Tengo 20 años.", "options": ["ditut", "naiz", "nago", "dut"], "answer": "ditut" },
-    { "id": "e05", "type": "match_pairs", "pairs": [{"eu": "aita", "es": "padre"}, {"eu": "ama", "es": "madre"}, {"eu": "anaia", "es": "hermano"}, {"eu": "ahizpa", "es": "hermana"}] },
-    { "id": "e06", "type": "order_words", "words": ["Kaixo,", "ni", "Mikel", "naiz", "eta", "hamabost", "urte", "ditut."], "translation": "Hola, soy Mikel y tengo quince años.", "answer": "Kaixo, ni Mikel naiz eta hamabost urte ditut." },
-    { "id": "e07", "type": "true_false", "eu": "Nire amak euskara hitz egiten du → la -K de 'amak' es el caso ergativo (sujeto transitivo)", "es": "Nire amak euskara hitz egiten du → 'amak' lleva -K porque es sujeto de verbo transitivo", "answer": true, "explanation": "Correcto. Cuando el sujeto realiza una acción transitiva (hablar, ver, comer...), lleva -K: amak, aitak, nik, zuk." },
-    { "id": "e08", "type": "grammar_select", "sentence": "Musika ___.", "translation": "Me gusta la música.", "options": ["gustatzen zait", "gustatzen dut", "maite naiz", "nahi dut"], "answer": "gustatzen zait" },
-    { "id": "e09", "type": "multiple_choice", "instruction": "¿Qué significa 'Pozten naiz zu ezagutzeaz'?", "options": ["Encantado/a de conocerte", "Estoy muy bien", "Soy de aquí", "Tengo veinte años"], "answer": "Encantado/a de conocerte" },
-    { "id": "e10", "type": "translation_eu_es", "eu": "Ni Ane naiz. Gasteizekoa naiz. Irakaslea naiz eta hogeita bi urte ditut.", "answer": "Soy Ane. Soy de Vitoria. Soy profesora y tengo veintidós años." },
-    { "id": "e11", "type": "fill_blank", "sentence": "Non ___ zara?", "translation": "¿Dónde vives?", "hint": "vivir", "answer": "bizi" },
-    { "id": "e12", "type": "translation_es_eu", "es": "Hola, soy Jon. Soy de Bilbao. Soy médico y tengo treinta años.", "answer": "Kaixo, ni Jon naiz. Bilbokoa naiz. Medikua naiz eta hogeita hamar urte ditut." }
-  ]
+﻿{
+    "id":  "test",
+    "title":  "Test de la Unidad 3: Nor naiz ni?",
+    "objective":  "Demostrar que puedes hacer una presentación completa en euskera",
+    "type":  "test",
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "translation_es_eu",
+                          "es":  "¿De dónde eres?",
+                          "answer":  "Nongoa zara?"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "eu":  "Zenbat urte dituzu?",
+                          "answer":  "¿Cuántos años tienes?"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "fill_blank",
+                          "sentence":  "Ni Donostia___ naiz.",
+                          "translation":  "Soy de San Sebastián.",
+                          "hint":  "sufijo de origen (-koa)",
+                          "answer":  "koa"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "grammar_select",
+                          "sentence":  "Hogei urte ___.",
+                          "translation":  "Tengo 20 años.",
+                          "options":  [
+                                          "ditut",
+                                          "naiz",
+                                          "nago",
+                                          "dut"
+                                      ],
+                          "answer":  "ditut"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "aita",
+                                            "es":  "padre"
+                                        },
+                                        {
+                                            "eu":  "ama",
+                                            "es":  "madre"
+                                        },
+                                        {
+                                            "eu":  "anaia",
+                                            "es":  "hermano"
+                                        },
+                                        {
+                                            "eu":  "ahizpa",
+                                            "es":  "hermana"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "order_words",
+                          "words":  [
+                                        "Kaixo,",
+                                        "ni",
+                                        "Mikel",
+                                        "naiz",
+                                        "eta",
+                                        "hamabost",
+                                        "urte",
+                                        "ditut."
+                                    ],
+                          "translation":  "Hola, soy Mikel y tengo quince años.",
+                          "answer":  "Kaixo, ni Mikel naiz eta hamabost urte ditut."
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "grammar_select",
+                          "sentence":  "Musika ___.",
+                          "translation":  "Me gusta la música.",
+                          "options":  [
+                                          "gustatzen zait",
+                                          "gustatzen dut",
+                                          "maite naiz",
+                                          "nahi dut"
+                                      ],
+                          "answer":  "gustatzen zait"
+                      },
+                      {
+                          "id":  "e09",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Qué significa \u0027Pozten naiz zu ezagutzeaz\u0027?",
+                          "options":  [
+                                          "Encantado/a de conocerte",
+                                          "Estoy muy bien",
+                                          "Soy de aquí",
+                                          "Tengo veinte años"
+                                      ],
+                          "answer":  "Encantado/a de conocerte"
+                      },
+                      {
+                          "id":  "e10",
+                          "type":  "translation_eu_es",
+                          "eu":  "Ni Ane naiz. Gasteizekoa naiz. Irakaslea naiz eta hogeita bi urte ditut.",
+                          "answer":  "Soy Ane. Soy de Vitoria. Soy profesora y tengo veintidós años."
+                      },
+                      {
+                          "id":  "e11",
+                          "type":  "fill_blank",
+                          "sentence":  "Non ___ zara?",
+                          "translation":  "¿Dónde vives?",
+                          "hint":  "vivir",
+                          "answer":  "bizi"
+                      },
+                      {
+                          "id":  "e12",
+                          "type":  "translation_es_eu",
+                          "es":  "Hola, soy Jon. Soy de Bilbao. Soy médico y tengo treinta años.",
+                          "answer":  "Kaixo, ni Jon naiz. Bilbokoa naiz. Medikua naiz eta hogeita hamar urte ditut."
+                      },
+                      {
+                          "id":  "ow01",
+                          "type":  "order_words",
+                          "words":  [
+                                        "Nire",
+                                        "ahizpa",
+                                        "Bilbon",
+                                        "bizi",
+                                        "da."
+                                    ],
+                          "translation":  "Mi hermana vive en Bilbao.",
+                          "answer":  "Nire ahizpa Bilbon bizi da."
+                      }
+                  ]
 }

@@ -1,20 +1,127 @@
-{
-  "id": "test",
-  "title": "Test de la Unidad 2: Zenbakiak",
-  "objective": "Demostrar que dominas los números del 1 al 100 y las expresiones de cantidad",
-  "type": "test",
-  "exercises": [
-    { "id": "e01", "type": "match_pairs", "pairs": [{"eu": "lau", "es": "4"}, {"eu": "zazpi", "es": "7"}, {"eu": "hamar", "es": "10"}, {"eu": "bat", "es": "1"}] },
-    { "id": "e02", "type": "grammar_select", "sentence": "___ da Miren txapelketan.", "translation": "Miren es la primera en el campeonato.", "options": ["Lehena", "Bigarrena", "Hirugarrena", "Laugarrena"], "answer": "Lehena" },
-    { "id": "e03", "type": "translation_es_eu", "es": "ocho", "answer": "zortzi" },
-    { "id": "e04", "type": "translation_es_eu", "es": "trece", "answer": "hamahiru" },
-    { "id": "e05", "type": "multiple_choice", "instruction": "¿Cuánto es 'hogeita bost'?", "options": ["25", "20", "30", "35"], "answer": "25" },
-    { "id": "e06", "type": "true_false", "eu": "Hogeita hamar = 25", "es": "Hogeita hamar = 25", "answer": false, "explanation": "Hogeita hamar = 30 (20+10). El sistema vigesimal: hogei(20) + ta(+) hamar(10). 25 es 'hogeita bost'." },
-    { "id": "e07", "type": "fill_blank", "sentence": "Zazpi, ___, bederatzi.", "translation": "Siete, ocho, nueve.", "hint": "ocho", "answer": "zortzi" },
-    { "id": "e08", "type": "match_pairs", "pairs": [{"eu": "hamaika", "es": "11"}, {"eu": "hamabost", "es": "15"}, {"eu": "hogei", "es": "20"}, {"eu": "ehun", "es": "100"}] },
-    { "id": "e09", "type": "translation_es_eu", "es": "¿Cuánto es?", "answer": "Zenbat da?" },
-    { "id": "e10", "type": "translation_es_eu", "es": "El segundo libro cuesta doce euros.", "answer": "Bigarren liburua hamabi euro da." },
-    { "id": "e11", "type": "multiple_choice", "instruction": "¿Cómo se dice '50' en euskera?", "options": ["berrogeita hamar", "bostogei", "hogeita hamar", "berrogei hamar"], "answer": "berrogeita hamar" },
-    { "id": "e12", "type": "translation_eu_es", "eu": "Hogeita bi euro da.", "answer": "Son veintidós euros." }
-  ]
+﻿{
+    "id":  "test",
+    "title":  "Test de la Unidad 2: Zenbakiak",
+    "objective":  "Demostrar que dominas los números del 1 al 100 y las expresiones de cantidad",
+    "type":  "test",
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "lau",
+                                            "es":  "4"
+                                        },
+                                        {
+                                            "eu":  "zazpi",
+                                            "es":  "7"
+                                        },
+                                        {
+                                            "eu":  "hamar",
+                                            "es":  "10"
+                                        },
+                                        {
+                                            "eu":  "bat",
+                                            "es":  "1"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "grammar_select",
+                          "sentence":  "___ da Miren txapelketan.",
+                          "translation":  "Miren es la primera en el campeonato.",
+                          "options":  [
+                                          "Lehena",
+                                          "Bigarrena",
+                                          "Hirugarrena",
+                                          "Laugarrena"
+                                      ],
+                          "answer":  "Lehena"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_es_eu",
+                          "es":  "ocho",
+                          "answer":  "zortzi"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "translation_es_eu",
+                          "es":  "trece",
+                          "answer":  "hamahiru"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cuánto es \u0027hogeita bost\u0027?",
+                          "options":  [
+                                          "25",
+                                          "20",
+                                          "30",
+                                          "35"
+                                      ],
+                          "answer":  "25"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "fill_blank",
+                          "sentence":  "Zazpi, ___, bederatzi.",
+                          "translation":  "Siete, ocho, nueve.",
+                          "hint":  "ocho",
+                          "answer":  "zortzi"
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "hamaika",
+                                            "es":  "11"
+                                        },
+                                        {
+                                            "eu":  "hamabost",
+                                            "es":  "15"
+                                        },
+                                        {
+                                            "eu":  "hogei",
+                                            "es":  "20"
+                                        },
+                                        {
+                                            "eu":  "ehun",
+                                            "es":  "100"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e09",
+                          "type":  "translation_es_eu",
+                          "es":  "¿Cuánto es?",
+                          "answer":  "Zenbat da?"
+                      },
+                      {
+                          "id":  "e10",
+                          "type":  "translation_es_eu",
+                          "es":  "El segundo libro cuesta doce euros.",
+                          "answer":  "Bigarren liburua hamabi euro da."
+                      },
+                      {
+                          "id":  "e11",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u002750\u0027 en euskera?",
+                          "options":  [
+                                          "berrogeita hamar",
+                                          "bostogei",
+                                          "hogeita hamar",
+                                          "berrogei hamar"
+                                      ],
+                          "answer":  "berrogeita hamar"
+                      },
+                      {
+                          "id":  "e12",
+                          "type":  "translation_eu_es",
+                          "eu":  "Hogeita bi euro da.",
+                          "answer":  "Son veintidós euros."
+                      }
+                  ]
 }

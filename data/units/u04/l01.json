@@ -1,100 +1,147 @@
-{
-  "id": "u04_l01",
-  "title": "Kolore nagusiak (Colores principales)",
-  "objective": "Nombrar los colores principales en euskera",
-  "grammar_note": {
-    "title": "Los adjetivos en euskera",
-    "body": "En euskera el adjetivo va DESPUÉS del sustantivo:\n\nLiburu **gorria** → el libro rojo\nAuto **urdina** → el coche azul\n\nEl adjetivo toma el artículo '-a' cuando va con un sustantivo.",
-    "tip": "Al decir el color solo, sin sustantivo, también añadimos '-a': gorri**a** = el rojo."
-  },
-  "slides": [
-    { "eu": "Gorria / Urdina", "es": "Rojo / Azul", "example_eu": "Liburu gorria eta auto urdina ditut.", "example_es": "Tengo un libro rojo y un coche azul." },
-    { "eu": "Berdea / Horia", "es": "Verde / Amarillo", "example_eu": "Belarra berdea da eta eguzkia horia da.", "example_es": "La hierba es verde y el sol es amarillo." },
-    { "eu": "Beltza / Zuria", "es": "Negro / Blanco", "example_eu": "Gau beltza eta elur zuria.", "example_es": "Noche negra y nieve blanca." },
-    { "eu": "Morea / Laranja", "es": "Morado / Naranja", "example_eu": "Gona morea eta kamiseta laranja ongi doaz.", "example_es": "La falda morada y la camiseta naranja combinan bien." },
-    { "eu": "Arrosa / Grisa", "es": "Rosa / Gris", "example_eu": "Eguraldia gris dago eta aterki arrosa daramat.", "example_es": "El tiempo está gris y llevo un paraguas rosa." }
-  ],
-  "exercises": [
-    {
-      "id": "u04_l01_e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se dice 'rojo' en euskera?",
-      "answer": "gorria",
-      "options": ["gorria", "urdina", "berdea", "horia"]
-    },
-    {
-      "id": "u04_l01_e02",
-      "type": "translation_eu_es",
-      "instruction": "¿Qué color es este?",
-      "eu": "beltza",
-      "answer": "negro"
-    },
-    {
-      "id": "u04_l01_e03",
-      "type": "translation_es_eu",
-      "instruction": "Escribe en euskera",
-      "es": "blanco",
-      "answer": "zuria"
-    },
-    {
-      "id": "u04_l01_e04",
-      "type": "match_pairs",
-      "instruction": "Une cada color con su traducción",
-      "pairs": [
-        { "eu": "gorria", "es": "rojo" },
-        { "eu": "urdina", "es": "azul" },
-        { "eu": "berdea", "es": "verde" },
-        { "eu": "horia", "es": "amarillo" }
-      ]
-    },
-    {
-      "id": "u04_l01_e05",
-      "type": "true_false",
-      "instruction": "¿Es correcta esta frase?",
-      "eu": "Belarra berdea da.",
-      "es": "La hierba es verde.",
-      "answer": true,
-      "explanation": "Correcto. 'Belarra' = la hierba, 'berdea' = verde, 'da' = es."
-    },
-    {
-      "id": "u04_l01_e06",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Eguzkia ___ da.",
-      "translation": "El sol es amarillo.",
-      "answer": "horia",
-      "hint": "amarillo"
-    },
-    {
-      "id": "u04_l01_e07",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "translation": "El libro es rojo.",
-      "words": ["da.", "Liburua", "gorria"],
-      "answer": "Liburua gorria da."
-    },
-    {
-      "id": "u04_l01_e08",
-      "type": "grammar_select",
-      "instruction": "¿Dónde va el adjetivo en euskera?",
-      "sentence": "Auto ___ dut.",
-      "translation": "Tengo un coche rojo.",
-      "answer": "gorria",
-      "options": ["gorria auto", "gorria", "gorri auto", "autoa gorria"]
-    },
-    {
-      "id": "u04_l01_e09",
-      "type": "multiple_choice",
-      "instruction": "¿Qué color es 'marroia'?",
-      "answer": "marrón",
-      "options": ["marrón", "naranja", "morado", "gris"]
-    },
-    {
-      "id": "u04_l01_e10",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "El cielo es azul.",
-      "answer": "Zerua urdina da."
-    }
-  ]
+﻿{
+    "id":  "u04_l01",
+    "title":  "Kolore nagusiak (Colores principales)",
+    "objective":  "Nombrar los colores principales en euskera",
+    "grammar_note":  {
+                         "title":  "Los adjetivos en euskera",
+                         "body":  "En euskera el adjetivo va DESPUÉS del sustantivo:\n\nLiburu **gorria** → el libro rojo\nAuto **urdina** → el coche azul\n\nEl adjetivo toma el artículo \u0027-a\u0027 cuando va con un sustantivo.",
+                         "tip":  "Al decir el color solo, sin sustantivo, también añadimos \u0027-a\u0027: gorri**a** = el rojo."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "Gorria / Urdina",
+                       "es":  "Rojo / Azul",
+                       "example_eu":  "Liburu gorria eta auto urdina ditut.",
+                       "example_es":  "Tengo un libro rojo y un coche azul."
+                   },
+                   {
+                       "eu":  "Berdea / Horia",
+                       "es":  "Verde / Amarillo",
+                       "example_eu":  "Belarra berdea da eta eguzkia horia da.",
+                       "example_es":  "La hierba es verde y el sol es amarillo."
+                   },
+                   {
+                       "eu":  "Beltza / Zuria",
+                       "es":  "Negro / Blanco",
+                       "example_eu":  "Gau beltza eta elur zuria.",
+                       "example_es":  "Noche negra y nieve blanca."
+                   },
+                   {
+                       "eu":  "Morea / Laranja",
+                       "es":  "Morado / Naranja",
+                       "example_eu":  "Gona morea eta kamiseta laranja ongi doaz.",
+                       "example_es":  "La falda morada y la camiseta naranja combinan bien."
+                   },
+                   {
+                       "eu":  "Arrosa / Grisa",
+                       "es":  "Rosa / Gris",
+                       "example_eu":  "Eguraldia gris dago eta aterki arrosa daramat.",
+                       "example_es":  "El tiempo está gris y llevo un paraguas rosa."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "u04_l01_e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027rojo\u0027 en euskera?",
+                          "answer":  "gorria",
+                          "options":  [
+                                          "gorria",
+                                          "urdina",
+                                          "berdea",
+                                          "horia"
+                                      ]
+                      },
+                      {
+                          "id":  "u04_l01_e02",
+                          "type":  "translation_eu_es",
+                          "instruction":  "¿Qué color es este?",
+                          "eu":  "beltza",
+                          "answer":  "negro"
+                      },
+                      {
+                          "id":  "u04_l01_e03",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Escribe en euskera",
+                          "es":  "blanco",
+                          "answer":  "zuria"
+                      },
+                      {
+                          "id":  "u04_l01_e04",
+                          "type":  "match_pairs",
+                          "instruction":  "Une cada color con su traducción",
+                          "pairs":  [
+                                        {
+                                            "eu":  "gorria",
+                                            "es":  "rojo"
+                                        },
+                                        {
+                                            "eu":  "urdina",
+                                            "es":  "azul"
+                                        },
+                                        {
+                                            "eu":  "berdea",
+                                            "es":  "verde"
+                                        },
+                                        {
+                                            "eu":  "horia",
+                                            "es":  "amarillo"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "u04_l01_e06",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Eguzkia ___ da.",
+                          "translation":  "El sol es amarillo.",
+                          "answer":  "horia",
+                          "hint":  "amarillo"
+                      },
+                      {
+                          "id":  "u04_l01_e07",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras",
+                          "translation":  "El libro es rojo.",
+                          "words":  [
+                                        "da.",
+                                        "Liburua",
+                                        "gorria"
+                                    ],
+                          "answer":  "Liburua gorria da."
+                      },
+                      {
+                          "id":  "u04_l01_e08",
+                          "type":  "grammar_select",
+                          "instruction":  "¿Dónde va el adjetivo en euskera?",
+                          "sentence":  "Auto ___ dut.",
+                          "translation":  "Tengo un coche rojo.",
+                          "answer":  "gorria",
+                          "options":  [
+                                          "gorria auto",
+                                          "gorria",
+                                          "gorri auto",
+                                          "autoa gorria"
+                                      ]
+                      },
+                      {
+                          "id":  "u04_l01_e09",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Qué color es \u0027marroia\u0027?",
+                          "answer":  "marrón",
+                          "options":  [
+                                          "marrón",
+                                          "naranja",
+                                          "morado",
+                                          "gris"
+                                      ]
+                      },
+                      {
+                          "id":  "u04_l01_e10",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "El cielo es azul.",
+                          "answer":  "Zerua urdina da."
+                      }
+                  ]
 }

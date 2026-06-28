@@ -1,91 +1,104 @@
-{
-  "id": "l05",
-  "title": "Senideen lanbideak (Profesiones)",
-  "slides": [
-    {
-      "eu": "Nire aita medikua da.",
-      "es": "Mi padre es médico.",
-      "example_eu": "Nire aita medikua da eta nire ama irakaslea da.",
-      "example_es": "Mi padre es médico y mi madre es profesora."
-    },
-    {
-      "eu": "Nire anaia ingeniarua da.",
-      "es": "Mi hermano es ingeniero.",
-      "example_eu": "Nire anaia ingeniarua da, Madrilen lan egiten du.",
-      "example_es": "Mi hermano es ingeniero, trabaja en Madrid."
-    },
-    {
-      "eu": "Lanbidea zer da? (¿Cuál es la profesión?)",
-      "es": "Lanbideak: medikua, irakaslea, abokatu, erizaina, sukaldaria",
-      "example_eu": "Nire izeba erizaina da eta ospitalean lan egiten du.",
-      "example_es": "Mi tía es enfermera y trabaja en el hospital."
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se dice 'Mi padre es médico' en euskera?",
-      "options": ["Nire aita medikua da.", "Nire aitaren medikua da.", "Medikua nire aita da.", "Nire aita da medikua."],
-      "answer": "Nire aita medikua da."
-    },
-    {
-      "id": "e02",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "Las profesiones usan NAIZ/DA (IZAN), no NAGO: 'Irakaslea naiz' (no 'irakaslea nago') → true",
-      "es": "Profesión = NAIZ(IZAN, identidad), no NAGO(EGON, estado temporal)",
-      "answer": true,
-      "explanation": "NAIZ(IZAN) para identidad permanente: irakaslea naiz(soy profesor/a), medikua zara(eres médico/a). NAGO(EGON) para estados temporales: nekatuta nago(estoy cansado/a). Identidad ≠ estado."
-    },
-    {
-      "id": "e03",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "erizaina",
-      "answer": "enfermero/a"
-    },
-    {
-      "id": "e04",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Nire izeba ___ da.",
-      "translation": "Mi tía es enfermera.",
-      "hint": "enfermera en euskera",
-      "answer": "erizaina"
-    },
-    {
-      "id": "e05",
-      "type": "match_pairs",
-      "instruction": "Une cada par",
-      "pairs": [
-        { "eu": "medikua", "es": "médico/a" },
-        { "eu": "irakaslea", "es": "profesor/a" },
-        { "eu": "abokatu", "es": "abogado/a" },
-        { "eu": "sukaldaria", "es": "cocinero/a" }
-      ]
-    },
-    {
-      "id": "e06",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "Mi hermano es ingeniero.",
-      "answer": "Nire anaia ingeniarua da."
-    },
-    {
-      "id": "e07",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "words": ["da", "nire", "irakaslea", "ama"],
-      "translation": "Mi madre es profesora",
-      "answer": "nire ama irakaslea da"
-    },
-    {
-      "id": "e08",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "sukaldaria",
-      "answer": "cocinero/a"
-    }
-  ]
+﻿{
+    "id":  "l05",
+    "title":  "Senideen lanbideak (Profesiones)",
+    "slides":  [
+                   {
+                       "eu":  "Nire aita medikua da.",
+                       "es":  "Mi padre es médico.",
+                       "example_eu":  "Nire aita medikua da eta nire ama irakaslea da.",
+                       "example_es":  "Mi padre es médico y mi madre es profesora."
+                   },
+                   {
+                       "eu":  "Nire anaia ingeniarua da.",
+                       "es":  "Mi hermano es ingeniero.",
+                       "example_eu":  "Nire anaia ingeniarua da, Madrilen lan egiten du.",
+                       "example_es":  "Mi hermano es ingeniero, trabaja en Madrid."
+                   },
+                   {
+                       "eu":  "Lanbidea zer da? (¿Cuál es la profesión?)",
+                       "es":  "Lanbideak: medikua, irakaslea, abokatu, erizaina, sukaldaria",
+                       "example_eu":  "Nire izeba erizaina da eta ospitalean lan egiten du.",
+                       "example_es":  "Mi tía es enfermera y trabaja en el hospital."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027Mi padre es médico\u0027 en euskera?",
+                          "options":  [
+                                          "Nire aita medikua da.",
+                                          "Nire aitaren medikua da.",
+                                          "Medikua nire aita da.",
+                                          "Nire aita da medikua."
+                                      ],
+                          "answer":  "Nire aita medikua da."
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "erizaina",
+                          "answer":  "enfermero/a"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Nire izeba ___ da.",
+                          "translation":  "Mi tía es enfermera.",
+                          "hint":  "enfermera en euskera",
+                          "answer":  "erizaina"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "match_pairs",
+                          "instruction":  "Une cada par",
+                          "pairs":  [
+                                        {
+                                            "eu":  "medikua",
+                                            "es":  "médico/a"
+                                        },
+                                        {
+                                            "eu":  "irakaslea",
+                                            "es":  "profesor/a"
+                                        },
+                                        {
+                                            "eu":  "abokatu",
+                                            "es":  "abogado/a"
+                                        },
+                                        {
+                                            "eu":  "sukaldaria",
+                                            "es":  "cocinero/a"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "Mi hermano es ingeniero.",
+                          "answer":  "Nire anaia ingeniarua da."
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras",
+                          "words":  [
+                                        "da",
+                                        "nire",
+                                        "irakaslea",
+                                        "ama"
+                                    ],
+                          "translation":  "Mi madre es profesora",
+                          "answer":  "nire ama irakaslea da"
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "sukaldaria",
+                          "answer":  "cocinero/a"
+                      }
+                  ]
 }

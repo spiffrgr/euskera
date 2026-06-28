@@ -1,22 +1,150 @@
-{
-  "id": "repaso",
-  "title": "Repaso: Unidades 1-3",
-  "exercises": [
-    { "id": "e01", "type": "multiple_choice", "instruction": "¿Qué significa 'Egun on'?", "options": ["Buenas noches", "Buenos días", "Hola", "Adiós"], "answer": "Buenos días" },
-    { "id": "e02", "type": "translation_eu_es", "eu": "Hamazortzi", "answer": "Dieciocho" },
-    { "id": "e03", "type": "translation_es_eu", "es": "Me llamo Mikel", "answer": "Mikel naiz" },
-    { "id": "e04", "type": "grammar_select", "sentence": "Hogeita bost urte ___ ditut.", "translation": "Tengo veinticinco años.", "options": ["naiz", "da", "nago", "—"], "answer": "—" },
-    { "id": "e05", "type": "true_false", "eu": "Agur = adiós", "es": "Agur = adiós", "answer": true, "explanation": "Correcto. Agur es la despedida en euskera." },
-    { "id": "e06", "type": "match_pairs", "pairs": [{"eu": "astelehena", "es": "lunes"}, {"eu": "asteartea", "es": "martes"}, {"eu": "eguaztena", "es": "miércoles"}, {"eu": "osteguna", "es": "jueves"}] },
-    { "id": "e07", "type": "order_words", "words": ["naiz", "Bilbokoa", "eta", "irakaslea", "ni", "naiz"], "translation": "Yo soy de Bilbao y soy profesora", "answer": "Ni Bilbokoa naiz eta irakaslea naiz" },
-    { "id": "e08", "type": "multiple_choice", "instruction": "¿Cómo se dice 12 en euskera?", "options": ["hamabi", "hamahiru", "hamaika", "hamar"], "answer": "hamabi" },
-    { "id": "e09", "type": "translation_eu_es", "eu": "Mesedez", "answer": "Por favor" },
-    { "id": "e10", "type": "fill_blank", "sentence": "Nire izena Mikel ___ (es)", "translation": "Mi nombre es Mikel", "hint": "3ª persona de IZAN", "answer": "da" },
-    { "id": "e11", "type": "translation_es_eu", "es": "Soy de San Sebastián", "answer": "Donostia-koa naiz" },
-    { "id": "e12", "type": "true_false", "eu": "Euskara eta gaztelania = euskera y castellano", "es": "Euskara eta gaztelania = euskera y castellano", "answer": true, "explanation": "Correcto. Euskara = euskera, gaztelania = castellano/español." },
-    { "id": "e13", "type": "grammar_select", "sentence": "___ zaude?", "translation": "¿Cómo estás?", "options": ["Nola", "Non", "Noiz", "Zer"], "answer": "Nola" },
-    { "id": "e14", "type": "translation_eu_es", "eu": "Astelehena", "answer": "Lunes" },
-    { "id": "e15", "type": "translation_es_eu", "es": "Veinte", "answer": "Hogei" },
-    { "id": "e16", "type": "order_words", "words": ["Kaixo!", "ni", "Amaia", "naiz,", "Bilbokoa", "naiz"], "translation": "¡Hola! Me llamo Amaia, soy de Bilbao", "answer": "Kaixo! ni Amaia naiz, Bilbokoa naiz" }
-  ]
+﻿{
+    "id":  "repaso",
+    "title":  "Repaso: Unidades 1-3",
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Qué significa \u0027Egun on\u0027?",
+                          "options":  [
+                                          "Buenas noches",
+                                          "Buenos días",
+                                          "Hola",
+                                          "Adiós"
+                                      ],
+                          "answer":  "Buenos días"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "eu":  "Hamazortzi",
+                          "answer":  "Dieciocho"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_es_eu",
+                          "es":  "Me llamo Mikel",
+                          "answer":  "Mikel naiz"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "grammar_select",
+                          "sentence":  "Hogeita bost urte ___ ditut.",
+                          "translation":  "Tengo veinticinco años.",
+                          "options":  [
+                                          "naiz",
+                                          "da",
+                                          "nago",
+                                          "—"
+                                      ],
+                          "answer":  "—"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "astelehena",
+                                            "es":  "lunes"
+                                        },
+                                        {
+                                            "eu":  "asteartea",
+                                            "es":  "martes"
+                                        },
+                                        {
+                                            "eu":  "eguaztena",
+                                            "es":  "miércoles"
+                                        },
+                                        {
+                                            "eu":  "osteguna",
+                                            "es":  "jueves"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "order_words",
+                          "words":  [
+                                        "naiz",
+                                        "Bilbokoa",
+                                        "eta",
+                                        "irakaslea",
+                                        "ni",
+                                        "naiz"
+                                    ],
+                          "translation":  "Yo soy de Bilbao y soy profesora",
+                          "answer":  "Ni Bilbokoa naiz eta irakaslea naiz"
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice 12 en euskera?",
+                          "options":  [
+                                          "hamabi",
+                                          "hamahiru",
+                                          "hamaika",
+                                          "hamar"
+                                      ],
+                          "answer":  "hamabi"
+                      },
+                      {
+                          "id":  "e09",
+                          "type":  "translation_eu_es",
+                          "eu":  "Mesedez",
+                          "answer":  "Por favor"
+                      },
+                      {
+                          "id":  "e10",
+                          "type":  "fill_blank",
+                          "sentence":  "Nire izena Mikel ___ (es)",
+                          "translation":  "Mi nombre es Mikel",
+                          "hint":  "3ª persona de IZAN",
+                          "answer":  "da"
+                      },
+                      {
+                          "id":  "e11",
+                          "type":  "translation_es_eu",
+                          "es":  "Soy de San Sebastián",
+                          "answer":  "Donostia-koa naiz"
+                      },
+                      {
+                          "id":  "e13",
+                          "type":  "grammar_select",
+                          "sentence":  "___ zaude?",
+                          "translation":  "¿Cómo estás?",
+                          "options":  [
+                                          "Nola",
+                                          "Non",
+                                          "Noiz",
+                                          "Zer"
+                                      ],
+                          "answer":  "Nola"
+                      },
+                      {
+                          "id":  "e14",
+                          "type":  "translation_eu_es",
+                          "eu":  "Astelehena",
+                          "answer":  "Lunes"
+                      },
+                      {
+                          "id":  "e15",
+                          "type":  "translation_es_eu",
+                          "es":  "Veinte",
+                          "answer":  "Hogei"
+                      },
+                      {
+                          "id":  "e16",
+                          "type":  "order_words",
+                          "words":  [
+                                        "Kaixo!",
+                                        "ni",
+                                        "Amaia",
+                                        "naiz,",
+                                        "Bilbokoa",
+                                        "naiz"
+                                    ],
+                          "translation":  "¡Hola! Me llamo Amaia, soy de Bilbao",
+                          "answer":  "Kaixo! ni Amaia naiz, Bilbokoa naiz"
+                      }
+                  ]
 }

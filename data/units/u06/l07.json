@@ -1,91 +1,104 @@
-{
-  "id": "l07",
-  "title": "Jatetxean (En el restaurante)",
-  "slides": [
-    {
-      "eu": "Karta, mesedez. / Zer hartuko duzu?",
-      "es": "La carta, por favor. / ¿Qué va a tomar?",
-      "example_eu": "Karta ikusi nahi dut, mesedez. — Bai, jakina!",
-      "example_es": "Quiero ver la carta, por favor. — ¡Sí, claro!"
-    },
-    {
-      "eu": "Lehenengo platoa / Bigarren platoa / Postrea",
-      "es": "Primer plato / Segundo plato / Postre",
-      "example_eu": "Lehenengo platoa: entsalada. Bigarrena: bakailao frijitua.",
-      "example_es": "Primer plato: ensalada. Segundo: bacalao frito."
-    },
-    {
-      "eu": "Zenbat da? / Txekea, mesedez.",
-      "es": "¿Cuánto es? / La cuenta, por favor.",
-      "example_eu": "Txekea ekarri mesedez. — Dena batera edo banaka?",
-      "example_es": "Trae la cuenta, por favor. — ¿Todo junto o por separado?"
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo pides la carta en euskera?",
-      "options": ["Karta, mesedez.", "Txekea, mesedez.", "Ura, mesedez.", "Karta nahi dut ez."],
-      "answer": "Karta, mesedez."
-    },
-    {
-      "id": "e02",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "postrea",
-      "answer": "postre"
-    },
-    {
-      "id": "e03",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "En un restaurante: 'nahi dut' para pedir, 'zenbat da?' para el precio, 'txekea mesedez' para la cuenta → true",
-      "es": "Vocabulario de restaurante: nahi dut / zenbat da? / txekea mesedez",
-      "answer": true,
-      "explanation": "Secuencia en restaurante: Karta, mesedez(la carta)→ Oiloa nahi dut(quiero pollo)→ Zenbat da?(¿cuánto es?)→ Txekea, mesedez(la cuenta). Txekea = la cuenta."
-    },
-    {
-      "id": "e04",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "words": ["nahi", "dut", "ikusi", "karta"],
-      "translation": "Quiero ver la carta",
-      "answer": "karta ikusi nahi dut"
-    },
-    {
-      "id": "e05",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "La cuenta, por favor.",
-      "answer": "Txekea, mesedez."
-    },
-    {
-      "id": "e06",
-      "type": "match_pairs",
-      "instruction": "Une cada par",
-      "pairs": [
-        { "eu": "lehenengo platoa", "es": "primer plato" },
-        { "eu": "bigarren platoa", "es": "segundo plato" },
-        { "eu": "postrea", "es": "postre" },
-        { "eu": "txekea", "es": "la cuenta" }
-      ]
-    },
-    {
-      "id": "e07",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Zer hartuko duzu?",
-      "answer": "¿Qué va a tomar?"
-    },
-    {
-      "id": "e08",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Txekea ___, mesedez.",
-      "translation": "Trae la cuenta, por favor.",
-      "hint": "verbo 'traer' imperativo",
-      "answer": "ekarri"
-    }
-  ]
+﻿{
+    "id":  "l07",
+    "title":  "Jatetxean (En el restaurante)",
+    "slides":  [
+                   {
+                       "eu":  "Karta, mesedez. / Zer hartuko duzu?",
+                       "es":  "La carta, por favor. / ¿Qué va a tomar?",
+                       "example_eu":  "Karta ikusi nahi dut, mesedez. — Bai, jakina!",
+                       "example_es":  "Quiero ver la carta, por favor. — ¡Sí, claro!"
+                   },
+                   {
+                       "eu":  "Lehenengo platoa / Bigarren platoa / Postrea",
+                       "es":  "Primer plato / Segundo plato / Postre",
+                       "example_eu":  "Lehenengo platoa: entsalada. Bigarrena: bakailao frijitua.",
+                       "example_es":  "Primer plato: ensalada. Segundo: bacalao frito."
+                   },
+                   {
+                       "eu":  "Zenbat da? / Txekea, mesedez.",
+                       "es":  "¿Cuánto es? / La cuenta, por favor.",
+                       "example_eu":  "Txekea ekarri mesedez. — Dena batera edo banaka?",
+                       "example_es":  "Trae la cuenta, por favor. — ¿Todo junto o por separado?"
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo pides la carta en euskera?",
+                          "options":  [
+                                          "Karta, mesedez.",
+                                          "Txekea, mesedez.",
+                                          "Ura, mesedez.",
+                                          "Karta nahi dut ez."
+                                      ],
+                          "answer":  "Karta, mesedez."
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "postrea",
+                          "answer":  "postre"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras",
+                          "words":  [
+                                        "nahi",
+                                        "dut",
+                                        "ikusi",
+                                        "karta"
+                                    ],
+                          "translation":  "Quiero ver la carta",
+                          "answer":  "karta ikusi nahi dut"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "La cuenta, por favor.",
+                          "answer":  "Txekea, mesedez."
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "match_pairs",
+                          "instruction":  "Une cada par",
+                          "pairs":  [
+                                        {
+                                            "eu":  "lehenengo platoa",
+                                            "es":  "primer plato"
+                                        },
+                                        {
+                                            "eu":  "bigarren platoa",
+                                            "es":  "segundo plato"
+                                        },
+                                        {
+                                            "eu":  "postrea",
+                                            "es":  "postre"
+                                        },
+                                        {
+                                            "eu":  "txekea",
+                                            "es":  "la cuenta"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Zer hartuko duzu?",
+                          "answer":  "¿Qué va a tomar?"
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Txekea ___, mesedez.",
+                          "translation":  "Trae la cuenta, por favor.",
+                          "hint":  "verbo \u0027traer\u0027 imperativo",
+                          "answer":  "ekarri"
+                      }
+                  ]
 }

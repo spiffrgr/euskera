@@ -1,90 +1,106 @@
-{
-  "id": "l07",
-  "title": "Mugimendu-elkarrizketa (Diálogo)",
-  "slides": [
-    {
-      "eu": "Non zaude? — Etxean nago orain.",
-      "es": "¿Dónde estás? — Estoy en casa ahora.",
-      "example_eu": "Non zaude gaur? — Liburutegian nago, ikasketak egiten.",
-      "example_es": "¿Dónde estás hoy? — Estoy en la biblioteca, estudiando."
-    },
-    {
-      "eu": "Nora joaten zara arratsaldean?",
-      "es": "¿Adónde vas por la tarde?",
-      "example_eu": "Arratsaldean gimnasiora joaten naiz, gero etxera.",
-      "example_es": "Por la tarde voy al gimnasio, luego a casa."
-    },
-    {
-      "eu": "Nondik zatoz? — Laneko bileratik nator.",
-      "es": "¿De dónde vienes? — Vengo de una reunión de trabajo.",
-      "example_eu": "Nekatuta nago, baina pozik. Ondo joan da!",
-      "example_es": "Estoy cansado/a, pero contento/a. ¡Ha ido bien!"
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Qué pregunta se usa para saber 'dónde estás'?",
-      "options": ["Non zaude?", "Nora zoaz?", "Nondik zatoz?", "Nola zaude?"],
-      "answer": "Non zaude?"
-    },
-    {
-      "id": "e02",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Gimnasiora joaten naiz.",
-      "answer": "Voy al gimnasio."
-    },
-    {
-      "id": "e03",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "words": ["joaten", "gero", "gimnasiora", "naiz", "eta", "etxera"],
-      "translation": "Voy al gimnasio y luego a casa",
-      "answer": "gimnasiora joaten naiz eta gero etxera"
-    },
-    {
-      "id": "e04",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "___ zatoz? — Laneko bileratik nator.",
-      "translation": "¿De dónde vienes? — Vengo de una reunión.",
-      "hint": "¿de dónde?",
-      "answer": "Nondik"
-    },
-    {
-      "id": "e05",
-      "type": "match_pairs",
-      "instruction": "Une pregunta con el caso que responde",
-      "pairs": [
-        { "eu": "Non?", "es": "-n/-an (en)" },
-        { "eu": "Nora?", "es": "-ra/-era (a, hacia)" },
-        { "eu": "Nondik?", "es": "-tik/-etik (de, desde)" },
-        { "eu": "Noiz?", "es": "tiempo (cuándo)" }
-      ]
-    },
-    {
-      "id": "e06",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "Estoy en la biblioteca estudiando.",
-      "answer": "Liburutegian nago ikasketak egiten."
-    },
-    {
-      "id": "e07",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "Nora joaten zara arratsaldean?",
-      "es": "¿Adónde vas por la tarde?",
-      "answer": true
-    },
-    {
-      "id": "e08",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Nekatuta nago, baina pozik.",
-      "answer": "Estoy cansado/a, pero contento/a."
-    }
-  ]
+﻿{
+    "id":  "l07",
+    "title":  "Mugimendu-elkarrizketa (Diálogo)",
+    "slides":  [
+                   {
+                       "eu":  "Non zaude? — Etxean nago orain.",
+                       "es":  "¿Dónde estás? — Estoy en casa ahora.",
+                       "example_eu":  "Non zaude gaur? — Liburutegian nago, ikasketak egiten.",
+                       "example_es":  "¿Dónde estás hoy? — Estoy en la biblioteca, estudiando."
+                   },
+                   {
+                       "eu":  "Nora joaten zara arratsaldean?",
+                       "es":  "¿Adónde vas por la tarde?",
+                       "example_eu":  "Arratsaldean gimnasiora joaten naiz, gero etxera.",
+                       "example_es":  "Por la tarde voy al gimnasio, luego a casa."
+                   },
+                   {
+                       "eu":  "Nondik zatoz? — Laneko bileratik nator.",
+                       "es":  "¿De dónde vienes? — Vengo de una reunión de trabajo.",
+                       "example_eu":  "Nekatuta nago, baina pozik. Ondo joan da!",
+                       "example_es":  "Estoy cansado/a, pero contento/a. ¡Ha ido bien!"
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Qué pregunta se usa para saber \u0027dónde estás\u0027?",
+                          "options":  [
+                                          "Non zaude?",
+                                          "Nora zoaz?",
+                                          "Nondik zatoz?",
+                                          "Nola zaude?"
+                                      ],
+                          "answer":  "Non zaude?"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Gimnasiora joaten naiz.",
+                          "answer":  "Voy al gimnasio."
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras",
+                          "words":  [
+                                        "joaten",
+                                        "gero",
+                                        "gimnasiora",
+                                        "naiz",
+                                        "eta",
+                                        "etxera"
+                                    ],
+                          "translation":  "Voy al gimnasio y luego a casa",
+                          "answer":  "gimnasiora joaten naiz eta gero etxera"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "___ zatoz? — Laneko bileratik nator.",
+                          "translation":  "¿De dónde vienes? — Vengo de una reunión.",
+                          "hint":  "¿de dónde?",
+                          "answer":  "Nondik"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "match_pairs",
+                          "instruction":  "Une pregunta con el caso que responde",
+                          "pairs":  [
+                                        {
+                                            "eu":  "Non?",
+                                            "es":  "-n/-an (en)"
+                                        },
+                                        {
+                                            "eu":  "Nora?",
+                                            "es":  "-ra/-era (a, hacia)"
+                                        },
+                                        {
+                                            "eu":  "Nondik?",
+                                            "es":  "-tik/-etik (de, desde)"
+                                        },
+                                        {
+                                            "eu":  "Noiz?",
+                                            "es":  "tiempo (cuándo)"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "Estoy en la biblioteca estudiando.",
+                          "answer":  "Liburutegian nago ikasketak egiten."
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Nekatuta nago, baina pozik.",
+                          "answer":  "Estoy cansado/a, pero contento/a."
+                      }
+                  ]
 }

@@ -1,93 +1,100 @@
-{
-  "id": "l06",
-  "title": "Jan nahi dut! (NAHI DUT)",
-  "grammar_note": {
-    "title": "NAHI DUT – deklinazio osoa",
-    "body": "Conjugación completa: **nahi dut** (quiero yo), **nahi duzu** (quieres tú), **nahi du** (quiere él/ella), **nahi dugu** (queremos), **nahi duzue** (queréis), **nahi dute** (quieren). Con infinitivo: **jan nahi dut** (quiero comer), **edan nahi dut** (quiero beber).",
-    "tip": "Coloca siempre el objeto/infinitivo ANTES de nahi dut: Oiloa jan nahi dut (Pollo comer quiero = Quiero comer pollo)."
-  },
-  "slides": [
-    {
-      "eu": "Jan nahi dut. / Edan nahi dut.",
-      "es": "Quiero comer. / Quiero beber.",
-      "example_eu": "Zer jan nahi duzu? Oiloa jan nahi dut.",
-      "example_es": "¿Qué quieres comer? Quiero comer pollo."
-    },
-    {
-      "eu": "Zer hartu nahi duzu?",
-      "es": "¿Qué quieres tomar?",
-      "example_eu": "Garagardoa hartu nahi dut, mesedez.",
-      "example_es": "Quiero tomar una cerveza, por favor."
-    },
-    {
-      "eu": "Ez dut nahi / Ez dut nahi...",
-      "es": "No quiero / No quiero...",
-      "example_eu": "Ez dut ardoa nahi, ura nahi dut.",
-      "example_es": "No quiero vino, quiero agua."
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se dice 'Quiero comer pollo'?",
-      "options": ["Oiloa jan nahi dut.", "Jan nahi dut oiloa.", "Nahi dut jan oiloa.", "Oiloa nahi jan dut."],
-      "answer": "Oiloa jan nahi dut."
-    },
-    {
-      "id": "e02",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Zer jan nahi ___?",
-      "translation": "¿Qué quieres comer? (tú)",
-      "hint": "verbo 'querer' 2ª persona",
-      "answer": "duzu"
-    },
-    {
-      "id": "e03",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Edan nahi dut.",
-      "answer": "Quiero beber."
-    },
-    {
-      "id": "e04",
-      "type": "grammar_select",
-      "instruction": "Para decir 'ella quiere vino' usas:",
-      "sentence": "Ardoa nahi ___",
-      "translation": "Ella quiere vino",
-      "options": ["dut", "duzu", "du", "dugu"],
-      "answer": "du"
-    },
-    {
-      "id": "e05",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "No quiero vino, quiero agua.",
-      "answer": "Ez dut ardoa nahi, ura nahi dut."
-    },
-    {
-      "id": "e06",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "words": ["nahi", "dut", "garagardoa", "hartu"],
-      "translation": "Quiero tomar una cerveza",
-      "answer": "garagardoa hartu nahi dut"
-    },
-    {
-      "id": "e07",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "Ez dut ardoa nahi.",
-      "es": "No quiero vino.",
-      "answer": true
-    },
-    {
-      "id": "e08",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Zer hartu nahi duzu?",
-      "answer": "¿Qué quieres tomar?"
-    }
-  ]
+﻿{
+    "id":  "l06",
+    "title":  "Jan nahi dut! (NAHI DUT)",
+    "grammar_note":  {
+                         "title":  "NAHI DUT – deklinazio osoa",
+                         "body":  "Conjugación completa: **nahi dut** (quiero yo), **nahi duzu** (quieres tú), **nahi du** (quiere él/ella), **nahi dugu** (queremos), **nahi duzue** (queréis), **nahi dute** (quieren). Con infinitivo: **jan nahi dut** (quiero comer), **edan nahi dut** (quiero beber).",
+                         "tip":  "Coloca siempre el objeto/infinitivo ANTES de nahi dut: Oiloa jan nahi dut (Pollo comer quiero = Quiero comer pollo)."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "Jan nahi dut. / Edan nahi dut.",
+                       "es":  "Quiero comer. / Quiero beber.",
+                       "example_eu":  "Zer jan nahi duzu? Oiloa jan nahi dut.",
+                       "example_es":  "¿Qué quieres comer? Quiero comer pollo."
+                   },
+                   {
+                       "eu":  "Zer hartu nahi duzu?",
+                       "es":  "¿Qué quieres tomar?",
+                       "example_eu":  "Garagardoa hartu nahi dut, mesedez.",
+                       "example_es":  "Quiero tomar una cerveza, por favor."
+                   },
+                   {
+                       "eu":  "Ez dut nahi / Ez dut nahi...",
+                       "es":  "No quiero / No quiero...",
+                       "example_eu":  "Ez dut ardoa nahi, ura nahi dut.",
+                       "example_es":  "No quiero vino, quiero agua."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027Quiero comer pollo\u0027?",
+                          "options":  [
+                                          "Oiloa jan nahi dut.",
+                                          "Jan nahi dut oiloa.",
+                                          "Nahi dut jan oiloa.",
+                                          "Oiloa nahi jan dut."
+                                      ],
+                          "answer":  "Oiloa jan nahi dut."
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Zer jan nahi ___?",
+                          "translation":  "¿Qué quieres comer? (tú)",
+                          "hint":  "verbo \u0027querer\u0027 2ª persona",
+                          "answer":  "duzu"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Edan nahi dut.",
+                          "answer":  "Quiero beber."
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "grammar_select",
+                          "instruction":  "Para decir \u0027ella quiere vino\u0027 usas:",
+                          "sentence":  "Ardoa nahi ___",
+                          "translation":  "Ella quiere vino",
+                          "options":  [
+                                          "dut",
+                                          "duzu",
+                                          "du",
+                                          "dugu"
+                                      ],
+                          "answer":  "du"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "No quiero vino, quiero agua.",
+                          "answer":  "Ez dut ardoa nahi, ura nahi dut."
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras",
+                          "words":  [
+                                        "nahi",
+                                        "dut",
+                                        "garagardoa",
+                                        "hartu"
+                                    ],
+                          "translation":  "Quiero tomar una cerveza",
+                          "answer":  "garagardoa hartu nahi dut"
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Zer hartu nahi duzu?",
+                          "answer":  "¿Qué quieres tomar?"
+                      }
+                  ]
 }

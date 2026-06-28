@@ -1,90 +1,104 @@
-{
-  "id": "l04",
-  "title": "NOR? galdera (pregunta ¿quién?)",
-  "slides": [
-    {
-      "eu": "Nor zara zu? / Nor da bera?",
-      "es": "¿Quién eres tú? / ¿Quién es él/ella?",
-      "example_eu": "Nor zara zu? — Ni Amaia naiz, Bilbokoa.",
-      "example_es": "¿Quién eres tú? — Soy Amaia, de Bilbao."
-    },
-    {
-      "eu": "Nor zineten zuek?",
-      "es": "¿Quiénes erais vosotros?",
-      "example_eu": "Nor zineten zuek lehenago? — Ikasle ginen.",
-      "example_es": "¿Quiénes erais vosotros antes? — Éramos estudiantes."
-    },
-    {
-      "eu": "Nor da nagusia? / Nor da txikiena?",
-      "es": "¿Quién es el mayor? / ¿Quién es el/la más pequeño/a?",
-      "example_eu": "Nor da familian nagusiena? — Nire aitona.",
-      "example_es": "¿Quién es el mayor de la familia? — Mi abuelo."
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se pregunta '¿quién eres tú?' en euskera?",
-      "options": ["Nor zara zu?", "Zer zara zu?", "Non zara zu?", "Nola zara zu?"],
-      "answer": "Nor zara zu?"
-    },
-    {
-      "id": "e02",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Nor da bera?",
-      "answer": "¿Quién es él/ella?"
-    },
-    {
-      "id": "e03",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "Nor = ¿quién?",
-      "es": "Verdadero",
-      "answer": true
-    },
-    {
-      "id": "e04",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "___ zara zu? — Ni Iker naiz.",
-      "translation": "¿Quién eres tú? — Soy Iker.",
-      "hint": "la palabra interrogativa '¿quién?'",
-      "answer": "Nor"
-    },
-    {
-      "id": "e05",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "words": ["Bilbokoa", "naiz", "ni", "Amaia"],
-      "translation": "Soy Amaia, de Bilbao",
-      "answer": "ni Amaia naiz Bilbokoa"
-    },
-    {
-      "id": "e06",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "¿Quién es el mayor?",
-      "answer": "Nor da nagusia?"
-    },
-    {
-      "id": "e07",
-      "type": "match_pairs",
-      "instruction": "Une pregunta con respuesta",
-      "pairs": [
-        { "eu": "Nor zara?", "es": "¿Quién eres?" },
-        { "eu": "Zer zara?", "es": "¿Qué eres?" },
-        { "eu": "Non bizi zara?", "es": "¿Dónde vives?" },
-        { "eu": "Nola zaude?", "es": "¿Cómo estás?" }
-      ]
-    },
-    {
-      "id": "e08",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Nor zineten zuek lehenago?",
-      "answer": "¿Quiénes erais vosotros antes?"
-    }
-  ]
+﻿{
+    "id":  "l04",
+    "title":  "NOR? galdera (pregunta ¿quién?)",
+    "slides":  [
+                   {
+                       "eu":  "Nor zara zu? / Nor da bera?",
+                       "es":  "¿Quién eres tú? / ¿Quién es él/ella?",
+                       "example_eu":  "Nor zara zu? — Ni Amaia naiz, Bilbokoa.",
+                       "example_es":  "¿Quién eres tú? — Soy Amaia, de Bilbao."
+                   },
+                   {
+                       "eu":  "Nor zineten zuek?",
+                       "es":  "¿Quiénes erais vosotros?",
+                       "example_eu":  "Nor zineten zuek lehenago? — Ikasle ginen.",
+                       "example_es":  "¿Quiénes erais vosotros antes? — Éramos estudiantes."
+                   },
+                   {
+                       "eu":  "Nor da nagusia? / Nor da txikiena?",
+                       "es":  "¿Quién es el mayor? / ¿Quién es el/la más pequeño/a?",
+                       "example_eu":  "Nor da familian nagusiena? — Nire aitona.",
+                       "example_es":  "¿Quién es el mayor de la familia? — Mi abuelo."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se pregunta \u0027¿quién eres tú?\u0027 en euskera?",
+                          "options":  [
+                                          "Nor zara zu?",
+                                          "Zer zara zu?",
+                                          "Non zara zu?",
+                                          "Nola zara zu?"
+                                      ],
+                          "answer":  "Nor zara zu?"
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Nor da bera?",
+                          "answer":  "¿Quién es él/ella?"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "___ zara zu? — Ni Iker naiz.",
+                          "translation":  "¿Quién eres tú? — Soy Iker.",
+                          "hint":  "la palabra interrogativa \u0027¿quién?\u0027",
+                          "answer":  "Nor"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras",
+                          "words":  [
+                                        "Bilbokoa",
+                                        "naiz",
+                                        "ni",
+                                        "Amaia"
+                                    ],
+                          "translation":  "Soy Amaia, de Bilbao",
+                          "answer":  "ni Amaia naiz Bilbokoa"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "¿Quién es el mayor?",
+                          "answer":  "Nor da nagusia?"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "match_pairs",
+                          "instruction":  "Une pregunta con respuesta",
+                          "pairs":  [
+                                        {
+                                            "eu":  "Nor zara?",
+                                            "es":  "¿Quién eres?"
+                                        },
+                                        {
+                                            "eu":  "Zer zara?",
+                                            "es":  "¿Qué eres?"
+                                        },
+                                        {
+                                            "eu":  "Non bizi zara?",
+                                            "es":  "¿Dónde vives?"
+                                        },
+                                        {
+                                            "eu":  "Nola zaude?",
+                                            "es":  "¿Cómo estás?"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Nor zineten zuek lehenago?",
+                          "answer":  "¿Quiénes erais vosotros antes?"
+                      }
+                  ]
 }

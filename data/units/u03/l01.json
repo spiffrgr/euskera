@@ -1,99 +1,135 @@
-{
-  "id": "u03_l01",
-  "title": "Izena eta jatorria (Nombre y origen)",
-  "objective": "Decir tu nombre y de dónde eres",
-  "grammar_note": {
-    "title": "El caso locativo: -tik y -koa naiz",
-    "body": "Para decir de dónde eres en euskera:\n\n**Nongoa zara?** → ¿De dónde eres?\n**Bilbotik nator** → Vengo de Bilbao\n**Bilbokoa naiz** → Soy de Bilbao\n\nEl sufijo **-koa** indica origen: Madril → **Madrilkoa** naiz",
-    "tip": "Tanto '-tik nator' como '-koa naiz' son correctos para indicar procedencia."
-  },
-  "slides": [
-    { "eu": "Nongoa zara?", "es": "¿De dónde eres?", "example_eu": "Nongoa zara? Donostiakoa naiz.", "example_es": "¿De dónde eres? Soy de San Sebastián." },
-    { "eu": "Euskal Herrikoa naiz", "es": "Soy del País Vasco", "example_eu": "Ni Euskal Herrikoa naiz, Gasteizekoa.", "example_es": "Yo soy del País Vasco, de Vitoria." },
-    { "eu": "Non bizi zara?", "es": "¿Dónde vives?", "example_eu": "Non bizi zara? Bilbon bizi naiz.", "example_es": "¿Dónde vives? Vivo en Bilbao." }
-  ],
-  "exercises": [
-    {
-      "id": "u03_l01_e01",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Nongoa zara?",
-      "answer": "¿De dónde eres?"
-    },
-    {
-      "id": "u03_l01_e02",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Ni Donostia___ naiz.",
-      "translation": "Soy de San Sebastián.",
-      "answer": "koa",
-      "hint": "sufijo de origen"
-    },
-    {
-      "id": "u03_l01_e03",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se dice '¿Dónde vives?' en euskera?",
-      "answer": "Non bizi zara?",
-      "options": ["Non bizi zara?", "Nola zaude?", "Nongoa zara?", "Non da?"]
-    },
-    {
-      "id": "u03_l01_e04",
-      "type": "order_words",
-      "instruction": "Ordena las palabras para formar la frase",
-      "translation": "Vivo en Bilbao.",
-      "words": ["bizi", "Bilbon", "naiz"],
-      "answer": "Bilbon bizi naiz"
-    },
-    {
-      "id": "u03_l01_e05",
-      "type": "grammar_select",
-      "instruction": "¿Qué sufijo indica origen?",
-      "sentence": "Gasteiz___ naiz.",
-      "translation": "Soy de Vitoria.",
-      "answer": "koa",
-      "options": ["koa", "tik", "ra", "an"]
-    },
-    {
-      "id": "u03_l01_e06",
-      "type": "true_false",
-      "instruction": "¿Es correcta esta frase?",
-      "eu": "El sufijo -KOA indica origen: Bilbokoa = de Bilbao, Madrilkoa = de Madrid, Parisekoa = de París → true",
-      "es": "sufijo -koa indica procedencia de un lugar",
-      "answer": true,
-      "explanation": "Correcto. Para origen se añade -koa al nombre de la ciudad: Bilbo→Bilbokoa, Madril→Madrilkoa, Donostia→Donostiakoa. Pregunta: Nongoa zara?(¿De dónde eres?)",
-      "explanation": "Correcto. 'Madrilkoa naiz' = soy de Madrid (Madrid + sufijo -koa)."
-    },
-    {
-      "id": "u03_l01_e07",
-      "type": "match_pairs",
-      "instruction": "Une cada pregunta con su respuesta típica",
-      "pairs": [
-        { "eu": "Nola duzu izena?", "es": "Nire izena Ane da." },
-        { "eu": "Nongoa zara?", "es": "Bilbokoa naiz." },
-        { "eu": "Non bizi zara?", "es": "Gasteizen bizi naiz." },
-        { "eu": "Nola zaude?", "es": "Ondo nago." }
-      ]
-    },
-    {
-      "id": "u03_l01_e08",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "¿De dónde eres?",
-      "answer": "Nongoa zara?"
-    },
-    {
-      "id": "u03_l01_e09",
-      "type": "multiple_choice",
-      "instruction": "¿Qué significa 'Euskal Herrikoa naiz'?",
-      "answer": "Soy del País Vasco",
-      "options": ["Soy del País Vasco", "Hablo euskera", "Vivo en el País Vasco", "Vengo del País Vasco hoy"]
-    },
-    {
-      "id": "u03_l01_e10",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "¿Dónde vives?",
-      "answer": "Non bizi zara?"
-    }
-  ]
+﻿{
+    "id":  "u03_l01",
+    "title":  "Izena eta jatorria (Nombre y origen)",
+    "objective":  "Decir tu nombre y de dónde eres",
+    "grammar_note":  {
+                         "title":  "El caso locativo: -tik y -koa naiz",
+                         "body":  "Para decir de dónde eres en euskera:\n\n**Nongoa zara?** → ¿De dónde eres?\n**Bilbotik nator** → Vengo de Bilbao\n**Bilbokoa naiz** → Soy de Bilbao\n\nEl sufijo **-koa** indica origen: Madril → **Madrilkoa** naiz",
+                         "tip":  "Tanto \u0027-tik nator\u0027 como \u0027-koa naiz\u0027 son correctos para indicar procedencia."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "Nongoa zara?",
+                       "es":  "¿De dónde eres?",
+                       "example_eu":  "Nongoa zara? Donostiakoa naiz.",
+                       "example_es":  "¿De dónde eres? Soy de San Sebastián."
+                   },
+                   {
+                       "eu":  "Euskal Herrikoa naiz",
+                       "es":  "Soy del País Vasco",
+                       "example_eu":  "Ni Euskal Herrikoa naiz, Gasteizekoa.",
+                       "example_es":  "Yo soy del País Vasco, de Vitoria."
+                   },
+                   {
+                       "eu":  "Non bizi zara?",
+                       "es":  "¿Dónde vives?",
+                       "example_eu":  "Non bizi zara? Bilbon bizi naiz.",
+                       "example_es":  "¿Dónde vives? Vivo en Bilbao."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "u03_l01_e01",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Nongoa zara?",
+                          "answer":  "¿De dónde eres?"
+                      },
+                      {
+                          "id":  "u03_l01_e02",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Ni Donostia___ naiz.",
+                          "translation":  "Soy de San Sebastián.",
+                          "answer":  "koa",
+                          "hint":  "sufijo de origen"
+                      },
+                      {
+                          "id":  "u03_l01_e03",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027¿Dónde vives?\u0027 en euskera?",
+                          "answer":  "Non bizi zara?",
+                          "options":  [
+                                          "Non bizi zara?",
+                                          "Nola zaude?",
+                                          "Nongoa zara?",
+                                          "Non da?"
+                                      ]
+                      },
+                      {
+                          "id":  "u03_l01_e04",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras para formar la frase",
+                          "translation":  "Vivo en Bilbao.",
+                          "words":  [
+                                        "bizi",
+                                        "Bilbon",
+                                        "naiz"
+                                    ],
+                          "answer":  "Bilbon bizi naiz"
+                      },
+                      {
+                          "id":  "u03_l01_e05",
+                          "type":  "grammar_select",
+                          "instruction":  "¿Qué sufijo indica origen?",
+                          "sentence":  "Gasteiz___ naiz.",
+                          "translation":  "Soy de Vitoria.",
+                          "answer":  "koa",
+                          "options":  [
+                                          "koa",
+                                          "tik",
+                                          "ra",
+                                          "an"
+                                      ]
+                      },
+                      {
+                          "id":  "u03_l01_e07",
+                          "type":  "match_pairs",
+                          "instruction":  "Une cada pregunta con su respuesta típica",
+                          "pairs":  [
+                                        {
+                                            "eu":  "Nola duzu izena?",
+                                            "es":  "Nire izena Ane da."
+                                        },
+                                        {
+                                            "eu":  "Nongoa zara?",
+                                            "es":  "Bilbokoa naiz."
+                                        },
+                                        {
+                                            "eu":  "Non bizi zara?",
+                                            "es":  "Gasteizen bizi naiz."
+                                        },
+                                        {
+                                            "eu":  "Nola zaude?",
+                                            "es":  "Ondo nago."
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "u03_l01_e08",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "¿De dónde eres?",
+                          "answer":  "Nongoa zara?"
+                      },
+                      {
+                          "id":  "u03_l01_e09",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Qué significa \u0027Euskal Herrikoa naiz\u0027?",
+                          "answer":  "Soy del País Vasco",
+                          "options":  [
+                                          "Soy del País Vasco",
+                                          "Hablo euskera",
+                                          "Vivo en el País Vasco",
+                                          "Vengo del País Vasco hoy"
+                                      ]
+                      },
+                      {
+                          "id":  "u03_l01_e10",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "¿Dónde vives?",
+                          "answer":  "Non bizi zara?"
+                      }
+                  ]
 }

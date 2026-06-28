@@ -1,93 +1,100 @@
-{
-  "id": "l06",
-  "title": "IZANGO NAIZ (futuro)",
-  "grammar_note": {
-    "title": "IZAN – etorkizuna (IZAN – futuro)",
-    "body": "El futuro de IZAN: **izango naiz** (seré/estaré), **izango zara** (serás), **izango da** (será), **izango gara** (seremos), **izango dira** (serán). También para suposiciones: **Medikua izango da** (Será médico — suposición).",
-    "tip": "izango + naiz/zara/da... — solo hay que añadir 'izango' antes de la forma de presente."
-  },
-  "slides": [
-    {
-      "eu": "izango naiz / izango zara / izango da",
-      "es": "seré/estaré / serás / será",
-      "example_eu": "Medikua izango naiz. Zer izango zara zu?",
-      "example_es": "Seré médico/a. ¿Qué serás tú?"
-    },
-    {
-      "eu": "izango gara / izango dira",
-      "es": "seremos / serán",
-      "example_eu": "Lagunak izango gara beti.",
-      "example_es": "Seremos amigos siempre."
-    },
-    {
-      "eu": "Bihar zer izango da eguraldia?",
-      "es": "¿Cómo será el tiempo mañana?",
-      "example_eu": "Bihar eguzkitsua izango da.",
-      "example_es": "Mañana estará soleado."
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se dice 'seré médico/a'?",
-      "options": ["Medikua izango naiz.", "Medikua naiz.", "Medikua izaten naiz.", "Medikua nintzen."],
-      "answer": "Medikua izango naiz."
-    },
-    {
-      "id": "e02",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "izango dira",
-      "es": "serán",
-      "answer": true
-    },
-    {
-      "id": "e03",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Lagunak izango gara beti.",
-      "answer": "Seremos amigos siempre."
-    },
-    {
-      "id": "e04",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Medikua ___ naiz.",
-      "translation": "Seré médico/a.",
-      "hint": "marcador de futuro",
-      "answer": "izango"
-    },
-    {
-      "id": "e05",
-      "type": "grammar_select",
-      "instruction": "Para decir 'ella será profesora' usas:",
-      "sentence": "Irakaslea izango ___",
-      "translation": "Ella será profesora",
-      "options": ["naiz", "zara", "da", "gara"],
-      "answer": "da"
-    },
-    {
-      "id": "e06",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "¿Qué serás?",
-      "answer": "Zer izango zara?"
-    },
-    {
-      "id": "e07",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "words": ["izango", "da", "eguzkitsua", "bihar"],
-      "translation": "Mañana estará soleado",
-      "answer": "bihar eguzkitsua izango da"
-    },
-    {
-      "id": "e08",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Izango zara medikua?",
-      "answer": "¿Serás médico/a?"
-    }
-  ]
+﻿{
+    "id":  "l06",
+    "title":  "IZANGO NAIZ (futuro)",
+    "grammar_note":  {
+                         "title":  "IZAN – etorkizuna (IZAN – futuro)",
+                         "body":  "El futuro de IZAN: **izango naiz** (seré/estaré), **izango zara** (serás), **izango da** (será), **izango gara** (seremos), **izango dira** (serán). También para suposiciones: **Medikua izango da** (Será médico — suposición).",
+                         "tip":  "izango + naiz/zara/da... — solo hay que añadir \u0027izango\u0027 antes de la forma de presente."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "izango naiz / izango zara / izango da",
+                       "es":  "seré/estaré / serás / será",
+                       "example_eu":  "Medikua izango naiz. Zer izango zara zu?",
+                       "example_es":  "Seré médico/a. ¿Qué serás tú?"
+                   },
+                   {
+                       "eu":  "izango gara / izango dira",
+                       "es":  "seremos / serán",
+                       "example_eu":  "Lagunak izango gara beti.",
+                       "example_es":  "Seremos amigos siempre."
+                   },
+                   {
+                       "eu":  "Bihar zer izango da eguraldia?",
+                       "es":  "¿Cómo será el tiempo mañana?",
+                       "example_eu":  "Bihar eguzkitsua izango da.",
+                       "example_es":  "Mañana estará soleado."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027seré médico/a\u0027?",
+                          "options":  [
+                                          "Medikua izango naiz.",
+                                          "Medikua naiz.",
+                                          "Medikua izaten naiz.",
+                                          "Medikua nintzen."
+                                      ],
+                          "answer":  "Medikua izango naiz."
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Lagunak izango gara beti.",
+                          "answer":  "Seremos amigos siempre."
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Medikua ___ naiz.",
+                          "translation":  "Seré médico/a.",
+                          "hint":  "marcador de futuro",
+                          "answer":  "izango"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "grammar_select",
+                          "instruction":  "Para decir \u0027ella será profesora\u0027 usas:",
+                          "sentence":  "Irakaslea izango ___",
+                          "translation":  "Ella será profesora",
+                          "options":  [
+                                          "naiz",
+                                          "zara",
+                                          "da",
+                                          "gara"
+                                      ],
+                          "answer":  "da"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "¿Qué serás?",
+                          "answer":  "Zer izango zara?"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras",
+                          "words":  [
+                                        "izango",
+                                        "da",
+                                        "eguzkitsua",
+                                        "bihar"
+                                    ],
+                          "translation":  "Mañana estará soleado",
+                          "answer":  "bihar eguzkitsua izango da"
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Izango zara medikua?",
+                          "answer":  "¿Serás médico/a?"
+                      }
+                  ]
 }

@@ -1,20 +1,138 @@
-{
-  "id": "test",
-  "title": "Test de la Unidad 4: Koloreak",
-  "objective": "Demostrar que puedes describir objetos y personas usando colores y adjetivos",
-  "type": "test",
-  "exercises": [
-    { "id": "e01", "type": "match_pairs", "pairs": [{"eu": "gorria", "es": "rojo"}, {"eu": "urdina", "es": "azul"}, {"eu": "horia", "es": "amarillo"}, {"eu": "arrosa", "es": "rosa"}] },
-    { "id": "e02", "type": "translation_eu_es", "eu": "Gaur alkandora urdina eta praka beltza dut.", "answer": "Hoy llevo camisa azul y pantalón negro." },
-    { "id": "e03", "type": "grammar_select", "sentence": "Liburua ___ da.", "translation": "El libro es azul.", "options": ["urdina", "urdin", "urdinak", "urdinea"], "answer": "urdina" },
-    { "id": "e04", "type": "fill_blank", "sentence": "Zer ___ da zure motxila?", "translation": "¿De qué color es tu mochila?", "hint": "de qué color", "answer": "koloretakoa" },
-    { "id": "e05", "type": "true_false", "eu": "Nire laguna altua da eta ilea beltza da.", "es": "Mi amigo/a es alto/a y tiene el pelo negro.", "answer": false, "explanation": "Para el pelo se usa 'du' (tiene), no 'da' (es). Correcto: 'Nire laguna altua da eta ilea beltza du'." },
-    { "id": "e06", "type": "match_pairs", "pairs": [{"eu": "haundia", "es": "grande"}, {"eu": "berria", "es": "nuevo/a"}, {"eu": "gaztea", "es": "joven"}, {"eu": "zaharra", "es": "viejo/a"}] },
-    { "id": "e07", "type": "order_words", "words": ["Nire", "laguna", "altua", "da", "eta", "ilea", "horia", "du."], "translation": "Mi amiga es alta y tiene el pelo rubio.", "answer": "Nire laguna altua da eta ilea horia du." },
-    { "id": "e08", "type": "translation_es_eu", "es": "El cielo es azul y grande.", "answer": "Zerua urdina eta haundia da." },
-    { "id": "e09", "type": "multiple_choice", "instruction": "¿Qué significa 'Nolakoa da'?", "options": ["¿Cómo es?", "¿De qué color es?", "¿Cómo estás?", "¿Dónde está?"], "answer": "¿Cómo es?" },
-    { "id": "e10", "type": "translation_eu_es", "eu": "Auto gorri haundia eta zaharra dut.", "answer": "Tengo un coche rojo, grande y viejo." },
-    { "id": "e11", "type": "true_false", "eu": "Ilea luzea du.", "es": "Tiene el pelo largo.", "answer": true, "explanation": "Correcto. Para describir lo que alguien tiene (pelo largo, ojos azules) se usa DU, no DA." },
-    { "id": "e12", "type": "translation_es_eu", "es": "La hierba es verde y el cielo es azul.", "answer": "Belarra berdea da eta zerua urdina da." }
-  ]
+﻿{
+    "id":  "test",
+    "title":  "Test de la Unidad 4: Koloreak",
+    "objective":  "Demostrar que puedes describir objetos y personas usando colores y adjetivos",
+    "type":  "test",
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "gorria",
+                                            "es":  "rojo"
+                                        },
+                                        {
+                                            "eu":  "urdina",
+                                            "es":  "azul"
+                                        },
+                                        {
+                                            "eu":  "horia",
+                                            "es":  "amarillo"
+                                        },
+                                        {
+                                            "eu":  "arrosa",
+                                            "es":  "rosa"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e02",
+                          "type":  "translation_eu_es",
+                          "eu":  "Gaur alkandora urdina eta praka beltza dut.",
+                          "answer":  "Hoy llevo camisa azul y pantalón negro."
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "grammar_select",
+                          "sentence":  "Liburua ___ da.",
+                          "translation":  "El libro es azul.",
+                          "options":  [
+                                          "urdina",
+                                          "urdin",
+                                          "urdinak",
+                                          "urdinea"
+                                      ],
+                          "answer":  "urdina"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "fill_blank",
+                          "sentence":  "Zer ___ da zure motxila?",
+                          "translation":  "¿De qué color es tu mochila?",
+                          "hint":  "de qué color",
+                          "answer":  "koloretakoa"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "match_pairs",
+                          "pairs":  [
+                                        {
+                                            "eu":  "haundia",
+                                            "es":  "grande"
+                                        },
+                                        {
+                                            "eu":  "berria",
+                                            "es":  "nuevo/a"
+                                        },
+                                        {
+                                            "eu":  "gaztea",
+                                            "es":  "joven"
+                                        },
+                                        {
+                                            "eu":  "zaharra",
+                                            "es":  "viejo/a"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "order_words",
+                          "words":  [
+                                        "Nire",
+                                        "laguna",
+                                        "altua",
+                                        "da",
+                                        "eta",
+                                        "ilea",
+                                        "horia",
+                                        "du."
+                                    ],
+                          "translation":  "Mi amiga es alta y tiene el pelo rubio.",
+                          "answer":  "Nire laguna altua da eta ilea horia du."
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_es_eu",
+                          "es":  "El cielo es azul y grande.",
+                          "answer":  "Zerua urdina eta haundia da."
+                      },
+                      {
+                          "id":  "e09",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Qué significa \u0027Nolakoa da\u0027?",
+                          "options":  [
+                                          "¿Cómo es?",
+                                          "¿De qué color es?",
+                                          "¿Cómo estás?",
+                                          "¿Dónde está?"
+                                      ],
+                          "answer":  "¿Cómo es?"
+                      },
+                      {
+                          "id":  "e10",
+                          "type":  "translation_eu_es",
+                          "eu":  "Auto gorri haundia eta zaharra dut.",
+                          "answer":  "Tengo un coche rojo, grande y viejo."
+                      },
+                      {
+                          "id":  "e12",
+                          "type":  "translation_es_eu",
+                          "es":  "La hierba es verde y el cielo es azul.",
+                          "answer":  "Belarra berdea da eta zerua urdina da."
+                      },
+                      {
+                          "id":  "ow01",
+                          "type":  "order_words",
+                          "words":  [
+                                        "Etxe",
+                                        "haundia",
+                                        "eta",
+                                        "zaharra",
+                                        "da."
+                                    ],
+                          "translation":  "La casa es grande y vieja.",
+                          "answer":  "Etxe haundia eta zaharra da."
+                      }
+                  ]
 }

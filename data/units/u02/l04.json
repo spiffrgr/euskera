@@ -1,113 +1,126 @@
-{
-  "id": "l04",
-  "title": "Números 21–100",
-  "grammar_note": {
-    "title": "Sistema bigesimala (Sistema vigesimal)",
-    "body": "El euskera cuenta en grupos de **20**: **hogei** = 20 (base). Para 21-39: **hogeita + número**. Para 40: **berrogei** (2×20). Para 60: **hirurogei** (3×20). Para 80: **laurogei** (4×20). Añade **-ta hamar** para +10.",
-    "tip": "Recuerda: hogeita hamar = 30 (20+10), berrogei = 40 (2×20), ehun = 100"
-  },
-  "slides": [
-    {
-      "eu": "hogeita bat — hogeita bederatzi",
-      "es": "21 — 29",
-      "example_eu": "Hogeita bat ikasle daude gelan.",
-      "example_es": "Hay veintiún estudiantes en clase."
-    },
-    {
-      "eu": "berrogei — berrogeita bederatzi",
-      "es": "40 — 49",
-      "example_eu": "Berrogei euro kostatzen da.",
-      "example_es": "Cuesta cuarenta euros."
-    },
-    {
-      "eu": "hirurogei — hirurogeita bederatzi",
-      "es": "60 — 69",
-      "example_eu": "Hirurogeita urte ditu aitonak.",
-      "example_es": "El abuelo tiene sesenta años."
-    },
-    {
-      "eu": "laurogei — laurogeita hamar — ehun",
-      "es": "80 — 90 — 100",
-      "example_eu": "Ehun euro ditut poltsan.",
-      "example_es": "Tengo cien euros en el bolso."
-    },
-    {
-      "eu": "hogeita hamar — hogeita hemeretzi",
-      "es": "30 — 39",
-      "example_eu": "Hogeita hamar urte ditut.",
-      "example_es": "Tengo treinta años."
-    },
-    {
-      "eu": "berrogeita hamar — berrogeita hemeretzi",
-      "es": "50 — 59",
-      "example_eu": "Nire aitak berrogeita hamabost urte ditu.",
-      "example_es": "Mi padre tiene cincuenta y cinco años."
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cuánto es 'hogeita hamar' en números?",
-      "options": ["20", "30", "40", "50"],
-      "answer": "30"
-    },
-    {
-      "id": "e02",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "En el sistema vigesimal: 'berrogeita hamar' = 50 porque berrogei(40) + ta + hamar(10) → true",
-      "es": "berrogeita hamar = 50 (40+10), sistema vigesimal",
-      "answer": true,
-      "explanation": "El sistema vigesimal une con -ta: hogeita hamar(30), berrogeita hamar(50), hirurogeita hamar(70), laurogeita hamar(90). La base siempre es múltiplo de 20."
-    },
-    {
-      "id": "e03",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "ehun",
-      "answer": "cien"
-    },
-    {
-      "id": "e04",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "___ euro ditut.",
-      "translation": "Tengo cuarenta euros.",
-      "hint": "2×20 en euskera",
-      "answer": "berrogei"
-    },
-    {
-      "id": "e05",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se dice '80' en euskera?",
-      "options": ["hirurogei", "laurogei", "berrogei", "laurogeita hamar"],
-      "answer": "laurogei"
-    },
-    {
-      "id": "e06",
-      "type": "match_pairs",
-      "instruction": "Une cada par",
-      "pairs": [
-        { "eu": "hogeita bat", "es": "21" },
-        { "eu": "berrogei", "es": "40" },
-        { "eu": "hirurogei", "es": "60" },
-        { "eu": "ehun", "es": "100" }
-      ]
-    },
-    {
-      "id": "e07",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "cincuenta",
-      "answer": "berrogeita hamar"
-    },
-    {
-      "id": "e08",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "hirurogeita hamar",
-      "answer": "setenta"
-    }
-  ]
+﻿{
+    "id":  "l04",
+    "title":  "Números 21–100",
+    "grammar_note":  {
+                         "title":  "Sistema bigesimala (Sistema vigesimal)",
+                         "body":  "El euskera cuenta en grupos de **20**: **hogei** = 20 (base). Para 21-39: **hogeita + número**. Para 40: **berrogei** (2×20). Para 60: **hirurogei** (3×20). Para 80: **laurogei** (4×20). Añade **-ta hamar** para +10.",
+                         "tip":  "Recuerda: hogeita hamar = 30 (20+10), berrogei = 40 (2×20), ehun = 100"
+                     },
+    "slides":  [
+                   {
+                       "eu":  "hogeita bat — hogeita bederatzi",
+                       "es":  "21 — 29",
+                       "example_eu":  "Hogeita bat ikasle daude gelan.",
+                       "example_es":  "Hay veintiún estudiantes en clase."
+                   },
+                   {
+                       "eu":  "berrogei — berrogeita bederatzi",
+                       "es":  "40 — 49",
+                       "example_eu":  "Berrogei euro kostatzen da.",
+                       "example_es":  "Cuesta cuarenta euros."
+                   },
+                   {
+                       "eu":  "hirurogei — hirurogeita bederatzi",
+                       "es":  "60 — 69",
+                       "example_eu":  "Hirurogeita urte ditu aitonak.",
+                       "example_es":  "El abuelo tiene sesenta años."
+                   },
+                   {
+                       "eu":  "laurogei — laurogeita hamar — ehun",
+                       "es":  "80 — 90 — 100",
+                       "example_eu":  "Ehun euro ditut poltsan.",
+                       "example_es":  "Tengo cien euros en el bolso."
+                   },
+                   {
+                       "eu":  "hogeita hamar — hogeita hemeretzi",
+                       "es":  "30 — 39",
+                       "example_eu":  "Hogeita hamar urte ditut.",
+                       "example_es":  "Tengo treinta años."
+                   },
+                   {
+                       "eu":  "berrogeita hamar — berrogeita hemeretzi",
+                       "es":  "50 — 59",
+                       "example_eu":  "Nire aitak berrogeita hamabost urte ditu.",
+                       "example_es":  "Mi padre tiene cincuenta y cinco años."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cuánto es \u0027hogeita hamar\u0027 en números?",
+                          "options":  [
+                                          "20",
+                                          "30",
+                                          "40",
+                                          "50"
+                                      ],
+                          "answer":  "30"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "ehun",
+                          "answer":  "cien"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "___ euro ditut.",
+                          "translation":  "Tengo cuarenta euros.",
+                          "hint":  "2×20 en euskera",
+                          "answer":  "berrogei"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u002780\u0027 en euskera?",
+                          "options":  [
+                                          "hirurogei",
+                                          "laurogei",
+                                          "berrogei",
+                                          "laurogeita hamar"
+                                      ],
+                          "answer":  "laurogei"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "match_pairs",
+                          "instruction":  "Une cada par",
+                          "pairs":  [
+                                        {
+                                            "eu":  "hogeita bat",
+                                            "es":  "21"
+                                        },
+                                        {
+                                            "eu":  "berrogei",
+                                            "es":  "40"
+                                        },
+                                        {
+                                            "eu":  "hirurogei",
+                                            "es":  "60"
+                                        },
+                                        {
+                                            "eu":  "ehun",
+                                            "es":  "100"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "cincuenta",
+                          "answer":  "berrogeita hamar"
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "hirurogeita hamar",
+                          "answer":  "setenta"
+                      }
+                  ]
 }

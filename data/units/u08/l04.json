@@ -1,97 +1,116 @@
-{
-  "id": "l04",
-  "title": "Nora zoaz? (JOAN + nora?)",
-  "grammar_note": {
-    "title": "Norabidea: -ra/-era atzizkia (El alativo -ra)",
-    "body": "Para decir 'hacia dónde' (adónde), el euskera añade **-ra** (tras vocal) o **-era** (tras consonante): **etxera** = a casa (etxe + ra), **mendira** = a la montaña (mendi + ra), **Bilbora** = a Bilbao (Bilbo + ra). La pregunta es **nora?** (¿adónde?).",
-    "tip": "non? (¿dónde?) → respuesta con -n/-an. nora? (¿adónde?) → respuesta con -ra/-era."
-  },
-  "slides": [
-    {
-      "eu": "Nora zoaz? / nora joaten zara?",
-      "es": "¿Adónde vas?",
-      "example_eu": "Nora zoaz gaur? — Dendara noa.",
-      "example_es": "¿Adónde vas hoy? — Voy a la tienda."
-    },
-    {
-      "eu": "etxera / eskolara / dendara",
-      "es": "a casa / a la escuela / a la tienda",
-      "example_eu": "Arratsaldean etxera joaten naiz.",
-      "example_es": "Por la tarde voy a casa."
-    },
-    {
-      "eu": "Bilbora / Donostiara / Gasteizera",
-      "es": "a Bilbao / a San Sebastián / a Vitoria",
-      "example_eu": "Asteburuan Donostiara joaten gara.",
-      "example_es": "El fin de semana vamos a San Sebastián."
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se dice 'a casa' en euskera?",
-      "options": ["etxera", "etxean", "etxetik", "etxe"],
-      "answer": "etxera"
-    },
-    {
-      "id": "e02",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "Nora zoaz?",
-      "es": "¿Adónde vas?",
-      "answer": true
-    },
-    {
-      "id": "e03",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "Eskolara joaten naiz.",
-      "answer": "Voy a la escuela."
-    },
-    {
-      "id": "e04",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Asteburuan ___ joaten gara.",
-      "translation": "El fin de semana vamos a San Sebastián.",
-      "hint": "a San Sebastián (Donostia + -ra)",
-      "answer": "Donostiara"
-    },
-    {
-      "id": "e05",
-      "type": "grammar_select",
-      "instruction": "Para decir 'voy a Bilbao' usas:",
-      "sentence": "___ joaten naiz",
-      "translation": "Voy a Bilbao (Bilbo + ra)",
-      "options": ["Bilboan", "Bilbora", "Bilbotik", "Bilbo"],
-      "answer": "Bilbora"
-    },
-    {
-      "id": "e06",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "¿Adónde va ella?",
-      "answer": "Nora joaten da?"
-    },
-    {
-      "id": "e07",
-      "type": "match_pairs",
-      "instruction": "Une el lugar con su forma alativa",
-      "pairs": [
-        { "eu": "etxe → etxera", "es": "casa → a casa" },
-        { "eu": "mendi → mendira", "es": "montaña → a la montaña" },
-        { "eu": "Bilbo → Bilbora", "es": "Bilbao → a Bilbao" },
-        { "eu": "denda → dendara", "es": "tienda → a la tienda" }
-      ]
-    },
-    {
-      "id": "e08",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "words": ["joaten", "gara", "Donostiara", "asteburuan"],
-      "translation": "El fin de semana vamos a San Sebastián",
-      "answer": "asteburuan Donostiara joaten gara"
-    }
-  ]
+﻿{
+    "id":  "l04",
+    "title":  "Nora zoaz? (JOAN + nora?)",
+    "grammar_note":  {
+                         "title":  "Norabidea: -ra/-era atzizkia (El alativo -ra)",
+                         "body":  "Para decir \u0027hacia dónde\u0027 (adónde), el euskera añade **-ra** (tras vocal) o **-era** (tras consonante): **etxera** = a casa (etxe + ra), **mendira** = a la montaña (mendi + ra), **Bilbora** = a Bilbao (Bilbo + ra). La pregunta es **nora?** (¿adónde?).",
+                         "tip":  "non? (¿dónde?) → respuesta con -n/-an. nora? (¿adónde?) → respuesta con -ra/-era."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "Nora zoaz? / nora joaten zara?",
+                       "es":  "¿Adónde vas?",
+                       "example_eu":  "Nora zoaz gaur? — Dendara noa.",
+                       "example_es":  "¿Adónde vas hoy? — Voy a la tienda."
+                   },
+                   {
+                       "eu":  "etxera / eskolara / dendara",
+                       "es":  "a casa / a la escuela / a la tienda",
+                       "example_eu":  "Arratsaldean etxera joaten naiz.",
+                       "example_es":  "Por la tarde voy a casa."
+                   },
+                   {
+                       "eu":  "Bilbora / Donostiara / Gasteizera",
+                       "es":  "a Bilbao / a San Sebastián / a Vitoria",
+                       "example_eu":  "Asteburuan Donostiara joaten gara.",
+                       "example_es":  "El fin de semana vamos a San Sebastián."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027a casa\u0027 en euskera?",
+                          "options":  [
+                                          "etxera",
+                                          "etxean",
+                                          "etxetik",
+                                          "etxe"
+                                      ],
+                          "answer":  "etxera"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "Eskolara joaten naiz.",
+                          "answer":  "Voy a la escuela."
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Asteburuan ___ joaten gara.",
+                          "translation":  "El fin de semana vamos a San Sebastián.",
+                          "hint":  "a San Sebastián (Donostia + -ra)",
+                          "answer":  "Donostiara"
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "grammar_select",
+                          "instruction":  "Para decir \u0027voy a Bilbao\u0027 usas:",
+                          "sentence":  "___ joaten naiz",
+                          "translation":  "Voy a Bilbao (Bilbo + ra)",
+                          "options":  [
+                                          "Bilboan",
+                                          "Bilbora",
+                                          "Bilbotik",
+                                          "Bilbo"
+                                      ],
+                          "answer":  "Bilbora"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "¿Adónde va ella?",
+                          "answer":  "Nora joaten da?"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "match_pairs",
+                          "instruction":  "Une el lugar con su forma alativa",
+                          "pairs":  [
+                                        {
+                                            "eu":  "etxe → etxera",
+                                            "es":  "casa → a casa"
+                                        },
+                                        {
+                                            "eu":  "mendi → mendira",
+                                            "es":  "montaña → a la montaña"
+                                        },
+                                        {
+                                            "eu":  "Bilbo → Bilbora",
+                                            "es":  "Bilbao → a Bilbao"
+                                        },
+                                        {
+                                            "eu":  "denda → dendara",
+                                            "es":  "tienda → a la tienda"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras",
+                          "words":  [
+                                        "joaten",
+                                        "gara",
+                                        "Donostiara",
+                                        "asteburuan"
+                                    ],
+                          "translation":  "El fin de semana vamos a San Sebastián",
+                          "answer":  "asteburuan Donostiara joaten gara"
+                      }
+                  ]
 }

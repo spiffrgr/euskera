@@ -1,90 +1,98 @@
-{
-  "id": "l02",
-  "title": "Ogia, esnekiak eta arraultza",
-  "slides": [
-    {
-      "eu": "ogia / opila",
-      "es": "pan / bollo/panecillo",
-      "example_eu": "Goizean ogi bat eta kafea hartzen dut.",
-      "example_es": "Por la mañana tomo un pan y un café."
-    },
-    {
-      "eu": "esnea / gazta / gurina",
-      "es": "leche / queso / mantequilla",
-      "example_eu": "Gazta eta gurina ogian jartzen ditut.",
-      "example_es": "Pongo queso y mantequilla en el pan."
-    },
-    {
-      "eu": "jogurta / arraultza / kremaz",
-      "es": "yogur / huevo / crema/nata",
-      "example_eu": "Gosarian arraultza bi eta jogurta jaten ditut.",
-      "example_es": "En el desayuno como dos huevos y un yogur."
-    }
-  ],
-  "exercises": [
-    {
-      "id": "e01",
-      "type": "multiple_choice",
-      "instruction": "¿Cómo se dice 'leche' en euskera?",
-      "options": ["esnea", "gazta", "jogurta", "gurina"],
-      "answer": "esnea"
-    },
-    {
-      "id": "e02",
-      "type": "true_false",
-      "instruction": "¿Verdadero o falso?",
-      "eu": "'Bi arraultza nahi ditut' usa DITUT (no DUT) porque el objeto es plural → true",
-      "es": "Dos huevos = objeto plural → DITUT, no DUT",
-      "answer": true,
-      "explanation": "El número del objeto cambia el verbo: bat→nahi dut, bi/hiru/...→nahi ditut. Arraultza bat nahi dut vs bi arraultza nahi ditut. Mismo patrón que con los años de edad."
-    },
-    {
-      "id": "e03",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "gazta",
-      "answer": "queso"
-    },
-    {
-      "id": "e04",
-      "type": "match_pairs",
-      "instruction": "Une cada par",
-      "pairs": [
-        { "eu": "ogia", "es": "pan" },
-        { "eu": "esnea", "es": "leche" },
-        { "eu": "gazta", "es": "queso" },
-        { "eu": "arraultza", "es": "huevo" }
-      ]
-    },
-    {
-      "id": "e05",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "mantequilla",
-      "answer": "gurina"
-    },
-    {
-      "id": "e06",
-      "type": "fill_blank",
-      "instruction": "Rellena el hueco",
-      "sentence": "Gazta eta gurina ogian jartzen ___.",
-      "translation": "Pongo queso y mantequilla en el pan.",
-      "hint": "verbo 1ª persona",
-      "answer": "ditut"
-    },
-    {
-      "id": "e07",
-      "type": "translation_eu_es",
-      "instruction": "Traduce al castellano",
-      "eu": "jogurta",
-      "answer": "yogur"
-    },
-    {
-      "id": "e08",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "pan",
-      "answer": "ogia"
-    }
-  ]
+﻿{
+    "id":  "l02",
+    "title":  "Ogia, esnekiak eta arraultza",
+    "slides":  [
+                   {
+                       "eu":  "ogia / opila",
+                       "es":  "pan / bollo/panecillo",
+                       "example_eu":  "Goizean ogi bat eta kafea hartzen dut.",
+                       "example_es":  "Por la mañana tomo un pan y un café."
+                   },
+                   {
+                       "eu":  "esnea / gazta / gurina",
+                       "es":  "leche / queso / mantequilla",
+                       "example_eu":  "Gazta eta gurina ogian jartzen ditut.",
+                       "example_es":  "Pongo queso y mantequilla en el pan."
+                   },
+                   {
+                       "eu":  "jogurta / arraultza / kremaz",
+                       "es":  "yogur / huevo / crema/nata",
+                       "example_eu":  "Gosarian arraultza bi eta jogurta jaten ditut.",
+                       "example_es":  "En el desayuno como dos huevos y un yogur."
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "e01",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Cómo se dice \u0027leche\u0027 en euskera?",
+                          "options":  [
+                                          "esnea",
+                                          "gazta",
+                                          "jogurta",
+                                          "gurina"
+                                      ],
+                          "answer":  "esnea"
+                      },
+                      {
+                          "id":  "e03",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "gazta",
+                          "answer":  "queso"
+                      },
+                      {
+                          "id":  "e04",
+                          "type":  "match_pairs",
+                          "instruction":  "Une cada par",
+                          "pairs":  [
+                                        {
+                                            "eu":  "ogia",
+                                            "es":  "pan"
+                                        },
+                                        {
+                                            "eu":  "esnea",
+                                            "es":  "leche"
+                                        },
+                                        {
+                                            "eu":  "gazta",
+                                            "es":  "queso"
+                                        },
+                                        {
+                                            "eu":  "arraultza",
+                                            "es":  "huevo"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "e05",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "mantequilla",
+                          "answer":  "gurina"
+                      },
+                      {
+                          "id":  "e06",
+                          "type":  "fill_blank",
+                          "instruction":  "Rellena el hueco",
+                          "sentence":  "Gazta eta gurina ogian jartzen ___.",
+                          "translation":  "Pongo queso y mantequilla en el pan.",
+                          "hint":  "verbo 1ª persona",
+                          "answer":  "ditut"
+                      },
+                      {
+                          "id":  "e07",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce al castellano",
+                          "eu":  "jogurta",
+                          "answer":  "yogur"
+                      },
+                      {
+                          "id":  "e08",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "pan",
+                          "answer":  "ogia"
+                      }
+                  ]
 }

@@ -1,99 +1,142 @@
-{
-  "id": "u03_l03",
-  "title": "Aurkezpen osoa (Presentación completa)",
-  "objective": "Hacer una presentación completa con nombre, origen, profesión y edad",
-  "grammar_note": {
-    "title": "La conjunción ETA y el orden de información",
-    "body": "Para unir frases en euskera usamos **eta** (y):\n\nNi Mikel naiz **eta** irakaslea naiz.\nBilbokoa naiz **eta** hogeita hamar urte ditut.\n\nEn una presentación formal el orden típico es:\n1. Izena (nombre) 2. Jatorria (origen) 3. Lanbidea (profesión) 4. Adina (edad)",
-    "tip": "Euskera tiene menos conectores que el castellano. 'Eta' hace mucho trabajo."
-  },
-  "slides": [
-    { "eu": "Kaixo, ni Amaia naiz", "es": "Hola, soy Amaia", "example_eu": "Kaixo! Ni Amaia naiz, Iruñekoa.", "example_es": "¡Hola! Soy Amaia, de Pamplona." },
-    { "eu": "Irakaslea naiz eta...", "es": "Soy profesora y...", "example_eu": "Irakaslea naiz eta hogei urte ditut.", "example_es": "Soy profesora y tengo 20 años." },
-    { "eu": "Pozten naiz zu ezagutzeaz", "es": "Encantado/a de conocerte", "example_eu": "Nire izena Gorka da. Pozten naiz!", "example_es": "Mi nombre es Gorka. ¡Encantado!" }
-  ],
-  "exercises": [
-    {
-      "id": "u03_l03_e01",
-      "type": "order_words",
-      "instruction": "Ordena las palabras para una presentación completa",
-      "translation": "Hola, soy Ane y soy de Bilbao.",
-      "words": ["eta", "Kaixo,", "Bilbokoa", "naiz.", "ni", "Ane", "naiz"],
-      "answer": "Kaixo, ni Ane naiz eta Bilbokoa naiz."
-    },
-    {
-      "id": "u03_l03_e02",
-      "type": "translation_es_eu",
-      "instruction": "Traduce al euskera",
-      "es": "Hola, me llamo Jon.",
-      "answer": "Kaixo, ni Jon naiz."
-    },
-    {
-      "id": "u03_l03_e03",
-      "type": "fill_blank",
-      "instruction": "Completa la presentación",
-      "sentence": "Irakaslea naiz ___ hogeita bost urte ditut.",
-      "translation": "Soy profesora y tengo veinticinco años.",
-      "answer": "eta",
-      "hint": "conjunción 'y'"
-    },
-    {
-      "id": "u03_l03_e04",
-      "type": "true_false",
-      "instruction": "¿Es correcta esta presentación?",
-      "eu": "Ni Mikel naiz. Bilbokoa naiz. Medikua naiz. Hogeita hamar urte ditut.",
-      "es": "Soy Mikel. Soy de Bilbao. Soy médico. Tengo treinta años.",
-      "answer": true,
-      "explanation": "Correcto. Presentación completa: nombre, origen, profesión y edad. ¡Perfecta!"
-    },
-    {
-      "id": "u03_l03_e05",
-      "type": "multiple_choice",
-      "instruction": "¿Qué falta en esta presentación? 'Ni Leire naiz. Donostiakoa naiz. Hogeita bat urte ditut.'",
-      "answer": "La profesión (lanbidea)",
-      "options": ["La profesión (lanbidea)", "El nombre (izena)", "El origen (jatorria)", "La edad (adina)"]
-    },
-    {
-      "id": "u03_l03_e06",
-      "type": "translation_eu_es",
-      "instruction": "Traduce toda la presentación",
-      "eu": "Kaixo! Ni Gorka naiz, Gasteizekoa. Ikaslea naiz eta hemezortzi urte ditut. Pozten naiz!",
-      "answer": "¡Hola! Soy Gorka, de Vitoria. Soy estudiante y tengo dieciocho años. ¡Encantado!"
-    },
-    {
-      "id": "u03_l03_e07",
-      "type": "match_pairs",
-      "instruction": "Une cada frase con lo que expresa",
-      "pairs": [
-        { "eu": "Ni Amaia naiz.", "es": "Nombre" },
-        { "eu": "Bilbokoa naiz.", "es": "Origen" },
-        { "eu": "Irakaslea naiz.", "es": "Profesión" },
-        { "eu": "Hogei urte ditut.", "es": "Edad" }
-      ]
-    },
-    {
-      "id": "u03_l03_e08",
-      "type": "order_words",
-      "instruction": "Ordena las palabras",
-      "translation": "Tengo veinte años y soy médica.",
-      "words": ["medikua", "urte", "eta", "Hogei", "naiz.", "ditut"],
-      "answer": "Hogei urte ditut eta medikua naiz."
-    },
-    {
-      "id": "u03_l03_e09",
-      "type": "grammar_select",
-      "instruction": "¿Qué conjunción une frases en euskera?",
-      "sentence": "Irakaslea naiz ___ hamabost urte ditut.",
-      "translation": "Soy profesora y tengo quince años.",
-      "answer": "eta",
-      "options": ["eta", "baina", "edo", "ala"]
-    },
-    {
-      "id": "u03_l03_e10",
-      "type": "translation_es_eu",
-      "instruction": "Escribe una presentación completa en euskera",
-      "es": "Hola, soy Ane. Soy de San Sebastián. Soy estudiante y tengo dieciséis años.",
-      "answer": "Kaixo, ni Ane naiz. Donostiakoa naiz. Ikaslea naiz eta hamasei urte ditut."
-    }
-  ]
+﻿{
+    "id":  "u03_l03",
+    "title":  "Aurkezpen osoa (Presentación completa)",
+    "objective":  "Hacer una presentación completa con nombre, origen, profesión y edad",
+    "grammar_note":  {
+                         "title":  "La conjunción ETA y el orden de información",
+                         "body":  "Para unir frases en euskera usamos **eta** (y):\n\nNi Mikel naiz **eta** irakaslea naiz.\nBilbokoa naiz **eta** hogeita hamar urte ditut.\n\nEn una presentación formal el orden típico es:\n1. Izena (nombre) 2. Jatorria (origen) 3. Lanbidea (profesión) 4. Adina (edad)",
+                         "tip":  "Euskera tiene menos conectores que el castellano. \u0027Eta\u0027 hace mucho trabajo."
+                     },
+    "slides":  [
+                   {
+                       "eu":  "Kaixo, ni Amaia naiz",
+                       "es":  "Hola, soy Amaia",
+                       "example_eu":  "Kaixo! Ni Amaia naiz, Iruñekoa.",
+                       "example_es":  "¡Hola! Soy Amaia, de Pamplona."
+                   },
+                   {
+                       "eu":  "Irakaslea naiz eta...",
+                       "es":  "Soy profesora y...",
+                       "example_eu":  "Irakaslea naiz eta hogei urte ditut.",
+                       "example_es":  "Soy profesora y tengo 20 años."
+                   },
+                   {
+                       "eu":  "Pozten naiz zu ezagutzeaz",
+                       "es":  "Encantado/a de conocerte",
+                       "example_eu":  "Nire izena Gorka da. Pozten naiz!",
+                       "example_es":  "Mi nombre es Gorka. ¡Encantado!"
+                   }
+               ],
+    "exercises":  [
+                      {
+                          "id":  "u03_l03_e01",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras para una presentación completa",
+                          "translation":  "Hola, soy Ane y soy de Bilbao.",
+                          "words":  [
+                                        "eta",
+                                        "Kaixo,",
+                                        "Bilbokoa",
+                                        "naiz.",
+                                        "ni",
+                                        "Ane",
+                                        "naiz"
+                                    ],
+                          "answer":  "Kaixo, ni Ane naiz eta Bilbokoa naiz."
+                      },
+                      {
+                          "id":  "u03_l03_e02",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Traduce al euskera",
+                          "es":  "Hola, me llamo Jon.",
+                          "answer":  "Kaixo, ni Jon naiz."
+                      },
+                      {
+                          "id":  "u03_l03_e03",
+                          "type":  "fill_blank",
+                          "instruction":  "Completa la presentación",
+                          "sentence":  "Irakaslea naiz ___ hogeita bost urte ditut.",
+                          "translation":  "Soy profesora y tengo veinticinco años.",
+                          "answer":  "eta",
+                          "hint":  "conjunción \u0027y\u0027"
+                      },
+                      {
+                          "id":  "u03_l03_e05",
+                          "type":  "multiple_choice",
+                          "instruction":  "¿Qué falta en esta presentación? \u0027Ni Leire naiz. Donostiakoa naiz. Hogeita bat urte ditut.\u0027",
+                          "answer":  "La profesión (lanbidea)",
+                          "options":  [
+                                          "La profesión (lanbidea)",
+                                          "El nombre (izena)",
+                                          "El origen (jatorria)",
+                                          "La edad (adina)"
+                                      ]
+                      },
+                      {
+                          "id":  "u03_l03_e06",
+                          "type":  "translation_eu_es",
+                          "instruction":  "Traduce toda la presentación",
+                          "eu":  "Kaixo! Ni Gorka naiz, Gasteizekoa. Ikaslea naiz eta hemezortzi urte ditut. Pozten naiz!",
+                          "answer":  "¡Hola! Soy Gorka, de Vitoria. Soy estudiante y tengo dieciocho años. ¡Encantado!"
+                      },
+                      {
+                          "id":  "u03_l03_e07",
+                          "type":  "match_pairs",
+                          "instruction":  "Une cada frase con lo que expresa",
+                          "pairs":  [
+                                        {
+                                            "eu":  "Ni Amaia naiz.",
+                                            "es":  "Nombre"
+                                        },
+                                        {
+                                            "eu":  "Bilbokoa naiz.",
+                                            "es":  "Origen"
+                                        },
+                                        {
+                                            "eu":  "Irakaslea naiz.",
+                                            "es":  "Profesión"
+                                        },
+                                        {
+                                            "eu":  "Hogei urte ditut.",
+                                            "es":  "Edad"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "u03_l03_e08",
+                          "type":  "order_words",
+                          "instruction":  "Ordena las palabras",
+                          "translation":  "Tengo veinte años y soy médica.",
+                          "words":  [
+                                        "medikua",
+                                        "urte",
+                                        "eta",
+                                        "Hogei",
+                                        "naiz.",
+                                        "ditut"
+                                    ],
+                          "answer":  "Hogei urte ditut eta medikua naiz."
+                      },
+                      {
+                          "id":  "u03_l03_e09",
+                          "type":  "grammar_select",
+                          "instruction":  "¿Qué conjunción une frases en euskera?",
+                          "sentence":  "Irakaslea naiz ___ hamabost urte ditut.",
+                          "translation":  "Soy profesora y tengo quince años.",
+                          "answer":  "eta",
+                          "options":  [
+                                          "eta",
+                                          "baina",
+                                          "edo",
+                                          "ala"
+                                      ]
+                      },
+                      {
+                          "id":  "u03_l03_e10",
+                          "type":  "translation_es_eu",
+                          "instruction":  "Escribe una presentación completa en euskera",
+                          "es":  "Hola, soy Ane. Soy de San Sebastián. Soy estudiante y tengo dieciséis años.",
+                          "answer":  "Kaixo, ni Ane naiz. Donostiakoa naiz. Ikaslea naiz eta hamasei urte ditut."
+                      }
+                  ]
 }

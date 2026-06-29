@@ -99,7 +99,7 @@ const App = (() => {
       }
       const ex = lesson.exercises?.find(e => e.id === item.itemId);
       return ex ? [{ ...ex, _itemId: `${item.topicId}_${item.itemId}` }] : [];
-    }).sort(() => Math.random() - 0.5);
+    }).sort(() => Math.random() - 0.5).slice(0, 20);
 
     if (!exercises.length) return;
 
@@ -135,31 +135,6 @@ const App = (() => {
     openLesson(lesson);
   }
 
-  async function loadInterleavedExercises() {
-    const completedKeys = Object.keys(lessonProgressMap).filter(k => {
-      const parts = k.split('_');
-      if (parts.length < 2) return false;
-      if (parts[1] === 'test' || parts[1] === 'repaso') return false;
-      if (currentUnit && k === `${currentUnit.id}_${currentLessonId}`) return false;
-      return lessonProgressMap[k]?.completed;
-    });
-    if (!completedKeys.length) return [];
-    const randomKey = completedKeys[Math.floor(Math.random() * completedKeys.length)];
-    const [uid, lid] = randomKey.split('_');
-    try {
-      const lessonData = await Course.loadLesson(uid, lid);
-      const vocab = (lessonData.exercises || []).filter(e =>
-        e.type === 'translation_eu_es' || e.type === 'translation_es_eu'
-      );
-      if (!vocab.length) return [];
-      return vocab.sort(() => Math.random() - 0.5).slice(0, 2).map(e => ({
-        ...e,
-        _itemId: `${uid}_${lid}_${e.id}`,
-        _interleaved: true,
-      }));
-    } catch { return []; }
-  }
-
   async function openLesson(lesson) {
     currentLessonId = lesson.id;
     const data = await Course.loadLesson(currentUnit.id, lesson.id);
@@ -167,13 +142,7 @@ const App = (() => {
     const allExercises = data.exercises || [];
     const isUncapped = currentLessonId === 'test' || currentLessonId === 'repaso';
     const cap = isUncapped ? allExercises.length : (data.exercise_cap || 8);
-    const mainExs = allExercises.slice(0, cap);
-    const interleaved = (!isUncapped && mainExs.length >= 2) ? await loadInterleavedExercises() : [];
-    if (interleaved.length) {
-      const insertAt = Math.max(1, Math.floor(mainExs.length / 2));
-      mainExs.splice(insertAt, 0, ...interleaved);
-    }
-    currentExercises = mainExs;
+    currentExercises = allExercises.slice(0, cap);
     exerciseIndex = 0;
     sessionStats = { correct: 0, wrong: 0 };
     failedExercises = [];
@@ -435,6 +404,7 @@ const App = (() => {
     document.getElementById('btn-lesson-next').addEventListener('click', nextSlide);
     document.getElementById('btn-lesson-skip').addEventListener('click', startSession);
     document.getElementById('btn-lesson-back').addEventListener('click', () => {
+      if (!currentUnit) { showHome(); return; }
       UI.renderLessonList(currentUnit, lessonProgressMap, onLessonClick);
       UI.show('screen-unit');
     });
@@ -445,10 +415,9 @@ const App = (() => {
       renderCurrentExercise();
     });
     document.getElementById('btn-back').addEventListener('click', () => {
-      if (confirm('¿Salir de la sesión? Se perderá el progreso.')) {
-        UI.renderLessonList(currentUnit, lessonProgressMap, onLessonClick);
-        UI.show('screen-unit');
-      }
+      if (!currentUnit) { showHome(); return; }
+      UI.renderLessonList(currentUnit, lessonProgressMap, onLessonClick);
+      UI.show('screen-unit');
     });
 
     // Summary

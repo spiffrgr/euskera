@@ -24,36 +24,30 @@
       </div>
     </div>
 
-    <!-- SCREEN: firebase-setup -->
-    <div id="screen-firebase-setup" class="screen">
-      <div class="setup-content">
-        <div class="setup-icon">⚙️</div>
-        <h2>Configuración inicial</h2>
-        <p>Para guardar tu progreso necesitas configurar Firebase. Solo tienes que hacerlo una vez.</p>
-        <div class="setup-steps">
-          <div class="step">
-            <span class="step-num">1</span>
-            <span>Ve a <strong>console.firebase.google.com</strong> y crea un proyecto gratuito</span>
-          </div>
-          <div class="step">
-            <span class="step-num">2</span>
-            <span>En Configuración del proyecto → Tus apps → Web, copia la configuración</span>
-          </div>
-          <div class="step">
-            <span class="step-num">3</span>
-            <span>Pega el objeto de configuración aquí abajo:</span>
-          </div>
-        </div>
-        <textarea id="firebase-config-input" placeholder='{
-  "apiKey": "...",
-  "authDomain": "...",
-  "projectId": "...",
-  "storageBucket": "...",
-  "messagingSenderId": "...",
-  "appId": "..."
-}'></textarea>
-        <button id="btn-save-firebase" class="btn btn-primary">Guardar y continuar</button>
-        <p class="setup-note">La configuración se guarda localmente en tu dispositivo.</p>
+    <!-- SCREEN: auth (login) -->
+    <div id="screen-auth" class="screen">
+      <div class="auth-content">
+        <div class="app-logo">🏔️</div>
+        <h1>Euskera Ikasi</h1>
+        <input type="email" id="auth-email" class="auth-input" placeholder="Correo electrónico" autocomplete="email">
+        <input type="password" id="auth-password" class="auth-input" placeholder="Contraseña" autocomplete="current-password">
+        <div id="auth-error" class="auth-error"></div>
+        <button id="btn-login" class="btn btn-primary" style="width:100%">Iniciar sesión</button>
+        <p class="auth-switch">¿No tienes cuenta? <a id="link-to-register" class="auth-link">Regístrate</a></p>
+      </div>
+    </div>
+
+    <!-- SCREEN: register -->
+    <div id="screen-register" class="screen">
+      <div class="auth-content">
+        <div class="app-logo">🏔️</div>
+        <h2>Crear cuenta</h2>
+        <input type="email" id="reg-email" class="auth-input" placeholder="Correo electrónico" autocomplete="email">
+        <input type="password" id="reg-password" class="auth-input" placeholder="Contraseña (mín. 6 caracteres)" autocomplete="new-password">
+        <input type="password" id="reg-password-confirm" class="auth-input" placeholder="Confirmar contraseña" autocomplete="new-password">
+        <div id="reg-error" class="auth-error"></div>
+        <button id="btn-register" class="btn btn-primary" style="width:100%">Crear cuenta</button>
+        <p class="auth-switch">¿Ya tienes cuenta? <a id="link-to-login" class="auth-link">Inicia sesión</a></p>
       </div>
     </div>
 
@@ -61,9 +55,12 @@
     <div id="screen-home" class="screen">
       <header class="app-header">
         <h1 class="app-title">Euskera Ikasi</h1>
-        <div class="streak-badge" id="streak-display">
-          <span class="streak-icon">🔥</span>
-          <span class="streak-count" id="streak-count">0</span>
+        <div class="header-right">
+          <div class="streak-badge" id="streak-display">
+            <span class="streak-icon">🔥</span>
+            <span class="streak-count" id="streak-count">0</span>
+          </div>
+          <button id="btn-logout" class="btn-logout" title="Cerrar sesión">↩</button>
         </div>
       </header>
       <div class="home-content">

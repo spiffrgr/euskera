@@ -20,30 +20,79 @@ const App = (() => {
 
   async function init() {
     UI.show('screen-loading');
+    setupAuthListeners();
 
-    if (!FB.getStoredConfig()) { setupFirebase(); return; }
-
-    const ok = await FB.init();
-    if (!ok) { setupFirebase(); return; }
-
-    await showHome();
+    const loggedIn = await FB.init();
+    if (loggedIn) {
+      await showHome();
+    } else {
+      UI.show('screen-auth');
+    }
   }
 
-  function setupFirebase() {
-    UI.show('screen-firebase-setup');
-    document.getElementById('btn-save-firebase').addEventListener('click', async () => {
-      const raw = document.getElementById('firebase-config-input').value.trim();
-      let cfg;
-      try { cfg = JSON.parse(raw); } catch {
-        alert('El JSON no es válido.');
+  function setupAuthListeners() {
+    document.getElementById('btn-login').addEventListener('click', async () => {
+      const email = document.getElementById('auth-email').value.trim();
+      const password = document.getElementById('auth-password').value;
+      const errorEl = document.getElementById('auth-error');
+      errorEl.textContent = '';
+      try {
+        await FB.login(email, password);
+        await showHome();
+      } catch (e) {
+        errorEl.textContent = getAuthError(e.code);
+      }
+    });
+
+    document.getElementById('btn-register').addEventListener('click', async () => {
+      const email = document.getElementById('reg-email').value.trim();
+      const password = document.getElementById('reg-password').value;
+      const confirm = document.getElementById('reg-password-confirm').value;
+      const errorEl = document.getElementById('reg-error');
+      errorEl.textContent = '';
+      if (password !== confirm) {
+        errorEl.textContent = 'Las contraseñas no coinciden.';
         return;
       }
-      FB.saveConfig(cfg);
-      UI.show('screen-loading');
-      const ok = await FB.init();
-      if (!ok) { alert('No se pudo conectar. Revisa la configuración.'); UI.show('screen-firebase-setup'); return; }
-      await showHome();
+      try {
+        await FB.register(email, password);
+        await showHome();
+      } catch (e) {
+        errorEl.textContent = getAuthError(e.code);
+      }
     });
+
+    document.getElementById('link-to-register').addEventListener('click', () => {
+      document.getElementById('auth-error').textContent = '';
+      UI.show('screen-register');
+    });
+
+    document.getElementById('link-to-login').addEventListener('click', () => {
+      document.getElementById('reg-error').textContent = '';
+      UI.show('screen-auth');
+    });
+
+    document.getElementById('btn-logout').addEventListener('click', async () => {
+      await FB.logout();
+      course = null;
+      lessonProgressMap = {};
+      streakDays = 0;
+      UI.show('screen-auth');
+    });
+  }
+
+  function getAuthError(code) {
+    const map = {
+      'auth/user-not-found': 'No existe ninguna cuenta con ese email.',
+      'auth/wrong-password': 'Contraseña incorrecta.',
+      'auth/invalid-email': 'El email no es válido.',
+      'auth/email-already-in-use': 'Ya existe una cuenta con ese email.',
+      'auth/weak-password': 'La contraseña debe tener al menos 6 caracteres.',
+      'auth/too-many-requests': 'Demasiados intentos fallidos. Inténtalo más tarde.',
+      'auth/invalid-credential': 'Email o contraseña incorrectos.',
+      'auth/network-request-failed': 'Error de red. Comprueba tu conexión.',
+    };
+    return map[code] || 'Error al iniciar sesión. Inténtalo de nuevo.';
   }
 
   // ---- Home (unit map) ----

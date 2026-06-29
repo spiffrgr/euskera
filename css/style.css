@@ -76,69 +76,48 @@ html, body {
   justify-content: center;
   padding: 1.5rem;
 }
-.setup-content {
+.auth-content {
   width: 100%;
-  max-width: 400px;
-}
-.setup-icon { font-size: 3rem; text-align: center; margin-bottom: 1rem; }
-.setup-content h2 {
-  text-align: center;
-  font-size: 1.4rem;
-  margin-bottom: 0.75rem;
-}
-.setup-content > p {
-  text-align: center;
-  color: var(--text2);
-  font-size: 0.9rem;
-  margin-bottom: 1.5rem;
-}
-.setup-steps {
+  max-width: 360px;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  margin-bottom: 1.5rem;
 }
-.step {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
-  background: var(--card2);
-  border-radius: var(--radius-sm);
-  padding: 0.75rem;
-}
-.step-num {
-  background: var(--accent);
-  color: white;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.8rem;
-  font-weight: 700;
-  flex-shrink: 0;
-}
-.step span:last-child { font-size: 0.85rem; color: var(--text2); line-height: 1.4; }
-.step strong { color: var(--text); }
-
-#firebase-config-input {
+.auth-content .app-logo { font-size: 3rem; text-align: center; }
+.auth-content h1, .auth-content h2 { text-align: center; margin: 0; }
+.auth-content h1 { font-size: 1.6rem; }
+.auth-content h2 { font-size: 1.4rem; }
+.auth-input {
   width: 100%;
-  height: 140px;
   background: var(--card2);
   border: 2px solid var(--border);
   border-radius: var(--radius-sm);
   color: var(--text);
-  font-family: monospace;
-  font-size: 0.8rem;
-  padding: 0.75rem;
-  resize: vertical;
-  margin-bottom: 1rem;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
   outline: none;
   transition: border-color 0.2s;
+  box-sizing: border-box;
 }
-#firebase-config-input:focus { border-color: var(--accent); }
-.setup-note { font-size: 0.75rem; color: var(--text2); text-align: center; margin-top: 0.75rem; }
+.auth-input:focus { border-color: var(--accent); }
+.auth-error {
+  font-size: 0.85rem;
+  color: var(--accent);
+  text-align: center;
+  min-height: 1.2em;
+}
+.auth-switch {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text2);
+  margin: 0;
+}
+.auth-link {
+  color: var(--accent);
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: underline;
+}
 
 /* ---- Home ---- */
 #screen-home {
@@ -171,6 +150,27 @@ html, body {
 }
 .streak-icon { font-size: 1.1rem; }
 .streak-count { font-size: 1rem; font-weight: 700; color: var(--text); }
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.btn-logout {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text2);
+  font-size: 1rem;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s, border-color 0.2s;
+}
+.btn-logout:hover { color: var(--accent); border-color: var(--accent); }
 
 .level-section {
   padding: 1.25rem 1rem 0.25rem;

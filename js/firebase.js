@@ -1,43 +1,48 @@
 const FB = (() => {
+  // Firebase config — safe to embed publicly; security comes from Firestore Rules
+  const CONFIG = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID"
+  };
+
   let db = null;
   let uid = null;
 
-  function getStoredConfig() {
-    try {
-      return JSON.parse(localStorage.getItem('euskera_fb_config') || 'null');
-    } catch {
-      return null;
-    }
-  }
-
-  function saveConfig(cfg) {
-    localStorage.setItem('euskera_fb_config', JSON.stringify(cfg));
-  }
-
   async function init() {
-    const cfg = getStoredConfig();
-    if (!cfg) return false;
-
     if (!firebase.apps.length) {
-      firebase.initializeApp(cfg);
+      firebase.initializeApp(CONFIG);
     }
-
     db = firebase.firestore();
-    const auth = firebase.auth();
 
-    await new Promise((resolve) => {
-      auth.onAuthStateChanged(async (user) => {
+    return new Promise((resolve) => {
+      firebase.auth().onAuthStateChanged((user) => {
         if (user) {
           uid = user.uid;
+          resolve(true);
         } else {
-          const result = await auth.signInAnonymously();
-          uid = result.user.uid;
+          resolve(false);
         }
-        resolve();
       });
     });
+  }
 
-    return true;
+  async function login(email, password) {
+    const result = await firebase.auth().signInWithEmailAndPassword(email, password);
+    uid = result.user.uid;
+  }
+
+  async function register(email, password) {
+    const result = await firebase.auth().createUserWithEmailAndPassword(email, password);
+    uid = result.user.uid;
+  }
+
+  async function logout() {
+    await firebase.auth().signOut();
+    uid = null;
   }
 
   function userRef(path) {
@@ -134,8 +139,9 @@ const FB = (() => {
 
   return {
     init,
-    getStoredConfig,
-    saveConfig,
+    login,
+    register,
+    logout,
     getProgress,
     setProgress,
     getSRSItem,

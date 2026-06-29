@@ -1,12 +1,12 @@
 const FB = (() => {
   // Firebase config — safe to embed publicly; security comes from Firestore Rules
   const CONFIG = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyAgWpck8hKyFDMQ66adcP_WLarcJ0vP4bs",
+    authDomain: "curso-euskera.firebaseapp.com",
+    projectId: "curso-euskera",
+    storageBucket: "curso-euskera.firebasestorage.app",
+    messagingSenderId: "482623743728",
+    appId: "1:482623743728:web:9e8798aeb40e6776b14435",
   };
 
   let db = null;

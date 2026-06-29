@@ -1,6 +1,6 @@
 # 🏔️ Euskera Ikasi
 
-**PWA para aprender euskera desde cero**, dirigida a castellanohablantes del País Vasco que quieren iniciarse en el idioma. Sigue un currículo A1 completo con repetición espaciada, sin necesidad de instalar nada.
+**PWA para aprender euskera desde cero**, dirigida a castellanohablantes del País Vasco que quieren iniciarse en el idioma. Sigue un currículo A1.1 completo con repetición espaciada, sin necesidad de instalar nada.
 
 🌐 **[euskera-ikasi.github.io](https://spiffrgr.github.io/euskera)** · Funciona offline · Instálala como app en tu móvil
 
@@ -25,7 +25,7 @@ La filosofía es **grammar-first**: cada lección empieza explicando la gramáti
 |------|-----------|
 | Frontend | Vanilla JS ES6+ · HTML5 · CSS3 con variables |
 | Base de datos | Firebase Firestore (SDK v9 compat) |
-| Autenticación | Firebase Anonymous Auth |
+| Autenticación | Firebase Email/Password Auth |
 | Persistencia offline | Service Worker (cache-first, estrategia estática) |
 | Instalabilidad | Web App Manifest (PWA) |
 | Despliegue | GitHub Pages (ficheros estáticos, sin servidor) |
@@ -41,7 +41,7 @@ La filosofía es **grammar-first**: cada lección empieza explicando la gramáti
 euskera/
 ├── index.html              # SPA con todas las pantallas en el DOM
 ├── manifest.json           # PWA manifest
-├── sw.js                   # Service Worker (cache-first, versión actual: v13)
+├── sw.js                   # Service Worker (cache-first, versión actual: v18)
 │
 ├── css/
 │   └── style.css           # Estilos completos con CSS custom properties
@@ -55,7 +55,7 @@ euskera/
 │   └── firebase.js         # Capa de datos: Firestore, Auth, progreso, SRS, racha
 │
 ├── data/
-│   ├── course_a1.json      # Definición del curso (lista de 12 unidades)
+│   ├── course_a1.json      # Definición del curso A1.1 (19 unidades)
 │   └── units/
 │       ├── u01/
 │       │   ├── meta.json   # Índice de lecciones de la unidad
@@ -65,8 +65,8 @@ euskera/
 │       │   └── test.json   # Test de la unidad (12 ejercicios, sin cap)
 │       ├── u03/
 │       │   └── repaso.json # Repaso acumulativo u01-u03 (16 ejercicios)
-│       ├── u06/ · u09/ · u12/  # Ídem con su repaso.json
-│       └── u04/ – u12/    # Resto de unidades
+│       ├── u06/ · u09/ · u12/ · u15/ · u18/  # Ídem con su repaso.json
+│       └── u04/ – u19/    # Resto de unidades
 │
 └── icons/
     ├── icon-192.svg
@@ -86,16 +86,19 @@ App ──────── UI          (renderiza DOM a partir de datos)
      ──────── Exercises  (corrige respuestas, sin estado)
      ──────── SRS        (calcula intervalos, sin estado)
      ──────── Course     (fetch + caché en memoria)
-     ──────── FB         (Firestore, Auth anónima)
+     ──────── FB         (Firestore, Email/Password Auth)
 ```
 
 ### Máquina de estados de pantallas
 
 ```
-loading ──▶ firebase-setup (primera vez)
-        ──▶ home ──▶ unit ──▶ lesson (slides) ──▶ session (ejercicios) ──▶ summary
-                                                         ▲
-                  home ──▶ [review button] ─────────────┘
+loading ──▶ auth (sin sesión) ──▶ register
+        │        └────────────────────┘
+        │              login exitoso
+        ▼
+        home ──▶ unit ──▶ lesson (slides) ──▶ session (ejercicios) ──▶ summary
+                                                      ▲
+               home ──▶ [review button] ──────────────┘
 ```
 
 La navegación es puramente mediante `show(screenId)` — se activa/desactiva la clase `active` en el div correspondiente. No hay router.
@@ -195,14 +198,14 @@ Los tests (12 ejercicios) cubren todas las lecciones de su unidad de forma equil
 
 ## ✨ Características Implementadas
 
-- **12 unidades A1 completas**: 7 lecciones + test + repaso (donde aplica) por unidad
+- **19 unidades A1.1 completas**: 7 lecciones + test + repaso (donde aplica) por unidad
 - **~100 lecciones** con grammar notes, slides de vocabulario y ejercicios
 - **9 tipos de ejercicio** con variedad pedagógica real
 - **SRS funcional**: cada respuesta actualiza el intervalo; sesiones de revisión desde el home
 - **Racha diaria** (🔥 streak): se actualiza al completar cualquier lección o repaso
 - **Progreso persistido**: cada lección completada queda marcada en Firestore
 - **PWA instalable**: funciona offline, se puede instalar en iOS y Android como app nativa
-- **Firebase anónimo**: sin registro, sin contraseña — el usuario tiene su propio espacio en Firestore desde el primer uso
+- **Autenticación email/contraseña**: registro e inicio de sesión con Firebase Auth — el progreso se sincroniza entre todos los dispositivos del usuario
 - **Tolerancia de erratas** en respuestas escritas (Levenshtein ≤ 1)
 - **Feedback contextual**: respuesta correcta siempre visible, explicación gramatical en ejercicios complejos
 - **Cap de ejercicios**: 8 por lección ordinaria para no saturar; tests y repasos sin límite
@@ -228,8 +231,8 @@ Pantalla de progreso con: racha histórica, porcentaje de acierto por unidad, pa
 ### Vanilla JS sin framework ni build step
 La app está pensada para vivir en GitHub Pages como ficheros estáticos. Introducir React/Vue/Svelte requeriría npm, un proceso de build y despliegue más complejo. Con vanilla JS y el patrón IIFE se consigue separación de responsabilidades sin ninguna dependencia — la app entera son ~6 ficheros JS.
 
-### Firebase Anónimo
-El usuario no necesita registrarse para guardar su progreso. Firebase Anonymous Auth crea un UID persistente en el dispositivo. Si el usuario desinstala la app o cambia de dispositivo pierde el progreso, pero elimina toda la fricción de onboarding.
+### Firebase Email/Password
+El usuario se registra con email y contraseña una sola vez. El UID de Firebase queda vinculado a esa cuenta — el mismo progreso es accesible desde cualquier dispositivo donde inicie sesión. La API key de Firebase se embebe en el código frontend (práctica estándar y segura — la seguridad viene de las Firestore Rules, no de mantener la key secreta).
 
 ### Datos en JSON estático
 Todo el contenido está en ficheros JSON versionados en git. Esto facilita la edición del currículo (es solo contenido, no código), permite revisiones fáciles en PRs y hace la app completamente funcional offline una vez cacheada.
@@ -259,27 +262,34 @@ npx serve .
 
 Luego abre `http://localhost:8080` en el navegador.
 
-**Para guardar progreso** necesitas una instancia de Firebase:
+**Para guardar progreso y sincronizar entre dispositivos** necesitas una instancia de Firebase:
 1. Crea un proyecto en [console.firebase.google.com](https://console.firebase.google.com)
-2. Activa Firestore y Authentication (método: Anónimo)
-3. En la primera carga de la app, pega el objeto de configuración cuando te lo pida
-4. La configuración se guarda en `localStorage` — solo hay que hacerlo una vez por dispositivo
+2. Activa Firestore y Authentication (método: Email/Contraseña)
+3. Copia la configuración del proyecto web en `js/firebase.js` (objeto `CONFIG`)
+4. Al abrir la app aparecerá la pantalla de registro/login — el progreso queda vinculado a la cuenta y es accesible desde cualquier dispositivo
 
 ---
 
-## 📊 Contenido del Curso A1
+## 📊 Contenido del Curso A1.1 (19 unidades)
 
 | Unidad | Tema | Contenido gramatical clave |
 |--------|------|---------------------------|
 | U01 👋 | Kaixo! (Saludos) | Presentaciones, NAIZ, saludos formales/informales |
 | U02 🔢 | Zenbakiak (Números) | 1-100, DITUT para posesión, años y edades |
-| U03 🙋 | Nor naiz ni? (Identidad) | Profesiones, origen, NOR + DA/NAIZ |
+| U03 🙋 | Nor naiz ni? (Identidad) | Profesiones, origen, NOR + DA/NAIZ · *Repaso u01-u03* |
 | U04 🎨 | Koloreak (Colores) | Adjetivo pospuesto, artículo -a/-ak |
 | U05 👨‍👩‍👧‍👦 | Familia | Vocabulario de familia, DITUT, género en parentesco |
-| U06 🍎 | Janaria (Comida) | Artículo determinado/indefinido, NAHI DUT vs. hábito |
-| U07 ⚡ | Aditzak I (IZAN) | IZAN presente/pasado/futuro, **caso NOR vs. NORK** |
+| U06 🍎 | Janaria (Comida) | Artículo determinado/indefinido, NAHI DUT vs. hábito · *Repaso u04-u06* |
+| U07 ⚡ | Aditzak I (IZAN) | IZAN presente, **caso NOR vs. NORK** |
 | U08 🚶 | Aditzak II | EGON, JOAN, ETORRI, casos locativos (-n, -ra, -tik) |
-| U09 📅 | Denbora (Tiempo) | Días, horas, rutina, presente habitual (-tzen) |
+| U09 📅 | Denbora (Tiempo) | Días, horas, rutina, presente habitual (-tzen) · *Repaso u07-u09* |
 | U10 🏠 | Etxea (Casa) | Objetos, muebles, locativos de posición |
-| U11 ❓ | Galderak (Preguntas) | NOR, ZER, NON, NOIZ, NOLA, ZERGATIK |
-| U12 🏥 | Gorputza (Cuerpo) | Partes del cuerpo, MIN DUT, salud básica |
+| U11 ❓ | Galderak (Preguntas) | NOR, ZER, NON, NOIZ, NOLA |
+| U12 🏥 | Gorputza (Cuerpo) | Partes del cuerpo, MIN DUT, salud básica · *Repaso u10-u12* |
+| U13 🏙️ | Hiria (Ciudad) | Lugares, direcciones, transporte |
+| U14 ☀️ | Eguraldia (Tiempo meteo) | El tiempo atmosférico, estaciones |
+| U15 🎭 | Aisia eta kirolak (Ocio) | Deportes, aficiones · *Repaso u13-u15* |
+| U16 🤝 | EDUN eta EGIN | Verbos transitivos, tener y hacer |
+| U17 🚌 | Mugimendua eta bidaia | Transporte, viajes, billetes |
+| U18 🔮 | Etorkizuna (Futuro) | Planes, futuro · *Repaso final A1.1 u16-u18* |
+| U19 🔗 | Atzizkiak (Sufijos) | -rekin (sociativo), -ko (genitivo locativo), -rik (partitivo) |

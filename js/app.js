@@ -449,6 +449,16 @@ const App = (() => {
   // ---- Global event bindings ----
 
   function bindGlobalEvents() {
+    // Compress the exercise layout while the on-screen keyboard is up
+    const sessionScreen = document.getElementById('screen-session');
+    const answerArea = document.getElementById('answer-area');
+    answerArea.addEventListener('focusin', e => {
+      if (e.target.classList.contains('answer-input')) sessionScreen.classList.add('kb-open');
+    });
+    answerArea.addEventListener('focusout', e => {
+      if (e.target.classList.contains('answer-input')) sessionScreen.classList.remove('kb-open');
+    });
+
     // Lesson slides
     document.getElementById('btn-lesson-next').addEventListener('click', nextSlide);
     document.getElementById('btn-lesson-skip').addEventListener('click', startSession);

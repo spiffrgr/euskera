@@ -153,6 +153,7 @@ const UI = (() => {
     feedbackArea.classList.add('hidden');
     counter.textContent = `${index + 1}/${total}`;
     progressBar.style.width = `${(index / total) * 100}%`;
+    document.getElementById('screen-session').classList.remove('kb-open');
 
     switch (exercise.type) {
 

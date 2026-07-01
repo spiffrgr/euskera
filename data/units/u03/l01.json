@@ -85,23 +85,23 @@
                       {
                           "id":  "u03_l01_e07",
                           "type":  "match_pairs",
-                          "instruction":  "Une cada pregunta con su respuesta típica",
+                          "instruction":  "Une cada pregunta con su traducción",
                           "pairs":  [
                                         {
                                             "eu":  "Nola duzu izena?",
-                                            "es":  "Nire izena Ane da."
+                                            "es":  "¿Cómo te llamas?"
                                         },
                                         {
                                             "eu":  "Nongoa zara?",
-                                            "es":  "Bilbokoa naiz."
+                                            "es":  "¿De dónde eres?"
                                         },
                                         {
                                             "eu":  "Non bizi zara?",
-                                            "es":  "Gasteizen bizi naiz."
+                                            "es":  "¿Dónde vives?"
                                         },
                                         {
                                             "eu":  "Nola zaude?",
-                                            "es":  "Ondo nago."
+                                            "es":  "¿Cómo estás?"
                                         }
                                     ]
                       },

@@ -161,6 +161,8 @@ Esto permite erratas de un carácter sin penalizar al usuario, pero no "regala" 
 
 **Múltiples respuestas válidas**: el campo `answer` de un ejercicio puede ser un string o un array de strings aceptados (p. ej. `["¡Gracias!", "¡Muchas gracias!"]`). `checkAnswer` acepta cualquiera de ellas; `multiple_choice`/`grammar_select` resaltan como correctas todas las opciones presentes en el array al fallar.
 
+**Sinónimos de traducción**: `SYNONYM_GROUPS` en `exercises.js` define frases en castellano intercambiables para la misma expresión en euskera (p. ej. `["gracias", "muchas gracias"]` para "Eskerrik asko"). Se comprueba sustituyendo una variante por otra dentro de la respuesta correcta, así que también funciona si la frase está incrustada en una oración más larga. Esto evita que la misma traducción correcta falle según qué ejercicio (o qué pareja de un `match_pairs` reconvertida en tarjeta de repaso) se la pida.
+
 **Opciones barajadas**: `multiple_choice` y `grammar_select` barajan `exercise.options` en cada render (igual que `order_words` y el lado castellano de `match_pairs`) para que la respuesta correcta no caiga siempre en la misma posición.
 
 ### Calidad de los true/false

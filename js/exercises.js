@@ -9,6 +9,34 @@ const Exercises = (() => {
       .trim();
   }
 
+  function buildSpanishNumberMap() {
+    const units = ['cero', 'uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve'];
+    const teens = ['diez', 'once', 'doce', 'trece', 'catorce', 'quince', 'dieciseis', 'diecisiete', 'dieciocho', 'diecinueve'];
+    const veinti = ['veinte', 'veintiuno', 'veintidos', 'veintitres', 'veinticuatro', 'veinticinco', 'veintiseis', 'veintisiete', 'veintiocho', 'veintinueve'];
+    const tens = { 30: 'treinta', 40: 'cuarenta', 50: 'cincuenta', 60: 'sesenta', 70: 'setenta', 80: 'ochenta', 90: 'noventa' };
+
+    const map = {};
+    units.forEach((w, i) => { map[w] = i; });
+    teens.forEach((w, i) => { map[w] = 10 + i; });
+    veinti.forEach((w, i) => { map[w] = 20 + i; });
+    Object.entries(tens).forEach(([n, w]) => {
+      map[w] = Number(n);
+      for (let u = 1; u <= 9; u++) map[`${w} y ${units[u]}`] = Number(n) + u;
+    });
+    map['cien'] = 100;
+    map['ciento'] = 100;
+    return map;
+  }
+
+  const SPANISH_NUMBER_MAP = buildSpanishNumberMap();
+
+  function parseNumberAnswer(normalizedStr) {
+    if (/^\d+$/.test(normalizedStr)) return parseInt(normalizedStr, 10);
+    return Object.prototype.hasOwnProperty.call(SPANISH_NUMBER_MAP, normalizedStr)
+      ? SPANISH_NUMBER_MAP[normalizedStr]
+      : null;
+  }
+
   function levenshtein(a, b) {
     const m = a.length, n = b.length;
     const dp = Array.from({ length: m + 1 }, (_, i) => [i]);
@@ -38,10 +66,18 @@ const Exercises = (() => {
       );
     }
 
-    const correct = normalize(String(exercise.answer));
     const given = normalize(String(userAnswer));
+    const accepted = Array.isArray(exercise.answer) ? exercise.answer : [exercise.answer];
+    return accepted.some(a => checkSingleAnswer(a, given));
+  }
+
+  function checkSingleAnswer(correctRaw, given) {
+    const correct = normalize(String(correctRaw));
     if (correct === given) return true;
     if (correct.length >= 5 && levenshtein(correct, given) <= 1) return true;
+    const correctNum = parseNumberAnswer(correct);
+    const givenNum = parseNumberAnswer(given);
+    if (correctNum !== null && givenNum !== null && correctNum === givenNum) return true;
     return false;
   }
 

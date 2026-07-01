@@ -156,20 +156,23 @@ const UI = (() => {
 
     switch (exercise.type) {
 
-      case 'multiple_choice':
+      case 'multiple_choice': {
+        const shuffledOpts = [...exercise.options].sort(() => Math.random() - 0.5);
         container.innerHTML = `
           <div class="exercise-type-label">${escHtml(exercise.instruction || 'Elige la respuesta correcta')}</div>
         `;
         answerArea.innerHTML = `
           <div class="choices-grid">
-            ${exercise.options.map(opt => `
+            ${shuffledOpts.map(opt => `
               <button class="choice-btn" data-value="${escAttr(opt)}">${escHtml(opt)}</button>
             `).join('')}
           </div>
         `;
         break;
+      }
 
-      case 'grammar_select':
+      case 'grammar_select': {
+        const shuffledOpts = [...exercise.options].sort(() => Math.random() - 0.5);
         container.innerHTML = `
           <div class="exercise-type-label">${escHtml(exercise.instruction || 'Elige la forma correcta')}</div>
           <div class="exercise-question">${escHtml(exercise.sentence)}</div>
@@ -177,12 +180,13 @@ const UI = (() => {
         `;
         answerArea.innerHTML = `
           <div class="choices-grid">
-            ${exercise.options.map(opt => `
+            ${shuffledOpts.map(opt => `
               <button class="choice-btn" data-value="${escAttr(opt)}">${escHtml(opt)}</button>
             `).join('')}
           </div>
         `;
         break;
+      }
 
       case 'translation_eu_es':
         container.innerHTML = `
@@ -294,17 +298,20 @@ const UI = (() => {
 
     // Highlight correct choice for multiple_choice / grammar_select
     if (exercise.type === 'multiple_choice' || exercise.type === 'grammar_select') {
+      const accepted = Array.isArray(exercise.answer) ? exercise.answer : [exercise.answer];
       answerArea.querySelectorAll('.choice-btn').forEach(btn => {
-        if (btn.dataset.value === String(exercise.answer)) btn.classList.add('correct');
+        if (accepted.includes(btn.dataset.value)) btn.classList.add('correct');
       });
     }
 
+    setTimeout(() => document.getElementById('btn-next')?.focus(), 50);
   }
 
   function formatCorrectAnswer(exercise) {
     if (exercise.type === 'match_pairs')
       return exercise.pairs.map(p => `${escHtml(p.eu)} → ${escHtml(p.es)}`).join(', ');
-    return escHtml(String(exercise.answer));
+    const display = Array.isArray(exercise.answer) ? exercise.answer[0] : exercise.answer;
+    return escHtml(String(display));
   }
 
   // ---- Summary ----
@@ -326,6 +333,7 @@ const UI = (() => {
 
     document.getElementById('btn-continue-unit').textContent =
       isReview ? '← Volver al inicio' : 'Siguiente lección →';
+    document.getElementById('btn-home').classList.toggle('hidden', isReview);
   }
 
   // ---- Private helpers ----
@@ -372,7 +380,7 @@ const UI = (() => {
     banner.className = 'review-banner';
     banner.innerHTML = `
       <button class="btn btn-review">
-        🔄 Repasar · <strong>${count}</strong> ejercicios pendientes
+        🔄 Repasar
       </button>
     `;
     banner.querySelector('.btn-review').addEventListener('click', onClick);

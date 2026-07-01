@@ -98,7 +98,7 @@
                           "id":  "u01_l01_e09",
                           "type":  "multiple_choice",
                           "instruction":  "¿Cómo se dice \u0027Hola\u0027 de forma más informal y coloquial?",
-                          "answer":  "Aupa",
+                          "answer":  ["Aupa", "Kaixo"],
                           "options":  [
                                           "Aupa",
                                           "Kaixo",

@@ -118,7 +118,8 @@ La navegación es puramente mediante `show(screenId)` — se activa/desactiva la
 users/{uid}/
   progress/{unitId_lessonId}           → { completed: true }
   srs/{unitId_lessonId_exerciseId}     → { topicId, itemId, interval, ease,
-                                           nextReview, correct, wrong }
+                                           nextReview, correct, wrong,
+                                           streak, learning, mastered }
   streak/current                       → { days: number, lastDate: "YYYY-MM-DD" }
 ```
 
@@ -141,9 +142,9 @@ Cada lección en `l0X.json` tiene:
 
 | Tipo | Qué practica | Tolerancia de respuesta |
 |------|-------------|------------------------|
-| `multiple_choice` | Reconocimiento de vocabulario | Exacta (botón) |
-| `grammar_select` | Elección de forma gramatical correcta | Exacta (botón) |
-| `translation_eu_es` | Comprensión euskera→castellano | Normalize + Levenshtein |
+| `multiple_choice` | Reconocimiento de vocabulario | Exacta (botón, opciones barajadas) |
+| `grammar_select` | Elección de forma gramatical correcta | Exacta (botón, opciones barajadas) |
+| `translation_eu_es` | Comprensión euskera→castellano | Normalize + Levenshtein + equivalencia numérica |
 | `translation_es_eu` | Producción castellano→euskera | Normalize + Levenshtein |
 | `fill_blank` | Producción en contexto | Normalize + Levenshtein |
 | `error_correction` | Detectar y corregir error morfológico | Normalize + Levenshtein |
@@ -154,8 +155,13 @@ Cada lección en `l0X.json` tiene:
 **Tolerancia de respuesta en texto** (`exercises.js`):
 1. Se normalizan ambas cadenas: minúsculas, sin diacríticos (NFD), sin puntuación, colapso de espacios
 2. Si la longitud ≥ 5 caracteres y la distancia de Levenshtein es ≤ 1, se acepta como correcta
+3. Si ninguna coincide pero ambas cadenas representan el mismo número (dígitos o palabra en español, p. ej. "7" y "siete"), también se acepta
 
 Esto permite erratas de un carácter sin penalizar al usuario, pero no "regala" respuestas cortas.
+
+**Múltiples respuestas válidas**: el campo `answer` de un ejercicio puede ser un string o un array de strings aceptados (p. ej. `["¡Gracias!", "¡Muchas gracias!"]`). `checkAnswer` acepta cualquiera de ellas; `multiple_choice`/`grammar_select` resaltan como correctas todas las opciones presentes en el array al fallar.
+
+**Opciones barajadas**: `multiple_choice` y `grammar_select` barajan `exercise.options` en cada render (igual que `order_words` y el lado castellano de `match_pairs`) para que la respuesta correcta no caiga siempre en la misma posición.
 
 ### Calidad de los true/false
 
@@ -182,6 +188,8 @@ Implementación SM-2 simplificada en `srs.js`:
 - Cada ejercicio respondido crea/actualiza un ítem SRS en Firestore
 - El botón "Repasar" en el home aparece cuando hay ítems con `nextReview ≤ Date.now()`
 - Las sesiones de revisión cargan los ejercicios originales desde los JSON de lección y los mezclan aleatoriamente
+
+**Retiro explícito ("mastered")**: tras 5 aciertos consecutivos (`streak >= MASTERY_STREAK` en `srs.js`), el ítem se marca `mastered: true` y su `nextReview` se fija ~100 años en el futuro, con lo que la consulta `where('nextReview', '<=', Date.now())` deja de devolverlo de forma indefinida — ya no reaparece en el repaso. Si el alumno lo falla más adelante (en cualquier ejercicio, incluido un test o repaso de unidad), `mastered` vuelve a `false` y el intervalo se reinicia a 1 día, reingresando al repaso normal.
 
 ### Progresión del curso
 

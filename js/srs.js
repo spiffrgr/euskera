@@ -3,6 +3,9 @@ const SRS = (() => {
   const DEFAULT_EASE = 2.5;
   // Items stay in "learning" phase until answered correctly LEARNING_THRESHOLD times in a row
   const LEARNING_THRESHOLD = 2;
+  // Items are retired from review after this many consecutive correct answers
+  const MASTERY_STREAK = 5;
+  const MASTERED_REVIEW_DELAY = 100 * 365 * 24 * 3600 * 1000;
 
   function defaultItem(topicId, itemId) {
     return {
@@ -15,6 +18,7 @@ const SRS = (() => {
       wrong: 0,
       streak: 0,       // consecutive correct answers
       learning: true,  // true until streak >= LEARNING_THRESHOLD
+      mastered: false, // true once retired from the review pool
     };
   }
 
@@ -45,7 +49,14 @@ const SRS = (() => {
       updated.streak = 0;
       updated.learning = true;
       updated.interval = 1;
+      updated.mastered = false;
       updated.ease = Math.max(MIN_EASE, updated.ease - 0.2);
+    }
+
+    if (wasCorrect && updated.streak >= MASTERY_STREAK) {
+      updated.mastered = true;
+      updated.nextReview = now + MASTERED_REVIEW_DELAY;
+      return updated;
     }
 
     // Learning-phase items: short intervals (1h for first hit, 4h for second)

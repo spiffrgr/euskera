@@ -39,7 +39,7 @@
                           "type":  "translation_eu_es",
                           "instruction":  "Traduce al castellano",
                           "eu":  "Eskerrik asko!",
-                          "answer":  "¡Gracias!"
+                          "answer":  ["¡Gracias!", "¡Muchas gracias!"]
                       },
                       {
                           "id":  "e03",

@@ -81,8 +81,8 @@
             "id": "u03_l02_e08",
             "type": "grammar_select",
             "instruction": "¿Qué verbo se usa para la edad?",
-            "sentence": "___ urte ditut.",
-            "translation": "Tengo ___ años.",
+            "sentence": "Hogei urte ___.",
+            "translation": "Tengo veinte años.",
             "answer": "ditut",
             "options": ["ditut", "naiz", "nago", "dut"]
         },

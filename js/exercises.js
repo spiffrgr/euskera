@@ -71,10 +71,29 @@ const Exercises = (() => {
     return accepted.some(a => checkSingleAnswer(a, given));
   }
 
+  // Interchangeable Spanish phrasings for the same Basque word/expression
+  const SYNONYM_GROUPS = [
+    ['gracias', 'muchas gracias'],
+  ];
+
+  function synonymEquivalent(correct, given) {
+    for (const group of SYNONYM_GROUPS) {
+      for (const variant of group) {
+        if (!correct.includes(variant)) continue;
+        for (const alt of group) {
+          if (alt === variant) continue;
+          if (correct.replace(variant, alt) === given) return true;
+        }
+      }
+    }
+    return false;
+  }
+
   function checkSingleAnswer(correctRaw, given) {
     const correct = normalize(String(correctRaw));
     if (correct === given) return true;
     if (correct.length >= 5 && levenshtein(correct, given) <= 1) return true;
+    if (synonymEquivalent(correct, given)) return true;
     const correctNum = parseNumberAnswer(correct);
     const givenNum = parseNumberAnswer(given);
     if (correctNum !== null && givenNum !== null && correctNum === givenNum) return true;
